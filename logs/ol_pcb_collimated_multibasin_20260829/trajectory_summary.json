@@ -1,0 +1,154 @@
+{
+  "config": {
+    "name": "L1000_C1em14_R25_W850_B0p2_collimated",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 1e-14,
+    "distance": 1000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.025,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "curvature": 0.0,
+  "protocol": {
+    "optimizer": "Adam",
+    "objective": "live differentiable WOS, not landscape interpolation",
+    "coordinate_parameterization": "bounded logarithmic Wg and Lcr",
+    "learning_rate": 0.012,
+    "steps": 400,
+    "train_blocks": 2,
+    "atmospheres_per_block": 6,
+    "fresh_gsm_sequence_before_every_propagation": true,
+    "fresh_atmospheres_before_every_propagation": true,
+    "curvature": 0.0,
+    "frame_count": 10
+  },
+  "trajectories": [
+    {
+      "run": 0,
+      "initial": {
+        "wg_m": 0.008,
+        "lcr_m": 0.008
+      },
+      "final": {
+        "wg_m": 0.016076482832431793,
+        "lcr_m": 0.055949967354536057,
+        "train_snr_db": 11.012027909122494
+      }
+    },
+    {
+      "run": 1,
+      "initial": {
+        "wg_m": 0.015,
+        "lcr_m": 0.012
+      },
+      "final": {
+        "wg_m": 0.016485773026943207,
+        "lcr_m": 0.06812141835689545,
+        "train_snr_db": 12.502006524910337
+      }
+    },
+    {
+      "run": 2,
+      "initial": {
+        "wg_m": 0.028,
+        "lcr_m": 0.008
+      },
+      "final": {
+        "wg_m": 0.07134977728128433,
+        "lcr_m": 0.004175009671598673,
+        "train_snr_db": 10.69024674354937
+      }
+    },
+    {
+      "run": 3,
+      "initial": {
+        "wg_m": 0.065,
+        "lcr_m": 0.007
+      },
+      "final": {
+        "wg_m": 0.0990428775548935,
+        "lcr_m": 0.003927500918507576,
+        "train_snr_db": 10.809609082896987
+      }
+    },
+    {
+      "run": 4,
+      "initial": {
+        "wg_m": 0.12,
+        "lcr_m": 0.01
+      },
+      "final": {
+        "wg_m": 0.11806818842887878,
+        "lcr_m": 0.004279398359358311,
+        "train_snr_db": 10.229094941407563
+      }
+    },
+    {
+      "run": 5,
+      "initial": {
+        "wg_m": 0.01,
+        "lcr_m": 0.045
+      },
+      "final": {
+        "wg_m": 0.0152765903621912,
+        "lcr_m": 0.11663201451301575,
+        "train_snr_db": 12.112080847466462
+      }
+    },
+    {
+      "run": 6,
+      "initial": {
+        "wg_m": 0.016,
+        "lcr_m": 0.1
+      },
+      "final": {
+        "wg_m": 0.01579122804105282,
+        "lcr_m": 0.12839831411838531,
+        "train_snr_db": 10.690067482605084
+      }
+    },
+    {
+      "run": 7,
+      "initial": {
+        "wg_m": 0.035,
+        "lcr_m": 0.065
+      },
+      "final": {
+        "wg_m": 0.015936177223920822,
+        "lcr_m": 0.12388934195041656,
+        "train_snr_db": 10.271178895073131
+      }
+    },
+    {
+      "run": 8,
+      "initial": {
+        "wg_m": 0.075,
+        "lcr_m": 0.035
+      },
+      "final": {
+        "wg_m": 0.015376852825284004,
+        "lcr_m": 0.06417351961135864,
+        "train_snr_db": 12.713765946585436
+      }
+    },
+    {
+      "run": 9,
+      "initial": {
+        "wg_m": 0.13,
+        "lcr_m": 0.12
+      },
+      "final": {
+        "wg_m": 0.015156745910644531,
+        "lcr_m": 0.11146412789821625,
+        "train_snr_db": 11.177145342002357
+      }
+    }
+  ]
+}

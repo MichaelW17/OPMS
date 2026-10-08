@@ -1,0 +1,198 @@
+{
+  "case": "strong_small_rx_M10",
+  "link": {
+    "name": "strong_small_rx_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 5e-14,
+    "distance": 1000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.01,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "atmospheric_samples": 2000,
+  "screen_seed_common": 2026282601,
+  "statistics": "one pooled atmosphere ensemble for each fixed source; paired bootstrap resamples common atmosphere indices",
+  "DAD_weight_correction": "dwell_m proportional to lambda_m times the finite-aperture modal norm squared",
+  "beams": {
+    "SMS": {
+      "mean_flux": 79.97186687395573,
+      "scintillation_index": 0.03959707780152932,
+      "snr_linear_current_over_rms": 4.873820030735996,
+      "snrp_legacy_db_10log": 6.878694885127798,
+      "snr_standard_db_20log": 13.757389770255596,
+      "snr_power_ratio": 23.754121692003427,
+      "effective_frame_number": 4.985607497626028,
+      "mean_pairwise_power_correlation": 0.1226064061321447,
+      "nominal_frame_number": 10
+    },
+    "GSM": {
+      "mean_flux": 32.20108507013321,
+      "scintillation_index": 0.048884720989791575,
+      "snr_linear_current_over_rms": 4.260309785135173,
+      "snrp_legacy_db_10log": 6.294411796386932,
+      "snr_standard_db_20log": 12.588823592773863,
+      "snr_power_ratio": 18.150239465318506,
+      "effective_frame_number": 4.304793793262002,
+      "mean_pairwise_power_correlation": 0.1340840747593492,
+      "nominal_frame_number": 10
+    },
+    "CB": {
+      "mean_flux": 216.22720784521104,
+      "scintillation_index": 0.2701313921577464,
+      "snr_linear_current_over_rms": 1.9207472096800673,
+      "snrp_legacy_db_10log": 2.8347021094958453,
+      "snr_standard_db_20log": 5.669404218991691,
+      "snr_power_ratio": 3.6892698434937645,
+      "effective_frame_number": 0.9999999999999999,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1
+    },
+    "Sharp": {
+      "mean_flux": 54.495059851169586,
+      "scintillation_index": 0.10929231633151981,
+      "snr_linear_current_over_rms": 2.975315981372952,
+      "snrp_legacy_db_10log": 4.735330949988461,
+      "snr_standard_db_20log": 9.470661899976921,
+      "snr_power_ratio": 8.852505189013293,
+      "effective_frame_number": 0.9999999999999998,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "sharp",
+        "omega_m": 0.0075,
+        "alpha": 0.0,
+        "r0_over_omega": 12.0,
+        "normalized_curvature": 1.0
+      }
+    },
+    "Pin": {
+      "mean_flux": 178.06952208900452,
+      "scintillation_index": 0.2751830676379283,
+      "snr_linear_current_over_rms": 1.9024123898612981,
+      "snrp_legacy_db_10log": 2.793046657180937,
+      "snr_standard_db_20log": 5.586093314361874,
+      "snr_power_ratio": 3.619172901097776,
+      "effective_frame_number": 0.9999999999999998,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "pin",
+        "envelope_radius_m": 50.0,
+        "design_distance_m": 1000.0
+      }
+    },
+    "IOPB": {
+      "mean_flux": 62.727492485284806,
+      "scintillation_index": 0.2064770508907554,
+      "snr_linear_current_over_rms": 2.183919214724252,
+      "snrp_legacy_db_10log": 3.392365693585353,
+      "snr_standard_db_20log": 6.784731387170706,
+      "snr_power_ratio": 4.769503136441794,
+      "effective_frame_number": 1.0000000000000002,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "inverted_pin",
+        "envelope_radius_m": 50.0,
+        "design_distance_m": 1500.0,
+        "gamma": 0.8
+      }
+    },
+    "DAD": {
+      "mean_flux": 60.90761781320521,
+      "scintillation_index": 0.08232184075392124,
+      "snr_linear_current_over_rms": 3.4178197903296685,
+      "snrp_legacy_db_10log": 5.337491601609997,
+      "snr_standard_db_20log": 10.674983203219995,
+      "snr_power_ratio": 11.681492119169139,
+      "effective_frame_number": 2.796069108561685,
+      "mean_pairwise_power_correlation": 0.2685867505342361,
+      "nominal_frame_number": 11,
+      "candidate": {
+        "family": "dark",
+        "beta_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "normalized_curvature": 1.5,
+        "alpha": -0.75,
+        "mode_count": 11,
+        "first_j0_zero_radius_mm": 13.360141987222223
+      },
+      "dwell_weights": [
+        0.1276084538350656,
+        0.01922246881050432,
+        0.15849762661912126,
+        0.020796789656481175,
+        0.16299941969487244,
+        0.021750482767910386,
+        0.16299941969487244,
+        0.020796789656481175,
+        0.15849762661912126,
+        0.01922246881050432,
+        0.1276084538350656
+      ]
+    }
+  },
+  "sms_minus_comparator": {
+    "GSM": {
+      "sms_minus_gsm_legacy_db": 0.5842830887408663,
+      "legacy_ci95_low_db": 0.449604555594113,
+      "legacy_ci95_high_db": 0.7202422343708152,
+      "sms_minus_gsm_standard_db": 1.1685661774817326,
+      "standard_ci95_low_db": 0.899209111188226,
+      "standard_ci95_high_db": 1.4404844687416305,
+      "bootstrap_repeats": 2000
+    },
+    "CB": {
+      "sms_minus_gsm_legacy_db": 4.043992775631953,
+      "legacy_ci95_low_db": 3.8724043339895906,
+      "legacy_ci95_high_db": 4.209133890862636,
+      "sms_minus_gsm_standard_db": 8.087985551263905,
+      "standard_ci95_low_db": 7.744808667979181,
+      "standard_ci95_high_db": 8.418267781725271,
+      "bootstrap_repeats": 2000
+    },
+    "Sharp": {
+      "sms_minus_gsm_legacy_db": 2.1433639351393374,
+      "legacy_ci95_low_db": 1.9762268745001201,
+      "legacy_ci95_high_db": 2.2957963942774615,
+      "sms_minus_gsm_standard_db": 4.286727870278675,
+      "standard_ci95_low_db": 3.9524537490002403,
+      "standard_ci95_high_db": 4.591592788554923,
+      "bootstrap_repeats": 2000
+    },
+    "Pin": {
+      "sms_minus_gsm_legacy_db": 4.0856482279468604,
+      "legacy_ci95_low_db": 3.916411801588453,
+      "legacy_ci95_high_db": 4.245450515228756,
+      "sms_minus_gsm_standard_db": 8.171296455893721,
+      "standard_ci95_low_db": 7.832823603176906,
+      "standard_ci95_high_db": 8.490901030457511,
+      "bootstrap_repeats": 2000
+    },
+    "IOPB": {
+      "sms_minus_gsm_legacy_db": 3.486329191542445,
+      "legacy_ci95_low_db": 3.325977342530913,
+      "legacy_ci95_high_db": 3.643376353267101,
+      "sms_minus_gsm_standard_db": 6.97265838308489,
+      "standard_ci95_low_db": 6.651954685061826,
+      "standard_ci95_high_db": 7.286752706534202,
+      "bootstrap_repeats": 2000
+    },
+    "DAD": {
+      "sms_minus_gsm_legacy_db": 1.5412032835178007,
+      "legacy_ci95_low_db": 1.3888589651691199,
+      "legacy_ci95_high_db": 1.6867738141674475,
+      "sms_minus_gsm_standard_db": 3.0824065670356013,
+      "standard_ci95_low_db": 2.7777179303382398,
+      "standard_ci95_high_db": 3.373547628334895,
+      "bootstrap_repeats": 2000
+    }
+  }
+}

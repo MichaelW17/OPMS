@@ -1,0 +1,55 @@
+{
+  "case": "strong_small_rx_M10",
+  "link": {
+    "name": "strong_small_rx_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 5e-14,
+    "distance": 1000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.01,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "frame_count": 10,
+  "atmospheric_samples": 2000,
+  "source_seed_gsm": 2026282501,
+  "screen_seed_common": 2026282601,
+  "source_definition": "one independently seeded GSM phase-screen sequence and one trained SMS sequence are frozen before the atmospheric ensemble",
+  "SMS": {
+    "mean_flux": 79.97186687395573,
+    "scintillation_index": 0.03959707780152932,
+    "snr_linear_current_over_rms": 4.873820030735996,
+    "snrp_legacy_db_10log": 6.878694885127798,
+    "snr_standard_db_20log": 13.757389770255596,
+    "snr_power_ratio": 23.754121692003427,
+    "effective_frame_number": 4.985607497626028,
+    "mean_pairwise_power_correlation": 0.1226064061321447,
+    "nominal_frame_number": 10
+  },
+  "GSM": {
+    "mean_flux": 32.20108507013321,
+    "scintillation_index": 0.048884720989791575,
+    "snr_linear_current_over_rms": 4.260309785135173,
+    "snrp_legacy_db_10log": 6.294411796386932,
+    "snr_standard_db_20log": 12.588823592773863,
+    "snr_power_ratio": 18.150239465318506,
+    "effective_frame_number": 4.304793793262002,
+    "mean_pairwise_power_correlation": 0.1340840747593492,
+    "nominal_frame_number": 10
+  },
+  "paired_difference": {
+    "sms_minus_gsm_legacy_db": 0.5842830887408663,
+    "legacy_ci95_low_db": 0.45095153671815574,
+    "legacy_ci95_high_db": 0.7279684665605449,
+    "sms_minus_gsm_standard_db": 1.1685661774817326,
+    "standard_ci95_low_db": 0.9019030734363115,
+    "standard_ci95_high_db": 1.4559369331210898,
+    "bootstrap_repeats": 2000
+  }
+}

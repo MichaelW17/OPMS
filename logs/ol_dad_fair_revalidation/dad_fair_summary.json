@@ -1,0 +1,128 @@
+[
+  {
+    "case": "small_rx",
+    "frame_count": 23,
+    "selected": {
+      "family": "antidark",
+      "beta_rad_m": 90.0,
+      "envelope_radius_m": 0.1,
+      "normalized_curvature": 1.5,
+      "alpha": 0.75,
+      "mode_count": 23,
+      "first_j0_zero_radius_mm": 26.720283974444445
+    },
+    "formal_metrics": {
+      "snr_db": 8.804814572193477,
+      "mean_flux": 168.30932899411297,
+      "scintillation_index": 0.016151232320291697,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 8.667168164843938,
+      "snr_db_ci95_high": 8.944950371599106
+    }
+  },
+  {
+    "case": "small_rx",
+    "frame_count": 51,
+    "selected": {
+      "family": "dark",
+      "beta_rad_m": 90.0,
+      "envelope_radius_m": 0.1,
+      "normalized_curvature": 1.5,
+      "alpha": -0.25,
+      "mode_count": 51,
+      "first_j0_zero_radius_mm": 26.720283974444445
+    },
+    "formal_metrics": {
+      "snr_db": 8.42190402313208,
+      "mean_flux": 161.07586696000288,
+      "scintillation_index": 0.01944161878863282,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 8.289085289510833,
+      "snr_db_ci95_high": 8.557679656984513
+    }
+  },
+  {
+    "case": "long_rx20",
+    "frame_count": 23,
+    "selected": {
+      "family": "dark",
+      "beta_rad_m": 120.0,
+      "envelope_radius_m": 50.0,
+      "normalized_curvature": 0.5,
+      "alpha": -1.0,
+      "mode_count": 23,
+      "first_j0_zero_radius_mm": 20.040212980833335
+    },
+    "formal_metrics": {
+      "snr_db": 6.247062548430308,
+      "mean_flux": 115.19159655863861,
+      "scintillation_index": 0.05457401675318363,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 6.121967744322694,
+      "snr_db_ci95_high": 6.377387822881684
+    }
+  },
+  {
+    "case": "long_rx20",
+    "frame_count": 51,
+    "selected": {
+      "family": "dark",
+      "beta_rad_m": 120.0,
+      "envelope_radius_m": 50.0,
+      "normalized_curvature": 1.5,
+      "alpha": -1.0,
+      "mode_count": 51,
+      "first_j0_zero_radius_mm": 20.040212980833335
+    },
+    "formal_metrics": {
+      "snr_db": 5.727078620416288,
+      "mean_flux": 117.03165584219434,
+      "scintillation_index": 0.0698368823698643,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 5.604812474847378,
+      "snr_db_ci95_high": 5.865598937785829
+    }
+  },
+  {
+    "case": "strong_small_rx",
+    "frame_count": 23,
+    "selected": {
+      "family": "antidark",
+      "beta_rad_m": 360.0,
+      "envelope_radius_m": 50.0,
+      "normalized_curvature": 0.0,
+      "alpha": 1.0,
+      "mode_count": 23,
+      "first_j0_zero_radius_mm": 6.680070993611111
+    },
+    "formal_metrics": {
+      "snr_db": 5.128325260258826,
+      "mean_flux": 19.52049592787664,
+      "scintillation_index": 0.08401598920786468,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 5.019748530082463,
+      "snr_db_ci95_high": 5.2455193923934225
+    }
+  },
+  {
+    "case": "strong_small_rx",
+    "frame_count": 51,
+    "selected": {
+      "family": "dark",
+      "beta_rad_m": 180.0,
+      "envelope_radius_m": 50.0,
+      "normalized_curvature": 1.5,
+      "alpha": -0.25,
+      "mode_count": 51,
+      "first_j0_zero_radius_mm": 13.360141987222223
+    },
+    "formal_metrics": {
+      "snr_db": 5.640298608402244,
+      "mean_flux": 52.60613891425671,
+      "scintillation_index": 0.0706611193101061,
+      "atmospheric_samples": 2000,
+      "snr_db_ci95_low": 5.516156253962463,
+      "snr_db_ci95_high": 5.775496724559827
+    }
+  }
+]

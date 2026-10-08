@@ -1,0 +1,3264 @@
+{
+  "case": "long_rx20",
+  "frame_count": 11,
+  "link": {
+    "name": "long_rx20_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 1e-14,
+    "distance": 2000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.02,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "candidate_count": 224,
+  "selected": {
+    "candidate": {
+      "family": "antidark",
+      "transverse_wavenumber_rad_m": 120.0,
+      "envelope_radius_m": 50.0,
+      "alpha": 0.25,
+      "mode_count": 11
+    },
+    "coarse_metrics": {
+      "snr_db": 6.255415985409515,
+      "mean_flux": 100.86320106650508,
+      "scintillation_index": 0.05411116700203844
+    },
+    "refined_metrics": {
+      "snr_db": 6.152490704548904,
+      "snr_db_ci95_low": 5.642533582252669,
+      "snr_db_ci95_high": 6.662447826845138,
+      "mean_flux": 103.17899938466013,
+      "scintillation_index": 0.057054653267163635,
+      "per_repeat": [
+        {
+          "snr_db": 5.927324152946896,
+          "mean_flux": 103.74970755909764,
+          "scintillation_index": 0.06331547103874313
+        },
+        {
+          "snr_db": 6.329238612407587,
+          "mean_flux": 105.75072837388794,
+          "scintillation_index": 0.052327856726097854
+        },
+        {
+          "snr_db": 6.200909348292231,
+          "mean_flux": 100.03656222099482,
+          "scintillation_index": 0.05552063203664992
+        }
+      ],
+      "repeats": 3,
+      "samples_per_repeat": 80,
+      "frame_count": 11
+    }
+  },
+  "formal_metrics": {
+    "snr_db": 6.35935951422063,
+    "snr_db_ci95_low": 6.205401199239857,
+    "snr_db_ci95_high": 6.513317829201403,
+    "mean_flux": 100.04582821571549,
+    "scintillation_index": 0.051708741045471185,
+    "per_repeat": [
+      {
+        "snr_db": 6.127147283632974,
+        "mean_flux": 100.25766355345415,
+        "scintillation_index": 0.057512480807826005
+      },
+      {
+        "snr_db": 6.635681692854572,
+        "mean_flux": 100.77064963861953,
+        "scintillation_index": 0.04509824463534895
+      },
+      {
+        "snr_db": 6.068286737381763,
+        "mean_flux": 100.82262949865917,
+        "scintillation_index": 0.059158742368210726
+      },
+      {
+        "snr_db": 6.147801273397176,
+        "mean_flux": 101.68050810885983,
+        "scintillation_index": 0.056977073831677494
+      },
+      {
+        "snr_db": 6.319264069653936,
+        "mean_flux": 99.21346453882929,
+        "scintillation_index": 0.05245286664888682
+      },
+      {
+        "snr_db": 6.619885877094972,
+        "mean_flux": 97.41783516689787,
+        "scintillation_index": 0.04537367883791976
+      },
+      {
+        "snr_db": 6.613759615074244,
+        "mean_flux": 98.71139362168866,
+        "scintillation_index": 0.04553457380763226
+      },
+      {
+        "snr_db": 6.453996882947161,
+        "mean_flux": 99.07652708730033,
+        "scintillation_index": 0.049173184675067816
+      },
+      {
+        "snr_db": 6.241420391641803,
+        "mean_flux": 100.96233622537103,
+        "scintillation_index": 0.05447581948815006
+      },
+      {
+        "snr_db": 6.366351318527688,
+        "mean_flux": 101.5452747174751,
+        "scintillation_index": 0.05133074535399196
+      }
+    ],
+    "repeats": 10,
+    "samples_per_repeat": 200,
+    "frame_count": 11
+  },
+  "coarse_grid": [
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.814916999346845,
+        "mean_flux": 94.49318000210656,
+        "scintillation_index": 0.10678061678695383
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.624914317891634,
+        "mean_flux": 90.2088051619737,
+        "scintillation_index": 0.11663783396352123
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.409042218839661,
+        "mean_flux": 86.10674414482521,
+        "scintillation_index": 0.12895518202611767
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.170584176432859,
+        "mean_flux": 82.1756023367246,
+        "scintillation_index": 0.14408155036237158
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.106702817355485,
+        "mean_flux": 103.65974942750707,
+        "scintillation_index": 0.0932755404759269
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.205337720715417,
+        "mean_flux": 108.57041161968591,
+        "scintillation_index": 0.08913505431631163
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.272222837338784,
+        "mean_flux": 113.72061830904427,
+        "scintillation_index": 0.08645894339851345
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.30864102215738,
+        "mean_flux": 119.1283353328705,
+        "scintillation_index": 0.08507160013904058
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.908461885805475,
+        "mean_flux": 92.92375564133677,
+        "scintillation_index": 0.10215329717063981
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.699366947227848,
+        "mean_flux": 88.29436365245044,
+        "scintillation_index": 0.11258368908154726
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.458445897488354,
+        "mean_flux": 83.8619670673465,
+        "scintillation_index": 0.12593999499742647
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.1896787534519655,
+        "mean_flux": 79.61425367328854,
+        "scintillation_index": 0.14272053283551234
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.219230568657709,
+        "mean_flux": 102.82850129197736,
+        "scintillation_index": 0.08845198657572251
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.3181555785028225,
+        "mean_flux": 108.13461503339191,
+        "scintillation_index": 0.08452163972243576
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.380215693485314,
+        "mean_flux": 113.69956359146089,
+        "scintillation_index": 0.08217863896310607
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.407887110693555,
+        "mean_flux": 119.54275957743327,
+        "scintillation_index": 0.08120177461038125
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.940449555724161,
+        "mean_flux": 92.36433734275676,
+        "scintillation_index": 0.10061501129617634
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.726533892324809,
+        "mean_flux": 87.66155956620757,
+        "scintillation_index": 0.1111394328520392
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.47918079847479,
+        "mean_flux": 83.15889999291575,
+        "scintillation_index": 0.12470031854718
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.202568351603531,
+        "mean_flux": 78.84385123517778,
+        "scintillation_index": 0.14183645646784382
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.2556716537713655,
+        "mean_flux": 102.42609444607136,
+        "scintillation_index": 0.08693998492292176
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.354371210269751,
+        "mean_flux": 107.81632146570418,
+        "scintillation_index": 0.08308763393275131
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.414883081606552,
+        "mean_flux": 113.46948638873373,
+        "scintillation_index": 0.08084565431022983
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.440031266497364,
+        "mean_flux": 119.40530955791473,
+        "scintillation_index": 0.07998209397495071
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.952006815687292,
+        "mean_flux": 92.16337167245369,
+        "scintillation_index": 0.1000647134641599
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.7365381587465425,
+        "mean_flux": 87.43875296219535,
+        "scintillation_index": 0.11061227557644338
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.487104020085127,
+        "mean_flux": 82.91518185662885,
+        "scintillation_index": 0.12423031509017846
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.2079489663029195,
+        "mean_flux": 78.58009288046094,
+        "scintillation_index": 0.14147064783977892
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.2686324358252214,
+        "mean_flux": 102.27185821533203,
+        "scintillation_index": 0.08640805057217693
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.367230973933294,
+        "mean_flux": 107.68711886330256,
+        "scintillation_index": 0.0825838526980085
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.427211742183852,
+        "mean_flux": 113.36653856727166,
+        "scintillation_index": 0.08037636952694815
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 60.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.451514866903646,
+        "mean_flux": 119.3299292564392,
+        "scintillation_index": 0.0795503410832874
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.273464481358051,
+        "mean_flux": 98.23189234645277,
+        "scintillation_index": 0.08613121251220779
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.127128393716184,
+        "mean_flux": 95.58818993188333,
+        "scintillation_index": 0.09222129106213983
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.967597617364908,
+        "mean_flux": 93.05698549240192,
+        "scintillation_index": 0.09935415282020199
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.797597492027481,
+        "mean_flux": 90.63124790456557,
+        "scintillation_index": 0.1075624562242361
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.515194354405532,
+        "mean_flux": 103.8881858846014,
+        "scintillation_index": 0.07695380478567881
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.605189790577805,
+        "mean_flux": 106.918343137181,
+        "scintillation_index": 0.07380608852285553
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.671611219952103,
+        "mean_flux": 110.09631293866694,
+        "scintillation_index": 0.07158031526517639
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.712984360080523,
+        "mean_flux": 113.43318123022716,
+        "scintillation_index": 0.07024855815795239
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.5011193302372074,
+        "mean_flux": 99.78909717621626,
+        "scintillation_index": 0.07738766176532907
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.394081244249325,
+        "mean_flux": 97.76299632545829,
+        "scintillation_index": 0.08135763538609209
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.274874444883865,
+        "mean_flux": 95.82311253217942,
+        "scintillation_index": 0.08602280257302453
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.1458142785477525,
+        "mean_flux": 93.96405723028711,
+        "scintillation_index": 0.09137702385608693
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.6691864132644785,
+        "mean_flux": 104.12401062434958,
+        "scintillation_index": 0.07155812548417062
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.7257382588736885,
+        "mean_flux": 106.44628568584956,
+        "scintillation_index": 0.06971111575574529
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.761481040044839,
+        "mean_flux": 108.88184245766665,
+        "scintillation_index": 0.06858440654478892
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.775157753747071,
+        "mean_flux": 111.43917706807456,
+        "scintillation_index": 0.06818441457544844
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.5552861748694795,
+        "mean_flux": 99.85193953249188,
+        "scintillation_index": 0.07543300834459976
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.462869539572482,
+        "mean_flux": 98.0490212665088,
+        "scintillation_index": 0.07876294480442336
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.358568356647888,
+        "mean_flux": 96.32282292673774,
+        "scintillation_index": 0.08270226609990639
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.244533481227979,
+        "mean_flux": 94.66854951779048,
+        "scintillation_index": 0.08723710815765506
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.695711437847368,
+        "mean_flux": 103.7093460550604,
+        "scintillation_index": 0.0706583437822792
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.739621255856874,
+        "mean_flux": 105.77581383500781,
+        "scintillation_index": 0.0692429658916136
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.763725222962829,
+        "mean_flux": 107.94308492129413,
+        "scintillation_index": 0.0684956901483651
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.766872616153986,
+        "mean_flux": 110.21871956189476,
+        "scintillation_index": 0.06843205337049696
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.573192413957425,
+        "mean_flux": 99.84159246197453,
+        "scintillation_index": 0.0747968793750513
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.4860854529444865,
+        "mean_flux": 98.11818519191466,
+        "scintillation_index": 0.07790509608749296
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.387169404473269,
+        "mean_flux": 96.4681144014318,
+        "scintillation_index": 0.08159607293066085
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.278538040860273,
+        "mean_flux": 94.88679656055238,
+        "scintillation_index": 0.08585367760712637
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.703487149900193,
+        "mean_flux": 103.52888243512588,
+        "scintillation_index": 0.0703955247282948
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.742710773254988,
+        "mean_flux": 105.50421634931412,
+        "scintillation_index": 0.06913696307119155
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.762460724622683,
+        "mean_flux": 107.57590801541399,
+        "scintillation_index": 0.06853034358587351
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.761627746435064,
+        "mean_flux": 109.75118426481885,
+        "scintillation_index": 0.06859419875142714
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.440947390425469,
+        "mean_flux": 90.67883646576492,
+        "scintillation_index": 0.07941703197552585
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.339046240015351,
+        "mean_flux": 89.01821079807006,
+        "scintillation_index": 0.08329750471420727
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.227707609434116,
+        "mean_flux": 87.42825005240475,
+        "scintillation_index": 0.08775717678423134
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.108825449014364,
+        "mean_flux": 85.90453767114214,
+        "scintillation_index": 0.0927837458334333
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.608349492912664,
+        "mean_flux": 94.23180301060047,
+        "scintillation_index": 0.07344421243769128
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.669798245817725,
+        "mean_flux": 96.13517794533381,
+        "scintillation_index": 0.0713778076826761
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.713923203850774,
+        "mean_flux": 98.13140043785903,
+        "scintillation_index": 0.06994249927414686
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.7392039961150685,
+        "mean_flux": 100.22743405501048,
+        "scintillation_index": 0.06915196569476656
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.969062047846804,
+        "mean_flux": 96.04000512096616,
+        "scintillation_index": 0.06191865688263687
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.8825978265463785,
+        "mean_flux": 94.41449122066082,
+        "scintillation_index": 0.06448263274937238
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.7846052000505,
+        "mean_flux": 92.85814812462381,
+        "scintillation_index": 0.06752149523851081
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.677145538490739,
+        "mean_flux": 91.36665265758832,
+        "scintillation_index": 0.07102109937423551
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.098997701408985,
+        "mean_flux": 99.5178488146427,
+        "scintillation_index": 0.058274087962102206
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.138511496732728,
+        "mean_flux": 101.38097936482656,
+        "scintillation_index": 0.057223971112279726
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.158838525155979,
+        "mean_flux": 103.33499433209256,
+        "scintillation_index": 0.056709723372887266
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.158825098213639,
+        "mean_flux": 105.38671004772186,
+        "scintillation_index": 0.056747766258795185
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.090217886651588,
+        "mean_flux": 97.02789591374221,
+        "scintillation_index": 0.058466750880602714
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.004581996506262,
+        "mean_flux": 95.37913004816441,
+        "scintillation_index": 0.06086584252193661
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.90702228998699,
+        "mean_flux": 93.8005244321857,
+        "scintillation_index": 0.06372384506411732
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.799644348762824,
+        "mean_flux": 92.28769405020607,
+        "scintillation_index": 0.06702729289407938
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.217195042102025,
+        "mean_flux": 100.5554879982342,
+        "scintillation_index": 0.055101173081890886
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.254569161924211,
+        "mean_flux": 102.4452694720692,
+        "scintillation_index": 0.05416366842835085
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.272351302129797,
+        "mean_flux": 104.4272354080425,
+        "scintillation_index": 0.05374306547608931
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.269447578640335,
+        "mean_flux": 106.50829964081447,
+        "scintillation_index": 0.05385496353589048
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.1284776903883404,
+        "mean_flux": 97.3107095585929,
+        "scintillation_index": 0.057415621050026955
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.04267471094249,
+        "mean_flux": 95.65030591902524,
+        "scintillation_index": 0.05977690490552723
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.944840218492514,
+        "mean_flux": 94.06055775348176,
+        "scintillation_index": 0.06259273380974295
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.837095657072502,
+        "mean_flux": 92.5370490948359,
+        "scintillation_index": 0.06584997098532952
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.255415985409515,
+        "mean_flux": 100.86320106650508,
+        "scintillation_index": 0.05411116700203844
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.292571582242591,
+        "mean_flux": 102.7663215171723,
+        "scintillation_index": 0.0531962395701282
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.310005683676173,
+        "mean_flux": 104.76227711177455,
+        "scintillation_index": 0.052792368988275884
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 120.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.306636880557299,
+        "mean_flux": 106.85803048610688,
+        "scintillation_index": 0.052914740118590986
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.717850890806778,
+        "mean_flux": 55.204904717869226,
+        "scintillation_index": 0.11025250894240446
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.763704849488116,
+        "mean_flux": 54.802963970364004,
+        "scintillation_index": 0.10784649638913568
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.803381005970878,
+        "mean_flux": 54.41812708445474,
+        "scintillation_index": 0.1058019836873918
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.83707324756929,
+        "mean_flux": 54.049325068791696,
+        "scintillation_index": 0.10409138351526215
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.6070074156032845,
+        "mean_flux": 56.06487096834553,
+        "scintillation_index": 0.11627179777581231
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.541812024283436,
+        "mean_flux": 56.52556717395782,
+        "scintillation_index": 0.11995342859785718
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.470030590099771,
+        "mean_flux": 57.00873636520975,
+        "scintillation_index": 0.12413384851677445
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.391661462008095,
+        "mean_flux": 57.51606401602428,
+        "scintillation_index": 0.1288555733235781
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.773822706360914,
+        "mean_flux": 65.29948608345455,
+        "scintillation_index": 0.06695934154340355
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.84619622153054,
+        "mean_flux": 65.02906942885856,
+        "scintillation_index": 0.06465128347629245
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.909912044364276,
+        "mean_flux": 64.77015986594748,
+        "scintillation_index": 0.0626806059454652
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.965140675615176,
+        "mean_flux": 64.52203820149104,
+        "scintillation_index": 0.0610170877216305
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.602772715789671,
+        "mean_flux": 65.87805194910182,
+        "scintillation_index": 0.07272504537156887
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.504109417687384,
+        "mean_flux": 66.18799794855572,
+        "scintillation_index": 0.07626094656802462
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.3968103578228535,
+        "mean_flux": 66.51306326505616,
+        "scintillation_index": 0.08029171526157852
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.2810462130054,
+        "mean_flux": 66.8543818473816,
+        "scintillation_index": 0.08486833414113426
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.05729361089134,
+        "mean_flux": 67.96735692112533,
+        "scintillation_index": 0.058510154665306846
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.135359654558274,
+        "mean_flux": 67.7270148128703,
+        "scintillation_index": 0.05632968144452333
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.203970155282599,
+        "mean_flux": 67.49690002837079,
+        "scintillation_index": 0.054475781739415474
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.263286615243777,
+        "mean_flux": 67.27637335989209,
+        "scintillation_index": 0.052918290703193316
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.872574000066213,
+        "mean_flux": 68.48157724576403,
+        "scintillation_index": 0.06398860833572373
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.766021049811462,
+        "mean_flux": 68.7570524196776,
+        "scintillation_index": 0.06736538801544856
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.650205380247437,
+        "mean_flux": 69.04596540695285,
+        "scintillation_index": 0.07122739197178118
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.525364462424477,
+        "mean_flux": 69.34932404359182,
+        "scintillation_index": 0.07562643483780485
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.151501563547303,
+        "mean_flux": 68.8476121659632,
+        "scintillation_index": 0.055938694933679756
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.231218134618849,
+        "mean_flux": 68.61587397516638,
+        "scintillation_index": 0.053807854403377986
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.301201367287988,
+        "mean_flux": 68.39399698397791,
+        "scintillation_index": 0.0519994591923878
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 6.361610188811384,
+        "mean_flux": 68.18136486742232,
+        "scintillation_index": 0.050483458814871485
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.962685342165127,
+        "mean_flux": 69.3434241090634,
+        "scintillation_index": 0.06130514753108507
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.853717643431461,
+        "mean_flux": 69.60903765000994,
+        "scintillation_index": 0.06461945845502926
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.735270569717951,
+        "mean_flux": 69.88760794905144,
+        "scintillation_index": 0.0684146836123205
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 180.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.607605893220946,
+        "mean_flux": 70.180106763045,
+        "scintillation_index": 0.07274270920043824
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.085444530801879,
+        "mean_flux": 23.72480512636679,
+        "scintillation_index": 0.14394408359864252
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.056571633788557,
+        "mean_flux": 23.45941485011059,
+        "scintillation_index": 0.1458882826135346
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.023491262036744,
+        "mean_flux": 23.20531777709934,
+        "scintillation_index": 0.148165288503453
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.9866978088299065,
+        "mean_flux": 22.96180808213022,
+        "scintillation_index": 0.15075307103110713
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.128497933195394,
+        "mean_flux": 24.292616880217267,
+        "scintillation_index": 0.14114978323830818
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.141619536888795,
+        "mean_flux": 24.59680174835145,
+        "scintillation_index": 0.14035164242335751
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.148434546665463,
+        "mean_flux": 24.915824902736077,
+        "scintillation_index": 0.13999048180277818
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.148434210792805,
+        "mean_flux": 25.25079921483994,
+        "scintillation_index": 0.14009699035098788
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.133627931863644,
+        "mean_flux": 31.89295041252066,
+        "scintillation_index": 0.08776074894375285
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.06575843004398,
+        "mean_flux": 31.479591142440185,
+        "scintillation_index": 0.09066378297891076
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.991378129625881,
+        "mean_flux": 31.083821628533357,
+        "scintillation_index": 0.09396362582158302
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.9116634235519845,
+        "mean_flux": 30.704542511039307,
+        "scintillation_index": 0.09763823418077111
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.244738455485808,
+        "mean_flux": 32.77734699036724,
+        "scintillation_index": 0.0832395333928928
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.285329895499786,
+        "mean_flux": 33.25113087135648,
+        "scintillation_index": 0.08167192648888144
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.314198608314607,
+        "mean_flux": 33.748026161174465,
+        "scintillation_index": 0.08060244728117505
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.3301306238207005,
+        "mean_flux": 34.26976621548335,
+        "scintillation_index": 0.08006013697070813
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.4039568155935385,
+        "mean_flux": 34.39528604083591,
+        "scintillation_index": 0.07721020240100573
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.327347523837113,
+        "mean_flux": 33.93785566177921,
+        "scintillation_index": 0.08011322141478239
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.243472525969516,
+        "mean_flux": 33.49989040523556,
+        "scintillation_index": 0.08342323928422357
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.153747916071568,
+        "mean_flux": 33.0801737010479,
+        "scintillation_index": 0.08711857379578203
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.529204690530661,
+        "mean_flux": 35.37397429370141,
+        "scintillation_index": 0.0727177887374979
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.574631586607613,
+        "mean_flux": 35.89827157202221,
+        "scintillation_index": 0.07117787027023303
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.606492059937937,
+        "mean_flux": 36.44814432733427,
+        "scintillation_index": 0.07014405613232344
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.623354112086613,
+        "mean_flux": 37.02551072041194,
+        "scintillation_index": 0.06964460035547271
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.493084130186363,
+        "mean_flux": 35.26084648679804,
+        "scintillation_index": 0.07401419685755184
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.4137602203883,
+        "mean_flux": 34.78808912850808,
+        "scintillation_index": 0.07690187604339305
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.326903740573476,
+        "mean_flux": 34.33544910461345,
+        "scintillation_index": 0.08019904078684648
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.234015127790893,
+        "mean_flux": 33.90166908171441,
+        "scintillation_index": 0.08388417704753537
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.622582015089231,
+        "mean_flux": 36.27232734639515,
+        "scintillation_index": 0.06955912464732994
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.669348545430073,
+        "mean_flux": 36.81419209260789,
+        "scintillation_index": 0.06804073850479742
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.701904169848644,
+        "mean_flux": 37.38248926546516,
+        "scintillation_index": 0.06702999936634102
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 240.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.718746268755509,
+        "mean_flux": 37.979201296965286,
+        "scintillation_index": 0.06655484381374865
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.4200758423379,
+        "mean_flux": 8.62818405341219,
+        "scintillation_index": 0.18382705609331995
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.3205498444965564,
+        "mean_flux": 8.431265230196109,
+        "scintillation_index": 0.1929942962307698
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.2188886597008484,
+        "mean_flux": 8.242725931372203,
+        "scintillation_index": 0.20283886680963925
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.1155389286228536,
+        "mean_flux": 8.062042436665958,
+        "scintillation_index": 0.21336521905252326
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.610721518347206,
+        "mean_flux": 9.04949874494427,
+        "scintillation_index": 0.1675069088518648
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.7007396258566856,
+        "mean_flux": 9.275203043979312,
+        "scintillation_index": 0.1603452452571985
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.7864277486075038,
+        "mean_flux": 9.511917308820943,
+        "scintillation_index": 0.15384339869674846
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.8671566084572784,
+        "mean_flux": 9.760467286904653,
+        "scintillation_index": 0.14799706262476886
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.292706933714038,
+        "mean_flux": 13.382022998730342,
+        "scintillation_index": 0.12355739570496582
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.140994856817397,
+        "mean_flux": 12.907225211893303,
+        "scintillation_index": 0.13303030470046884
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.983237677234677,
+        "mean_flux": 12.452631586198265,
+        "scintillation_index": 0.14365662338984153
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.820219218296363,
+        "mean_flux": 12.016979361573854,
+        "scintillation_index": 0.155526357925166
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.5746658416142685,
+        "mean_flux": 14.39786942638168,
+        "scintillation_index": 0.10774637271444343
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.703204268195599,
+        "mean_flux": 14.942072869766326,
+        "scintillation_index": 0.10126103950778154
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.822327510666177,
+        "mean_flux": 15.51282282258437,
+        "scintillation_index": 0.09563361525496927
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.931249927042474,
+        "mean_flux": 16.112110273043317,
+        "scintillation_index": 0.0908036873409146
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.518061610170111,
+        "mean_flux": 14.995382548923848,
+        "scintillation_index": 0.11151231126404348
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.352322832287479,
+        "mean_flux": 14.421488079903781,
+        "scintillation_index": 0.12088387195407124
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.17923604135117,
+        "mean_flux": 13.872014652118613,
+        "scintillation_index": 0.131515241980376
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.9997062548124154,
+        "mean_flux": 13.345435950491163,
+        "scintillation_index": 0.14352436338157526
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.823679921486622,
+        "mean_flux": 16.22324978496677,
+        "scintillation_index": 0.09613061913799203
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.961630789559184,
+        "mean_flux": 16.88103580427548,
+        "scintillation_index": 0.0899350564341228
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.088440780111959,
+        "mean_flux": 17.570908946477303,
+        "scintillation_index": 0.08462652696853534
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.203277067869545,
+        "mean_flux": 18.295275745789215,
+        "scintillation_index": 0.08013176817794854
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.592826978183721,
+        "mean_flux": 15.570441165897583,
+        "scintillation_index": 0.10777939276508186
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.422449570226295,
+        "mean_flux": 14.960772759240605,
+        "scintillation_index": 0.11710153341230112
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.244264460131251,
+        "mean_flux": 14.377047689037118,
+        "scintillation_index": 0.12771628123095624
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.059221360002435,
+        "mean_flux": 13.817644496758776,
+        "scintillation_index": 0.13975108999216634
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.906164064928056,
+        "mean_flux": 16.874847989442735,
+        "scintillation_index": 0.09256407382047249
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.0471141305062535,
+        "mean_flux": 17.57363735919907,
+        "scintillation_index": 0.08647299925006902
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.176308807095454,
+        "mean_flux": 18.30651401528498,
+        "scintillation_index": 0.08127648062086457
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 300.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.29289963926522,
+        "mean_flux": 19.076034504175187,
+        "scintillation_index": 0.07689725669430181
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.4261720125935584,
+        "mean_flux": 3.321835817010315,
+        "scintillation_index": 0.14621889892922435
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.323549746854257,
+        "mean_flux": 3.1819829893284948,
+        "scintillation_index": 0.15356245405245983
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.2128398152069906,
+        "mean_flux": 3.0480813458033484,
+        "scintillation_index": 0.16212113605644163
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.094102368592808,
+        "mean_flux": 2.919758937425083,
+        "scintillation_index": 0.17203688513257043
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.6071397312358795,
+        "mean_flux": 3.6210558204225793,
+        "scintillation_index": 0.13468808180258374
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.6855995805626973,
+        "mean_flux": 3.7813522508220068,
+        "scintillation_index": 0.13028972416961215
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.7562022365040733,
+        "mean_flux": 3.9494680192896987,
+        "scintillation_index": 0.12668101572603097
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.05,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.819127238900329,
+        "mean_flux": 4.125989576180776,
+        "scintillation_index": 0.12378285708807502
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.146389890106897,
+        "mean_flux": 5.740285784116497,
+        "scintillation_index": 0.11331547674911313
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.9638725329758224,
+        "mean_flux": 5.343497812963914,
+        "scintillation_index": 0.1237195458607625
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.7619607271264273,
+        "mean_flux": 4.963594436328463,
+        "scintillation_index": 0.13655775565131356
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.5391234666360454,
+        "mean_flux": 4.599520367052819,
+        "scintillation_index": 0.15248075901290536
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.458911824713301,
+        "mean_flux": 6.589227489838305,
+        "scintillation_index": 0.09794476320964018
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.591572900297046,
+        "mean_flux": 7.044017689332129,
+        "scintillation_index": 0.09230104026874963
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.710167627413245,
+        "mean_flux": 7.520992776606142,
+        "scintillation_index": 0.08768677731568664
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.1,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.815871547694669,
+        "mean_flux": 8.021816618243854,
+        "scintillation_index": 0.08391730404150133
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.321932518306666,
+        "mean_flux": 6.630135721409762,
+        "scintillation_index": 0.10648591963408527
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.11684649363929,
+        "mean_flux": 6.133177541736244,
+        "scintillation_index": 0.11757690854164426
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.888439000397787,
+        "mean_flux": 5.657366518644576,
+        "scintillation_index": 0.13149247955819066
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.6345275104322865,
+        "mean_flux": 5.201380954848395,
+        "scintillation_index": 0.14908892614468794
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.66995106352143,
+        "mean_flux": 7.693395082571709,
+        "scintillation_index": 0.09041890131409636
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.816434446061178,
+        "mean_flux": 8.26299831176561,
+        "scintillation_index": 0.08461681069653815
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.946737163180501,
+        "mean_flux": 8.860387064334825,
+        "scintillation_index": 0.07991079666111056
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 0.2,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.062353730387668,
+        "mean_flux": 9.487645254532497,
+        "scintillation_index": 0.07608929406067744
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.379965303196146,
+        "mean_flux": 6.954742677233836,
+        "scintillation_index": 0.10429021326715371
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.167406694702393,
+        "mean_flux": 6.420752597675807,
+        "scintillation_index": 0.11558091687560568
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.9301564223620025,
+        "mean_flux": 5.909485500226629,
+        "scintillation_index": 0.12982596787972156
+      }
+    },
+    {
+      "candidate": {
+        "family": "dark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": -1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 3.6657959585352407,
+        "mean_flux": 5.4195211985045,
+        "scintillation_index": 0.14795545986375092
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.25,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.739580372794091,
+        "mean_flux": 8.097233080009156,
+        "scintillation_index": 0.08804173494979373
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.5,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 4.890502441651585,
+        "mean_flux": 8.709281510067365,
+        "scintillation_index": 0.08220784277526261
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 0.75,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.024513266312627,
+        "mean_flux": 9.351185961104022,
+        "scintillation_index": 0.07748980877819944
+      }
+    },
+    {
+      "candidate": {
+        "family": "antidark",
+        "transverse_wavenumber_rad_m": 360.0,
+        "envelope_radius_m": 50.0,
+        "alpha": 1.0,
+        "mode_count": 11
+      },
+      "coarse_metrics": {
+        "snr_db": 5.143218432778238,
+        "mean_flux": 10.02518563469251,
+        "scintillation_index": 0.07366758824306263
+      }
+    }
+  ],
+  "elapsed_seconds": 23.29757022857666,
+  "selection_rule": "dark and antidark candidates were pooled before formal evaluation; the branch was fixed on the independent refinement set"
+}

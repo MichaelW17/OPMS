@@ -1,0 +1,125 @@
+[
+  {
+    "case": "small_rx_M10",
+    "sharp_snr_db": 9.15174581632586,
+    "iopb_snr_db": 7.500263725682544,
+    "sms_minus_sharp": {
+      "mean_db": 1.6471019742454023,
+      "ci95_low_db": 1.3785509203749946,
+      "ci95_high_db": 1.91565302811581
+    },
+    "sms_minus_inverted_pin": {
+      "mean_db": 3.298584064888717,
+      "ci95_low_db": 3.0674271697941706,
+      "ci95_high_db": 3.5297409599832634
+    },
+    "sharp_candidate": {
+      "family": "sharp",
+      "omega_m": 0.0075,
+      "alpha": 2.0,
+      "r0_over_omega": 12.0,
+      "normalized_curvature": 1.0
+    },
+    "iopb_candidate": {
+      "family": "inverted_pin",
+      "envelope_radius_m": 50.0,
+      "design_distance_m": 2000.0,
+      "gamma": 0.7
+    },
+    "sharp_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.39296436309814453,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "edge_local_scale_pixels": 3.247595264191645
+    },
+    "iopb_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.12688826024532318,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "first_zero_pixels": 4.390931540316989,
+      "outer_half_period_pixels": 17.0
+    }
+  },
+  {
+    "case": "long_rx20_M10",
+    "sharp_snr_db": 6.392638251896548,
+    "iopb_snr_db": 4.976921410926645,
+    "sms_minus_sharp": {
+      "mean_db": 1.278457029309115,
+      "ci95_low_db": 1.1288798291555227,
+      "ci95_high_db": 1.4280342294627075
+    },
+    "sms_minus_inverted_pin": {
+      "mean_db": 2.694173870279019,
+      "ci95_low_db": 2.460734049969079,
+      "ci95_high_db": 2.9276136905889585
+    },
+    "sharp_candidate": {
+      "family": "sharp",
+      "omega_m": 0.01,
+      "alpha": 0.5,
+      "r0_over_omega": 16.0,
+      "normalized_curvature": 1.5
+    },
+    "iopb_candidate": {
+      "family": "inverted_pin",
+      "envelope_radius_m": 50.0,
+      "design_distance_m": 4000.0,
+      "gamma": 0.5
+    },
+    "sharp_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.8363131880760193,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "edge_local_scale_pixels": 3.0151134457776365
+    },
+    "iopb_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.03975246101617813,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "first_zero_pixels": 3.3868444475994313,
+      "outer_half_period_pixels": 34.0
+    }
+  },
+  {
+    "case": "strong_small_rx_M10",
+    "sharp_snr_db": 4.709340869610438,
+    "iopb_snr_db": 3.416246961651197,
+    "sms_minus_sharp": {
+      "mean_db": 2.284045452641691,
+      "ci95_low_db": 2.052788398468534,
+      "ci95_high_db": 2.5153025068148485
+    },
+    "sms_minus_inverted_pin": {
+      "mean_db": 3.5771393606009303,
+      "ci95_low_db": 3.3224626537020105,
+      "ci95_high_db": 3.83181606749985
+    },
+    "sharp_candidate": {
+      "family": "sharp",
+      "omega_m": 0.0075,
+      "alpha": 0.0,
+      "r0_over_omega": 12.0,
+      "normalized_curvature": 1.0
+    },
+    "iopb_candidate": {
+      "family": "inverted_pin",
+      "envelope_radius_m": 50.0,
+      "design_distance_m": 1500.0,
+      "gamma": 0.8
+    },
+    "sharp_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.8684790730476379,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "edge_local_scale_pixels": 3.247595264191645
+    },
+    "iopb_source_diagnostics": {
+      "outer_three_pixel_power_fraction": 0.007863419130444527,
+      "weight_sum": 1.0,
+      "frame_count": 1,
+      "first_zero_pixels": 4.908229329330599,
+      "outer_half_period_pixels": 12.75
+    }
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "case": "small_rx_M10",
+    "link": {
+      "name": "small_rx_M10",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 1e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "frame_count": 10,
+    "atmospheric_samples": 2000,
+    "screen_seed_common": 2026082601,
+    "source_seed_resampled_gsm": 2026083001,
+    "source_definition": "SMS is frozen after training; a fresh independent M-frame GSM phase-screen sequence is generated for every detector integration window, while all M fields within a window share the same frozen atmosphere.",
+    "SMS": {
+      "mean_flux": 152.92287834830285,
+      "scintillation_index": 0.005458859190492049,
+      "snr_linear_current_over_rms": 12.156576374505832,
+      "snrp_legacy_db_10log": 10.848112829127778,
+      "snr_standard_db_20log": 21.696225658255557,
+      "snr_power_ratio": 147.78234914919335,
+      "effective_frame_number": 11.906927542575628,
+      "mean_pairwise_power_correlation": 0.054198820909182634,
+      "nominal_frame_number": 10
+    },
+    "GSM_resampled": {
+      "mean_flux": 57.26735419439078,
+      "scintillation_index": 0.04322767550275208,
+      "snr_linear_current_over_rms": 4.626454264428082,
+      "snrp_legacy_db_10log": 6.652482732354202,
+      "snr_standard_db_20log": 13.304965464708404,
+      "snr_power_ratio": 21.404079060844786,
+      "effective_frame_number": 8.57745852472508,
+      "mean_pairwise_power_correlation": 0.018354693608720496,
+      "nominal_frame_number": 10
+    },
+    "paired_difference": {
+      "sms_minus_gsm_legacy_db": 4.195630096773576,
+      "legacy_ci95_low_db": 4.029305635898913,
+      "legacy_ci95_high_db": 4.359950270503924,
+      "sms_minus_gsm_standard_db": 8.391260193547152,
+      "standard_ci95_low_db": 8.058611271797826,
+      "standard_ci95_high_db": 8.719900541007847,
+      "bootstrap_repeats": 2000
+    },
+    "GSM_frozen_reference": {
+      "mean_flux": 65.06591254222393,
+      "scintillation_index": 0.01456121668772381,
+      "snr_linear_current_over_rms": 7.530294950240251,
+      "snrp_legacy_db_10log": 8.768119871904876,
+      "snr_standard_db_20log": 17.53623974380975,
+      "snr_power_ratio": 56.70534203761383,
+      "effective_frame_number": 7.712328984361911,
+      "mean_pairwise_power_correlation": 0.015512661816775273,
+      "nominal_frame_number": 10
+    }
+  },
+  {
+    "case": "long_rx20_M10",
+    "link": {
+      "name": "long_rx20_M10",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 1e-14,
+      "distance": 2000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.02,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "frame_count": 10,
+    "atmospheric_samples": 2000,
+    "screen_seed_common": 2026182601,
+    "source_seed_resampled_gsm": 2026183001,
+    "source_definition": "SMS is frozen after training; a fresh independent M-frame GSM phase-screen sequence is generated for every detector integration window, while all M fields within a window share the same frozen atmosphere.",
+    "SMS": {
+      "mean_flux": 136.02474625878332,
+      "scintillation_index": 0.029110849609162326,
+      "snr_linear_current_over_rms": 5.718379176111451,
+      "snrp_legacy_db_10log": 7.572729493138764,
+      "snr_standard_db_20log": 15.145458986277529,
+      "snr_power_ratio": 32.69986040178508,
+      "effective_frame_number": 4.718301521760777,
+      "mean_pairwise_power_correlation": 0.170316597540172,
+      "nominal_frame_number": 10
+    },
+    "GSM_resampled": {
+      "mean_flux": 57.88013393636942,
+      "scintillation_index": 0.06655142169031936,
+      "snr_linear_current_over_rms": 3.7794601157591527,
+      "snrp_legacy_db_10log": 5.774297666381676,
+      "snr_standard_db_20log": 11.548595332763352,
+      "snr_power_ratio": 14.284318766614188,
+      "effective_frame_number": 5.809957276854554,
+      "mean_pairwise_power_correlation": 0.08002342128254995,
+      "nominal_frame_number": 10
+    },
+    "paired_difference": {
+      "sms_minus_gsm_legacy_db": 1.7984318267570885,
+      "legacy_ci95_low_db": 1.6506587726391386,
+      "legacy_ci95_high_db": 1.9425628552099299,
+      "sms_minus_gsm_standard_db": 3.596863653514177,
+      "standard_ci95_low_db": 3.3013175452782773,
+      "standard_ci95_high_db": 3.8851257104198598,
+      "bootstrap_repeats": 2000
+    },
+    "GSM_frozen_reference": {
+      "mean_flux": 56.58461407945156,
+      "scintillation_index": 0.04000578900357965,
+      "snr_linear_current_over_rms": 4.792412564376367,
+      "snrp_legacy_db_10log": 6.805541980956896,
+      "snr_standard_db_20log": 13.611083961913792,
+      "snr_power_ratio": 22.96721818719246,
+      "effective_frame_number": 3.89153439071709,
+      "mean_pairwise_power_correlation": 0.15463344581656885,
+      "nominal_frame_number": 10
+    }
+  },
+  {
+    "case": "strong_small_rx_M10",
+    "link": {
+      "name": "strong_small_rx_M10",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 5e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "frame_count": 10,
+    "atmospheric_samples": 2000,
+    "screen_seed_common": 2026282601,
+    "source_seed_resampled_gsm": 2026283001,
+    "source_definition": "SMS is frozen after training; a fresh independent M-frame GSM phase-screen sequence is generated for every detector integration window, while all M fields within a window share the same frozen atmosphere.",
+    "SMS": {
+      "mean_flux": 79.97186687395573,
+      "scintillation_index": 0.03959707780152932,
+      "snr_linear_current_over_rms": 4.873820030735996,
+      "snrp_legacy_db_10log": 6.878694885127798,
+      "snr_standard_db_20log": 13.757389770255596,
+      "snr_power_ratio": 23.754121692003427,
+      "effective_frame_number": 4.985607497626028,
+      "mean_pairwise_power_correlation": 0.1226064061321447,
+      "nominal_frame_number": 10
+    },
+    "GSM_resampled": {
+      "mean_flux": 36.96033285648227,
+      "scintillation_index": 0.06800357824926118,
+      "snr_linear_current_over_rms": 3.690695663786118,
+      "snrp_legacy_db_10log": 5.671082345785775,
+      "snr_standard_db_20log": 11.34216469157155,
+      "snr_power_ratio": 13.621234482689653,
+      "effective_frame_number": 5.3941461175211085,
+      "mean_pairwise_power_correlation": 0.09485587798837333,
+      "nominal_frame_number": 10
+    },
+    "paired_difference": {
+      "sms_minus_gsm_legacy_db": 1.2076125393420227,
+      "legacy_ci95_low_db": 1.0697892516754774,
+      "legacy_ci95_high_db": 1.3530562382621523,
+      "sms_minus_gsm_standard_db": 2.4152250786840455,
+      "standard_ci95_low_db": 2.139578503350955,
+      "standard_ci95_high_db": 2.7061124765243045,
+      "bootstrap_repeats": 2000
+    },
+    "GSM_frozen_reference": {
+      "mean_flux": 32.20108507013321,
+      "scintillation_index": 0.048884720989791575,
+      "snr_linear_current_over_rms": 4.260309785135173,
+      "snrp_legacy_db_10log": 6.294411796386932,
+      "snr_standard_db_20log": 12.588823592773863,
+      "snr_power_ratio": 18.150239465318506,
+      "effective_frame_number": 4.304793793262002,
+      "mean_pairwise_power_correlation": 0.1340840747593492,
+      "nominal_frame_number": 10
+    }
+  }
+]

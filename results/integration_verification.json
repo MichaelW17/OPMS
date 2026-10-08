@@ -1,0 +1,46 @@
+{
+  "links": [
+    "A"
+  ],
+  "starts_per_class": 1,
+  "steps": 2,
+  "batch_size": 16,
+  "frames": 10,
+  "screening_samples": 16,
+  "validation_samples": 16,
+  "completed": true,
+  "metrics": {
+    "gsm": {
+      "snr_db": 5.836111856524248,
+      "snr_db_ci95_low": 4.422776829677897,
+      "snr_db_ci95_high": 9.428719854283806,
+      "mean_flux": 28.498176814615725,
+      "scintillation_index": 0.06453309103124272,
+      "effective_frame_number": 7.708521373653288,
+      "mean_pairwise_power_correlation": 0.023252348139237478,
+      "normalized_power_q05": 0.7518445983346675,
+      "fade_probability_below_half_mean": 0.0,
+      "atmospheric_samples": 16,
+      "frame_count": 10,
+      "elapsed_seconds": 0.06736087799072266,
+      "source_sampling": "independent_sequence_per_atmosphere",
+      "atmosphere_pairing": "one_independent_atmosphere_per_integration_window"
+    },
+    "opms": {
+      "snr_db": 10.516573169130854,
+      "snr_db_ci95_low": 9.541696951145616,
+      "snr_db_ci95_high": 12.433375013821879,
+      "mean_flux": 138.079690015316,
+      "scintillation_index": 0.0071586687112823455,
+      "effective_frame_number": 3.2591389715269923,
+      "mean_pairwise_power_correlation": 0.19112431107919992,
+      "normalized_power_q05": 0.8830952264030462,
+      "fade_probability_below_half_mean": 0.0,
+      "atmospheric_samples": 16,
+      "frame_count": 10,
+      "elapsed_seconds": 0.054610490798950195,
+      "source_sampling": "fixed_optimized_sequence",
+      "atmosphere_pairing": "one_independent_atmosphere_per_integration_window"
+    }
+  }
+}

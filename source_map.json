@@ -1,0 +1,17 @@
+{
+  "ol_all_beams_pooled_validation.py": "ol_all_beams_pooled_validation.py",
+  "ol_dad_fair_revalidation.py": "ol_dad_fair_revalidation.py",
+  "ol_fixed_source_ensemble_validation.py": "ol_fixed_source_ensemble_validation.py",
+  "ol_frame_budget_complete.py": "ol_frame_budget_complete.py",
+  "ol_hg_lg_basis_control.py": "ol_hg_lg_basis_control.py",
+  "multistart.py": "ol_joint_bs16_pilot_20260911.py",
+  "landscape.py": "ol_pcb_collimated_multibasin_20260829.py",
+  "ol_revalidate_results.py": "ol_revalidate_results.py",
+  "sources.py": "ol_sms_pcb_experiment.py",
+  "ol_structured_beams.py": "ol_structured_beams.py",
+  "ol_structured_boundary_extension.py": "ol_structured_boundary_extension.py",
+  "ol_structured_compare.py": "ol_structured_compare.py",
+  "ol_weighted_hg_pseudomode_validation_20260901.py": "ol_weighted_hg_pseudomode_validation_20260901.py",
+  "propagation.py": "ol_wos_unified.py",
+  "csd_distance.py": "recompute_csd_sobol1024_deterministic_20260928.py"
+}

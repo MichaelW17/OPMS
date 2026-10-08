@@ -1,0 +1,14 @@
+{
+  "GSM": {
+    "link": "A",
+    "endpoints": 2,
+    "maximum_absolute_distance_error": 3.299790310556765e-05,
+    "tolerance": 0.0001
+  },
+  "OPMS": {
+    "link": "A",
+    "endpoints": 2,
+    "maximum_absolute_distance_error": 1.2516975402832031e-06,
+    "tolerance": 0.0001
+  }
+}

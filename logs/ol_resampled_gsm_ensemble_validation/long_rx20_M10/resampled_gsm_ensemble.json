@@ -1,0 +1,66 @@
+{
+  "case": "long_rx20_M10",
+  "link": {
+    "name": "long_rx20_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 1e-14,
+    "distance": 2000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.02,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "frame_count": 10,
+  "atmospheric_samples": 2000,
+  "screen_seed_common": 2026182601,
+  "source_seed_resampled_gsm": 2026183001,
+  "source_definition": "SMS is frozen after training; a fresh independent M-frame GSM phase-screen sequence is generated for every detector integration window, while all M fields within a window share the same frozen atmosphere.",
+  "SMS": {
+    "mean_flux": 136.02474625878332,
+    "scintillation_index": 0.029110849609162326,
+    "snr_linear_current_over_rms": 5.718379176111451,
+    "snrp_legacy_db_10log": 7.572729493138764,
+    "snr_standard_db_20log": 15.145458986277529,
+    "snr_power_ratio": 32.69986040178508,
+    "effective_frame_number": 4.718301521760777,
+    "mean_pairwise_power_correlation": 0.170316597540172,
+    "nominal_frame_number": 10
+  },
+  "GSM_resampled": {
+    "mean_flux": 57.88013393636942,
+    "scintillation_index": 0.06655142169031936,
+    "snr_linear_current_over_rms": 3.7794601157591527,
+    "snrp_legacy_db_10log": 5.774297666381676,
+    "snr_standard_db_20log": 11.548595332763352,
+    "snr_power_ratio": 14.284318766614188,
+    "effective_frame_number": 5.809957276854554,
+    "mean_pairwise_power_correlation": 0.08002342128254995,
+    "nominal_frame_number": 10
+  },
+  "paired_difference": {
+    "sms_minus_gsm_legacy_db": 1.7984318267570885,
+    "legacy_ci95_low_db": 1.6506587726391386,
+    "legacy_ci95_high_db": 1.9425628552099299,
+    "sms_minus_gsm_standard_db": 3.596863653514177,
+    "standard_ci95_low_db": 3.3013175452782773,
+    "standard_ci95_high_db": 3.8851257104198598,
+    "bootstrap_repeats": 2000
+  },
+  "GSM_frozen_reference": {
+    "mean_flux": 56.58461407945156,
+    "scintillation_index": 0.04000578900357965,
+    "snr_linear_current_over_rms": 4.792412564376367,
+    "snrp_legacy_db_10log": 6.805541980956896,
+    "snr_standard_db_20log": 13.611083961913792,
+    "snr_power_ratio": 22.96721818719246,
+    "effective_frame_number": 3.89153439071709,
+    "mean_pairwise_power_correlation": 0.15463344581656885,
+    "nominal_frame_number": 10
+  }
+}

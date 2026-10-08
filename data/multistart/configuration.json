@@ -1,0 +1,95 @@
+{
+  "arguments": {
+    "links": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "starts": 1024,
+    "steps": 300,
+    "batch_size": 16,
+    "frames": 10,
+    "screening_samples": 1000,
+    "validation_samples": 1000,
+    "validation_batch": 16,
+    "pcb_lr": 0.04,
+    "opms_lr": 0.02,
+    "checkpoint_every": 25,
+    "log_every": 5,
+    "output": "<research-root>\\logs\\ol_joint_bs16_sobol1024_common1000_20260924",
+    "device": "cuda",
+    "seed": 2026092401
+  },
+  "links": {
+    "A": {
+      "name": "A",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 6.32e-07,
+      "cn2": 5e-15,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.1,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "B": {
+      "name": "B",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 6.32e-07,
+      "cn2": 5e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.1,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "C": {
+      "name": "C",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 1e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "D": {
+      "name": "D",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 5e-15,
+      "distance": 2000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.02,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    }
+  },
+  "sampling_definition": {
+    "optimization": "one bs=16 loss; every GSM atmosphere receives an independently generated M-frame source sequence",
+    "screening_and_validation": "independent source-atmosphere pairing; OPMS sequence frozen after optimization",
+    "selection": "all endpoints screened with 128 unseen pairs; only the class winner receives 1000-pair final validation"
+  }
+}

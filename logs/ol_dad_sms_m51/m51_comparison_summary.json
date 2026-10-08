@@ -1,0 +1,107 @@
+[
+  {
+    "case": "small_rx_M51",
+    "sms_snr_db": 10.805077432444905,
+    "dark_snr_db": 7.905531982571921,
+    "antidark_snr_db": 7.851006667709806,
+    "sms_minus_dark": {
+      "mean_db": 2.8995454498729836,
+      "ci95_low_db": 2.8027600445953693,
+      "ci95_high_db": 2.996330855150598
+    },
+    "sms_minus_antidark": {
+      "mean_db": 2.9540707647350986,
+      "ci95_low_db": 2.8568860049980187,
+      "ci95_high_db": 3.0512555244721784
+    },
+    "sms_selection_snr_db": [
+      10.44424536376007,
+      10.461155912376466,
+      10.283009960424971
+    ],
+    "dark_candidate": {
+      "family": "dark",
+      "transverse_wavenumber_rad_m": 240.0,
+      "envelope_radius_m": 50.0,
+      "alpha": -0.25,
+      "mode_count": 51
+    },
+    "antidark_candidate": {
+      "family": "antidark",
+      "transverse_wavenumber_rad_m": 240.0,
+      "envelope_radius_m": 50.0,
+      "alpha": 0.25,
+      "mode_count": 51
+    }
+  },
+  {
+    "case": "long_rx20_M51",
+    "sms_snr_db": 7.680573945868429,
+    "dark_snr_db": 6.106080801256576,
+    "antidark_snr_db": 6.1093715444132854,
+    "sms_minus_dark": {
+      "mean_db": 1.5744931446118522,
+      "ci95_low_db": 1.423930685707474,
+      "ci95_high_db": 1.7250556035162303
+    },
+    "sms_minus_antidark": {
+      "mean_db": 1.571202401455142,
+      "ci95_low_db": 1.4181470818314252,
+      "ci95_high_db": 1.7242577210788588
+    },
+    "sms_selection_snr_db": [
+      7.709637103870665,
+      7.7037248217783905,
+      7.578438533509967
+    ],
+    "dark_candidate": {
+      "family": "dark",
+      "transverse_wavenumber_rad_m": 120.0,
+      "envelope_radius_m": 50.0,
+      "alpha": -0.25,
+      "mode_count": 51
+    },
+    "antidark_candidate": {
+      "family": "antidark",
+      "transverse_wavenumber_rad_m": 120.0,
+      "envelope_radius_m": 50.0,
+      "alpha": 0.25,
+      "mode_count": 51
+    }
+  },
+  {
+    "case": "strong_small_rx_M51",
+    "sms_snr_db": 7.341988118555636,
+    "dark_snr_db": 5.643121107488026,
+    "antidark_snr_db": 5.627194379401599,
+    "sms_minus_dark": {
+      "mean_db": 1.698867011067609,
+      "ci95_low_db": 1.5350800803815203,
+      "ci95_high_db": 1.8626539417536976
+    },
+    "sms_minus_antidark": {
+      "mean_db": 1.7147937391540382,
+      "ci95_low_db": 1.555998073963257,
+      "ci95_high_db": 1.8735894043448194
+    },
+    "sms_selection_snr_db": [
+      7.267082833288731,
+      7.294918202405647,
+      7.231188870700716
+    ],
+    "dark_candidate": {
+      "family": "dark",
+      "transverse_wavenumber_rad_m": 300.0,
+      "envelope_radius_m": 50.0,
+      "alpha": -0.25,
+      "mode_count": 51
+    },
+    "antidark_candidate": {
+      "family": "antidark",
+      "transverse_wavenumber_rad_m": 300.0,
+      "envelope_radius_m": 50.0,
+      "alpha": 0.25,
+      "mode_count": 51
+    }
+  }
+]

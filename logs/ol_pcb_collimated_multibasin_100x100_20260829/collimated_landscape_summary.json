@@ -1,0 +1,31 @@
+{
+  "config": {
+    "name": "L1000_C1em14_R25_W850_B0p2_collimated",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 1e-14,
+    "distance": 1000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.025,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "curvature": 0.0,
+  "best_grid_point": {
+    "wg_m": 0.01568795028441321,
+    "lcr_m": 0.11903132491961597,
+    "snrp_db": 10.216324078366302
+  },
+  "protocol": {
+    "wg_count": 100,
+    "lcr_count": 100,
+    "samples_per_point": 64,
+    "frame_count": 10,
+    "common_random_numbers_across_grid": true
+  }
+}

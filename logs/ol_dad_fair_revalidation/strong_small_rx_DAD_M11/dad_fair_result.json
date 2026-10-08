@@ -1,0 +1,110 @@
+{
+  "case": "strong_small_rx",
+  "frame_count": 11,
+  "link": {
+    "name": "strong_small_rx_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 5e-14,
+    "distance": 1000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.01,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "selected": {
+    "candidate": {
+      "family": "dark",
+      "beta_rad_m": 180.0,
+      "envelope_radius_m": 50.0,
+      "normalized_curvature": 1.5,
+      "alpha": -0.75,
+      "mode_count": 11,
+      "first_j0_zero_radius_mm": 13.360141987222223
+    },
+    "coarse_metrics": {
+      "snr_db": 6.922490541681182,
+      "mean_flux": 56.838618350856684,
+      "scintillation_index": 0.03773866904569223
+    },
+    "refined_metrics": {
+      "snr_db": 5.370762383387786,
+      "mean_flux": 60.98353293888203,
+      "scintillation_index": 0.08102429843769188,
+      "atmospheric_samples": 96
+    },
+    "modal_norms": [
+      449.75274658203125,
+      474.24371337890625,
+      558.620849609375,
+      513.0842895507812,
+      574.4873046875,
+      536.6131591796875,
+      574.4873046875,
+      513.0842895507812,
+      558.620849609375,
+      474.24371337890625,
+      449.75274658203125
+    ],
+    "dwell_weights": [
+      0.1276084538350656,
+      0.01922246881050432,
+      0.15849762661912126,
+      0.020796789656481175,
+      0.16299941969487244,
+      0.021750482767910386,
+      0.16299941969487244,
+      0.020796789656481175,
+      0.15849762661912126,
+      0.01922246881050432,
+      0.1276084538350656
+    ]
+  },
+  "formal_metrics": {
+    "snr_db": 5.567445180990828,
+    "mean_flux": 61.47254917484947,
+    "scintillation_index": 0.07375010364429913,
+    "atmospheric_samples": 2000,
+    "snr_db_ci95_low": 5.445829441139811,
+    "snr_db_ci95_high": 5.694028758271027
+  },
+  "formal_dwell_weights": [
+    0.1276084538350656,
+    0.01922246881050432,
+    0.15849762661912126,
+    0.020796789656481175,
+    0.16299941969487244,
+    0.021750482767910386,
+    0.16299941969487244,
+    0.020796789656481175,
+    0.15849762661912126,
+    0.01922246881050432,
+    0.1276084538350656
+  ],
+  "formal_modal_norms": [
+    449.75274658203125,
+    474.24371337890625,
+    558.620849609375,
+    513.0842895507812,
+    574.4873046875,
+    536.6131591796875,
+    574.4873046875,
+    513.0842895507812,
+    558.620849609375,
+    474.24371337890625,
+    449.75274658203125
+  ],
+  "candidate_count": 768,
+  "coarse_samples": 16,
+  "refine_samples": 96,
+  "formal_samples": 2000,
+  "elapsed_seconds": 26.72559905052185,
+  "weight_definition": "dwell_m proportional to lambda_m times the finite-aperture modal norm squared",
+  "source_power_constraint": "equal instantaneous launch power per displayed field; weighted mean launch power fixed",
+  "selection_rule": "candidate fixed on independent refinement atmospheres before one pooled formal atmosphere ensemble"
+}

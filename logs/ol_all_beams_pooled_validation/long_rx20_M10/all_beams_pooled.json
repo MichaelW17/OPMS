@@ -1,0 +1,198 @@
+{
+  "case": "long_rx20_M10",
+  "link": {
+    "name": "long_rx20_M10",
+    "n": 512,
+    "delta": 0.001,
+    "wavelength": 8.5e-07,
+    "cn2": 1e-14,
+    "distance": 2000.0,
+    "wos_steps": 5,
+    "transmitter_radius": 0.05,
+    "receiver_radius": 0.02,
+    "inner_scale": 0.003,
+    "outer_scale": 1.024,
+    "duale_b": 0.2,
+    "power": 1000.0,
+    "subharmonic_order": 3
+  },
+  "atmospheric_samples": 2000,
+  "screen_seed_common": 2026182601,
+  "statistics": "one pooled atmosphere ensemble for each fixed source; paired bootstrap resamples common atmosphere indices",
+  "DAD_weight_correction": "dwell_m proportional to lambda_m times the finite-aperture modal norm squared",
+  "beams": {
+    "SMS": {
+      "mean_flux": 136.02474625878332,
+      "scintillation_index": 0.029110849609162326,
+      "snr_linear_current_over_rms": 5.718379176111451,
+      "snrp_legacy_db_10log": 7.572729493138764,
+      "snr_standard_db_20log": 15.145458986277529,
+      "snr_power_ratio": 32.69986040178508,
+      "effective_frame_number": 4.718301521760777,
+      "mean_pairwise_power_correlation": 0.170316597540172,
+      "nominal_frame_number": 10
+    },
+    "GSM": {
+      "mean_flux": 56.58461407945156,
+      "scintillation_index": 0.04000578900357965,
+      "snr_linear_current_over_rms": 4.792412564376367,
+      "snrp_legacy_db_10log": 6.805541980956896,
+      "snr_standard_db_20log": 13.611083961913792,
+      "snr_power_ratio": 22.96721818719246,
+      "effective_frame_number": 3.89153439071709,
+      "mean_pairwise_power_correlation": 0.15463344581656885,
+      "nominal_frame_number": 10
+    },
+    "CB": {
+      "mean_flux": 450.8613275098801,
+      "scintillation_index": 0.10638422604899178,
+      "snr_linear_current_over_rms": 3.0595518257798457,
+      "snrp_legacy_db_10log": 4.856578141136702,
+      "snr_standard_db_20log": 9.713156282273404,
+      "snr_power_ratio": 9.360857374632788,
+      "effective_frame_number": 1.0000000000000002,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1
+    },
+    "Sharp": {
+      "mean_flux": 92.57867954158783,
+      "scintillation_index": 0.05372955112918709,
+      "snr_linear_current_over_rms": 4.229932411175029,
+      "snrp_legacy_db_10log": 6.263334279688397,
+      "snr_standard_db_20log": 12.526668559376795,
+      "snr_power_ratio": 17.892328203108995,
+      "effective_frame_number": 1.0,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "sharp",
+        "omega_m": 0.01,
+        "alpha": 0.5,
+        "r0_over_omega": 16.0,
+        "normalized_curvature": 1.5
+      }
+    },
+    "Pin": {
+      "mean_flux": 422.9532168121338,
+      "scintillation_index": 0.10663753380993413,
+      "snr_linear_current_over_rms": 3.0555133160894776,
+      "snrp_legacy_db_10log": 4.850841807384109,
+      "snr_standard_db_20log": 9.701683614768218,
+      "snr_power_ratio": 9.336161624800116,
+      "effective_frame_number": 0.9999999999999998,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "pin",
+        "envelope_radius_m": 50.0,
+        "design_distance_m": 3000.0
+      }
+    },
+    "IOPB": {
+      "mean_flux": 177.17181374073027,
+      "scintillation_index": 0.10325282766023047,
+      "snr_linear_current_over_rms": 3.09519395384287,
+      "snrp_legacy_db_10log": 4.906878683624381,
+      "snr_standard_db_20log": 9.813757367248762,
+      "snr_power_ratio": 9.580225611905458,
+      "effective_frame_number": 1.0,
+      "mean_pairwise_power_correlation": 1.0,
+      "nominal_frame_number": 1,
+      "candidate": {
+        "family": "inverted_pin",
+        "envelope_radius_m": 50.0,
+        "design_distance_m": 4000.0,
+        "gamma": 0.5
+      }
+    },
+    "DAD": {
+      "mean_flux": 202.10994245526302,
+      "scintillation_index": 0.04553990075446257,
+      "snr_linear_current_over_rms": 4.635920591479436,
+      "snrp_legacy_db_10log": 6.661359883403815,
+      "snr_standard_db_20log": 13.32271976680763,
+      "snr_power_ratio": 21.49175973050304,
+      "effective_frame_number": 2.243925966792999,
+      "mean_pairwise_power_correlation": 0.3714339009053223,
+      "nominal_frame_number": 11,
+      "candidate": {
+        "family": "antidark",
+        "beta_rad_m": 90.0,
+        "envelope_radius_m": 50.0,
+        "normalized_curvature": 1.0,
+        "alpha": 0.5,
+        "mode_count": 11,
+        "first_j0_zero_radius_mm": 26.720283974444445
+      },
+      "dwell_weights": [
+        0.004149805467264445,
+        0.05649112296249148,
+        0.050964723851396006,
+        0.2136452316024561,
+        0.06026131570345995,
+        0.22897560082586405,
+        0.06026131570345995,
+        0.2136452316024561,
+        0.050964723851396006,
+        0.05649112296249148,
+        0.004149805467264445
+      ]
+    }
+  },
+  "sms_minus_comparator": {
+    "GSM": {
+      "sms_minus_gsm_legacy_db": 0.7671875121818683,
+      "legacy_ci95_low_db": 0.6552788562911257,
+      "legacy_ci95_high_db": 0.8816348509843235,
+      "sms_minus_gsm_standard_db": 1.5343750243637366,
+      "standard_ci95_low_db": 1.3105577125822514,
+      "standard_ci95_high_db": 1.763269701968647,
+      "bootstrap_repeats": 2000
+    },
+    "CB": {
+      "sms_minus_gsm_legacy_db": 2.716151352002062,
+      "legacy_ci95_low_db": 2.5476139474294612,
+      "legacy_ci95_high_db": 2.8902082713626536,
+      "sms_minus_gsm_standard_db": 5.432302704004124,
+      "standard_ci95_low_db": 5.0952278948589225,
+      "standard_ci95_high_db": 5.780416542725307,
+      "bootstrap_repeats": 2000
+    },
+    "Sharp": {
+      "sms_minus_gsm_legacy_db": 1.309395213450367,
+      "legacy_ci95_low_db": 1.1555427546814734,
+      "legacy_ci95_high_db": 1.4583277310726697,
+      "sms_minus_gsm_standard_db": 2.618790426900734,
+      "standard_ci95_low_db": 2.3110855093629468,
+      "standard_ci95_high_db": 2.9166554621453393,
+      "bootstrap_repeats": 2000
+    },
+    "Pin": {
+      "sms_minus_gsm_legacy_db": 2.7218876857546555,
+      "legacy_ci95_low_db": 2.5480034456826717,
+      "legacy_ci95_high_db": 2.8825531896790366,
+      "sms_minus_gsm_standard_db": 5.443775371509311,
+      "standard_ci95_low_db": 5.096006891365343,
+      "standard_ci95_high_db": 5.765106379358073,
+      "bootstrap_repeats": 2000
+    },
+    "IOPB": {
+      "sms_minus_gsm_legacy_db": 2.6658508095143834,
+      "legacy_ci95_low_db": 2.512990546278577,
+      "legacy_ci95_high_db": 2.8185379221027564,
+      "sms_minus_gsm_standard_db": 5.331701619028767,
+      "standard_ci95_low_db": 5.025981092557154,
+      "standard_ci95_high_db": 5.637075844205513,
+      "bootstrap_repeats": 2000
+    },
+    "DAD": {
+      "sms_minus_gsm_legacy_db": 0.9113696097349493,
+      "legacy_ci95_low_db": 0.7841516337701179,
+      "legacy_ci95_high_db": 1.035414234372473,
+      "sms_minus_gsm_standard_db": 1.8227392194698986,
+      "standard_ci95_low_db": 1.5683032675402357,
+      "standard_ci95_high_db": 2.070828468744946,
+      "bootstrap_repeats": 2000
+    }
+  }
+}

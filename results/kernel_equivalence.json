@@ -1,0 +1,14 @@
+{
+  "grid": [
+    512,
+    512
+  ],
+  "atmospheric_training_batch": 16,
+  "frames": 10,
+  "opms_field_max_abs_error": 0.0,
+  "loss_abs_error": 0.0,
+  "gradient_max_abs_error": 0.0,
+  "gsm_independent_pair_field_max_abs_error": 0.0,
+  "gsm_sobol_max_abs_error": 0.0,
+  "opms_sobol_max_abs_error": 0.0
+}
