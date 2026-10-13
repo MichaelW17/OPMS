@@ -56,8 +56,8 @@ def wilson(count, total):
     return max(0, center - half), min(1, center + half)
 
 
-def endpoint_statistics(output, reference_count=16):
-    """Use top-16 for manuscript numbers or top-100 for its methods text."""
+def endpoint_statistics(output, reference_count=100):
+    """Classify endpoints using the top-100 reference; retain the legacy option."""
     rows, scores = [], {}
     for link in "ABCD":
         for beam in ("GSM", "OPMS"):
@@ -117,10 +117,10 @@ def endpoint_statistics(output, reference_count=16):
         axes[1].bar(positions, p, width=0.28, color=COLORS[beam], label=beam)
         axes[1].errorbar(positions, p, yerr=err, fmt="none", color="black", capsize=2)
     axes[0].set_ylabel("Validated SNR (dB)")
-    axes[0].set_title("(a) Endpoint distributions")
-    axes[1].set_ylabel("Success fraction")
+    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes, ha="left", va="top")
+    axes[1].set_ylabel("Success rate")
     axes[1].set_ylim(0, 1.08)
-    axes[1].set_title(f"(b) Within 0.5 dB of top-{reference_count} mean")
+    axes[1].text(0.02, 0.98, "(b)", transform=axes[1].transAxes, ha="left", va="top")
     axes[1].legend(frameon=False)
     for ax in axes:
         ax.set_xticks(range(4), list("ABCD"))
@@ -173,7 +173,7 @@ def verify_flux(output):
     write_csv(output / "raw_power_verification.csv", rows)
 
 
-def csd_plot(output, reference_count=16):
+def csd_plot(output, reference_count=100):
     summary = read_json(ROOT / "data/csd/summary.json")
     fig, axes = plt.subplots(1, 3, figsize=(10, 3), constrained_layout=True)
     rows = []
@@ -232,13 +232,17 @@ def csd_plot(output, reference_count=16):
                     cmap="viridis",
                     rasterized=True,
                 )
-                ax.set_title(f"B {beam}: {len(matrix)} endpoints")
+                ax.text(0.02, 0.98, "(b)" if beam == "GSM" else "(c)",
+                        transform=ax.transAxes, ha="left", va="top", color="white",
+                        bbox=dict(facecolor="black", edgecolor="none", alpha=0.45, pad=1))
                 ax.set_xticks([])
                 ax.set_yticks([])
                 fig.colorbar(im, ax=ax, shrink=0.75)
     axes[0].set_xlabel("Normalized Frobenius distance")
+    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes, ha="left", va="top")
     axes[0].set_ylabel("Empirical CDF")
-    axes[0].legend(fontsize=7, frameon=False, ncol=2)
+    axes[0].legend(fontsize=7, frameon=False, ncol=2,
+                   loc="upper left", bbox_to_anchor=(0, 0.91))
     save(fig, output, "fig4_csd")
     write_csv(output / "fig4_summary.csv", rows)
 
@@ -399,8 +403,8 @@ def main():
         "--reference-count",
         type=int,
         choices=(16, 100),
-        default=16,
-        help="16 matches manuscript numbers; 100 follows its methods text. See MANUSCRIPT_AUDIT.md.",
+        default=100,
+        help="100 uses the current success criterion; 16 reproduces the earlier classification.",
     )
     parser.add_argument(
         "--verify-flux",

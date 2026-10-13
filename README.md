@@ -1,10 +1,10 @@
-# OPMS
+# OPMS: Over-parameterized Pseudo-mode Synthesis
 
 Code and simulation data for **Initialization-robust pseudo-mode synthesis for free-space optical communications**, by Qianyi Zhang and Minghao Wang.
 
 This repository contains the differentiable split-step propagation model, GSM and OPMS source synthesis, scrambled Sobol multistart optimization, frozen endpoint parameters, raw receiver powers, and the data used for the landscape, CSD, structured-beam, frame-budget, and basis comparisons.
 
-The release was checked against the `1007.docx` manuscript available on 8 October 2026. Two inconsistencies between that draft's methods text and its numerical results are documented in [MANUSCRIPT_AUDIT.md](MANUSCRIPT_AUDIT.md). The default figure command reproduces the reported numerical success rates; an explicit option reproduces the top-100 criterion written in the methods. The archived multistart validation uses **1000 atmospheres per endpoint**, not 32,000.
+The default reproduction command uses the **top-100 success criterion**: for each source class and link, the reference is the mean of the highest 100 validated endpoint SNRs among 1024 starts. An endpoint is successful when its SNR is at least this reference minus 0.5 dB. Every archived multistart endpoint is validated using **1000 independent atmospheric realizations**. See [MANUSCRIPT_AUDIT.md](MANUSCRIPT_AUDIT.md) for the sampling convention and historical classifications.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ python reproduce.py --verify-flux --verify-checksums
 
 The command rebuilds six figures as PNG and PDF in `results/`, exports the endpoint and CSD statistics, checks data integrity, and recomputes all 8192 endpoint SNRs from the raw receiver powers. It does not run wave-optics propagation. Fig. 1 is a regenerated workflow schematic rather than the original Visio artwork.
 
-For the alternative success reference described in the manuscript's methods:
+To save the current top-100 figures in a separate directory:
 
 ```bash
 python reproduce.py --reference-count 100 --output results/top100
@@ -47,7 +47,7 @@ python multistart.py --links A B C D --starts 1024 --steps 300 --batch-size 16 -
 
 Keep links in A–D order when reproducing the archived random streams: link position enters the seed. Repeating the same command resumes checkpoints and reuses completed endpoint evaluations. Use a fresh output directory after changing parameters. `--screening-samples` is the common unseen ensemble used for **every** endpoint; `--validation-samples` is an additional ensemble for the selected class winner. They are separate evaluations.
 
-For a new run with the sample count stated in the manuscript, use `--screening-samples 32000 --validation-samples 32000` and a new output directory. This is an additional experiment, not the source of the archived manuscript numbers. Full multistart simulation was not rerun during release preparation.
+Full multistart simulation was not rerun during release preparation. The commands above reproduce the archived sampling policy.
 
 ## Model and data layout
 
@@ -67,7 +67,7 @@ For a new run with the sample count stated in the manuscript, use `--screening-s
 | `data_manifest.json` | SHA-256 checksums and sizes of all archived data files |
 | `results/` | Reproduced figures, statistics and release verification results |
 
-Each `{link}_{kind}_flux.npz` contains `modal_flux` with shape `(1024, 1000, 10)`: endpoint, independent atmospheric window, pseudo-mode. Values preserve the original saved floating-point precision. Each endpoint archive contains 1024 dictionaries with source parameters and optimization histories. Endpoint indices are zero-based. The archives include all endpoints, not only successful ones.
+Each `{link}_{kind}_flux.npz` contains `modal_flux` with shape `(1024, 1000, 10)`: endpoint, independent atmospheric realization, pseudo-mode. Values preserve the original saved floating-point precision. Each endpoint archive contains 1024 dictionaries with source parameters and optimization histories. Endpoint indices are zero-based. The archives include all endpoints, not only successful ones.
 
 Example reading the data:
 
@@ -84,8 +84,12 @@ snr_db = 10 * np.log10(1 / np.sqrt(0.1 / mean_power + np.maximum(si, 0)))
 
 The numerical convention is `10 log10(1 / sqrt(Λe / mean_power + SI))`, consistent with the archived results. Pool linear powers before estimating moments. Averaging SNR values computed from small batches gives a different estimator.
 
-GSM generates an independent ten-frame source sequence for every atmospheric window. OPMS freezes its optimized sequence across validation atmospheres. Within each detector window, every pseudo-mode sees the same frozen atmosphere. Both sources are truncated by the same transmitter aperture and normalized frame by frame.
+GSM generates an independent ten-frame source sequence for every atmospheric realization. OPMS freezes its optimized sequence across validation atmospheres. The ten pseudo-modes within each realization see the same five-screen atmosphere; ten frames do not mean ten independent atmospheres. Both sources are truncated by the same transmitter aperture and normalized frame by frame.
 
 ## Additional reproduction commands
 
 See [REPRODUCTION.md](REPRODUCTION.md) for the landscape, CSD and control experiments, their inputs, and the scope of release testing. The standalone code and data are under the repository's existing Apache-2.0 license. Please cite the manuscript using [CITATION.cff](CITATION.cff).
+
+## Figure numbering
+
+The main-paper plots are Fig. 2 (landscape), Fig. 3 (endpoint distributions and success rates), and Fig. 4 (CSD distances). Supporting structured-beam, frame-budget, and basis comparisons are retained under their historical output names `fig5_*` and `fig6_*`; these data support Supplement Figs. S1–S3. Fig. 3 and Fig. 4 retain panel letters without subplot titles. Use `--reference-count 16` only to reproduce the earlier classification.

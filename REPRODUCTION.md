@@ -2,13 +2,13 @@
 
 Run commands from the repository root. The released numerical kernels keep the original physical formulas, floating-point operations, parameter constraints and random-stream policy. The release removes line-by-line narration, adds concise English documentation, formats the code, separates figure reproduction from simulation, and replaces machine-specific output paths. Historical control module and dataset names remain in the source map for traceability. `SMS` is the historical internal name for OPMS; `PCB` denotes the GSM benchmark.
 
-## Figures 1–6 from archived data
+## Main figures and supplementary controls from archived data
 
 ```bash
 python reproduce.py --verify-flux --verify-checksums
 ```
 
-This reconstructs the figure contents and numerical results; it is not a pixel-for-pixel reproduction of Word's layout or the author's Visio drawing. Default Fig. 3 and Fig. 4 use top-16 selection to match the reported values. Use `--reference-count 100 --output results/top100` to reproduce the methods paragraph's alternate definition. Fig. 5 combines the archived structured-beam table with the weighted-HG holdout results. Fig. 6 uses the archived frame-budget and matched-basis tables.
+This reconstructs the figure contents and numerical results; it is not a pixel-for-pixel reproduction of Word's layout or the author's Visio drawing. Default Fig. 3 and Fig. 4 use the current top-100 success reference. Use `--reference-count 16 --output results/legacy_top16` only for the earlier classification. Fig. 5 combines the archived structured-beam table with the weighted-HG holdout results. Fig. 6 uses the archived frame-budget and matched-basis tables.
 
 ## Figure 2: new landscape and trajectories
 
@@ -51,7 +51,7 @@ python recompute_csd.py --links A --limit 2 --output work/csd_check
 
 The full pairwise computation needs several GB of device memory for OPMS fields. `--limit` is only an integration-check setting and does not reproduce the complete pair distribution.
 
-## Figures 5–6: supporting controls
+## Supplementary controls (historical outputs Fig. 5–6)
 
 The release includes the actual selected source states, raw validation powers where saved, control configurations, and the original simulation modules. These experiments use three cases named `small_rx`, `long_rx20`, and `strong_small_rx` (S1–S3). Their calculations predate the September joint-sampling multistart experiment and retain their own sampling policies and seeds; they must not be silently replaced with its training configuration.
 
