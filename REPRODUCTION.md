@@ -58,10 +58,10 @@ The release includes the actual selected source states, raw validation powers wh
 The following entry points consume the included `logs/` inputs:
 
 ```bash
-python ol_all_beams_pooled_validation.py --atmospheric-samples 2000 --batch-size 4 --bootstrap-repeats 2000 --force
-python ol_weighted_hg_pseudomode_validation_20260901.py --force
-python ol_frame_budget_complete.py
-python ol_hg_lg_basis_control.py
+python all_beams_pooled_validation.py --atmospheric-samples 2000 --batch-size 4 --bootstrap-repeats 2000 --force
+python weighted_hg_pseudomode_validation_20260901.py --force
+python frame_budget_complete.py
+python hg_lg_basis_control.py
 ```
 
 The first command validates selected fixed sources on a common atmospheric pool. The second optimizes and validates weighted pure HG pseudo-modes; use `--help` for available case and sample options. The last two retain completed cached source optimizations and aggregate the supplied frame/basis results. They are supporting research entry points; the release preparation did not rerun their full training campaigns. To regenerate their training, work in a separate copy and move the corresponding completed output directory aside before invoking its entry point. Preserve input directories identified by `REFERENCE_ROOT` and `INPUT_ROOT`.

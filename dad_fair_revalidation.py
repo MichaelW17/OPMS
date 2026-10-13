@@ -12,8 +12,8 @@ import numpy as np
 import torch
 from scipy import special
 
-from ol_frame_budget_complete import dad_orders, load_link
-from ol_structured_compare import weighted_metrics
+from frame_budget_complete import dad_orders, load_link
+from structured_compare import weighted_metrics
 from propagation import LinkConfig, UnifiedWOS
 
 

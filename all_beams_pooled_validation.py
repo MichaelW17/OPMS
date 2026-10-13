@@ -9,17 +9,17 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from ol_dad_fair_revalidation import (
+from dad_fair_revalidation import (
     build_dad_basis,
     build_source_and_norms,
     corrected_dwell_weights,
 )
-from ol_fixed_source_ensemble_validation import (
+from fixed_source_ensemble_validation import (
     metric_from_integrated_power,
     modal_covariance_metrics,
     paired_bootstrap,
 )
-from ol_structured_beams import build_structured_source
+from structured_beams import build_structured_source
 from propagation import LinkConfig, UnifiedWOS
 
 

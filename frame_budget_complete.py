@@ -13,10 +13,10 @@ import numpy as np
 import torch
 from scipy import special, stats
 
-from ol_revalidate_results import validate_one
+from revalidate_results import validate_one
 from sources import serializable_result, train_pcb, validate_result
 from sources import run_experiment
-from ol_structured_compare import weighted_metrics
+from structured_compare import weighted_metrics
 from propagation import LinkConfig, UnifiedWOS
 
 

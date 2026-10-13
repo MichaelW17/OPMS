@@ -8,6 +8,8 @@ authors:
   - family-names: Wang
     given-names: Minghao
 repository-code: "https://github.com/MichaelW17/OPMS"
-license: Apache-2.0
+license:
+  - Apache-2.0
+  - CC-BY-4.0
 version: "0.1.0"
 date-released: "2026-10-08"

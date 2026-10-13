@@ -12,7 +12,7 @@ import numpy as np
 import torch
 from torch import nn
 
-from ol_fixed_source_ensemble_validation import metric_from_integrated_power
+from fixed_source_ensemble_validation import metric_from_integrated_power
 from sources import WG_MIN, bounded, hermite_gaussian_1d, inverse_bounded
 from propagation import LinkConfig, UnifiedWOS
 

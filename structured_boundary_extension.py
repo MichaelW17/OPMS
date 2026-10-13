@@ -9,8 +9,8 @@ from pathlib import Path
 
 import torch
 
-from ol_structured_beams import build_structured_source
-from ol_structured_compare import evaluate_repeats, paired_interval, select_family
+from structured_beams import build_structured_source
+from structured_compare import evaluate_repeats, paired_interval, select_family
 from propagation import LinkConfig, UnifiedWOS
 
 

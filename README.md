@@ -88,8 +88,12 @@ GSM generates an independent ten-frame source sequence for every atmospheric rea
 
 ## Additional reproduction commands
 
-See [REPRODUCTION.md](REPRODUCTION.md) for the landscape, CSD and control experiments, their inputs, and the scope of release testing. The standalone code and data are under the repository's existing Apache-2.0 license. Please cite the manuscript using [CITATION.cff](CITATION.cff).
+See [REPRODUCTION.md](REPRODUCTION.md) for the landscape, CSD and control experiments, their inputs, and the scope of release testing. Code is licensed under Apache-2.0. Research data and figures in `data/`, `logs/`, and `results/` are licensed under CC BY 4.0. See [LICENSING.md](LICENSING.md) for scope and attribution. Please cite the manuscript using [CITATION.cff](CITATION.cff).
 
 ## Figure numbering
 
 The main-paper plots are Fig. 2 (landscape), Fig. 3 (endpoint distributions and success rates), and Fig. 4 (CSD distances). Supporting structured-beam, frame-budget, and basis comparisons are retained under their historical output names `fig5_*` and `fig6_*`; these data support Supplement Figs. S1–S3. Fig. 3 and Fig. 4 retain panel letters without subplot titles. Use `--reference-count 16` only to reproduce the earlier classification.
+
+## Data license and attribution
+
+The research data and figures are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Give credit to Qianyi Zhang and Minghao Wang, link to this repository and the license, and indicate any changes. Dataset citation metadata are provided in [data/CITATION.cff](data/CITATION.cff). Source code remains under [Apache-2.0](LICENSE).

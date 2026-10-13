@@ -10,7 +10,7 @@ import numpy as np
 import torch
 from scipy import stats
 
-from ol_structured_beams import build_structured_source
+from structured_beams import build_structured_source
 from propagation import LinkConfig, UnifiedWOS
 
 

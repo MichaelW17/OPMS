@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please credit the dataset authors and cite the accompanying paper when using these data."
+type: dataset
+title: "OPMS research data and figures"
+authors:
+  - family-names: Zhang
+    given-names: Qianyi
+  - family-names: Wang
+    given-names: Minghao
+url: "https://github.com/MichaelW17/OPMS/tree/main/data"
+repository-code: "https://github.com/MichaelW17/OPMS"
+license: CC-BY-4.0
+date-released: "2026-10-13"
