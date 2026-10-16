@@ -23,7 +23,7 @@ python -m pip install -r requirements.txt
 python reproduce.py --verify-flux --verify-checksums
 ```
 
-The command rebuilds six figures as PNG and PDF in `results/`, exports the endpoint and CSD statistics, checks data integrity, and recomputes all 8192 endpoint SNRs from the raw receiver powers. It does not run wave-optics propagation. Fig. 1 is a regenerated workflow schematic rather than the original Visio artwork.
+The command rebuilds six figures as PNG and PDF in `results/`, exports the endpoint and CSD statistics, checks data integrity, and recomputes all 8192 endpoint SNRs from the raw receiver powers.
 
 To save the current top-100 figures in a separate directory:
 
