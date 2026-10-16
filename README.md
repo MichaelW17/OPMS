@@ -4,7 +4,7 @@ Code and simulation data for **Initialization-robust pseudo-mode synthesis for f
 
 This repository contains the differentiable split-step propagation model, GSM and OPMS source synthesis, scrambled Sobol multistart optimization, frozen endpoint parameters, raw receiver powers, and the data used for the landscape, CSD, structured-beam, frame-budget, and basis comparisons.
 
-The default reproduction command uses the **top-100 success criterion**: for each source class and link, the reference is the mean of the highest 100 validated endpoint SNRs among 1024 starts. An endpoint is successful when its SNR is at least this reference minus 0.5 dB. Every archived multistart endpoint is validated using **1000 independent atmospheric realizations**. See [MANUSCRIPT_AUDIT.md](MANUSCRIPT_AUDIT.md) for the sampling convention and historical classifications.
+The default reproduction command uses the **top-100 success criterion**: for each source class and link, the reference is the mean of the highest 100 validated endpoint SNRs among 1024 starts. An endpoint is successful when its SNR is at least this reference minus 0.5 dB. Every archived multistart endpoint is validated using **1000 independent atmospheric realizations**. See [data_conventions.md](MANUSCRIPT_AUDIT.md) for the sampling convention and historical classifications.
 
 ## Quick start
 
