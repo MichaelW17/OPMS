@@ -1,4 +1,4 @@
-# Data conventions and historical manuscript audit
+# Data conventions
 
 Updated on 13 October 2026. The original audit concerned the 1007 manuscript draft. Its inconsistencies are recorded below for traceability; the current reproduction defaults use top-100 selection. Manuscript files are not bundled.
 
@@ -29,16 +29,3 @@ The 1007 draft stated 32,000 atmospheres per endpoint. This does not describe th
 
 The implementation optimizes 640 amplitude coordinates, 630 relative-phase coordinates, and ten frame-specific waists: 1280 real trainable coordinates for ten frames and an 8×8 HG basis. The first phase in each frame is fixed to eliminate a global phase.
 
-## Historical configuration note
-
-One descriptive text field in the original configuration says 128 screening samples. This is a stale description, not the sample count used by the archived calculation. The numeric configuration argument and saved receiver-power arrays both specify 1000. The historical JSON is retained, with local absolute paths removed. New runs write this description from their actual arguments.
-
-## Verification completed during release preparation
-
-- Recomputed all 8192 endpoint SNRs directly from raw receiver powers; maximum absolute discrepancy was below 1e-12 dB.
-- Matched the original and released 512×512 numerical kernels on CUDA in the tested cases, including source fields, loss, gradients, and Sobol initializations.
-- Completed one GSM and one OPMS trajectory with two Adam updates and 16-atmosphere training and evaluation batches.
-- Recomputed two GSM and two OPMS CSD endpoints on link A and compared them with the stored matrices.
-- Regenerated figures and statistics from the archived data.
-
-These checks validate the data-processing and integration paths. They do not constitute a new full multistart optimization campaign.
