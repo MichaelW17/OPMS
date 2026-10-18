@@ -32,7 +32,7 @@ The implementation optimizes 640 amplitude coordinates, 630 relative-phase coord
 
 ## Current supplementary benchmark
 
-The structured-beam figure now excludes wHG and replaces its older DAD points with the archived 51-mode branch results. DAD uses ten repetitions of 200 atmospheres and Student-t intervals; the other structured-beam points retain their original 2000-atmosphere pooled estimates and bootstrap intervals. The winning DAD branch is dark for L1/L3 and antidark for L2. Both branches and the selection are exported in `data/controls/dad_m51_branches.csv`.
+The structured-beam figure excludes wHG and uses 51-mode DAD. All plotted source estimates now use a single SNR computed from 2000 pooled atmospheric powers, with 95% percentile bootstrap intervals. DAD source parameters are retained from their original branch-specific searches, then newly evaluated on the same atmosphere seed and batch size as the pooled benchmark. Both branches and their selected status are exported in `data/controls/dad_m51_branches.csv`. Original ten-repetition Student-t records remain as historical source-selection records and are superseded for the plotted DAD estimates.
 
 wHG M=10 gives 10.5142, 7.3213 and 6.3736 dB; M=64 gives 10.6470, 7.3904 and 7.2301 dB on L1–L3. These values are extracted from the archived holdout records. Earlier manuscript text giving 7.36 and 6.12 dB for the L2/L3 ten-mode wHG control does not match these records and is superseded.
 

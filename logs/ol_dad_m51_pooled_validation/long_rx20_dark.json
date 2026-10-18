@@ -1,0 +1,24 @@
+{
+  "case": "long_rx20",
+  "link": "L2",
+  "branch": "dark",
+  "mode_count": 51,
+  "candidate": {
+    "family": "dark",
+    "transverse_wavenumber_rad_m": 120.0,
+    "envelope_radius_m": 50.0,
+    "alpha": -0.25,
+    "mode_count": 51
+  },
+  "atmospheric_samples": 2000,
+  "batch_size": 4,
+  "screen_seed": 2026182601,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 2026101802,
+  "estimator": "SNR from pooled linear powers; percentile bootstrap interval",
+  "snr_db": 5.921229368908948,
+  "ci95_low_db": 5.792562003040136,
+  "ci95_high_db": 6.053752409559156,
+  "mean_power": 23.21591490113294,
+  "scintillation_index": 0.05681178594928871
+}

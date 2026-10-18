@@ -47,6 +47,17 @@ def main():
         selected=[r for r in group if r['selected_for_figure']=='True']
         assert len(selected)==1
         assert float(selected[0]['snr_db'])==max(float(r['snr_db']) for r in group)
+    from dad_pooled_validation import pooled_metrics
+    for row in rows:
+        path=ROOT/f"logs/ol_dad_m51_pooled_validation/{row['case']}_{row['branch']}"
+        record=json.loads(path.with_suffix('.json').read_text())
+        with np.load(str(path)+'_powers.npz') as archive:
+            flux=archive['modal_flux'];weights=archive['weights'];power=archive['integrated_power']
+            assert flux.shape==(2000,51)
+            assert np.allclose(flux@weights,power,rtol=0,atol=1e-10)
+        metrics=pooled_metrics(power,.2,record['bootstrap_seed'],record['bootstrap_repeats'])
+        for key in ('snr_db','ci95_low_db','ci95_high_db'):
+            assert abs(metrics[key]-float(row[key]))<1e-10
     report['dad_branches_verified']=len(rows)
     (ROOT/'results/supplement_verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))

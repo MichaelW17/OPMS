@@ -1,7 +1,7 @@
-link,case,branch,mode_count,snr_db,ci95_low_db,ci95_high_db,interval,selected_for_figure
-L1,small_rx,dark,51,7.905531982571921,7.86252325065344,7.9485407144904014,"Student-t, 10 repetitions of 200 atmospheres",True
-L1,small_rx,antidark,51,7.851006667709806,7.812083620508197,7.889929714911414,"Student-t, 10 repetitions of 200 atmospheres",False
-L2,long_rx20,dark,51,6.106080801256576,5.958949781419498,6.253211821093655,"Student-t, 10 repetitions of 200 atmospheres",False
-L2,long_rx20,antidark,51,6.1093715444132854,5.972220209937551,6.24652287888902,"Student-t, 10 repetitions of 200 atmospheres",True
-L3,strong_small_rx,dark,51,5.643121107488026,5.510738845378934,5.775503369597119,"Student-t, 10 repetitions of 200 atmospheres",True
-L3,strong_small_rx,antidark,51,5.627194379401599,5.499872129596224,5.754516629206974,"Student-t, 10 repetitions of 200 atmospheres",False
+link,case,branch,mode_count,snr_db,ci95_low_db,ci95_high_db,atmospheric_samples,bootstrap_repeats,selected_for_figure
+L1,small_rx,dark,51,7.908225826798012,7.83545294948726,7.981217207490827,2000,2000,True
+L1,small_rx,antidark,51,7.865428927364491,7.797022230229941,7.931587298900267,2000,2000,False
+L2,long_rx20,dark,51,5.921229368908948,5.792562003040136,6.053752409559156,2000,2000,True
+L2,long_rx20,antidark,51,5.920880267500964,5.7900456757106715,6.052175373977691,2000,2000,False
+L3,strong_small_rx,dark,51,5.629106289657591,5.531184235628233,5.730474109670405,2000,2000,True
+L3,strong_small_rx,antidark,51,5.6153896133493415,5.517690833166625,5.7186919830358685,2000,2000,False

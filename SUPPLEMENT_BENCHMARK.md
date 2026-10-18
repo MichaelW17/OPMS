@@ -62,7 +62,11 @@ J_ℓ is the Bessel function of the first kind of integer order ℓ, β is the t
 
 The archived DAD-51 generator does **not** multiply these fields by an additional optimized curvature phase. A working Supplement expression containing such a phase must use κ=0 to describe these data. Optimizing DAD-51 curvature requires a new experiment; the existing code and records are preserved as calculated.
 
-Both branches were searched and validated separately. For each link, the figure reports the branch with the higher **validated** SNR: dark on L1/L3 and antidark on L2. The CSV retains both branches and explicitly identifies the plotted branch. Its interval is the selected branch's 95% Student-t interval over ten repetitions of 200 atmospheres, without adjustment for selecting the larger branch estimate. The other structured-beam points use the original 2000-atmosphere pooled-power estimates and percentile bootstrap intervals. The two estimators are identified rather than treated as interchangeable.
+Both branches were searched separately. Their previously selected parameters are frozen for the updated validation: each branch is evaluated on the same 2000 atmospheric realizations as the original pooled benchmark, using the recorded common seed and processing batch size four. Modal powers are first combined using the dwell weights; all 2000 integrated powers are then pooled to compute one SNR. Percentile bootstrap resampling of these powers, with 2000 resamples, gives the 95% interval. The plotted branch is the one with the higher pooled validated SNR within each link. The reported interval belongs to that branch and is not adjusted for branch selection.
+
+The current `data/controls/dad_m51_branches.csv` contains the updated pooled-power estimates and branch choices. The saved `logs/ol_dad_m51_pooled_validation/*_powers.npz` files contain every modal power, the dwell weights and all integrated powers. The older repetition-averaged Student-t estimates remain in `logs/ol_dad_sms_m51` for source-selection provenance, but are not plotted in the current benchmark.
+
+Suggested Supplement description: For DAD, 51 angular components with orders from −25 to 25 were used. The dark and antidark branches were searched separately, and the branch yielding the higher validated SNR was reported for each link.
 
 ## Weighted pure HG control
 

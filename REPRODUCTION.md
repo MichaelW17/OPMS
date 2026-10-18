@@ -77,11 +77,14 @@ The release checks ran in Python 3.10.13, torch 2.1.0, NumPy 1.26.4, SciPy 1.11.
 ```bash
 python weighted_hg_m64_experiment.py --mode-count 64 --runs 8 --steps 300 --selection-samples 128 --holdout-samples 2000 --batch-size 4 --bootstrap-repeats 2000 --force
 python dad_m51.py
+python dad_pooled_validation.py --samples 2000 --batch-size 4 --bootstrap-repeats 2000
 python s7_step_sensitivity.py --repeats 16 --samples 1000 --batch-size 8
 ```
 
-The DAD command reuses completed archived JSONs by default. For a new calculation, move its completed output directory to a backup location before running it; retain the `ol_sms_pcb_3param` and `ol_structured_comparison_v3` input directories. Both dark and antidark branches remain in the archive. The plotted DAD point is selected by the higher branch-level validated SNR for each link; its interval is the selected branch's Student-t interval, not an interval adjusted for branch selection.
+The DAD command reuses completed archived JSONs by default. For a new calculation, move its completed output directory to a backup location before running it; retain the `ol_sms_pcb_3param` and `ol_structured_comparison_v3` input directories. Both dark and antidark branches remain in the archive. The current plotted DAD point uses `dad_pooled_validation.py`: all 2000 atmospheric powers are pooled before computing SNR, and 2000 bootstrap resamples give its percentile interval. Both branches are newly validated with their previously selected parameters. The branch with higher pooled validated SNR is plotted; its interval is not adjusted for branch selection. The original repetition-averaged Student-t records are retained only for provenance.
 
 The wHG-64 calculation optimizes 64 pure HG mode weights, a common waist and curvature. It uses the same weighted-HG implementation as the ten-mode control, with sufficient Hermite recurrence order for 64 modes. The M=16/32 exploratory runs are not part of this release.
 
 The propagation-step command freezes each archived optimized source separately for each M, then changes only K during validation. It does not extract M=1/2/4 fields from an M=10 source. GSM uses a fixed sampled source sequence in this sensitivity control, as recorded by the implementation, rather than resampling the source for every atmosphere. This differs from the main GSM benchmark policy. The cached results include all 16 repetition-level SNRs for each source and K.
+
+Run `python verify_supplement.py` to check wHG powers, DAD powers and bootstrap intervals, branch selection, and the propagation-step repetition statistics against the exported tables.

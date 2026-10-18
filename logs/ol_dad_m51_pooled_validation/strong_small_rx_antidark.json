@@ -1,0 +1,24 @@
+{
+  "case": "strong_small_rx",
+  "link": "L3",
+  "branch": "antidark",
+  "mode_count": 51,
+  "candidate": {
+    "family": "antidark",
+    "transverse_wavenumber_rad_m": 300.0,
+    "envelope_radius_m": 50.0,
+    "alpha": 0.25,
+    "mode_count": 51
+  },
+  "atmospheric_samples": 2000,
+  "batch_size": 4,
+  "screen_seed": 2026282601,
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 2026101803,
+  "estimator": "SNR from pooled linear powers; percentile bootstrap interval",
+  "snr_db": 5.6153896133493415,
+  "ci95_low_db": 5.517690833166625,
+  "ci95_high_db": 5.7186919830358685,
+  "mean_power": 11.529563516140536,
+  "scintillation_index": 0.057975330154727
+}
