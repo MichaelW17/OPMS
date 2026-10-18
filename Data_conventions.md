@@ -1,6 +1,6 @@
 # Data conventions
 
-Updated on 13 October 2026. The original audit concerned the 1007 manuscript draft. Its inconsistencies are recorded below for traceability; the current reproduction defaults use top-100 selection. Manuscript files are not bundled.
+Updated on 18 October 2026. The original audit concerned the 1007 manuscript draft. Its inconsistencies are recorded below for traceability; the current reproduction defaults use top-100 selection. Manuscript files are not bundled.
 
 ## Current success criterion
 
@@ -29,3 +29,13 @@ The 1007 draft stated 32,000 atmospheres per endpoint. This does not describe th
 
 The implementation optimizes 640 amplitude coordinates, 630 relative-phase coordinates, and ten frame-specific waists: 1280 real trainable coordinates for ten frames and an 8×8 HG basis. The first phase in each frame is fixed to eliminate a global phase.
 
+
+## Current supplementary benchmark
+
+The structured-beam figure now excludes wHG and replaces its older DAD points with the archived 51-mode branch results. DAD uses ten repetitions of 200 atmospheres and Student-t intervals; the other structured-beam points retain their original 2000-atmosphere pooled estimates and bootstrap intervals. The winning DAD branch is dark for L1/L3 and antidark for L2. Both branches and the selection are exported in `data/controls/dad_m51_branches.csv`.
+
+wHG M=10 gives 10.5142, 7.3213 and 6.3736 dB; M=64 gives 10.6470, 7.3904 and 7.2301 dB on L1–L3. These values are extracted from the archived holdout records. Earlier manuscript text giving 7.36 and 6.12 dB for the L2/L3 ten-mode wHG control does not match these records and is superseded.
+
+The M=10 OPMS structured-benchmark table gives 10.8481, 7.5727 and 6.8787 dB. Do not substitute the repetition-averaged frame-budget results (10.7988, 7.6711 and 6.9934 dB) for these pooled-power figure values. Source budgets and validation estimators must be identified when comparing different controls.
+
+The archived DAD-51 generator applies the Gaussian envelope and angular Bessel field without an additional optimized quadratic phase. The quadratic-phase DAD expression in a working Supplement draft is therefore not a description of these archived DAD-51 runs. The release documents this explicitly rather than changing the data or silently adding focusing to the reproduction code. A focused DAD-51 control would require a new search and validation experiment.

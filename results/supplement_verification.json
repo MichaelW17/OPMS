@@ -1,0 +1,11 @@
+{
+  "L1_wHG_M10_raw_power_error_db": 0.0,
+  "L2_wHG_M10_raw_power_error_db": 0.0,
+  "L3_wHG_M10_raw_power_error_db": 0.0,
+  "L1_wHG_M64_raw_power_error_db": 0.0,
+  "L2_wHG_M64_raw_power_error_db": 0.0,
+  "L3_wHG_M64_raw_power_error_db": 0.0,
+  "step_sensitivity_records": 72,
+  "step_sensitivity_max_error_db": 0,
+  "dad_branches_verified": 6
+}

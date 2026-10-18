@@ -482,7 +482,7 @@ def plot_result(arguments: argparse.Namespace) -> Path:
         lcr_values, wg_values, surface, shading="auto", cmap="viridis", rasterized=True
     )
     colorbar = figure.colorbar(mesh, ax=axis, pad=0.02)
-    colorbar.set_label("SNRP (dB)")
+    colorbar.set_label("SNR (dB)")
     contour_levels = np.linspace(np.nanpercentile(surface, 35.0), np.nanmax(surface), 7)
     axis.contour(
         lcr_values,
@@ -538,8 +538,8 @@ def plot_result(arguments: argparse.Namespace) -> Path:
     axis.set_yscale("log")
     axis.set_xlim(lcr_values.min(), lcr_values.max())
     axis.set_ylim(wg_values.min(), wg_values.max())
-    axis.set_xlabel(r"Coherence length $L_{\mathrm{cr}}$ (mm)")
-    axis.set_ylabel(r"Source radius $W_g$ (mm)")
+    axis.set_xlabel(r"Coherence length $l_{\mathrm{cr}}$ (mm)")
+    axis.set_ylabel(r"Source radius $w_g$ (mm)")
     axis.text(
         0.025,
         0.97,
@@ -547,7 +547,7 @@ def plot_result(arguments: argparse.Namespace) -> Path:
         transform=axis.transAxes,
         ha="left",
         va="top",
-        fontsize=6.5,
+        fontsize=8.5,
         color="white",
         bbox={
             "boxstyle": "round,pad=0.18",

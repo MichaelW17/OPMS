@@ -13,5 +13,8 @@
   "structured_compare.py": "ol_structured_compare.py",
   "weighted_hg_pseudomode_validation_20260901.py": "ol_weighted_hg_pseudomode_validation_20260901.py",
   "propagation.py": "ol_wos_unified.py",
-  "csd_distance.py": "recompute_csd_sobol1024_deterministic_20260928.py"
+  "csd_distance.py": "recompute_csd_sobol1024_deterministic_20260928.py",
+  "dad_m51.py": "ol_dad_sms_m51_comparison.py",
+  "weighted_hg_m64_experiment.py": "extended weighted HG control, 18 October 2026",
+  "s7_step_sensitivity.py": "fixed-source propagation-step sensitivity, 17 October 2026"
 }

@@ -23,7 +23,7 @@ python -m pip install -r requirements.txt
 python reproduce.py --verify-flux --verify-checksums
 ```
 
-The command rebuilds six figures as PNG and PDF in `results/`, exports the endpoint and CSD statistics, checks data integrity, and recomputes all 8192 endpoint SNRs from the raw receiver powers.
+The command rebuilds seven figures as PNG and PDF in `results/`, exports the endpoint and CSD statistics, checks data integrity, and recomputes all 8192 endpoint SNRs from the raw receiver powers.
 
 To save the current top-100 figures in a separate directory:
 
@@ -92,7 +92,15 @@ See [REPRODUCTION.md](REPRODUCTION.md) for the landscape, CSD and control experi
 
 ## Figure numbering
 
-The main-paper plots are Fig. 2 (landscape), Fig. 3 (endpoint distributions and success rates), and Fig. 4 (CSD distances). Supporting structured-beam, frame-budget, and basis comparisons are retained under their historical output names `fig5_*` and `fig6_*`; these data support Supplement Figs. S1–S3. Fig. 3 and Fig. 4 retain panel letters without subplot titles. Use `--reference-count 16` only to reproduce the earlier classification.
+The main-paper plots are Fig. 2 (landscape), Fig. 3 (endpoint distributions and success rates), and Fig. 4 (CSD distances). Supplement outputs use their current numbering:
+
+- `figS1_modal_truncation`: independently optimized OPMS and GSM versus modal truncation order M.
+- `figS2_basis_comparison`: matched LG-minus-HG source representation comparison.
+- `figS3_structured_beams`: OPMS, GSM, CB, Sharp, Pin, IOPB, and 51-mode DAD; circles, squares and triangles identify L1, L2 and L3.
+
+wHG is discussed separately in the Supplement. `data/controls/weighted_hg_comparison.csv` provides the M=10 and M=64 results, and `dad_m51_branches.csv` records both DAD branches and the branch selected for each plotted point. `propagation_step_sensitivity.csv` contains fixed-source absolute SNRs at M=1,2,4,10 and K=5,7,10, using 16 repetitions of 1000 atmospheres. See [SUPPLEMENT_BENCHMARK.md](SUPPLEMENT_BENCHMARK.md) for source formulas, parameter definitions, sampling policies and the scope of the comparison.
+
+Experiments not used in the current manuscript or Supplement have been removed from this checkout. Numerical modules and historical inputs needed by the retained reproduction entry points remain available. Prior repository versions remain accessible in Git history.
 
 ## Data license and attribution
 
