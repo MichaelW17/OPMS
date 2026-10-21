@@ -1,0 +1,8578 @@
+[
+  {
+    "run": 0,
+    "initial_sobol_point": [
+      0.20669226348400116,
+      0.39403805136680603
+    ],
+    "raw_endpoint": [
+      1.257453441619873,
+      0.11562607437372208
+    ],
+    "parameters": {
+      "waist_m": 0.07852298021316528,
+      "normalized_curvature": 1.0577486753463745
+    },
+    "selection_snr_db": 4.7894555217259285,
+    "seconds": 5.402591705322266,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.596672560859223
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.117775711587836
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.687508933020082
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.511078615109156
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.890879792920069
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.721864894801896
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.4073829084765865
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.88234201987566
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.377848198314556
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.024241931819493
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.333971617853951
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.455868606079182
+      }
+    ]
+  },
+  {
+    "run": 1,
+    "initial_sobol_point": [
+      0.7873724102973938,
+      0.5799519419670105
+    ],
+    "raw_endpoint": [
+      3.789823532104492,
+      -0.09590613096952438
+    ],
+    "parameters": {
+      "waist_m": 0.09785628318786621,
+      "normalized_curvature": 0.9520837664604187
+    },
+    "selection_snr_db": 4.8601376890304575,
+    "seconds": 5.371370077133179,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.06267336087263
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.295430613638298
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.725244748062429
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.004190221225289
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.903081191021805
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.4924270803575626
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.520329681510373
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.490666527747418
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.9145807439746765
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.764629072561302
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.438616257990201
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.682011140123601
+      }
+    ]
+  },
+  {
+    "run": 2,
+    "initial_sobol_point": [
+      0.6977267861366272,
+      0.16074196994304657
+    ],
+    "raw_endpoint": [
+      3.3081915378570557,
+      0.020743822678923607
+    ],
+    "parameters": {
+      "waist_m": 0.0965767577290535,
+      "normalized_curvature": 1.0103715658187866
+    },
+    "selection_snr_db": 4.856999022892563,
+    "seconds": 5.376344442367554,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.0239327423128017
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.667597347539831
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.6177789740650557
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.403377788258243
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.566668052821405
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.240475562375186
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.046043984308448
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.213612765517786
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.72386871493613
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.424946856669896
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.171729727142703
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.351308318719536
+      }
+    ]
+  },
+  {
+    "run": 3,
+    "initial_sobol_point": [
+      0.31211552023887634,
+      0.8498299717903137
+    ],
+    "raw_endpoint": [
+      -1.9153411388397217,
+      1.3941630125045776
+    ],
+    "parameters": {
+      "waist_m": 0.015453051775693893,
+      "normalized_curvature": 1.602512001991272
+    },
+    "selection_snr_db": 4.226586486868617,
+    "seconds": 5.368764877319336,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.8440486507829545
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.223643341260596
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.7071981362984014
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.194137463332816
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.307094900333418
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.561563916777514
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.756615869784944
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.112687883910906
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.431214367879333
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.161887589805261
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.825713801066316
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.754497892490617
+      }
+    ]
+  },
+  {
+    "run": 4,
+    "initial_sobol_point": [
+      0.4990995228290558,
+      0.1143573671579361
+    ],
+    "raw_endpoint": [
+      2.1328799724578857,
+      -0.02554994635283947
+    ],
+    "parameters": {
+      "waist_m": 0.0897236317396164,
+      "normalized_curvature": 0.9872257113456726
+    },
+    "selection_snr_db": 4.843999194141257,
+    "seconds": 5.359797477722168,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.978187486175004
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.180227860649422
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.552913034859446
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.987111019896663
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.24137996967818
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.752138665977478
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.541254275777315
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.972957961370376
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.040709067279336
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.740537915500323
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.752695463067747
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.450726683218727
+      }
+    ]
+  },
+  {
+    "run": 5,
+    "initial_sobol_point": [
+      0.510681688785553,
+      0.9294215440750122
+    ],
+    "raw_endpoint": [
+      -1.8635380268096924,
+      1.6103359460830688
+    ],
+    "parameters": {
+      "waist_m": 0.016026247292757034,
+      "normalized_curvature": 1.666916012763977
+    },
+    "selection_snr_db": 4.236732467803511,
+    "seconds": 5.361114025115967,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.141923138111514
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.270798687186579
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.952917017067433
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.52529092499809
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.411933947735119
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.7090606109679154
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.733534694661885
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.635766195571038
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.375588109200069
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.375700769584734
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.455367211495684
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.301439485191594
+      }
+    ]
+  },
+  {
+    "run": 6,
+    "initial_sobol_point": [
+      0.9753883481025696,
+      0.3154188096523285
+    ],
+    "raw_endpoint": [
+      6.383492469787598,
+      0.0845009833574295
+    ],
+    "parameters": {
+      "waist_m": 0.09983642399311066,
+      "normalized_curvature": 1.0422253608703613
+    },
+    "selection_snr_db": 4.853238692251253,
+    "seconds": 5.3682777881622314,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.122837008499265
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.1655140660427206
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.2386473427157165
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.7400313600436115
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.650176772817257
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.351276209896337
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.8825525446989633
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.7890952538877958
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.047634358786035
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.129727976757136
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.273223798160779
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.549619084362556
+      }
+    ]
+  },
+  {
+    "run": 7,
+    "initial_sobol_point": [
+      0.01873740181326866,
+      0.6253565549850464
+    ],
+    "raw_endpoint": [
+      -2.0253803730010986,
+      3.4401724338531494
+    ],
+    "parameters": {
+      "waist_m": 0.01430668868124485,
+      "normalized_curvature": 1.937873363494873
+    },
+    "selection_snr_db": 4.2393737363912,
+    "seconds": 5.366221904754639,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.704276173324913
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.458687187222273
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.156988570281197
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.192249758512182
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.4730454805672952
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.420028609417391
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.334263665007382
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.9432757270847385
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.417974922217259
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.78973390908973
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.0759572734953675
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.018841768373367
+      }
+    ]
+  },
+  {
+    "run": 8,
+    "initial_sobol_point": [
+      0.06760693341493607,
+      0.1911335289478302
+    ],
+    "raw_endpoint": [
+      -1.8522043228149414,
+      1.952771544456482
+    ],
+    "parameters": {
+      "waist_m": 0.016154587268829346,
+      "normalized_curvature": 1.7514971494674683
+    },
+    "selection_snr_db": 4.244700942766269,
+    "seconds": 5.357715606689453,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.619249794693813
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.707009557822643
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.764929598591294
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.990498047237159
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.2359229498432605
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.250628488405457
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.292952923851582
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.110620158349417
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.8093103040962335
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.057713011636936
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.450855260043394
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.9868417599448813
+      }
+    ]
+  },
+  {
+    "run": 9,
+    "initial_sobol_point": [
+      0.9227030277252197,
+      0.7510713934898376
+    ],
+    "raw_endpoint": [
+      5.0649237632751465,
+      -0.026809249073266983
+    ],
+    "parameters": {
+      "waist_m": 0.09939134865999222,
+      "normalized_curvature": 0.9865961670875549
+    },
+    "selection_snr_db": 4.8657280850707565,
+    "seconds": 5.357357740402222,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.195729575778276
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.629932758058711
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.21784187518456
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.647253406916444
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.8173233354250136
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.428587806105212
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.204425426677982
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.454118667483771
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.143714633102022
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.9925996683462515
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.053447949879102
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.596352288225116
+      }
+    ]
+  },
+  {
+    "run": 10,
+    "initial_sobol_point": [
+      0.5907174348831177,
+      0.4886464476585388
+    ],
+    "raw_endpoint": [
+      2.7408370971679688,
+      0.018127277493476868
+    ],
+    "parameters": {
+      "waist_m": 0.09412119537591934,
+      "normalized_curvature": 1.0090633630752563
+    },
+    "selection_snr_db": 4.851941866465764,
+    "seconds": 5.371817350387573,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.941123439331017
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.283733037312281
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.405764550908561
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.103647938597625
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.902194182302005
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.128879150982542
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.5063360443880445
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.7690116385454075
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.8398803830154185
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.64595253559345
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.67483355121499
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.737659311929233
+      }
+    ]
+  },
+  {
+    "run": 11,
+    "initial_sobol_point": [
+      0.4150651693344116,
+      0.5537104606628418
+    ],
+    "raw_endpoint": [
+      2.03554368019104,
+      0.045446768403053284
+    ],
+    "parameters": {
+      "waist_m": 0.08879443258047104,
+      "normalized_curvature": 1.0227195024490356
+    },
+    "selection_snr_db": 4.835581154561892,
+    "seconds": 5.367001295089722,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.923129064309513
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.733387240097803
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.24402289483446
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.5327165385976915
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.706469111058466
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.062255218145511
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.4948889183319185
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.250531275973362
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.516468070916716
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.8106990313067217
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.705383520613795
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.065059003353573
+      }
+    ]
+  },
+  {
+    "run": 12,
+    "initial_sobol_point": [
+      0.35308098793029785,
+      0.2869727611541748
+    ],
+    "raw_endpoint": [
+      1.732502818107605,
+      0.07095569372177124
+    ],
+    "parameters": {
+      "waist_m": 0.0854240357875824,
+      "normalized_curvature": 1.0354629755020142
+    },
+    "selection_snr_db": 4.821968082859738,
+    "seconds": 5.385931491851807,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.2154651100472345
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.267216671921769
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.5789273364311605
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.934017367277348
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.857205115350369
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.262722626435781
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.789709286188017
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.164842663919284
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.262857823650623
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.072072479436074
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.563939942095
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.430325491623119
+      }
+    ]
+  },
+  {
+    "run": 13,
+    "initial_sobol_point": [
+      0.6527624130249023,
+      0.7260606288909912
+    ],
+    "raw_endpoint": [
+      3.1135425567626953,
+      0.0028540983330458403
+    ],
+    "parameters": {
+      "waist_m": 0.09587244689464569,
+      "normalized_curvature": 1.0014270544052124
+    },
+    "selection_snr_db": 4.857117353168431,
+    "seconds": 5.353644609451294,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.550569818598128
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.048175540959936
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.302738148068515
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.142602973165048
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.055117060102174
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.126044985175973
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.316771253466883
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.9502251091358325
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.703648960897521
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.7972350688545635
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.751067574831874
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.412083278989821
+      }
+    ]
+  },
+  {
+    "run": 14,
+    "initial_sobol_point": [
+      0.8596872091293335,
+      0.017803456634283066
+    ],
+    "raw_endpoint": [
+      3.0545575618743896,
+      0.06366652995347977
+    ],
+    "parameters": {
+      "waist_m": 0.09563295543193817,
+      "normalized_curvature": 1.0318225622177124
+    },
+    "selection_snr_db": 4.8489242927171,
+    "seconds": 5.374234199523926,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.924492025661945
+      },
+      {
+        "step": 50,
+        "training_snr_db": 2.932194115849531
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.8804862354955016
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.896436001364644
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.522447507495872
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.128009325698951
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.0857340317971005
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.1187566318987985
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.407166993555997
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.045948981142574
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.187772547109943
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.483451833556309
+      }
+    ]
+  },
+  {
+    "run": 15,
+    "initial_sobol_point": [
+      0.1305619329214096,
+      0.9537174701690674
+    ],
+    "raw_endpoint": [
+      -1.7495049238204956,
+      3.8438966274261475
+    ],
+    "parameters": {
+      "waist_m": 0.01736663654446602,
+      "normalized_curvature": 1.9580775499343872
+    },
+    "selection_snr_db": 4.251187245155662,
+    "seconds": 5.347924470901489,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.765386901097936
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.651601779843724
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.197774633420157
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.875380814397076
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.346677820192753
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.4996140073027835
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.7057925067791015
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.295526477453336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.819554899307415
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.557945652893826
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.259963079681722
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.540913415381401
+      }
+    ]
+  },
+  {
+    "run": 16,
+    "initial_sobol_point": [
+      0.17760413885116577,
+      0.06169437989592552
+    ],
+    "raw_endpoint": [
+      -1.964053750038147,
+      1.170744776725769
+    ],
+    "parameters": {
+      "waist_m": 0.014933813363313675,
+      "normalized_curvature": 1.5265592336654663
+    },
+    "selection_snr_db": 4.21208912532978,
+    "seconds": 5.376684904098511,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.238228728733345
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.283305228051965
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.4904722769116474
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.3815896564439507
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.738492103563141
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.153998170468628
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.652224019738293
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.153604617183441
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.341421033740867
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.251736287420773
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.779357728403176
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.380522448971951
+      }
+    ]
+  },
+  {
+    "run": 17,
+    "initial_sobol_point": [
+      0.8127366900444031,
+      0.9976065158843994
+    ],
+    "raw_endpoint": [
+      -2.0610201358795166,
+      3.205361843109131
+    ],
+    "parameters": {
+      "waist_m": 0.013955527916550636,
+      "normalized_curvature": 1.9220709800720215
+    },
+    "selection_snr_db": 4.230428703859238,
+    "seconds": 5.368794918060303,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.9724232720679127
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.3084700328545673
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.1742632729827434
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8758774612574736
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.282095282760009
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.957551394519576
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.4867157476664485
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.616109068640597
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.121411337662285
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.9953892220707887
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.8135790905950175
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.030994902771775
+      }
+    ]
+  },
+  {
+    "run": 18,
+    "initial_sobol_point": [
+      0.6679767966270447,
+      0.2585904896259308
+    ],
+    "raw_endpoint": [
+      3.2716825008392334,
+      -0.018114998936653137
+    ],
+    "parameters": {
+      "waist_m": 0.09645411372184753,
+      "normalized_curvature": 0.9909427762031555
+    },
+    "selection_snr_db": 4.859532392988106,
+    "seconds": 5.434416770935059,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.8061521744041116
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.093812967045794
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.3534132981449645
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.514322098448139
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.497685313454274
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.1404724510511905
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.710250395926321
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.7410798896524895
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.341422469960486
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.408334946868434
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.525739468359988
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.738513798689254
+      }
+    ]
+  },
+  {
+    "run": 19,
+    "initial_sobol_point": [
+      0.33777540922164917,
+      0.697676420211792
+    ],
+    "raw_endpoint": [
+      1.7691391706466675,
+      0.050777096301317215
+    ],
+    "parameters": {
+      "waist_m": 0.08587200939655304,
+      "normalized_curvature": 1.0253831148147583
+    },
+    "selection_snr_db": 4.8266655785880666,
+    "seconds": 5.421619653701782,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.341422588696161
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.243566219436355
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.495983592037652
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.428666593494135
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.53388897484771
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.54231558549186
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.472563573060207
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.249952319552083
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.60066102743946
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.286399215923576
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.9322536118402946
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.485905665324763
+      }
+    ]
+  },
+  {
+    "run": 20,
+    "initial_sobol_point": [
+      0.39981478452682495,
+      0.462190181016922
+    ],
+    "raw_endpoint": [
+      1.9137308597564697,
+      -0.07481388747692108
+    ],
+    "parameters": {
+      "waist_m": 0.08752945810556412,
+      "normalized_curvature": 0.9626105427742004
+    },
+    "selection_snr_db": 4.83715612015981,
+    "seconds": 5.388009548187256,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.870853296894851
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.755440761477435
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.7358087632063635
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.617623084688064
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.570819108255225
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.000801367672831
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.800420137504076
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.729585211211008
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.403986645109629
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.361507520433717
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.4864092165555487
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.197150140849568
+      }
+    ]
+  },
+  {
+    "run": 21,
+    "initial_sobol_point": [
+      0.6059984564781189,
+      0.5272530913352966
+    ],
+    "raw_endpoint": [
+      2.8630387783050537,
+      0.03638049587607384
+    ],
+    "parameters": {
+      "waist_m": 0.09476090967655182,
+      "normalized_curvature": 1.0181881189346313
+    },
+    "selection_snr_db": 4.851254184188379,
+    "seconds": 5.409968376159668,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.042385583483783
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.7697479942089185
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.439917262261382
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.47373477269715
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.258692869697267
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.130635321281067
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.40516161022885
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.4008084361441675
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.4397282830491225
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.429379155964666
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.208241022002833
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.711407432785642
+      }
+    ]
+  },
+  {
+    "run": 22,
+    "initial_sobol_point": [
+      0.8756973147392273,
+      0.2330908179283142
+    ],
+    "raw_endpoint": [
+      4.406116962432861,
+      0.0014552855864167213
+    ],
+    "parameters": {
+      "waist_m": 0.09883062541484833,
+      "normalized_curvature": 1.0007275342941284
+    },
+    "selection_snr_db": 4.863275357689954,
+    "seconds": 5.378797769546509,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.06878501590581
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.056576466446484
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.164383302626466
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.534252521646929
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.521474662977372
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.631422829254352
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.037742242787294
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.872457357149385
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.140954410985308
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.849219894502164
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.4247567848441225
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.4129197408252114
+      }
+    ]
+  },
+  {
+    "run": 23,
+    "initial_sobol_point": [
+      0.11458246409893036,
+      0.7930260300636292
+    ],
+    "raw_endpoint": [
+      -1.923386573791504,
+      2.952528238296509
+    ],
+    "parameters": {
+      "waist_m": 0.01536598615348339,
+      "normalized_curvature": 1.9007656574249268
+    },
+    "selection_snr_db": 4.25191591143376,
+    "seconds": 5.387188673019409,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.7200466410859883
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.76548282930965
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.162747414817446
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.7821553210829935
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.696129560869975
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.2442037367867966
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.711518227022108
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.975920921786783
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.881372611492887
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.16412711388082
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.7215420404334765
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.383476359694467
+      }
+    ]
+  },
+  {
+    "run": 24,
+    "initial_sobol_point": [
+      0.034424759447574615,
+      0.3592947721481323
+    ],
+    "raw_endpoint": [
+      -1.8728841543197632,
+      2.505094289779663
+    ],
+    "parameters": {
+      "waist_m": 0.01592121087014675,
+      "normalized_curvature": 1.8489964008331299
+    },
+    "selection_snr_db": 4.25153286362372,
+    "seconds": 5.374079465866089,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.688124443540507
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.875723145348353
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.2374216988573075
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.5049873781544467
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.9356189778594795
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.272156083926264
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.5796086631340245
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.3184537651276864
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.480761760549764
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.1830336167657105
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.542037379288096
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.768023631716251
+      }
+    ]
+  },
+  {
+    "run": 25,
+    "initial_sobol_point": [
+      0.9596097469329834,
+      0.6692301034927368
+    ],
+    "raw_endpoint": [
+      5.7666015625,
+      -0.03934716060757637
+    ],
+    "parameters": {
+      "waist_m": 0.0996972993016243,
+      "normalized_curvature": 0.9803289175033569
+    },
+    "selection_snr_db": 4.86647576658773,
+    "seconds": 5.3969316482543945,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.54225739736009
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.8459126156535812
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.1263016683557785
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.366493021257329
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.565338359025776
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.376137926294078
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.114551579797556
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.877338814756797
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.435915859946487
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.2097376117980145
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.655191679728409
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.467121047581464
+      }
+    ]
+  },
+  {
+    "run": 26,
+    "initial_sobol_point": [
+      0.5572508573532104,
+      0.0859900563955307
+    ],
+    "raw_endpoint": [
+      2.1506049633026123,
+      0.05238627642393112
+    ],
+    "parameters": {
+      "waist_m": 0.08988535404205322,
+      "normalized_curvature": 1.0261871814727783
+    },
+    "selection_snr_db": 4.837380760044375,
+    "seconds": 5.367009878158569,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.270274540328113
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.9006779201293162
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.8664952136771316
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.365209810036966
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.693683084834836
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.100268157626536
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.960920441219036
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.6551673165314895
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.028031814641054
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.424118424655788
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.859940579738563
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.1634355940074705
+      }
+    ]
+  },
+  {
+    "run": 27,
+    "initial_sobol_point": [
+      0.45262208580970764,
+      0.9010528326034546
+    ],
+    "raw_endpoint": [
+      1.3951336145401,
+      -0.036778852343559265
+    ],
+    "parameters": {
+      "waist_m": 0.08073682337999344,
+      "normalized_curvature": 0.9816126227378845
+    },
+    "selection_snr_db": 4.816907381769619,
+    "seconds": 5.363501071929932,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.5568848468631997
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.6763557125827773
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.5878687721612446
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.050238544994695
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.030746826524609
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.6935724772622
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.232671617138232
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.2656959155705945
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.551628918550439
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.448927384677424
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.3024059002675346
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.588338021041867
+      }
+    ]
+  },
+  {
+    "run": 28,
+    "initial_sobol_point": [
+      0.26558277010917664,
+      0.13433201611042023
+    ],
+    "raw_endpoint": [
+      -1.997340202331543,
+      1.0373923778533936
+    ],
+    "parameters": {
+      "waist_m": 0.01458979956805706,
+      "normalized_curvature": 1.4766931533813477
+    },
+    "selection_snr_db": 4.2008066520558565,
+    "seconds": 5.3466880321502686,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.965957741386646
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.464600655430528
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.22766134563541
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.295785038856993
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.14388305093896
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.032002025730596
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.700502061017634
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.767629208324172
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.337607318266465
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.810998435397211
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.694876972659164
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.415673918992349
+      }
+    ]
+  },
+  {
+    "run": 29,
+    "initial_sobol_point": [
+      0.7442293167114258,
+      0.8234178423881531
+    ],
+    "raw_endpoint": [
+      3.602158308029175,
+      0.010140839964151382
+    ],
+    "parameters": {
+      "waist_m": 0.09742550551891327,
+      "normalized_curvature": 1.005070447921753
+    },
+    "selection_snr_db": 4.859772196980429,
+    "seconds": 5.421195983886719,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.186828235040847
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.762843132013294
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.440257761036912
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.43208916034782
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.91582668698398
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.540518940671552
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.33065830917251
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.02506864776063
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.416212658807806
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.140398575413697
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.9100141737287455
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.586375237967072
+      }
+    ]
+  },
+  {
+    "run": 30,
+    "initial_sobol_point": [
+      0.7716490030288696,
+      0.43594902753829956
+    ],
+    "raw_endpoint": [
+      3.669774293899536,
+      0.02647240087389946
+    ],
+    "parameters": {
+      "waist_m": 0.0975896492600441,
+      "normalized_curvature": 1.0132354497909546
+    },
+    "selection_snr_db": 4.8584494965945995,
+    "seconds": 5.394683361053467,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.276143111681589
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.164887378608582
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.007934013741734
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.356194034509849
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.949304237556585
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.720119149423877
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.331111473413664
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.1526860288810585
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.794153631330399
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.2048786768724
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.688585149989535
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.850972622486699
+      }
+    ]
+  },
+  {
+    "run": 31,
+    "initial_sobol_point": [
+      0.22244635224342346,
+      0.6218612790107727
+    ],
+    "raw_endpoint": [
+      0.7908354997634888,
+      -0.029483737424016
+    ],
+    "parameters": {
+      "waist_m": 0.06973704695701599,
+      "normalized_curvature": 0.9852591753005981
+    },
+    "selection_snr_db": 4.7691585269177725,
+    "seconds": 5.416452646255493,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.760318154131081
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.979751907191695
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.1623948481885455
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8803072686839206
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.7913704192120274
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.591321369900693
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.193439887180944
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.161210309296763
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.902025735509021
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.9624753382856355
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.872477082548991
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.561694169375941
+      }
+    ]
+  },
+  {
+    "run": 32,
+    "initial_sobol_point": [
+      0.24446623027324677,
+      0.18728773295879364
+    ],
+    "raw_endpoint": [
+      0.6911743879318237,
+      0.01168680377304554
+    ],
+    "parameters": {
+      "waist_m": 0.06762412935495377,
+      "normalized_curvature": 1.0058432817459106
+    },
+    "selection_snr_db": 4.7557621188524735,
+    "seconds": 5.424523591995239,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.016102376038055
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.824919895040492
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.4537506713906057
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.8625415247791395
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.639636738813911
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.805701600656186
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.9375243849879284
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.960394364972412
+      },
+      {
+        "step": 225,
+        "training_snr_db": 2.7522186413291303
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.072612207144918
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.055812427932338
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.001192106578309
+      }
+    ]
+  },
+  {
+    "run": 33,
+    "initial_sobol_point": [
+      0.7653447985649109,
+      0.8724671006202698
+    ],
+    "raw_endpoint": [
+      3.4703032970428467,
+      -0.029477814212441444
+    ],
+    "parameters": {
+      "waist_m": 0.09707359969615936,
+      "normalized_curvature": 0.9852620959281921
+    },
+    "selection_snr_db": 4.86114865036254,
+    "seconds": 5.424524307250977,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.3075694630062893
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.531107035792526
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.950163654460522
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.143543274712661
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.6756494522247096
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.884021336941181
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.3613911297903805
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.7543852821809995
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.8727831248487385
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.7406003295683616
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.494388978802414
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.519915157312522
+      }
+    ]
+  },
+  {
+    "run": 34,
+    "initial_sobol_point": [
+      0.7222084403038025,
+      0.38299331068992615
+    ],
+    "raw_endpoint": [
+      3.4465081691741943,
+      -0.06300928443670273
+    ],
+    "parameters": {
+      "waist_m": 0.09700530767440796,
+      "normalized_curvature": 0.9685057401657104
+    },
+    "selection_snr_db": 4.860648962109192,
+    "seconds": 5.383478403091431,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.331216210692917
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.3528875272893295
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.538210413593465
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.360787706963565
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.466144481803379
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.130238465772151
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.8726332181331875
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.420992916416905
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.573908869128234
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.448111828667649
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.235801987143443
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.831239597443317
+      }
+    ]
+  },
+  {
+    "run": 35,
+    "initial_sobol_point": [
+      0.27188608050346375,
+      0.572812020778656
+    ],
+    "raw_endpoint": [
+      1.5075023174285889,
+      0.10530252754688263
+    ],
+    "parameters": {
+      "waist_m": 0.08241300284862518,
+      "normalized_curvature": 1.0526026487350464
+    },
+    "selection_snr_db": 4.805427506477769,
+    "seconds": 5.35873818397522,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.890264853552785
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.201353307830495
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.397301337948392
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.071460844806503
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.035143027705931
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.405215672703388
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.9344271255227925
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.876005389466199
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.935787875826799
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.967004411789621
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.650722334406079
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.656887391950624
+      }
+    ]
+  },
+  {
+    "run": 36,
+    "initial_sobol_point": [
+      0.4598447382450104,
+      0.3375738561153412
+    ],
+    "raw_endpoint": [
+      2.2194690704345703,
+      -0.04131665080785751
+    ],
+    "parameters": {
+      "waist_m": 0.09049247950315475,
+      "normalized_curvature": 0.9793446660041809
+    },
+    "selection_snr_db": 4.846138576104909,
+    "seconds": 5.3638434410095215,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.831139621634144
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.295003733170596
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.049241051299513
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.430500119924724
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.028656432034171
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.170936785010392
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.755153535006303
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.3783149011688463
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.45314669483163
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.024532619065687
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.090520239538401
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.606404559126324
+      }
+    ]
+  },
+  {
+    "run": 37,
+    "initial_sobol_point": [
+      0.5341886878013611,
+      0.6514154672622681
+    ],
+    "raw_endpoint": [
+      2.523077964782715,
+      0.00586198503151536
+    ],
+    "parameters": {
+      "waist_m": 0.0927971601486206,
+      "normalized_curvature": 1.002930998802185
+    },
+    "selection_snr_db": 4.849991085059103,
+    "seconds": 5.366579532623291,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.965555046365852
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.7313468618354655
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.591189884513626
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.38833798279064
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.8063938138009314
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.517579171960961
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.084698235756317
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.0482197667673114
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.8748431508375125
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.356793736879407
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.097032589705561
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.821027788697953
+      }
+    ]
+  },
+  {
+    "run": 38,
+    "initial_sobol_point": [
+      0.9523860812187195,
+      0.10771097242832184
+    ],
+    "raw_endpoint": [
+      5.285672187805176,
+      0.07807394117116928
+    ],
+    "parameters": {
+      "waist_m": 0.09951130300760269,
+      "normalized_curvature": 1.0390172004699707
+    },
+    "selection_snr_db": 4.853970546777895,
+    "seconds": 5.364216327667236,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.4957288347067728
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.895985615205785
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.453995901285368
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.411351941172581
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.459771108099992
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.815377828898241
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.619364273345606
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.760073189487594
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.8960714794605344
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.92003087276426
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.824736976280572
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.4856338995291125
+      }
+    ]
+  },
+  {
+    "run": 39,
+    "initial_sobol_point": [
+      0.05748602747917175,
+      0.9188674688339233
+    ],
+    "raw_endpoint": [
+      -1.9816932678222656,
+      3.8068816661834717
+    ],
+    "parameters": {
+      "waist_m": 0.01475043036043644,
+      "normalized_curvature": 1.9565309286117554
+    },
+    "selection_snr_db": 4.248317426787463,
+    "seconds": 5.341427564620972,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.342549633735967
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.446124100571598
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.9847571000975535
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.462100389046702
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.3929577399533954
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.350865629578594
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.99350674287246
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.173144924797681
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.994083585373027
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.381161379896929
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.0933257620437775
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.8149676328884965
+      }
+    ]
+  },
+  {
+    "run": 40,
+    "initial_sobol_point": [
+      0.10623443871736526,
+      0.4834534525871277
+    ],
+    "raw_endpoint": [
+      -2.0428318977355957,
+      2.2904958724975586
+    ],
+    "parameters": {
+      "waist_m": 0.014133531600236893,
+      "normalized_curvature": 1.8161735534667969
+    },
+    "selection_snr_db": 4.2269557810937215,
+    "seconds": 5.344497919082642,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.228135471721354
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.913144285372951
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.410132276124406
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.075290366200936
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.163761483802642
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.501509822060515
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.354621552244435
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.331556337436823
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.666231335397461
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.996441353076244
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.735409287695015
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.736866187312959
+      }
+    ]
+  },
+  {
+    "run": 41,
+    "initial_sobol_point": [
+      0.899579644203186,
+      0.5446098446846008
+    ],
+    "raw_endpoint": [
+      4.685408592224121,
+      -0.107718326151371
+    ],
+    "parameters": {
+      "waist_m": 0.09911298006772995,
+      "normalized_curvature": 0.9461928606033325
+    },
+    "selection_snr_db": 4.861366274910292,
+    "seconds": 5.339999675750732,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.0482544347779
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.993252759825422
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.46974646752471
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.051379405987643
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.4750872570685685
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.754275094071277
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.995059512196293
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.0277690197164855
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.254961784740088
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.431749844079266
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.699948230050389
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.255445170190502
+      }
+    ]
+  },
+  {
+    "run": 42,
+    "initial_sobol_point": [
+      0.6143474578857422,
+      0.21182754635810852
+    ],
+    "raw_endpoint": [
+      2.825496196746826,
+      0.034840185195207596
+    ],
+    "parameters": {
+      "waist_m": 0.09457170218229294,
+      "normalized_curvature": 1.017418384552002
+    },
+    "selection_snr_db": 4.85103663007669,
+    "seconds": 5.36271858215332,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.246551593377348
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.731549553368148
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.965402111354452
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8469244946216206
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.110782065398079
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.077845386914694
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.488329896138132
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.168137201551553
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.8888662463824435
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.445480066189175
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.527176213470415
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.283642345934709
+      }
+    ]
+  },
+  {
+    "run": 43,
+    "initial_sobol_point": [
+      0.3759334087371826,
+      0.775669276714325
+    ],
+    "raw_endpoint": [
+      1.5361318588256836,
+      0.028983935713768005
+    ],
+    "parameters": {
+      "waist_m": 0.08282146602869034,
+      "normalized_curvature": 1.0144909620285034
+    },
+    "selection_snr_db": 4.820156560468941,
+    "seconds": 5.346159219741821,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.429436889118032
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.071732756219224
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.13098009818724
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.984979217428457
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.794485192006632
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.7941932753575336
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.979789981284191
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.009356522686826
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.8035565411538013
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.5478567840550355
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.350902772706767
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.175500104098293
+      }
+    ]
+  },
+  {
+    "run": 44,
+    "initial_sobol_point": [
+      0.31297457218170166,
+      0.009196309372782707
+    ],
+    "raw_endpoint": [
+      -2.1164755821228027,
+      0.8025581240653992
+    ],
+    "parameters": {
+      "waist_m": 0.013428060337901115,
+      "normalized_curvature": 1.3810429573059082
+    },
+    "selection_snr_db": 4.163208844196445,
+    "seconds": 5.353206634521484,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.603659731790172
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.6935242979226235
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.9182029911072775
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.0514571985259673
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.2901742867466375
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.2992116963942966
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.838916471282051
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.2011672513584917
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.060131679047697
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.332652290951076
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.858414922540411
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.966059832777265
+      }
+    ]
+  },
+  {
+    "run": 45,
+    "initial_sobol_point": [
+      0.677367091178894,
+      0.9490151405334473
+    ],
+    "raw_endpoint": [
+      1.9338163137435913,
+      0.047925036400556564
+    ],
+    "parameters": {
+      "waist_m": 0.08774610608816147,
+      "normalized_curvature": 1.0239579677581787
+    },
+    "selection_snr_db": 4.832392514113617,
+    "seconds": 5.385009527206421,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.3210193162783046
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.548045806374405
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.306594098424545
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.157081414757303
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.27206397439266
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.4066064603193045
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.129856658535601
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.634499712139213
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.511766545739557
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.165942021463306
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.1118793267608496
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.347839633119909
+      }
+    ]
+  },
+  {
+    "run": 46,
+    "initial_sobol_point": [
+      0.837538480758667,
+      0.31108856201171875
+    ],
+    "raw_endpoint": [
+      4.1310648918151855,
+      0.01849643886089325
+    ],
+    "parameters": {
+      "waist_m": 0.09846626967191696,
+      "normalized_curvature": 1.0092480182647705
+    },
+    "selection_snr_db": 4.86106973537061,
+    "seconds": 5.408230543136597,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.787268741557166
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.68412237054492
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.711546659796543
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.4703343303311
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.674391161098451
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.359138175275284
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.444094054834606
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.164678718491373
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.632700326474146
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.5663004694252605
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.791229468981377
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.873061619859623
+      }
+    ]
+  },
+  {
+    "run": 47,
+    "initial_sobol_point": [
+      0.16821478307247162,
+      0.7462677955627441
+    ],
+    "raw_endpoint": [
+      -1.822011113166809,
+      2.531816244125366
+    ],
+    "parameters": {
+      "waist_m": 0.016501693055033684,
+      "normalized_curvature": 1.852684736251831
+    },
+    "selection_snr_db": 4.251930251634219,
+    "seconds": 5.353775501251221,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.267705978331966
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.9160647689108052
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.386129160658247
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.158209895402956
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.1158183642812327
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.8813297306693695
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.310932047848505
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.3630458526670575
+      },
+      {
+        "step": 225,
+        "training_snr_db": 2.8935679134312835
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.083697956644691
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.0235203990169985
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.164774786681228
+      }
+    ]
+  },
+  {
+    "run": 48,
+    "initial_sobol_point": [
+      0.15252548456192017,
+      0.26914265751838684
+    ],
+    "raw_endpoint": [
+      -2.133471965789795,
+      1.6827747821807861
+    ],
+    "parameters": {
+      "waist_m": 0.013270925730466843,
+      "normalized_curvature": 1.6865432262420654
+    },
+    "selection_snr_db": 4.191875844516241,
+    "seconds": 5.380126953125,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.7925258925980074
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.4621820982955636
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.495906792656032
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.235000390807239
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.524495113651787
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.711402611961255
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.527809876005868
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.87564932649697
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.310852584337284
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.688756952826795
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.8958557185720895
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.153788032812493
+      }
+    ]
+  },
+  {
+    "run": 49,
+    "initial_sobol_point": [
+      0.853318989276886,
+      0.7043247222900391
+    ],
+    "raw_endpoint": [
+      4.410938262939453,
+      0.060196761041879654
+    ],
+    "parameters": {
+      "waist_m": 0.09883619099855423,
+      "normalized_curvature": 1.030089259147644
+    },
+    "selection_snr_db": 4.856047495378241,
+    "seconds": 5.373328924179077,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.758263394805268
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.761658553925298
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.7554858027068425
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.382315231275182
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.183949269623842
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.8382693706786206
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.931018672581505
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.25931222908207
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.245183761932687
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.120885082710021
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.804891506849184
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.7341199289066775
+      }
+    ]
+  },
+  {
+    "run": 50,
+    "initial_sobol_point": [
+      0.6307998299598694,
+      0.03563356399536133
+    ],
+    "raw_endpoint": [
+      1.9560298919677734,
+      -0.0633789598941803
+    ],
+    "parameters": {
+      "waist_m": 0.08798196166753769,
+      "normalized_curvature": 0.9683210849761963
+    },
+    "selection_snr_db": 4.839000092986843,
+    "seconds": 5.356170892715454,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.341509163899685
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.7868452451587413
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.8186459710436385
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.022741609478072
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.216376492626558
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.291464032609969
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.4741279392368005
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.386592302596718
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.701111606015417
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.385883758844128
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.9350182271900485
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.909848831132534
+      }
+    ]
+  },
+  {
+    "run": 51,
+    "initial_sobol_point": [
+      0.35945016145706177,
+      0.9754533767700195
+    ],
+    "raw_endpoint": [
+      -1.8502833843231201,
+      3.4526076316833496
+    ],
+    "parameters": {
+      "waist_m": 0.016176443547010422,
+      "normalized_curvature": 1.9386177062988281
+    },
+    "selection_snr_db": 4.257256035688815,
+    "seconds": 5.366823434829712,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.365331301693905
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.121032874530064
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.97559478512831
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.7035533032426655
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.574239839122464
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.8537574550303977
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.910558852476063
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.123298026382054
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.008633530887473
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.2251269502760174
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.8016516229195285
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.864798005439768
+      }
+    ]
+  },
+  {
+    "run": 52,
+    "initial_sobol_point": [
+      0.42246800661087036,
+      0.2402288317680359
+    ],
+    "raw_endpoint": [
+      2.1025803089141846,
+      0.07785016298294067
+    ],
+    "parameters": {
+      "waist_m": 0.08944191038608551,
+      "normalized_curvature": 1.0389055013656616
+    },
+    "selection_snr_db": 4.831730960832551,
+    "seconds": 5.365570783615112,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.664431415362801
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.314655222498022
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.261598831819664
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.906902112861908
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.565105889632653
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.112386259941449
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.276563194305464
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.017957581633089
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.070314141237259
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.664377124425179
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.034056199318487
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.124581650229933
+      }
+    ]
+  },
+  {
+    "run": 53,
+    "initial_sobol_point": [
+      0.5678430199623108,
+      0.8040726780891418
+    ],
+    "raw_endpoint": [
+      2.8075263500213623,
+      0.011125805787742138
+    ],
+    "parameters": {
+      "waist_m": 0.09447887539863586,
+      "normalized_curvature": 1.0055627822875977
+    },
+    "selection_snr_db": 4.853401997788657,
+    "seconds": 5.3669819831848145,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.504137757085999
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.721226211508924
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.156634085767562
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.721397270953293
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.1508841221831787
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.026707324947161
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.274061748992906
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.355907422941773
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.477307410278965
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.230576920840326
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.318782220555429
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.8334120858708545
+      }
+    ]
+  },
+  {
+    "run": 54,
+    "initial_sobol_point": [
+      0.9153011441230774,
+      0.43955114483833313
+    ],
+    "raw_endpoint": [
+      4.821695804595947,
+      0.11771823465824127
+    ],
+    "parameters": {
+      "waist_m": 0.09922508895397186,
+      "normalized_curvature": 1.058791160583496
+    },
+    "selection_snr_db": 4.844054022131939,
+    "seconds": 5.354199409484863,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.9544899197849475
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.612187782397886
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.235294176099284
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.5959763118858024
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.724183624091973
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.680094441296585
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.424998062259183
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.248484102282051
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.270813149783749
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.1158923808961765
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.120228756971169
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.215954400910261
+      }
+    ]
+  },
+  {
+    "run": 55,
+    "initial_sobol_point": [
+      0.09048227965831757,
+      0.5007092356681824
+    ],
+    "raw_endpoint": [
+      -1.893976092338562,
+      2.261639356613159
+    ],
+    "parameters": {
+      "waist_m": 0.015686802566051483,
+      "normalized_curvature": 1.8112995624542236
+    },
+    "selection_snr_db": 4.247810773726447,
+    "seconds": 5.364495515823364,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.353978144191521
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.872121967037422
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.450303230104124
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.667707288147263
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.475666626292446
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.909097911346749
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.642218540204765
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.5862659870662044
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.323825623905703
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.547843202109658
+      },
+      {
+        "step": 275,
+        "training_snr_db": 2.855817486090274
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.381329950033444
+      }
+    ]
+  },
+  {
+    "run": 56,
+    "initial_sobol_point": [
+      0.01044569443911314,
+      0.06578098237514496
+    ],
+    "raw_endpoint": [
+      -1.893939733505249,
+      2.1891274452209473
+    ],
+    "parameters": {
+      "waist_m": 0.015687203034758568,
+      "normalized_curvature": 1.7985378503799438
+    },
+    "selection_snr_db": 4.246825658334903,
+    "seconds": 5.379043817520142,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.265427523145523
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.127663709164222
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.8380380414620907
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.054891830351767
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.750544446711122
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.6259657500708045
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.459153433568589
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.534883402674505
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.241071689290283
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.793514608732496
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.058067043378864
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.628995052195589
+      }
+    ]
+  },
+  {
+    "run": 57,
+    "initial_sobol_point": [
+      0.9993346929550171,
+      0.8769389390945435
+    ],
+    "raw_endpoint": [
+      9.932168960571289,
+      0.007430008612573147
+    ],
+    "parameters": {
+      "waist_m": 0.09999528527259827,
+      "normalized_curvature": 1.003714919090271
+    },
+    "selection_snr_db": 4.865050615715674,
+    "seconds": 5.363233804702759,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.6239472904637884
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.41368497656656
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.596298749709802
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.725883778586209
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.344102226275188
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.808713372073928
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.89534688754493
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.678981029029941
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.873818982670261
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.846716285221718
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.484084273373193
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.4135634753697905
+      }
+    ]
+  },
+  {
+    "run": 58,
+    "initial_sobol_point": [
+      0.5189723968505859,
+      0.36399519443511963
+    ],
+    "raw_endpoint": [
+      2.5245168209075928,
+      0.17591263353824615
+    ],
+    "parameters": {
+      "waist_m": 0.09280675649642944,
+      "normalized_curvature": 1.0877301692962646
+    },
+    "selection_snr_db": 4.812581715687127,
+    "seconds": 5.354984521865845,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.690409495145312
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.290144827776817
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.970390180480562
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.59449004083342
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.149450610634067
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.9477367988560035
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.955464976274481
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.604086198878226
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.6372007486924107
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.6864615607917335
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.270278656012333
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.520828258056833
+      }
+    ]
+  },
+  {
+    "run": 59,
+    "initial_sobol_point": [
+      0.47515228390693665,
+      0.6778391599655151
+    ],
+    "raw_endpoint": [
+      2.3147153854370117,
+      0.050118476152420044
+    ],
+    "parameters": {
+      "waist_m": 0.091278575360775,
+      "normalized_curvature": 1.0250539779663086
+    },
+    "selection_snr_db": 4.841216261971394,
+    "seconds": 5.362852096557617,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.135777733719122
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.56463043701335
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.044810750823267
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.7263706764412765
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.836711086977301
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.986072252367327
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.922332810587207
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.81739875010706
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.87653042832463
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.025484141694698
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.072548691971106
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.4945953989915197
+      }
+    ]
+  },
+  {
+    "run": 60,
+    "initial_sobol_point": [
+      0.2871344983577728,
+      0.41134923696517944
+    ],
+    "raw_endpoint": [
+      1.4817371368408203,
+      0.018260719254612923
+    ],
+    "parameters": {
+      "waist_m": 0.08203897625207901,
+      "normalized_curvature": 1.0091301202774048
+    },
+    "selection_snr_db": 4.818695008406493,
+    "seconds": 5.3694539070129395,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.463992285814054
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.1890264959628585
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.910585179086957
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8995600835853845
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.351226508180657
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.1312099301976755
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.988562625358512
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.052506876359997
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.154625187626765
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.3739838117485075
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.195301617941379
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.9569522799268086
+      }
+    ]
+  },
+  {
+    "run": 61,
+    "initial_sobol_point": [
+      0.7069293260574341,
+      0.6011691689491272
+    ],
+    "raw_endpoint": [
+      3.4391980171203613,
+      0.005990712437778711
+    ],
+    "parameters": {
+      "waist_m": 0.09698401391506195,
+      "normalized_curvature": 1.0029953718185425
+    },
+    "selection_snr_db": 4.859212939636015,
+    "seconds": 5.355448484420776,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.6356677854453157
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.937015731992073
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.499629835887861
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.333246814890022
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.469870220825728
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.361347185145201
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.418355121245455
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.1962960686988477
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.922542804530607
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.6135901920621327
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.747975361821005
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.183256453324919
+      }
+    ]
+  },
+  {
+    "run": 62,
+    "initial_sobol_point": [
+      0.8123524188995361,
+      0.14343078434467316
+    ],
+    "raw_endpoint": [
+      3.868835687637329,
+      -0.12575194239616394
+    ],
+    "parameters": {
+      "waist_m": 0.09801581501960754,
+      "normalized_curvature": 0.9372068047523499
+    },
+    "selection_snr_db": 4.856777647437211,
+    "seconds": 5.361352920532227,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.352982671052442
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.4623512874631985
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.893538181395083
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.965546009925924
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.201178820374402
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.334755815289301
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.652407232929133
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.757910544155855
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.209031642075339
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.066422504465143
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.1251680769552905
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.514421946289161
+      }
+    ]
+  },
+  {
+    "run": 63,
+    "initial_sobol_point": [
+      0.19748881459236145,
+      0.828612744808197
+    ],
+    "raw_endpoint": [
+      -1.925502061843872,
+      2.5398755073547363
+    ],
+    "parameters": {
+      "waist_m": 0.015343179926276207,
+      "normalized_curvature": 1.853780746459961
+    },
+    "selection_snr_db": 4.248527392352521,
+    "seconds": 5.3762571811676025,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.2057251872030035
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.8773618401124303
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.095961867132773
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.5043579005636687
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.240972743844715
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.223318893299997
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.315029260821334
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.955929897448902
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.2688930368310265
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.37224396752101
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.212760076532576
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.58388381203099
+      }
+    ]
+  },
+  {
+    "run": 64,
+    "initial_sobol_point": [
+      0.19480055570602417,
+      0.09823500365018845
+    ],
+    "raw_endpoint": [
+      -1.666219711303711,
+      1.3159438371658325
+    ],
+    "parameters": {
+      "waist_m": 0.01841609738767147,
+      "normalized_curvature": 1.5770121812820435
+    },
+    "selection_snr_db": 4.21848920738549,
+    "seconds": 5.366911888122559,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.2673079376145875
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.475225673331253
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.033674503228376
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.103957790793223
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.32996622604061
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.7766172025428277
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.148948441984329
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.734833623737096
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.009710666864997
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.8998402951919315
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.79876028102358
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.895367554118346
+      }
+    ]
+  },
+  {
+    "run": 65,
+    "initial_sobol_point": [
+      0.7994160056114197,
+      0.9123226404190063
+    ],
+    "raw_endpoint": [
+      3.503417730331421,
+      0.07171536237001419
+    ],
+    "parameters": {
+      "waist_m": 0.09716612845659256,
+      "normalized_curvature": 1.0358422994613647
+    },
+    "selection_snr_db": 4.850627738729816,
+    "seconds": 5.389649391174316,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.660425186440934
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.295518542205236
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.074618203682853
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.915792125265749
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.491381792450272
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.595053176004601
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.13895273278317
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.27997985515592
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.577243885201698
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.505361821467248
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.706153663435271
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.4507515521718695
+      }
+    ]
+  },
+  {
+    "run": 66,
+    "initial_sobol_point": [
+      0.7174302935600281,
+      0.33148398995399475
+    ],
+    "raw_endpoint": [
+      3.315976858139038,
+      0.06308533996343613
+    ],
+    "parameters": {
+      "waist_m": 0.09660237282514572,
+      "normalized_curvature": 1.0315322875976562
+    },
+    "selection_snr_db": 4.851064538548983,
+    "seconds": 5.396904945373535,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.156873421818474
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.706982054774572
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.693306459139727
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8058492629443297
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.272351735544668
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.197358649904525
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.502268580527635
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.4802270738912515
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.131504333778013
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.322497497493943
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.7375763276548435
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.74691851284451
+      }
+    ]
+  },
+  {
+    "run": 67,
+    "initial_sobol_point": [
+      0.29225867986679077,
+      0.6423982381820679
+    ],
+    "raw_endpoint": [
+      1.557711124420166,
+      -0.012419951148331165
+    ],
+    "parameters": {
+      "waist_m": 0.08312439918518066,
+      "normalized_curvature": 0.9937900900840759
+    },
+    "selection_snr_db": 4.8244010487913505,
+    "seconds": 5.382540941238403,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.986581018917979
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.594623717173751
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.034084299853925
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.953092309724536
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.4961638813080977
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.723027538089704
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.392005216287387
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.4278700273646745
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.729529132112566
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.6405546106128455
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.650514293663841
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.161705388364716
+      }
+    ]
+  },
+  {
+    "run": 68,
+    "initial_sobol_point": [
+      0.48027461767196655,
+      0.3778804838657379
+    ],
+    "raw_endpoint": [
+      2.3061442375183105,
+      0.039112940430641174
+    ],
+    "parameters": {
+      "waist_m": 0.09121031314134598,
+      "normalized_curvature": 1.0195540189743042
+    },
+    "selection_snr_db": 4.842631145847804,
+    "seconds": 5.374742031097412,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.9323136652371
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.237278808391583
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.899888083238981
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.0222161843343684
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.666955874790157
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.434292543401143
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.291164346974871
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.053989614922344
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.838680391088901
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.287324639817389
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.786692297649461
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.642404242750937
+      }
+    ]
+  },
+  {
+    "run": 69,
+    "initial_sobol_point": [
+      0.5294753909111023,
+      0.5628176331520081
+    ],
+    "raw_endpoint": [
+      2.3537888526916504,
+      -0.05484313145279884
+    ],
+    "parameters": {
+      "waist_m": 0.09158378839492798,
+      "normalized_curvature": 0.9725852608680725
+    },
+    "selection_snr_db": 4.848665269206886,
+    "seconds": 5.366087198257446,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.6408413257824694
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.246768365334795
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.018580518459019
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.982838841732231
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.561864396820935
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.400956397524413
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.305463185493846
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.621159194756976
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.903109037225514
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.419256390993348
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.510688955680446
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.696245287076945
+      }
+    ]
+  },
+  {
+    "run": 70,
+    "initial_sobol_point": [
+      0.9864000678062439,
+      0.17683465778827667
+    ],
+    "raw_endpoint": [
+      6.947734832763672,
+      0.07769214361906052
+    ],
+    "parameters": {
+      "waist_m": 0.09990689158439636,
+      "normalized_curvature": 1.0388264656066895
+    },
+    "selection_snr_db": 4.854793039480311,
+    "seconds": 5.368660926818848,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.055950508589395
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.823905158472842
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.350745424880986
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.092383434516886
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.020521830664803
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.505770686445213
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.678838490214328
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.658275663576613
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.235280151674329
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.718204649416615
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.017972200021838
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.152335197012472
+      }
+    ]
+  },
+  {
+    "run": 71,
+    "initial_sobol_point": [
+      0.007755465805530548,
+      0.8668994307518005
+    ],
+    "raw_endpoint": [
+      -1.851983666419983,
+      3.8689091205596924
+    ],
+    "parameters": {
+      "waist_m": 0.01615709625184536,
+      "normalized_curvature": 1.9590919017791748
+    },
+    "selection_snr_db": 4.258285964038332,
+    "seconds": 5.386159420013428,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.65696999566893
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.398340700020511
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.8975680720436636
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.490127626139414
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.1762717866508545
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.9493787301248995
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.541126090707663
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.322321039529863
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.577218906150881
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.390043544814194
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.0351382859679905
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.083181904124466
+      }
+    ]
+  },
+  {
+    "run": 72,
+    "initial_sobol_point": [
+      0.07997192442417145,
+      0.30109214782714844
+    ],
+    "raw_endpoint": [
+      -1.9139779806137085,
+      2.0760769844055176
+    ],
+    "parameters": {
+      "waist_m": 0.015467856079339981,
+      "normalized_curvature": 1.7771122455596924
+    },
+    "selection_snr_db": 4.243627972053491,
+    "seconds": 5.381229400634766,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.7362303673434334
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.524275717680543
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.498458695578995
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.006817730598934
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.170797369438596
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.954960442138509
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.724506765535873
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.8169674018965933
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.363189783469867
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.811425304581347
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.526830038958654
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.1953589698658558
+      }
+    ]
+  },
+  {
+    "run": 73,
+    "initial_sobol_point": [
+      0.9101866483688354,
+      0.741157054901123
+    ],
+    "raw_endpoint": [
+      4.991315841674805,
+      -0.018622756004333496
+    ],
+    "parameters": {
+      "waist_m": 0.09934516996145248,
+      "normalized_curvature": 0.9906888008117676
+    },
+    "selection_snr_db": 4.865387043651514,
+    "seconds": 5.358347654342651,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.009800205334977
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.4701470200444255
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.976949298984388
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.296859758093619
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.426295392233198
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.669012472037882
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.738390659297018
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.028553140093336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.333341877105826
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.661166978870062
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.752258881832009
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.480156603434574
+      }
+    ]
+  },
+  {
+    "run": 74,
+    "initial_sobol_point": [
+      0.5705411434173584,
+      0.0036267973482608795
+    ],
+    "raw_endpoint": [
+      -2.3230555057525635,
+      -0.7864373922348022
+    ],
+    "parameters": {
+      "waist_m": 0.011655449867248535,
+      "normalized_curvature": 0.6258683204650879
+    },
+    "selection_snr_db": 4.001703414662548,
+    "seconds": 5.375775098800659,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.3061401278286624
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.338029330682876
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.914614770171405
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.488849850610572
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.672087158441289
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.082458164343057
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.702593139698146
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.7585855944238196
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.8390111583116466
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.925821077237636
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.92738463474771
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.209310522237711
+      }
+    ]
+  },
+  {
+    "run": 75,
+    "initial_sobol_point": [
+      0.435395210981369,
+      0.9385638236999512
+    ],
+    "raw_endpoint": [
+      -1.7903505563735962,
+      1.3321467638015747
+    ],
+    "parameters": {
+      "waist_m": 0.016873886808753014,
+      "normalized_curvature": 1.5823910236358643
+    },
+    "selection_snr_db": 4.228507916549046,
+    "seconds": 5.350179433822632,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.821707754370561
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.594498395554207
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.870521736391701
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.706171255060342
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.363339460575742
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.545347434999041
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.204540415452841
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.564461544024232
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.915860843686212
+      },
+      {
+        "step": 250,
+        "training_snr_db": 2.628717966517194
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.675041707065396
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.5619754663429735
+      }
+    ]
+  },
+  {
+    "run": 76,
+    "initial_sobol_point": [
+      0.37237921357154846,
+      0.20528098940849304
+    ],
+    "raw_endpoint": [
+      1.843876838684082,
+      0.09686978906393051
+    ],
+    "parameters": {
+      "waist_m": 0.08675044029951096,
+      "normalized_curvature": 1.0483970642089844
+    },
+    "selection_snr_db": 4.820449681162164,
+    "seconds": 5.3677732944488525,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.248872116610044
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.820507234025563
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.589344264394544
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.9686625041508043
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.93823972517132
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.615825959640411
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.82590865887925
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.6996071006772375
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.616273831879986
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.5725484657788837
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.8007704753714924
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.14962081055006
+      }
+    ]
+  },
+  {
+    "run": 77,
+    "initial_sobol_point": [
+      0.6334959268569946,
+      0.7661951184272766
+    ],
+    "raw_endpoint": [
+      2.8079159259796143,
+      0.022229023277759552
+    ],
+    "parameters": {
+      "waist_m": 0.09448090195655823,
+      "normalized_curvature": 1.0111140012741089
+    },
+    "selection_snr_db": 4.852322225662029,
+    "seconds": 5.36053991317749,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.076062296741398
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.186754038927443
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.694376087003392
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.571288736577301
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.4821298786132875
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.76922451297684
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.073201515243148
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.474377140528941
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.095074214347647
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.5298151933424196
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.991948660452441
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.880258859123682
+      }
+    ]
+  },
+  {
+    "run": 78,
+    "initial_sobol_point": [
+      0.8482027053833008,
+      0.4744341969490051
+    ],
+    "raw_endpoint": [
+      4.195531368255615,
+      0.057160601019859314
+    ],
+    "parameters": {
+      "waist_m": 0.09856060147285461,
+      "normalized_curvature": 1.0285724401474
+    },
+    "selection_snr_db": 4.856029158642476,
+    "seconds": 5.3512561321258545,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.703415684031796
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.69841528130566
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.5534999645763126
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.657997671960233
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.608055269684687
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.694784813692289
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.191077517994789
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.424989731873911
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.616460990396863
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.3626115901253977
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.337342289073963
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.458937656681422
+      }
+    ]
+  },
+  {
+    "run": 79,
+    "initial_sobol_point": [
+      0.14201709628105164,
+      0.538521945476532
+    ],
+    "raw_endpoint": [
+      -1.8909826278686523,
+      2.3459227085113525
+    ],
+    "parameters": {
+      "waist_m": 0.01571984961628914,
+      "normalized_curvature": 1.8252191543579102
+    },
+    "selection_snr_db": 4.2490308720461,
+    "seconds": 5.3651556968688965,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.9300417879077583
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.582852420387436
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.254712780049412
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.626860305494749
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.770380016272638
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.8545376860500475
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.974022648827606
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.734490883198948
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.36274203385108
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.833686070201536
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.5451635805826975
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.000610401406204
+      }
+    ]
+  },
+  {
+    "run": 80,
+    "initial_sobol_point": [
+      0.15723879635334015,
+      0.44606706500053406
+    ],
+    "raw_endpoint": [
+      -1.9835712909698486,
+      1.8254188299179077
+    ],
+    "parameters": {
+      "waist_m": 0.014731049537658691,
+      "normalized_curvature": 1.7224302291870117
+    },
+    "selection_snr_db": 4.230208617269,
+    "seconds": 5.356232166290283,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.110855197271294
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.7347753686869103
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.751426319058944
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.5657866476671747
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.489121009731491
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.999099004460258
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.658249392216142
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.3276295744565365
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.837998276046759
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.4679816039191875
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.27237942214504
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.558517965501959
+      }
+    ]
+  },
+  {
+    "run": 81,
+    "initial_sobol_point": [
+      0.8328891396522522,
+      0.5101531147956848
+    ],
+    "raw_endpoint": [
+      4.1162590980529785,
+      0.05134907364845276
+    ],
+    "parameters": {
+      "waist_m": 0.09844374656677246,
+      "normalized_curvature": 1.0256688594818115
+    },
+    "selection_snr_db": 4.856748241323762,
+    "seconds": 5.371970176696777,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.609479319432609
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.136272147665158
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.791080405521864
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.411624608625919
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.9563136442516225
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.3063649460207385
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.8972398771920074
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.4201862317223855
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.491732139465333
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.420784447175162
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.392195679184001
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.0614613949001868
+      }
+    ]
+  },
+  {
+    "run": 82,
+    "initial_sobol_point": [
+      0.6805303692817688,
+      0.24915677309036255
+    ],
+    "raw_endpoint": [
+      3.343771457672119,
+      -0.014750007539987564
+    ],
+    "parameters": {
+      "waist_m": 0.09669232368469238,
+      "normalized_curvature": 0.9926251769065857
+    },
+    "selection_snr_db": 4.859893961950606,
+    "seconds": 5.387907266616821,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.168027920804647
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.164820508555385
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.659619127685356
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.052924529709634
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.276028240674414
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.700359609313761
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.231283955417393
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.680273521367402
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.473135419844639
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.052290310769899
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.771962527314132
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.103575666956632
+      }
+    ]
+  },
+  {
+    "run": 83,
+    "initial_sobol_point": [
+      0.32543614506721497,
+      0.8100687861442566
+    ],
+    "raw_endpoint": [
+      0.9526289105415344,
+      0.03842030465602875
+    ],
+    "parameters": {
+      "waist_m": 0.07299942523241043,
+      "normalized_curvature": 1.0192078351974487
+    },
+    "selection_snr_db": 4.780884440309429,
+    "seconds": 5.3492724895477295,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.61961042971223
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.791182797919893
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.37381145347614
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.23889670092409
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.245666036371469
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.032113431105399
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.640339412023165
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.798775229611195
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.824814529299937
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.225347092586881
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.6045048680824525
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.206170634734505
+      }
+    ]
+  },
+  {
+    "run": 84,
+    "initial_sobol_point": [
+      0.3883967995643616,
+      0.04553747549653053
+    ],
+    "raw_endpoint": [
+      -1.9001082181930542,
+      0.6715584993362427
+    ],
+    "parameters": {
+      "waist_m": 0.01561933383345604,
+      "normalized_curvature": 1.3237041234970093
+    },
+    "selection_snr_db": 4.190611109755313,
+    "seconds": 5.358644485473633,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.050006038097071
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.318010622414559
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.474610626704278
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.451582465993417
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.443620010445558
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.487996226792704
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.980156025031079
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.902572989080322
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.018885240833553
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.888457375771232
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.143665863187484
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.563675441813352
+      }
+    ]
+  },
+  {
+    "run": 85,
+    "initial_sobol_point": [
+      0.6175087094306946,
+      0.980473518371582
+    ],
+    "raw_endpoint": [
+      -1.8471808433532715,
+      2.340794563293457
+    ],
+    "parameters": {
+      "waist_m": 0.01621180959045887,
+      "normalized_curvature": 1.824399471282959
+    },
+    "selection_snr_db": 4.250327164234728,
+    "seconds": 5.389436721801758,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.73520218222893
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.2832572022486413
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.74766888707761
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.332498070944527
+      },
+      {
+        "step": 125,
+        "training_snr_db": 2.48696074260551
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.083416157243248
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.357029312963738
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.890143992549209
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.678509936110918
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.928700674640575
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.799894440158905
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.402310741345633
+      }
+    ]
+  },
+  {
+    "run": 86,
+    "initial_sobol_point": [
+      0.894928514957428,
+      0.27468249201774597
+    ],
+    "raw_endpoint": [
+      4.734073162078857,
+      -0.021396659314632416
+    ],
+    "parameters": {
+      "waist_m": 0.09915474057197571,
+      "normalized_curvature": 0.9893020987510681
+    },
+    "selection_snr_db": 4.865116164347078,
+    "seconds": 5.39691162109375,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.734905221240371
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.1302796180519996
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.7136103245770773
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.479915685586306
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.048972927091203
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.610195101535945
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.264343327858908
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.927989443604511
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.001070908448369
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.055726188651679
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.783911560180823
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.60526832921144
+      }
+    ]
+  },
+  {
+    "run": 87,
+    "initial_sobol_point": [
+      0.09526041150093079,
+      0.7147445678710938
+    ],
+    "raw_endpoint": [
+      -1.9006848335266113,
+      2.7016634941101074
+    ],
+    "parameters": {
+      "waist_m": 0.015613004565238953,
+      "normalized_curvature": 1.8742493391036987
+    },
+    "selection_snr_db": 4.251900031428667,
+    "seconds": 5.389178276062012,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.238630430641692
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.3287570514421523
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.676425916874661
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.714331824502926
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.692496762952156
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.716377479266458
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.302208570457007
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.9234690939128765
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.2849062732215666
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.2010579083430475
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.140646105238024
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.006736028597203
+      }
+    ]
+  },
+  {
+    "run": 88,
+    "initial_sobol_point": [
+      0.05431687459349632,
+      0.14845268428325653
+    ],
+    "raw_endpoint": [
+      -1.9370107650756836,
+      2.0669682025909424
+    ],
+    "parameters": {
+      "waist_m": 0.015219733119010925,
+      "normalized_curvature": 1.7753019332885742
+    },
+    "selection_snr_db": 4.24122724191335,
+    "seconds": 5.386584520339966,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.85275021503748
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.361930220561633
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.549654669529365
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.51400182395988
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.9092042544198087
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.575137634872629
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.0200115129469065
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.831291609523069
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.200442148037856
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.63279179573408
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.582183989865061
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.0931324450704505
+      }
+    ]
+  },
+  {
+    "run": 89,
+    "initial_sobol_point": [
+      0.9399300813674927,
+      0.8385148644447327
+    ],
+    "raw_endpoint": [
+      5.08258581161499,
+      0.04175759479403496
+    ],
+    "parameters": {
+      "waist_m": 0.09940193593502045,
+      "normalized_curvature": 1.0208756923675537
+    },
+    "selection_snr_db": 4.860047395892513,
+    "seconds": 5.379360914230347,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.215558707665944
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.2511485334703156
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.468321433172347
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.078684302417925
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.3616370583945425
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.196816784958734
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.467392115181019
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.795678748137019
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.024170016041769
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.026948961806804
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.088410927153282
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.645523042266197
+      }
+    ]
+  },
+  {
+    "run": 90,
+    "initial_sobol_point": [
+      0.5451700687408447,
+      0.4217711091041565
+    ],
+    "raw_endpoint": [
+      2.5396251678466797,
+      0.06030317395925522
+    ],
+    "parameters": {
+      "waist_m": 0.09290672838687897,
+      "normalized_curvature": 1.0301425457000732
+    },
+    "selection_snr_db": 4.843446401845481,
+    "seconds": 5.377822399139404,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.9207327346213745
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.8242254319757025
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.0101969898470715
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.004848981709245
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.285159357445669
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.3316534005990635
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.47495557798024
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.884085108515814
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.870772224740288
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.774321155904105
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.985659588420072
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.188109150850418
+      }
+    ]
+  },
+  {
+    "run": 91,
+    "initial_sobol_point": [
+      0.46448802947998047,
+      0.6067070364952087
+    ],
+    "raw_endpoint": [
+      2.0365149974823,
+      -0.0031848193611949682
+    ],
+    "parameters": {
+      "waist_m": 0.08880405873060226,
+      "normalized_curvature": 0.9984075427055359
+    },
+    "selection_snr_db": 4.840616888410772,
+    "seconds": 5.361161470413208,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.044308695718747
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.168443508231483
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.52931062607055
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.484866623186656
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.916751653613961
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.42650850137378
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.7836466115826735
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.450797041273058
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.782762771589922
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.377024552935267
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.220165904162065
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.02553967847992
+      }
+    ]
+  },
+  {
+    "run": 92,
+    "initial_sobol_point": [
+      0.2765275239944458,
+      0.37344110012054443
+    ],
+    "raw_endpoint": [
+      1.519238829612732,
+      0.009869452565908432
+    ],
+    "parameters": {
+      "waist_m": 0.08258136361837387,
+      "normalized_curvature": 1.0049346685409546
+    },
+    "selection_snr_db": 4.821232240016723,
+    "seconds": 5.369495630264282,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.731510093093096
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.8990463045749575
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.807369792175723
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.1516579820125905
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.892396959836297
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.2570785756147655
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.9599066131856215
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.8484747162938127
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.7973675265689115
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.647974361951417
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.300524175673615
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.768871304900265
+      }
+    ]
+  },
+  {
+    "run": 93,
+    "initial_sobol_point": [
+      0.7331918478012085,
+      0.6843529939651489
+    ],
+    "raw_endpoint": [
+      3.482938051223755,
+      -0.008269911631941795
+    ],
+    "parameters": {
+      "waist_m": 0.09710924327373505,
+      "normalized_curvature": 0.9958651065826416
+    },
+    "selection_snr_db": 4.860437641942334,
+    "seconds": 5.3643717765808105,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.959008540727458
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.481565570804395
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.943920151273424
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.37775258591558
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.214451690707877
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.308215952312819
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.15803669543125
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.630465386761978
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.809436087693347
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.526041348441818
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.372480312982642
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.456961080943232
+      }
+    ]
+  },
+  {
+    "run": 94,
+    "initial_sobol_point": [
+      0.7528905868530273,
+      0.07177891582250595
+    ],
+    "raw_endpoint": [
+      3.3302040100097656,
+      -0.06481509655714035
+    ],
+    "parameters": {
+      "waist_m": 0.09664870798587799,
+      "normalized_curvature": 0.9676037430763245
+    },
+    "selection_snr_db": 4.859828703563974,
+    "seconds": 5.364713191986084,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.1794228262184525
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.168338982319818
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.2823047123847973
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.552151612803655
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.343210157528386
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.6267149715782825
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.5075306613383725
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.015786093151615
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.562873569920218
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.018978396548308
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.623846796354698
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.834831235500784
+      }
+    ]
+  },
+  {
+    "run": 95,
+    "initial_sobol_point": [
+      0.24129511415958405,
+      0.8858650922775269
+    ],
+    "raw_endpoint": [
+      -2.047804832458496,
+      2.3853912353515625
+    ],
+    "parameters": {
+      "waist_m": 0.01408461481332779,
+      "normalized_curvature": 1.8314130306243896
+    },
+    "selection_snr_db": 4.227035302066147,
+    "seconds": 5.379566431045532,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.8216950777487786
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.8354375895023
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.977789233632523
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.03813296392162
+      },
+      {
+        "step": 125,
+        "training_snr_db": 2.9033198809016003
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.9277755302570485
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.161886588086277
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.3528500077319086
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.920213301912623
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.6930939003421654
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.7279025870263744
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.084572105924395
+      }
+    ]
+  },
+  {
+    "run": 96,
+    "initial_sobol_point": [
+      0.23295480012893677,
+      0.32043972611427307
+    ],
+    "raw_endpoint": [
+      1.4036232233047485,
+      0.16332197189331055
+    ],
+    "parameters": {
+      "waist_m": 0.08086755126714706,
+      "normalized_curvature": 1.0814799070358276
+    },
+    "selection_snr_db": 4.784012984703326,
+    "seconds": 5.374565839767456,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.096302785185814
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.443857857662082
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.3522127690939545
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.9895576813485367
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.835609166961612
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.030500356000434
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.981640848900026
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.304129873193284
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.798054549478913
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.8837033946030965
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.185964289081292
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.712023211490548
+      }
+    ]
+  },
+  {
+    "run": 97,
+    "initial_sobol_point": [
+      0.7767654061317444,
+      0.6352578401565552
+    ],
+    "raw_endpoint": [
+      3.91277813911438,
+      0.01939798891544342
+    ],
+    "parameters": {
+      "waist_m": 0.09809944778680801,
+      "normalized_curvature": 1.0096986293792725
+    },
+    "selection_snr_db": 4.860248816246649,
+    "seconds": 5.3919243812561035,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.0012836776095915
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.289399178575269
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.0163806250402505
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.226884167464508
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.280817865201598
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.140289137227848
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.66433163426853
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.123202103999165
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.744383278450168
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.7362672494635776
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.725265710750014
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.0060831637895546
+      }
+    ]
+  },
+  {
+    "run": 98,
+    "initial_sobol_point": [
+      0.741533100605011,
+      0.12478028982877731
+    ],
+    "raw_endpoint": [
+      3.2735252380371094,
+      -0.006658345460891724
+    ],
+    "parameters": {
+      "waist_m": 0.09646040201187134,
+      "normalized_curvature": 0.9966709017753601
+    },
+    "selection_snr_db": 4.8589942586965,
+    "seconds": 5.366633176803589,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.30714218638578
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.673866188887492
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.575297111347162
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.739593040823135
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.84230197379002
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.247361259176578
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.982869454261534
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.661295289513962
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.9382141658215453
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.748506149183908
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.95903610187799
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.051094692276753
+      }
+    ]
+  },
+  {
+    "run": 99,
+    "initial_sobol_point": [
+      0.25265365839004517,
+      0.9349602460861206
+    ],
+    "raw_endpoint": [
+      -1.8675055503845215,
+      3.1311583518981934
+    ],
+    "parameters": {
+      "waist_m": 0.01598156988620758,
+      "normalized_curvature": 1.916319727897644
+    },
+    "selection_snr_db": 4.25590375320953,
+    "seconds": 5.368226051330566,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.304159569297297
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.459330211537566
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.73004622299155
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.953264521006984
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.523335613565528
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.619199487704171
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.727020545758239
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.9838493301198175
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.41901169734229
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.102578333554639
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.2904825805994005
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.3431037944170665
+      }
+    ]
+  },
+  {
+    "run": 100,
+    "initial_sobol_point": [
+      0.43969494104385376,
+      0.17018873989582062
+    ],
+    "raw_endpoint": [
+      1.9492710828781128,
+      0.009645652957260609
+    ],
+    "parameters": {
+      "waist_m": 0.08791060745716095,
+      "normalized_curvature": 1.0048227310180664
+    },
+    "selection_snr_db": 4.837265549482701,
+    "seconds": 5.369719982147217,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.9609475838052117
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.1314293189853695
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.388555902478548
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.069762916534949
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.5247774258049605
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.356779795998712
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.0003049153666135
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.026854422428373
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.939507779934511
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.106583646170802
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.159551279013583
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.848762614807479
+      }
+    ]
+  },
+  {
+    "run": 101,
+    "initial_sobol_point": [
+      0.5545528531074524,
+      0.8563448190689087
+    ],
+    "raw_endpoint": [
+      2.3052780628204346,
+      -0.05231621116399765
+    ],
+    "parameters": {
+      "waist_m": 0.09120338410139084,
+      "normalized_curvature": 0.9738478064537048
+    },
+    "selection_snr_db": 4.847786640456375,
+    "seconds": 5.364411354064941,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.9614539850442343
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.588753473473173
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.993983567221688
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.0885883809509584
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.907734188648402
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.850985249055437
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.50153490830375
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.090742811743927
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.572929408337433
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.607918313226738
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.215226655006864
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.722255629885039
+      }
+    ]
+  },
+  {
+    "run": 102,
+    "initial_sobol_point": [
+      0.9647241234779358,
+      0.4000350534915924
+    ],
+    "raw_endpoint": [
+      5.930890083312988,
+      -0.003994419239461422
+    ],
+    "parameters": {
+      "waist_m": 0.09974303841590881,
+      "normalized_curvature": 0.9980027079582214
+    },
+    "selection_snr_db": 4.865409937461734,
+    "seconds": 5.3643224239349365,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.71481035537747
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.682473736152851
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.92347735315089
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.29246452703569
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.267866649552992
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.475865440183431
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.852526334476399
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.526462738827495
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.615715182990796
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.529529865946747
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.0095251502929825
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.190056790129864
+      }
+    ]
+  },
+  {
+    "run": 103,
+    "initial_sobol_point": [
+      0.04493505507707596,
+      0.5888770222663879
+    ],
+    "raw_endpoint": [
+      -2.0653586387634277,
+      2.8696045875549316
+    ],
+    "parameters": {
+      "waist_m": 0.013913435861468315,
+      "normalized_curvature": 1.8926465511322021
+    },
+    "selection_snr_db": 4.227382695120462,
+    "seconds": 5.362788438796997,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.695764215395714
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.721682573783864
+      },
+      {
+        "step": 75,
+        "training_snr_db": 2.893034731318866
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.6915181417555
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.151750899002574
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.308147816387204
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.0867687005879585
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.08241729671375
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.0307392158190805
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.745433456757199
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.1166577647377
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.1185351123051115
+      }
+    ]
+  },
+  {
+    "run": 104,
+    "initial_sobol_point": [
+      0.11727263033390045,
+      0.024320341646671295
+    ],
+    "raw_endpoint": [
+      -2.006413459777832,
+      1.8099215030670166
+    ],
+    "parameters": {
+      "waist_m": 0.014497525990009308,
+      "normalized_curvature": 1.7187048196792603
+    },
+    "selection_snr_db": 4.225929265982907,
+    "seconds": 5.367377042770386,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.4577510144607237
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.4556064553133465
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.88649272610417
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.574178884170708
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.111840310819515
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.063065854516938
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.9978049979894745
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.1327770090162055
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.643268721418802
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.023115295894598
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.5769695593888855
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.091339193245474
+      }
+    ]
+  },
+  {
+    "run": 105,
+    "initial_sobol_point": [
+      0.8886318206787109,
+      0.9631621837615967
+    ],
+    "raw_endpoint": [
+      3.318458080291748,
+      0.12627817690372467
+    ],
+    "parameters": {
+      "waist_m": 0.09661049395799637,
+      "normalized_curvature": 1.063055396080017
+    },
+    "selection_snr_db": 4.836568144352005,
+    "seconds": 5.3565123081207275,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.263373407432323
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.286677894043108
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.5034811522450804
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.572642786571497
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.61454727843571
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.036499857755563
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.833998790914915
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.763881678563796
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.995082375826418
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.944813263736883
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.754845417714459
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.225859476219481
+      }
+    ]
+  },
+  {
+    "run": 106,
+    "initial_sobol_point": [
+      0.5954955816268921,
+      0.2958996295928955
+    ],
+    "raw_endpoint": [
+      2.5970191955566406,
+      -0.019635317847132683
+    ],
+    "parameters": {
+      "waist_m": 0.09327494353055954,
+      "normalized_curvature": 0.9901826977729797
+    },
+    "selection_snr_db": 4.852554401667206,
+    "seconds": 5.369863986968994,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.9317334195416325
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.706151469747983
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.440180926721518
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8644979648933067
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.712594271098533
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.578565784375477
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.527313041628311
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.535529496061794
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.868104462420059
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.959730246983163
+      },
+      {
+        "step": 275,
+        "training_snr_db": 3.9472304608624547
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.175618632924458
+      }
+    ]
+  },
+  {
+    "run": 107,
+    "initial_sobol_point": [
+      0.3946925103664398,
+      0.7320559024810791
+    ],
+    "raw_endpoint": [
+      1.8681449890136719,
+      -0.03538425266742706
+    ],
+    "parameters": {
+      "waist_m": 0.08702561259269714,
+      "normalized_curvature": 0.9823097586631775
+    },
+    "selection_snr_db": 4.836812771277057,
+    "seconds": 5.352324724197388,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.114767003072559
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.328221926485877
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.987002199823139
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.834827835990676
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.891824535051294
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.442082874093714
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.379819132892181
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.5057766518878672
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.079306551582677
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.9025037923020554
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.3342608294385965
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.907325697901234
+      }
+    ]
+  },
+  {
+    "run": 108,
+    "initial_sobol_point": [
+      0.33265113830566406,
+      0.49854952096939087
+    ],
+    "raw_endpoint": [
+      1.608683705329895,
+      0.025100089609622955
+    ],
+    "parameters": {
+      "waist_m": 0.08382317423820496,
+      "normalized_curvature": 1.0125494003295898
+    },
+    "selection_snr_db": 4.823784074874197,
+    "seconds": 5.378687858581543,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.194046535854679
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.8897327403271293
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.6146562156071864
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.377640506016914
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.541586299402248
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.427998686150053
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.468082413503671
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.763305755526892
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.965055216702156
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.652198468244761
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.326807364021461
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.711207425651153
+      }
+    ]
+  },
+  {
+    "run": 109,
+    "initial_sobol_point": [
+      0.6574757099151611,
+      0.5587295889854431
+    ],
+    "raw_endpoint": [
+      3.157055139541626,
+      0.04255243390798569
+    ],
+    "parameters": {
+      "waist_m": 0.09604103118181229,
+      "normalized_curvature": 1.0212730169296265
+    },
+    "selection_snr_db": 4.853171659361648,
+    "seconds": 5.367504596710205,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.748130325489681
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.5530729126142635
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.765601961955711
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.612738253263991
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.157302068945693
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.441509118505688
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.534780145564623
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.212180387109897
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.084072898658625
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.204749585815502
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.242763352240058
+      },
+      {
+        "step": 300,
+        "training_snr_db": 2.946704626301369
+      }
+    ]
+  },
+  {
+    "run": 110,
+    "initial_sobol_point": [
+      0.8256732225418091,
+      0.19667431712150574
+    ],
+    "raw_endpoint": [
+      4.1002068519592285,
+      0.004943433217704296
+    ],
+    "parameters": {
+      "waist_m": 0.09841898083686829,
+      "normalized_curvature": 1.002471685409546
+    },
+    "selection_snr_db": 4.862200564836201,
+    "seconds": 5.38377571105957,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.310054495784018
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.674907398625687
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.676544266111344
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.4144939811362445
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.465894650891186
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.893828699396105
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.169816746562368
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.948619431197556
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.503068195336036
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.88732919206541
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.2193388959144364
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.305682351749822
+      }
+    ]
+  },
+  {
+    "run": 111,
+    "initial_sobol_point": [
+      0.18029245734214783,
+      0.7614923119544983
+    ],
+    "raw_endpoint": [
+      -2.025472402572632,
+      2.2713799476623535
+    ],
+    "parameters": {
+      "waist_m": 0.01430576853454113,
+      "normalized_curvature": 1.812957763671875
+    },
+    "selection_snr_db": 4.230399455760039,
+    "seconds": 5.340230464935303,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.073454507166548
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.622337345570728
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.578712658972947
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.47099448718611
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.414395646908533
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.424329737312781
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.178772734115178
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.2104705341463475
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.098636239374899
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.2976401132394932
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.3501635353437536
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.675050581999779
+      }
+    ]
+  },
+  {
+    "run": 112,
+    "initial_sobol_point": [
+      0.13373298943042755,
+      0.22309547662734985
+    ],
+    "raw_endpoint": [
+      -1.7838190793991089,
+      1.9575685262680054
+    ],
+    "parameters": {
+      "waist_m": 0.016951723024249077,
+      "normalized_curvature": 1.7525392770767212
+    },
+    "selection_snr_db": 4.243522018499016,
+    "seconds": 5.422853231430054,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.153812247449951
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.660290312506138
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.06830036323673
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.584211924181687
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.810784993325169
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.572548487038074
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.462416113423907
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.2856431190034865
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.53877369829357
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.855823623367979
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.090432861713547
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.332350958750399
+      }
+    ]
+  },
+  {
+    "run": 113,
+    "initial_sobol_point": [
+      0.8721413016319275,
+      0.7879161238670349
+    ],
+    "raw_endpoint": [
+      4.372385025024414,
+      0.010264944285154343
+    ],
+    "parameters": {
+      "waist_m": 0.09879101812839508,
+      "normalized_curvature": 1.0051324367523193
+    },
+    "selection_snr_db": 4.86249027946023,
+    "seconds": 5.4305360317230225,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.433887083836195
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.172618325026329
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.395618339821577
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.714707989702471
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.0961269924837875
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.583055927901549
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.015082944039378
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.721285349775993
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.5666217402802864
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.370126133894418
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.354377262007654
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.219924296455645
+      }
+    ]
+  },
+  {
+    "run": 114,
+    "initial_sobol_point": [
+      0.6417791247367859,
+      0.4566197097301483
+    ],
+    "raw_endpoint": [
+      3.0495870113372803,
+      0.013527372851967812
+    ],
+    "parameters": {
+      "waist_m": 0.09561217576265335,
+      "normalized_curvature": 1.0067635774612427
+    },
+    "selection_snr_db": 4.855667771319424,
+    "seconds": 5.4112653732299805,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.246958176806156
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.639075687999129
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.106827385700799
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.928852964305265
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.733360865051882
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.6923109998444925
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.939566078585738
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.1027959070456195
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.6406896752901656
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.69728198669193
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.773538019124374
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.129094991876332
+      }
+    ]
+  },
+  {
+    "run": 115,
+    "initial_sobol_point": [
+      0.34843960404396057,
+      0.5168009400367737
+    ],
+    "raw_endpoint": [
+      1.7792658805847168,
+      -0.1590879112482071
+    ],
+    "parameters": {
+      "waist_m": 0.08599380403757095,
+      "normalized_curvature": 0.9206233620643616
+    },
+    "selection_snr_db": 4.821542042436796,
+    "seconds": 5.373567819595337,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.161942453474464
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.612667633692226
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.625610949621544
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.825439604690691
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.105720892545199
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.985452559522431
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.095471704049055
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.05629684758336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.551612623567536
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.430613422882992
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.543828170050304
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.044997674332416
+      }
+    ]
+  },
+  {
+    "run": 116,
+    "initial_sobol_point": [
+      0.41042181849479675,
+      0.2520429790019989
+    ],
+    "raw_endpoint": [
+      2.040778160095215,
+      0.0715768113732338
+    ],
+    "parameters": {
+      "waist_m": 0.08884620666503906,
+      "normalized_curvature": 1.0357731580734253
+    },
+    "selection_snr_db": 4.831387714080988,
+    "seconds": 5.351595163345337,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.206634950845623
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.461695758651378
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.314344667296909
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.479532854851683
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.774986896516414
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.09775072457598
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.277605990617934
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.810567222057908
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.193581686008649
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.795983557512603
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.040490660430441
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.667176405484804
+      }
+    ]
+  },
+  {
+    "run": 117,
+    "initial_sobol_point": [
+      0.5797359347343445,
+      0.6882011890411377
+    ],
+    "raw_endpoint": [
+      2.6409199237823486,
+      -0.040577542036771774
+    ],
+    "parameters": {
+      "waist_m": 0.09354456514120102,
+      "normalized_curvature": 0.9797139763832092
+    },
+    "selection_snr_db": 4.8535300241643915,
+    "seconds": 5.359820127487183,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.97470301060536
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.526991970245176
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.12693436649015
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.33546635718364
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.281775682239621
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.588627843898846
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.718117149036847
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.892502320704598
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.957049596632081
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.057542423914095
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.440644113393289
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.306616288975595
+      }
+    ]
+  },
+  {
+    "run": 118,
+    "initial_sobol_point": [
+      0.9351591467857361,
+      0.052675969898700714
+    ],
+    "raw_endpoint": [
+      4.657037734985352,
+      0.05210602656006813
+    ],
+    "parameters": {
+      "waist_m": 0.09908769279718399,
+      "normalized_curvature": 1.0260471105575562
+    },
+    "selection_snr_db": 4.857881240199857,
+    "seconds": 5.357652902603149,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.446988705577321
+      },
+      {
+        "step": 50,
+        "training_snr_db": 2.5598341305851684
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.838015866370641
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.158296424502499
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.2606991389615385
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.152867112463726
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.802262030168945
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.784316285879489
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.764951363261477
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.223280135164793
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.357200186355505
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.093553629547092
+      }
+    ]
+  },
+  {
+    "run": 119,
+    "initial_sobol_point": [
+      0.07077614217996597,
+      0.9915196895599365
+    ],
+    "raw_endpoint": [
+      -1.8222358226776123,
+      5.843224048614502
+    ],
+    "parameters": {
+      "waist_m": 0.01649908348917961,
+      "normalized_curvature": 1.9942177534103394
+    },
+    "selection_snr_db": 4.259069529359266,
+    "seconds": 5.394403696060181,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.162346117264063
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.359734665630177
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.415475547904749
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.8544974470692472
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.922654406037818
+      },
+      {
+        "step": 150,
+        "training_snr_db": 2.9403439985541233
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.219804347448025
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.88944489359828
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.289316613992671
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.3894783718635235
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.300053845341392
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.531661980884996
+      }
+    ]
+  },
+  {
+    "run": 120,
+    "initial_sobol_point": [
+      0.029711484909057617,
+      0.426472008228302
+    ],
+    "raw_endpoint": [
+      -1.9807460308074951,
+      2.4701430797576904
+    ],
+    "parameters": {
+      "waist_m": 0.014760216698050499,
+      "normalized_curvature": 1.8440440893173218
+    },
+    "selection_snr_db": 4.240893224553409,
+    "seconds": 5.356159210205078,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.522780788980781
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.541350811738409
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.539433269994067
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.109715484344195
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.016878252882824
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.164984992443779
+      },
+      {
+        "step": 175,
+        "training_snr_db": 3.5092880315869945
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.444775661999484
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.683177043932791
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.222746058676759
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.136913767382254
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.388502856132778
+      }
+    ]
+  },
+  {
+    "run": 121,
+    "initial_sobol_point": [
+      0.9800395965576172,
+      0.6153156161308289
+    ],
+    "raw_endpoint": [
+      6.464620113372803,
+      0.03724175691604614
+    ],
+    "parameters": {
+      "waist_m": 0.0998491495847702,
+      "normalized_curvature": 1.0186187028884888
+    },
+    "selection_snr_db": 4.861523259280747,
+    "seconds": 5.379634380340576,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.6884167509036825
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.106793438526724
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.663333485909254
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.794379606602062
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.65819311838304
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.297368491729616
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.269918669136225
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.334581165694109
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.279194078076276
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.992629358515872
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.071550225156686
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.154670326275936
+      }
+    ]
+  },
+  {
+    "run": 122,
+    "initial_sobol_point": [
+      0.507520318031311,
+      0.12824313342571259
+    ],
+    "raw_endpoint": [
+      2.183035135269165,
+      0.049306005239486694
+    ],
+    "parameters": {
+      "waist_m": 0.09017542749643326,
+      "normalized_curvature": 1.0246480703353882
+    },
+    "selection_snr_db": 4.838592416611511,
+    "seconds": 5.355090141296387,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.197204250255906
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.6876420435144426
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.8930927425655697
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.383295145085499
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.765512192979587
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.561298463454867
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.461946403417274
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.392635176885766
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.9963982827844475
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.706804695229205
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.473347797942531
+      },
+      {
+        "step": 300,
+        "training_snr_db": 3.636428022990968
+      }
+    ]
+  },
+  {
+    "run": 123,
+    "initial_sobol_point": [
+      0.48663604259490967,
+      0.8144014477729797
+    ],
+    "raw_endpoint": [
+      1.8373937606811523,
+      -0.055896300822496414
+    ],
+    "parameters": {
+      "waist_m": 0.08667609840631485,
+      "normalized_curvature": 0.9720591306686401
+    },
+    "selection_snr_db": 4.835582933570656,
+    "seconds": 5.373794794082642,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.555039716183322
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.018889493715042
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.3881447373977487
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.499887970287184
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.7290102389771835
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.013909242860674
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.329174087869887
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.7754820239792775
+      },
+      {
+        "step": 225,
+        "training_snr_db": 3.7966882792999606
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.349219903253972
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.184526807160376
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.36923231633253
+      }
+    ]
+  },
+  {
+    "run": 124,
+    "initial_sobol_point": [
+      0.2996540069580078,
+      0.08087815344333649
+    ],
+    "raw_endpoint": [
+      -2.066817045211792,
+      0.7136880159378052
+    ],
+    "parameters": {
+      "waist_m": 0.013899318873882294,
+      "normalized_curvature": 1.3424311876296997
+    },
+    "selection_snr_db": 4.169709073631226,
+    "seconds": 5.350740671157837,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.6838943124462924
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.330039386048547
+      },
+      {
+        "step": 75,
+        "training_snr_db": 3.1425690789148013
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.525817451455335
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.922410008964116
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.027059595783086
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.8262013533720625
+      },
+      {
+        "step": 200,
+        "training_snr_db": 3.49766223809173
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.487250508050423
+      },
+      {
+        "step": 250,
+        "training_snr_db": 3.5363237361099307
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.19721609051092
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.6031931880232815
+      }
+    ]
+  },
+  {
+    "run": 125,
+    "initial_sobol_point": [
+      0.694563627243042,
+      0.8910595178604126
+    ],
+    "raw_endpoint": [
+      2.949805498123169,
+      0.02919585257768631
+    ],
+    "parameters": {
+      "waist_m": 0.09517466276884079,
+      "normalized_curvature": 1.014596939086914
+    },
+    "selection_snr_db": 4.853060255749162,
+    "seconds": 5.371880531311035,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.727919241545794
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.127268689371363
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.834780090404819
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.234598436650141
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.893226064760264
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.4821585651338545
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.211458877844573
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.358877970561511
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.042506041336685
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.796710403548718
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.507604945455064
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.869150667911197
+      }
+    ]
+  },
+  {
+    "run": 126,
+    "initial_sobol_point": [
+      0.792021632194519,
+      0.3488408327102661
+    ],
+    "raw_endpoint": [
+      3.839735269546509,
+      -0.13046135008335114
+    ],
+    "parameters": {
+      "waist_m": 0.09795846790075302,
+      "normalized_curvature": 0.9348617792129517
+    },
+    "selection_snr_db": 4.855939360400907,
+    "seconds": 5.366496562957764,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.701008916706806
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.983822884202429
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.175575319473485
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.291169258229029
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.579713659852678
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.871630231545293
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.875189519000154
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.359787462073543
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.559769045908819
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.7649832975181985
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.376262253190258
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.584061792973982
+      }
+    ]
+  },
+  {
+    "run": 127,
+    "initial_sobol_point": [
+      0.21766817569732666,
+      0.6636613607406616
+    ],
+    "raw_endpoint": [
+      0.8438355326652527,
+      0.12259085476398468
+    ],
+    "parameters": {
+      "waist_m": 0.07082942128181458,
+      "normalized_curvature": 1.0612188577651978
+    },
+    "selection_snr_db": 4.754860341729439,
+    "seconds": 5.381199598312378,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.847008768685374
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.5617349849748936
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.572395199176383
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.576293919424802
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.769934148305951
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.010101343544725
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.0999968298272425
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.404745801785021
+      },
+      {
+        "step": 225,
+        "training_snr_db": 4.8489763573596685
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.185943327552373
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.806735691119938
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.013272414363536
+      }
+    ]
+  }
+]

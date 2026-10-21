@@ -105,3 +105,5 @@ Experiments not used in the current manuscript or Supplement have been removed f
 ## Data license and attribution
 
 The research data and figures are available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Give credit to Qianyi Zhang and Minghao Wang, link to this repository and the license, and indicate any changes. Dataset citation metadata are provided in [data/CITATION.cff](data/CITATION.cff). Source code remains under [Apache-2.0](LICENSE).
+
+Current Fig. S3 structured-source points use 128 scrambled Sobol starts × 300 Adam updates and the mean of the top three SNRs on an independent 1000-atmosphere screening ensemble. DAD applies this separately to both branches and reports the higher branch mean. All runs use 16 atmospheres per update. OPMS/GSM retain approved estimates. Run `python benchmark_screening.py` to audit released endpoint/power archives and rebuild these tables; see SUPPLEMENT_BENCHMARK.md for conditional bootstrap intervals.

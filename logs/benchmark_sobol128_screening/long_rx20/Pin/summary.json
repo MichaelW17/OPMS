@@ -1,0 +1,216 @@
+{
+  "case": "long_rx20",
+  "method": "Pin",
+  "starts": 128,
+  "steps": 300,
+  "screening_samples": 1000,
+  "additional_validation_samples": 0,
+  "selected_runs": "51,109,101",
+  "mean_top_three_screening_snr_db": 4.955047595638226,
+  "ci95_low_db": 4.729799794977846,
+  "ci95_high_db": 5.189350588582486,
+  "top_three": [
+    {
+      "run": 51,
+      "initial_sobol_point": [
+        0.9277677536010742,
+        0.5553710460662842
+      ],
+      "raw_endpoint": [
+        4.501165866851807,
+        -0.8154416084289551
+      ],
+      "parameters": {
+        "envelope_radius_m": 45.99850845336914,
+        "design_distance_m": 2533.660888671875
+      },
+      "selection_snr_db": 4.955103811329845,
+      "seconds": 5.5045928955078125,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 4.753499360579011
+        },
+        {
+          "step": 50,
+          "training_snr_db": 5.505152730863241
+        },
+        {
+          "step": 75,
+          "training_snr_db": 5.586769959182275
+        },
+        {
+          "step": 100,
+          "training_snr_db": 5.087214219955424
+        },
+        {
+          "step": 125,
+          "training_snr_db": 4.653283961576208
+        },
+        {
+          "step": 150,
+          "training_snr_db": 4.415222241479403
+        },
+        {
+          "step": 175,
+          "training_snr_db": 7.130948857350205
+        },
+        {
+          "step": 200,
+          "training_snr_db": 3.9693990199823
+        },
+        {
+          "step": 225,
+          "training_snr_db": 3.176022087083506
+        },
+        {
+          "step": 250,
+          "training_snr_db": 7.066353658752307
+        },
+        {
+          "step": 275,
+          "training_snr_db": 5.862067439924493
+        },
+        {
+          "step": 300,
+          "training_snr_db": 4.433601167743223
+        }
+      ]
+    },
+    {
+      "run": 109,
+      "initial_sobol_point": [
+        0.3690096139907837,
+        0.9669986367225647
+      ],
+      "raw_endpoint": [
+        0.6481150984764099,
+        -0.8143003582954407
+      ],
+      "parameters": {
+        "envelope_radius_m": 3.6757736206054688,
+        "design_distance_m": 2534.87451171875
+      },
+      "selection_snr_db": 4.95503788827593,
+      "seconds": 5.7853381633758545,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 4.368458867327521
+        },
+        {
+          "step": 50,
+          "training_snr_db": 4.037809628368754
+        },
+        {
+          "step": 75,
+          "training_snr_db": 4.7715668265663425
+        },
+        {
+          "step": 100,
+          "training_snr_db": 4.981399047491731
+        },
+        {
+          "step": 125,
+          "training_snr_db": 3.819164258421261
+        },
+        {
+          "step": 150,
+          "training_snr_db": 6.654045608638182
+        },
+        {
+          "step": 175,
+          "training_snr_db": 5.652818339482627
+        },
+        {
+          "step": 200,
+          "training_snr_db": 3.9233746350210916
+        },
+        {
+          "step": 225,
+          "training_snr_db": 4.3301939803742275
+        },
+        {
+          "step": 250,
+          "training_snr_db": 5.1322016199380815
+        },
+        {
+          "step": 275,
+          "training_snr_db": 7.309091175304272
+        },
+        {
+          "step": 300,
+          "training_snr_db": 8.01348147902482
+        }
+      ]
+    },
+    {
+      "run": 101,
+      "initial_sobol_point": [
+        0.4706026613712311,
+        0.6865485906600952
+      ],
+      "raw_endpoint": [
+        1.1134432554244995,
+        -0.7980714440345764
+      ],
+      "parameters": {
+        "envelope_radius_m": 7.635859966278076,
+        "design_distance_m": 2552.19091796875
+      },
+      "selection_snr_db": 4.955001087308904,
+      "seconds": 5.532910585403442,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 6.09493714689677
+        },
+        {
+          "step": 50,
+          "training_snr_db": 6.716494882196226
+        },
+        {
+          "step": 75,
+          "training_snr_db": 4.622039128352319
+        },
+        {
+          "step": 100,
+          "training_snr_db": 5.348134263664691
+        },
+        {
+          "step": 125,
+          "training_snr_db": 5.370774754896348
+        },
+        {
+          "step": 150,
+          "training_snr_db": 4.169461170068298
+        },
+        {
+          "step": 175,
+          "training_snr_db": 5.265877703844803
+        },
+        {
+          "step": 200,
+          "training_snr_db": 4.968450114092083
+        },
+        {
+          "step": 225,
+          "training_snr_db": 4.509579825553731
+        },
+        {
+          "step": 250,
+          "training_snr_db": 5.660219858745618
+        },
+        {
+          "step": 275,
+          "training_snr_db": 4.5186056206845455
+        },
+        {
+          "step": 300,
+          "training_snr_db": 5.844224515461902
+        }
+      ]
+    }
+  ],
+  "original_records": "work\\coherent_sobol128\\long_rx20\\Pin"
+}

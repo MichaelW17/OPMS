@@ -1,0 +1,22 @@
+{
+  "cases": [
+    "small_rx",
+    "long_rx20",
+    "strong_small_rx"
+  ],
+  "families": [
+    "CB",
+    "Pin",
+    "Sharp",
+    "IOPB"
+  ],
+  "starts": 128,
+  "steps": 300,
+  "batch_size": 16,
+  "lr": 0.02,
+  "selection_samples": 1000,
+  "validation_samples": 2000,
+  "validation_batch": 4,
+  "seed": 2026101901,
+  "output": "C:\\Users\\ThunderBolt\\SynologyDrive\\Research\\OL2026gpt\\opms-reproducibility\\work\\coherent_sobol128"
+}

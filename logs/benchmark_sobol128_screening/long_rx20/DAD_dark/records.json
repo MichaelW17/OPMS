@@ -1,0 +1,2690 @@
+[
+  {
+    "run": 0,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.20669226348400116,
+      0.39403805136680603,
+      0.5427325963973999
+    ],
+    "raw_endpoint": [
+      -0.8997970819473267,
+      0.9006503820419312,
+      -2.5026702880859375
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.7276611328125,
+      "envelope_radius_m": 6.795468330383301,
+      "alpha": -0.07567119598388672
+    },
+    "screening_snr_db": 6.16266554735822,
+    "seconds": 234.82876801490784
+  },
+  {
+    "run": 1,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8050556182861328,
+      0.5217210054397583,
+      0.31974470615386963
+    ],
+    "raw_endpoint": [
+      2.0084664821624756,
+      1.5036225318908691,
+      2.9201979637145996
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 324.50494384765625,
+      "envelope_radius_m": 14.233525276184082,
+      "alpha": -0.9488359093666077
+    },
+    "screening_snr_db": 4.2503338107010356,
+    "seconds": 239.8572072982788
+  },
+  {
+    "run": 2,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7188441753387451,
+      0.24676813185214996,
+      0.9251238703727722
+    ],
+    "raw_endpoint": [
+      0.6792795658111572,
+      0.2984381318092346,
+      5.049338340759277
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 259.0733642578125,
+      "envelope_radius_m": 2.637253522872925,
+      "alpha": -0.9936273097991943
+    },
+    "screening_snr_db": 4.635487751674522,
+    "seconds": 238.5287642478943
+  },
+  {
+    "run": 3,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2615930438041687,
+      0.8690813183784485,
+      0.21872931718826294
+    ],
+    "raw_endpoint": [
+      -0.8871627449989319,
+      3.7848784923553467,
+      -3.4878101348876953
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.50869750976562,
+      "envelope_radius_m": 42.88923263549805,
+      "alpha": -0.029661066830158234
+    },
+    "screening_snr_db": 6.1668532145814945,
+    "seconds": 234.91074013710022
+  },
+  {
+    "run": 4,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.38555338978767395,
+      0.0934751033782959,
+      0.4349192976951599
+    ],
+    "raw_endpoint": [
+      -0.874751091003418,
+      -0.4323560297489166,
+      -2.8093371391296387
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 148.27999877929688,
+      "envelope_radius_m": 0.7579869627952576,
+      "alpha": -0.05682169646024704
+    },
+    "screening_snr_db": 6.157655613578403,
+    "seconds": 234.91419982910156
+  },
+  {
+    "run": 5,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5947613716125488,
+      0.9638341069221497,
+      0.7050257325172424
+    ],
+    "raw_endpoint": [
+      0.6684722900390625,
+      5.438626289367676,
+      3.3856074810028076
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 258.3482666015625,
+      "envelope_radius_m": 48.52775573730469,
+      "alpha": -0.9672516584396362
+    },
+    "screening_snr_db": 4.630990298313457,
+    "seconds": 238.4938931465149
+  },
+  {
+    "run": 6,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9310953617095947,
+      0.2973387539386749,
+      0.036906350404024124
+    ],
+    "raw_endpoint": [
+      -0.8749260902404785,
+      0.42015689611434937,
+      -3.152539014816284
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 148.26910400390625,
+      "envelope_radius_m": 3.232454299926758,
+      "alpha": -0.04099135100841522
+    },
+    "screening_snr_db": 6.162407188045135,
+    "seconds": 237.20355010032654
+  },
+  {
+    "run": 7,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.08077496290206909,
+      0.6769759654998779,
+      0.821670413017273
+    ],
+    "raw_endpoint": [
+      -0.8168540596961975,
+      2.3236701488494873,
+      -1.710466742515564
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 151.9295654296875,
+      "envelope_radius_m": 27.00385093688965,
+      "alpha": -0.15310318768024445
+    },
+    "screening_snr_db": 6.128305835106589,
+    "seconds": 234.60918974876404
+  },
+  {
+    "run": 8,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.061145417392253876,
+      0.1747545450925827,
+      0.10340000689029694
+    ],
+    "raw_endpoint": [
+      -0.9554687738418579,
+      0.1502632051706314,
+      -3.6878862380981445
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.33590698242188,
+      "envelope_radius_m": 2.048593759536743,
+      "alpha": -0.02441389113664627
+    },
+    "screening_snr_db": 6.174068635922878,
+    "seconds": 234.6406373977661
+  },
+  {
+    "run": 9,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9583559632301331,
+      0.8043915033340454,
+      0.7551596164703369
+    ],
+    "raw_endpoint": [
+      1.9600210189819336,
+      3.309398889541626,
+      3.5196332931518555
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 322.9605712890625,
+      "envelope_radius_m": 39.194007873535156,
+      "alpha": -0.971241295337677
+    },
+    "screening_snr_db": 4.252622441990556,
+    "seconds": 240.04106330871582
+  },
+  {
+    "run": 10,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5128304362297058,
+      0.46605169773101807,
+      0.4857789874076843
+    ],
+    "raw_endpoint": [
+      -0.9949775338172913,
+      1.0478774309158325,
+      -2.1538009643554688
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.97900390625,
+      "envelope_radius_m": 8.319005012512207,
+      "alpha": -0.10397657752037048
+    },
+    "screening_snr_db": 6.157968630870704,
+    "seconds": 235.166090965271
+  },
+  {
+    "run": 11,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.47548213601112366,
+      0.5864109396934509,
+      0.6541488766670227
+    ],
+    "raw_endpoint": [
+      -0.8334863185882568,
+      1.65189528465271,
+      -2.200028657913208
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 150.87252807617188,
+      "envelope_radius_m": 16.45928955078125,
+      "alpha": -0.0997479259967804
+    },
+    "screening_snr_db": 6.142016633590202,
+    "seconds": 235.08418035507202
+  },
+  {
+    "run": 12,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3515216112136841,
+      0.3732738494873047,
+      0.9994844794273376
+    ],
+    "raw_endpoint": [
+      -0.8929422497749329,
+      0.789566159248352,
+      -1.438462257385254
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.15090942382812,
+      "envelope_radius_m": 5.78341817855835,
+      "alpha": -0.1917835921049118
+    },
+    "screening_snr_db": 6.143663255963492,
+    "seconds": 235.06817889213562
+  },
+  {
+    "run": 13,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6369128823280334,
+      0.7455872893333435,
+      0.14435535669326782
+    ],
+    "raw_endpoint": [
+      -0.9140918254852295,
+      2.498065233230591,
+      -3.5150511264801025
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.84898376464844,
+      "envelope_radius_m": 29.579334259033203,
+      "alpha": -0.028887001797556877
+    },
+    "screening_snr_db": 6.171403405956324,
+    "seconds": 235.3009693622589
+  },
+  {
+    "run": 14,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8323165774345398,
+      0.017539944499731064,
+      0.6014761924743652
+    ],
+    "raw_endpoint": [
+      1.9792771339416504,
+      -0.5300064086914062,
+      3.6343483924865723
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.58123779296875,
+      "envelope_radius_m": 0.646422266960144,
+      "alpha": -0.974277913570404
+    },
+    "screening_snr_db": 4.250637489149118,
+    "seconds": 239.88872814178467
+  },
+  {
+    "run": 15,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.18706288933753967,
+      0.8952226638793945,
+      0.2609877586364746
+    ],
+    "raw_endpoint": [
+      -0.9131633639335632,
+      4.070966720581055,
+      -3.278876543045044
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.9058837890625,
+      "envelope_radius_m": 44.529300689697266,
+      "alpha": -0.036302998661994934
+    },
+    "screening_snr_db": 6.170231690378217,
+    "seconds": 234.86089634895325
+  },
+  {
+    "run": 16,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.15558956563472748,
+      0.04282476752996445,
+      0.7976055145263672
+    ],
+    "raw_endpoint": [
+      -0.9519938230514526,
+      -0.49693652987480164,
+      -1.9589179754257202
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.5452117919922,
+      "envelope_radius_m": 0.681950032711029,
+      "alpha": -0.12358418852090836
+    },
+    "screening_snr_db": 6.155143817029148,
+    "seconds": 234.73266005516052
+  },
+  {
+    "run": 17,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8638514876365662,
+      0.9205130934715271,
+      0.08992865681648254
+    ],
+    "raw_endpoint": [
+      -0.9861465692520142,
+      4.176368713378906,
+      -3.441588878631592
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.50216674804688,
+      "envelope_radius_m": 45.04057693481445,
+      "alpha": -0.031020689755678177
+    },
+    "screening_snr_db": 6.171711570869847,
+    "seconds": 236.7254445552826
+  },
+  {
+    "run": 18,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6688740849494934,
+      0.31648343801498413,
+      0.6642408967018127
+    ],
+    "raw_endpoint": [
+      0.6821961402893066,
+      0.6176334023475647,
+      3.6708598136901855
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 259.26861572265625,
+      "envelope_radius_m": 4.446418285369873,
+      "alpha": -0.9751773476600647
+    },
+    "screening_snr_db": 4.630584153360947,
+    "seconds": 238.50167083740234
+  },
+  {
+    "run": 19,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.31949976086616516,
+      0.6887989044189453,
+      0.44192495942115784
+    ],
+    "raw_endpoint": [
+      -1.0029014348983765,
+      2.293275833129883,
+      -2.82521390914917
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.51141357421875,
+      "envelope_radius_m": 26.541534423828125,
+      "alpha": -0.05597677454352379
+    },
+    "screening_snr_db": 6.165340443103818,
+    "seconds": 234.8820276260376
+  },
+  {
+    "run": 20,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4435863494873047,
+      0.4756588339805603,
+      0.16225464642047882
+    ],
+    "raw_endpoint": [
+      -1.042941927909851,
+      0.990096390247345,
+      -3.535161018371582
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 138.17481994628906,
+      "envelope_radius_m": 7.6964569091796875,
+      "alpha": -0.02832818031311035
+    },
+    "screening_snr_db": 6.16184410905589,
+    "seconds": 234.98027849197388
+  },
+  {
+    "run": 21,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5449098944664001,
+      0.5960222482681274,
+      0.9478117823600769
+    ],
+    "raw_endpoint": [
+      -0.9181113243103027,
+      1.6508547067642212,
+      -1.8229141235351562
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.6028594970703,
+      "envelope_radius_m": 16.443326950073242,
+      "alpha": -0.1390845626592636
+    },
+    "screening_snr_db": 6.154944554305237,
+    "seconds": 235.3067455291748
+  },
+  {
+    "run": 22,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9897649884223938,
+      0.1336570829153061,
+      0.3112475574016571
+    ],
+    "raw_endpoint": [
+      -0.9366041421890259,
+      -0.1593913584947586,
+      -2.483384609222412
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.47604370117188,
+      "envelope_radius_m": 1.2013763189315796,
+      "alpha": -0.0770312175154686
+    },
+    "screening_snr_db": 6.16488761185094,
+    "seconds": 238.26313853263855
+  },
+  {
+    "run": 23,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.029553677886724472,
+      0.7632974982261658,
+      0.5801947116851807
+    ],
+    "raw_endpoint": [
+      -0.9387369155883789,
+      3.0798697471618652,
+      -1.6588213443756104
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.34666442871094,
+      "envelope_radius_m": 36.90917205810547,
+      "alpha": -0.15992027521133423
+    },
+    "screening_snr_db": 6.152161840572104,
+    "seconds": 234.53460693359375
+  },
+  {
+    "run": 24,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.11172907054424286,
+      0.26009437441825867,
+      0.36192646622657776
+    ],
+    "raw_endpoint": [
+      -0.839489221572876,
+      0.401366651058197,
+      -2.6663711071014404
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 150.49270629882812,
+      "envelope_radius_m": 3.133415937423706,
+      "alpha": -0.06498712301254272
+    },
+    "screening_snr_db": 6.148538768539268,
+    "seconds": 234.75842571258545
+  },
+  {
+    "run": 25,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9000805616378784,
+      0.6397345662117004,
+      0.5295025110244751
+    ],
+    "raw_endpoint": [
+      1.9663156270980835,
+      2.036829948425293,
+      3.3324265480041504
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.1644592285156,
+      "envelope_radius_m": 22.53203010559082,
+      "alpha": -0.9655246138572693
+    },
+    "screening_snr_db": 4.251970444765008,
+    "seconds": 239.84725737571716
+  },
+  {
+    "run": 26,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5642951726913452,
+      0.09921389818191528,
+      0.22856669127941132
+    ],
+    "raw_endpoint": [
+      -0.9222478866577148,
+      -0.5010227560997009,
+      -3.0898871421813965
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.35003662109375,
+      "envelope_radius_m": 0.677440345287323,
+      "alpha": -0.04352633282542229
+    },
+    "screening_snr_db": 6.166850737610698,
+    "seconds": 235.1606638431549
+  },
+  {
+    "run": 27,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4160812497138977,
+      0.9695775508880615,
+      0.8814863562583923
+    ],
+    "raw_endpoint": [
+      -0.9734440445899963,
+      5.074270725250244,
+      -2.1708078384399414
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 142.25836181640625,
+      "envelope_radius_m": 47.898258209228516,
+      "alpha": -0.10240276157855988
+    },
+    "screening_snr_db": 6.160740270106116,
+    "seconds": 235.01460194587708
+  },
+  {
+    "run": 28,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.29199495911598206,
+      0.19396765530109406,
+      0.722678005695343
+    ],
+    "raw_endpoint": [
+      -0.9358814358711243,
+      0.10095538198947906,
+      -2.375688314437866
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.5198974609375,
+      "envelope_radius_m": 1.8820116519927979,
+      "alpha": -0.0850454643368721
+    },
+    "screening_snr_db": 6.164197980727135,
+    "seconds": 234.93409276008606
+  },
+  {
+    "run": 29,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.688259482383728,
+      0.8162833452224731,
+      0.383470743894577
+    ],
+    "raw_endpoint": [
+      -1.0597203969955444,
+      3.0419986248016357,
+      -2.127092123031616
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 137.2088623046875,
+      "envelope_radius_m": 36.49870300292969,
+      "alpha": -0.10649135708808899
+    },
+    "screening_snr_db": 6.14256091095562,
+    "seconds": 236.31449842453003
+  },
+  {
+    "run": 30,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7741669416427612,
+      0.41534820199012756,
+      0.871658444404602
+    ],
+    "raw_endpoint": [
+      0.6290491819381714,
+      1.107357382774353,
+      3.8593392372131348
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 255.68214416503906,
+      "envelope_radius_m": 8.992459297180176,
+      "alpha": -0.9793533682823181
+    },
+    "screening_snr_db": 4.629499832388875,
+    "seconds": 238.53619122505188
+  },
+  {
+    "run": 31,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2377646565437317,
+      0.5430362820625305,
+      0.01585850864648819
+    ],
+    "raw_endpoint": [
+      -1.0464688539505005,
+      1.5627652406692505,
+      -5.981456279754639
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 137.97113037109375,
+      "envelope_radius_m": 15.108430862426758,
+      "alpha": -0.002518785884603858
+    },
+    "screening_snr_db": 6.165399645394424,
+    "seconds": 234.91755151748657
+  },
+  {
+    "run": 32,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.21900872886180878,
+      0.22858966886997223,
+      0.4692957103252411
+    ],
+    "raw_endpoint": [
+      -0.8560611605644226,
+      0.235268235206604,
+      -2.5854296684265137
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 149.44888305664062,
+      "envelope_radius_m": 2.3692550659179688,
+      "alpha": -0.07008204609155655
+    },
+    "screening_snr_db": 6.15325639143942,
+    "seconds": 234.9012999534607
+  },
+  {
+    "run": 33,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7612473964691162,
+      0.85871821641922,
+      0.636864423751831
+    ],
+    "raw_endpoint": [
+      0.6888883709907532,
+      3.793649196624756,
+      3.0410916805267334
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 259.71588134765625,
+      "envelope_radius_m": 42.94546890258789,
+      "alpha": -0.9543964266777039
+    },
+    "screening_snr_db": 4.623748256638571,
+    "seconds": 241.67323684692383
+  },
+  {
+    "run": 34,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7070174217224121,
+      0.3807261884212494,
+      0.11730465292930603
+    ],
+    "raw_endpoint": [
+      -0.9718140959739685,
+      0.6631132364273071,
+      -3.177777051925659
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 142.355712890625,
+      "envelope_radius_m": 4.773623466491699,
+      "alpha": -0.04001063108444214
+    },
+    "screening_snr_db": 6.171329486318817,
+    "seconds": 239.61349534988403
+  },
+  {
+    "run": 35,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3049163222312927,
+      0.5006014108657837,
+      0.7702314257621765
+    ],
+    "raw_endpoint": [
+      -0.9697280526161194,
+      1.2838046550750732,
+      -2.164879322052002
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 142.48040771484375,
+      "envelope_radius_m": 11.175326347351074,
+      "alpha": -0.10294896364212036
+    },
+    "screening_snr_db": 6.160926864556052,
+    "seconds": 238.1510272026062
+  },
+  {
+    "run": 36,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.43082597851753235,
+      0.28794172406196594,
+      0.6153197884559631
+    ],
+    "raw_endpoint": [
+      -0.9880362153053284,
+      0.33228299021720886,
+      -2.1399927139282227
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.39004516601562,
+      "envelope_radius_m": 2.7919921875,
+      "alpha": -0.10527007281780243
+    },
+    "screening_snr_db": 6.158516108805221,
+    "seconds": 238.232848405838
+  },
+  {
+    "run": 37,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5809853076934814,
+      0.6597692966461182,
+      0.2761205732822418
+    ],
+    "raw_endpoint": [
+      -0.9320104122161865,
+      1.8351943492889404,
+      -2.9264066219329834
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.75509643554688,
+      "envelope_radius_m": 19.324493408203125,
+      "alpha": -0.05086351931095123
+    },
+    "screening_snr_db": 6.169765078193503,
+    "seconds": 238.4870162010193
+  },
+  {
+    "run": 38,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8853378295898438,
+      0.07136654108762741,
+      0.9829401969909668
+    ],
+    "raw_endpoint": [
+      1.938865065574646,
+      -0.37814828753471375,
+      6.778935432434082
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 322.2682189941406,
+      "envelope_radius_m": 0.8292600512504578,
+      "alpha": -0.9988638162612915
+    },
+    "screening_snr_db": 4.252669660709525,
+    "seconds": 246.53268718719482
+  },
+  {
+    "run": 39,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.09504073858261108,
+      0.9495428204536438,
+      0.12713195383548737
+    ],
+    "raw_endpoint": [
+      -0.9883811473846436,
+      4.916280746459961,
+      -3.598778247833252
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.3695831298828,
+      "envelope_radius_m": 47.55004119873047,
+      "alpha": -0.02662864327430725
+    },
+    "screening_snr_db": 6.172204956718517,
+    "seconds": 237.96950697898865
+  },
+  {
+    "run": 40,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.013153421692550182,
+      0.4488488435745239,
+      0.9088617563247681
+    ],
+    "raw_endpoint": [
+      -1.0122536420822144,
+      1.1064469814300537,
+      -1.0060217380523682
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 139.96170043945312,
+      "envelope_radius_m": 8.981904983520508,
+      "alpha": -0.2677591145038605
+    },
+    "screening_snr_db": 6.121916219959111,
+    "seconds": 237.09961605072021
+  },
+  {
+    "run": 41,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9753406643867493,
+      0.5770253539085388,
+      0.2011931985616684
+    ],
+    "raw_endpoint": [
+      -0.8350849747657776,
+      1.5484493970870972,
+      -2.5382275581359863
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 150.77127075195312,
+      "envelope_radius_m": 14.89494800567627,
+      "alpha": -0.0732213631272316
+    },
+    "screening_snr_db": 6.14603385895122,
+    "seconds": 242.6434371471405
+  },
+  {
+    "run": 42,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5613083243370056,
+      0.16046707332134247,
+      0.556873619556427
+    ],
+    "raw_endpoint": [
+      -0.9489991664886475,
+      -0.13165666162967682,
+      -2.1515607833862305
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.72584533691406,
+      "envelope_radius_m": 1.2599983215332031,
+      "alpha": -0.10418546944856644
+    },
+    "screening_snr_db": 6.160704102683136,
+    "seconds": 239.00208473205566
+  },
+  {
+    "run": 43,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.45800867676734924,
+      0.7822943925857544,
+      0.3345496356487274
+    ],
+    "raw_endpoint": [
+      -0.8789137601852417,
+      2.805814266204834,
+      -2.676832675933838
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 148.0208740234375,
+      "envelope_radius_m": 33.72389602661133,
+      "alpha": -0.0643543228507042
+    },
+    "screening_snr_db": 6.160346695173331,
+    "seconds": 238.2737762928009
+  },
+  {
+    "run": 44,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3320988416671753,
+      0.007165398448705673,
+      0.05098632350564003
+    ],
+    "raw_endpoint": [
+      -1.0735018253326416,
+      -0.666946530342102,
+      -4.6868815422058105
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 136.4213104248047,
+      "envelope_radius_m": 0.5206102728843689,
+      "alpha": -0.009131231345236301
+    },
+    "screening_snr_db": 6.151005811708781,
+    "seconds": 237.82983946800232
+  },
+  {
+    "run": 45,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6873400807380676,
+      0.8770403861999512,
+      0.8365363478660583
+    ],
+    "raw_endpoint": [
+      0.6489635109901428,
+      3.9322049617767334,
+      4.387056350708008
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 257.0330505371094,
+      "envelope_radius_m": 43.78236389160156,
+      "alpha": -0.9877154231071472
+    },
+    "screening_snr_db": 4.6355301117013665,
+    "seconds": 241.15017890930176
+  },
+  {
+    "run": 46,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8512505888938904,
+      0.3521428108215332,
+      0.41859617829322815
+    ],
+    "raw_endpoint": [
+      1.9660041332244873,
+      0.7459861636161804,
+      3.1121363639831543
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.15435791015625,
+      "envelope_radius_m": 5.418517589569092,
+      "alpha": -0.957390546798706
+    },
+    "screening_snr_db": 4.249528339421154,
+    "seconds": 240.00794339179993
+  },
+  {
+    "run": 47,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.13712158799171448,
+      0.7322716116905212,
+      0.6875506639480591
+    ],
+    "raw_endpoint": [
+      -1.0066468715667725,
+      2.5924174785614014,
+      -2.1739368438720703
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.2909698486328,
+      "envelope_radius_m": 30.909076690673828,
+      "alpha": -0.10211550444364548
+    },
+    "screening_snr_db": 6.156452611734808,
+    "seconds": 234.80033159255981
+  },
+  {
+    "run": 48,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.16866372525691986,
+      0.3307785391807556,
+      0.2460418939590454
+    ],
+    "raw_endpoint": [
+      -0.8570239543914795,
+      0.6691571474075317,
+      -3.091327667236328
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 149.38844299316406,
+      "envelope_radius_m": 4.818515300750732,
+      "alpha": -0.04346640035510063
+    },
+    "screening_snr_db": 6.1572197893437375,
+    "seconds": 234.87378096580505
+  },
+  {
+    "run": 49,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8197690844535828,
+      0.7109036445617676,
+      0.8978093862533569
+    ],
+    "raw_endpoint": [
+      1.9691071510314941,
+      2.4926483631134033,
+      4.612264633178711
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.2545471191406,
+      "envelope_radius_m": 29.501523971557617,
+      "alpha": -0.9901683330535889
+    },
+    "screening_snr_db": 4.259380684050978,
+    "seconds": 240.08471250534058
+  },
+  {
+    "run": 50,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6553102135658264,
+      0.060035258531570435,
+      0.3470606207847595
+    ],
+    "raw_endpoint": [
+      0.6515411734580994,
+      -0.39251163601875305,
+      3.1006534099578857
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 257.207275390625,
+      "envelope_radius_m": 0.8096708655357361,
+      "alpha": -0.9569197297096252
+    },
+    "screening_snr_db": 4.6251526548413615,
+    "seconds": 238.51947712898254
+  },
+  {
+    "run": 51,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.36406710743904114,
+      0.9299063086509705,
+      0.5154224038124084
+    ],
+    "raw_endpoint": [
+      -0.9907631278038025,
+      4.426942348480225,
+      -2.7149240970611572
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.22840881347656,
+      "envelope_radius_m": 46.08298873901367,
+      "alpha": -0.062098439782857895
+    },
+    "screening_snr_db": 6.165960872245854,
+    "seconds": 234.93044209480286
+  },
+  {
+    "run": 52,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4901106357574463,
+      0.15478049218654633,
+      0.8568536639213562
+    ],
+    "raw_endpoint": [
+      -0.8989481329917908,
+      -0.20728708803653717,
+      -2.063493490219116
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.78001403808594,
+      "envelope_radius_m": 1.1067743301391602,
+      "alpha": -0.11269602924585342
+    },
+    "screening_snr_db": 6.1557994152890885,
+    "seconds": 235.16505932807922
+  },
+  {
+    "run": 53,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5293890833854675,
+      0.7766055464744568,
+      0.0017173802480101585
+    ],
+    "raw_endpoint": [
+      -1.031541347503662,
+      2.715648889541626,
+      -7.876061916351318
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 138.83560180664062,
+      "envelope_radius_m": 32.568763732910156,
+      "alpha": -0.00037958138273097575
+    },
+    "screening_snr_db": 6.16942746438842,
+    "seconds": 235.1603298187256
+  },
+  {
+    "run": 54,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9437256455421448,
+      0.48602575063705444,
+      0.7402142286300659
+    ],
+    "raw_endpoint": [
+      1.9783129692077637,
+      1.3152529001235962,
+      3.7333784103393555
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.5503845214844,
+      "envelope_radius_m": 11.591578483581543,
+      "alpha": -0.9766464829444885
+    },
+    "screening_snr_db": 4.256653521155259,
+    "seconds": 247.28683710098267
+  },
+  {
+    "run": 55,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.04458477348089218,
+      0.6141968965530396,
+      0.39973270893096924
+    ],
+    "raw_endpoint": [
+      -0.9402686953544617,
+      2.0846450328826904,
+      -2.198529005050659
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.25381469726562,
+      "envelope_radius_m": 23.29032325744629,
+      "alpha": -0.09988266229629517
+    },
+    "screening_snr_db": 6.162322709609808,
+    "seconds": 237.66060662269592
+  },
+  {
+    "run": 56,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.06401792913675308,
+      0.11253338307142258,
+      0.6814641952514648
+    ],
+    "raw_endpoint": [
+      -1.0369125604629517,
+      -0.14203758537769318,
+      -1.8355392217636108
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 138.5238494873047,
+      "envelope_radius_m": 1.2377148866653442,
+      "alpha": -0.13757970929145813
+    },
+    "screening_snr_db": 6.14215345998843,
+    "seconds": 237.47516632080078
+  },
+  {
+    "run": 57,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9162989854812622,
+      0.9907047748565674,
+      0.4584693908691406
+    ],
+    "raw_endpoint": [
+      1.9781893491744995,
+      6.245199203491211,
+      3.133667469024658
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.54638671875,
+      "envelope_radius_m": 49.33578872680664,
+      "alpha": -0.9582602977752686
+    },
+    "screening_snr_db": 4.251365957254764,
+    "seconds": 247.21911764144897
+  },
+  {
+    "run": 58,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6115204095840454,
+      0.27828046679496765,
+      0.7824724912643433
+    ],
+    "raw_endpoint": [
+      0.638482391834259,
+      0.4912993609905243,
+      3.8069474697113037
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 256.3230895996094,
+      "envelope_radius_m": 3.632514715194702,
+      "alpha": -0.9782669544219971
+    },
+    "screening_snr_db": 4.631536795402066,
+    "seconds": 245.02816152572632
+  },
+  {
+    "run": 59,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4003515839576721,
+      0.6501052975654602,
+      0.076085165143013
+    ],
+    "raw_endpoint": [
+      -1.0298749208450317,
+      1.8913272619247437,
+      -4.437066078186035
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 138.93251037597656,
+      "envelope_radius_m": 20.21577262878418,
+      "alpha": -0.011692270636558533
+    },
+    "screening_snr_db": 6.167905614185457,
+    "seconds": 237.44398951530457
+  },
+  {
+    "run": 60,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.27430835366249084,
+      0.4374491274356842,
+      0.29617565870285034
+    ],
+    "raw_endpoint": [
+      -0.878005862236023,
+      1.0295767784118652,
+      -3.1619415283203125
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 148.07736206054688,
+      "envelope_radius_m": 8.11841869354248,
+      "alpha": -0.04062332212924957
+    },
+    "screening_snr_db": 6.1633264961293275,
+    "seconds": 238.24324655532837
+  },
+  {
+    "run": 61,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7374416589736938,
+      0.5573199391365051,
+      0.5662901997566223
+    ],
+    "raw_endpoint": [
+      0.5869982242584229,
+      1.6513327360153198,
+      3.1934690475463867
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 252.8028106689453,
+      "envelope_radius_m": 16.450658798217773,
+      "alpha": -0.960587739944458
+    },
+    "screening_snr_db": 4.606061098686079,
+    "seconds": 244.59463477134705
+  },
+  {
+    "run": 62,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7923423051834106,
+      0.2033570557832718,
+      0.17953896522521973
+    ],
+    "raw_endpoint": [
+      -0.9080430865287781,
+      0.05923577398061752,
+      -3.076333999633789
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.22012329101562,
+      "envelope_radius_m": 1.7513939142227173,
+      "alpha": -0.04409407824277878
+    },
+    "screening_snr_db": 6.1679565616818275,
+    "seconds": 240.03915524482727
+  },
+  {
+    "run": 63,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.18809658288955688,
+      0.8334823846817017,
+      0.9642951488494873
+    ],
+    "raw_endpoint": [
+      -0.9124127626419067,
+      3.463045120239258,
+      -1.7824673652648926
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.951904296875,
+      "envelope_radius_m": 40.53437423706055,
+      "alpha": -0.14399872720241547
+    },
+    "screening_snr_db": 6.153692594974107,
+    "seconds": 237.93737721443176
+  },
+  {
+    "run": 64,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.19736838340759277,
+      0.06706501543521881,
+      0.1485605537891388
+    ],
+    "raw_endpoint": [
+      -0.8815422058105469,
+      -0.3988337814807892,
+      -3.6864418983459473
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.85748291015625,
+      "envelope_radius_m": 0.80121248960495,
+      "alpha": -0.024448314681649208
+    },
+    "screening_snr_db": 6.163868250796715,
+    "seconds": 238.09277892112732
+  },
+  {
+    "run": 65,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7830708622932434,
+      0.9393770098686218,
+      0.9888057708740234
+    ],
+    "raw_endpoint": [
+      1.9956941604614258,
+      5.07137393951416,
+      6.429383754730225
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 324.103271484375,
+      "envelope_radius_m": 47.89234161376953,
+      "alpha": -0.9983891248703003
+    },
+    "screening_snr_db": 4.264342604010583,
+    "seconds": 247.0498402118683
+  },
+  {
+    "run": 66,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7437953352928162,
+      0.2923690974712372,
+      0.2506789267063141
+    ],
+    "raw_endpoint": [
+      -0.9429729580879211,
+      0.31369584798812866,
+      -2.5328071117401123
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.09007263183594,
+      "envelope_radius_m": 2.706022024154663,
+      "alpha": -0.07359004765748978
+    },
+    "screening_snr_db": 6.1664225641882435,
+    "seconds": 239.82892656326294
+  },
+  {
+    "run": 67,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2679552733898163,
+      0.670053243637085,
+      0.605563223361969
+    ],
+    "raw_endpoint": [
+      -0.8987553119659424,
+      2.2286596298217773,
+      -2.4945669174194336
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.79190063476562,
+      "envelope_radius_m": 25.54767417907715,
+      "alpha": -0.0762399435043335
+    },
+    "screening_snr_db": 6.162452561699175,
+    "seconds": 238.203120470047
+  },
+  {
+    "run": 68,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3939945697784424,
+      0.3832012712955475,
+      0.7643782496452332
+    ],
+    "raw_endpoint": [
+      -1.0341655015945435,
+      0.6779301166534424,
+      -2.216315507888794
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 138.68319702148438,
+      "envelope_radius_m": 4.884271144866943,
+      "alpha": -0.09829489141702652
+    },
+    "screening_snr_db": 6.1512667385201425,
+    "seconds": 238.15294647216797
+  },
+  {
+    "run": 69,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6178777813911438,
+      0.5128377676010132,
+      0.09576447308063507
+    ],
+    "raw_endpoint": [
+      -0.957750141620636,
+      1.1811684370040894,
+      -3.7406997680664062
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.19866943359375,
+      "envelope_radius_m": 9.872870445251465,
+      "alpha": -0.02318708226084709
+    },
+    "screening_snr_db": 6.174571282073695,
+    "seconds": 239.0217728614807
+  },
+  {
+    "run": 70,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9070314764976501,
+      0.22624051570892334,
+      0.6466391086578369
+    ],
+    "raw_endpoint": [
+      1.9768315553665161,
+      0.2537118196487427,
+      3.6044583320617676
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.5028991699219,
+      "envelope_radius_m": 2.444779872894287,
+      "alpha": -0.9735182523727417
+    },
+    "screening_snr_db": 4.2552286238894075,
+    "seconds": 247.16572308540344
+  },
+  {
+    "run": 71,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.0732860416173935,
+      0.8466002345085144,
+      0.49463531374931335
+    ],
+    "raw_endpoint": [
+      -0.9856418967247009,
+      3.7734079360961914,
+      -2.3665671348571777
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.53213500976562,
+      "envelope_radius_m": 42.81509780883789,
+      "alpha": -0.08575791120529175
+    },
+    "screening_snr_db": 6.162450898676064,
+    "seconds": 237.552907705307
+  },
+  {
+    "run": 72,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.03821262717247009,
+      0.3487582206726074,
+      0.7129055261611938
+    ],
+    "raw_endpoint": [
+      -0.8949591517448425,
+      0.8460254073143005,
+      -1.4766322374343872
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.0262451171875,
+      "envelope_radius_m": 6.283012866973877,
+      "alpha": -0.18593664467334747
+    },
+    "screening_snr_db": 6.144899398791543,
+    "seconds": 237.56946563720703
+  },
+  {
+    "run": 73,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9500983953475952,
+      0.7191177010536194,
+      0.4283861219882965
+    ],
+    "raw_endpoint": [
+      1.9698543548583984,
+      2.532752752304077,
+      2.9237520694732666
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.2786560058594,
+      "envelope_radius_m": 30.073835372924805,
+      "alpha": -0.9490081667900085
+    },
+    "screening_snr_db": 4.247722487471697,
+    "seconds": 247.1874659061432
+  },
+  {
+    "run": 74,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5201367139816284,
+      0.01067594438791275,
+      0.8150114417076111
+    ],
+    "raw_endpoint": [
+      -1.0013465881347656,
+      -0.7749154567718506,
+      -1.91351318359375
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.60302734375,
+      "envelope_radius_m": 0.4417944848537445,
+      "alpha": -0.12858667969703674
+    },
+    "screening_snr_db": 6.145355733136737,
+    "seconds": 238.5731086730957
+  },
+  {
+    "run": 75,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.49936336278915405,
+      0.890312671661377,
+      0.04514840990304947
+    ],
+    "raw_endpoint": [
+      -0.8815110921859741,
+      3.7471811771392822,
+      -4.2397003173828125
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.8594207763672,
+      "envelope_radius_m": 42.64301300048828,
+      "alpha": -0.014207158237695694
+    },
+    "screening_snr_db": 6.167643529629375,
+    "seconds": 238.59578800201416
+  },
+  {
+    "run": 76,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3733237683773041,
+      0.1659298837184906,
+      0.3248083293437958
+    ],
+    "raw_endpoint": [
+      -0.9162477850914001,
+      -0.11609574407339096,
+      -3.1729350090026855
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.7169189453125,
+      "envelope_radius_m": 1.294183611869812,
+      "alpha": -0.04019702598452568
+    },
+    "screening_snr_db": 6.169122377887382,
+    "seconds": 238.22100019454956
+  },
+  {
+    "run": 77,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6460541486740112,
+      0.7936142683029175,
+      0.5314472317695618
+    ],
+    "raw_endpoint": [
+      0.6753178238868713,
+      3.1096482276916504,
+      3.2942910194396973
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 258.807861328125,
+      "envelope_radius_m": 37.22517776489258,
+      "alpha": -0.9642324447631836
+    },
+    "screening_snr_db": 4.62937899392765,
+    "seconds": 244.59554314613342
+  },
+  {
+    "run": 78,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.826137900352478,
+      0.44351184368133545,
+      0.20707401633262634
+    ],
+    "raw_endpoint": [
+      2.0079736709594727,
+      1.1201266050338745,
+      2.953061819076538
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 324.4895324707031,
+      "envelope_radius_m": 9.141268730163574,
+      "alpha": -0.9504079818725586
+    },
+    "screening_snr_db": 4.250774809626145,
+    "seconds": 247.23478531837463
+  },
+  {
+    "run": 79,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.16229526698589325,
+      0.5658236145973206,
+      0.9303056001663208
+    ],
+    "raw_endpoint": [
+      -0.9135729074478149,
+      1.605625867843628,
+      -1.9456067085266113
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.8807830810547,
+      "envelope_radius_m": 15.753595352172852,
+      "alpha": -0.1250331848859787
+    },
+    "screening_snr_db": 6.156840648942272,
+    "seconds": 237.99617743492126
+  },
+  {
+    "run": 80,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.1317712962627411,
+      0.4961252808570862,
+      0.3782850503921509
+    ],
+    "raw_endpoint": [
+      -0.9224694967269897,
+      1.3690210580825806,
+      -2.697197914123535
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.33648681640625,
+      "envelope_radius_m": 12.320710182189941,
+      "alpha": -0.06313890218734741
+    },
+    "screening_snr_db": 6.167225470556468,
+    "seconds": 238.07698702812195
+  },
+  {
+    "run": 81,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8566005229949951,
+      0.6184424161911011,
+      0.7343295812606812
+    ],
+    "raw_endpoint": [
+      1.9643391370773315,
+      1.9407249689102173,
+      3.9165360927581787
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.10052490234375,
+      "envelope_radius_m": 21.00223159790039,
+      "alpha": -0.9804787039756775
+    },
+    "screening_snr_db": 4.255927935665208,
+    "seconds": 247.1847312450409
+  },
+  {
+    "run": 82,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6770648956298828,
+      0.144310861825943,
+      0.027147583663463593
+    ],
+    "raw_endpoint": [
+      -0.9445614218711853,
+      -0.25392091274261475,
+      -4.734074115753174
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.99395751953125,
+      "envelope_radius_m": 1.022223949432373,
+      "alpha": -0.008713982999324799
+    },
+    "screening_snr_db": 6.175237322048396,
+    "seconds": 239.19513058662415
+  },
+  {
+    "run": 83,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.34237343072891235,
+      0.7719975113868713,
+      0.8665987849235535
+    ],
+    "raw_endpoint": [
+      -1.0057939291000366,
+      2.7680389881134033,
+      -2.039736270904541
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.34112548828125,
+      "envelope_radius_m": 33.246219635009766,
+      "alpha": -0.11509358882904053
+    },
+    "screening_snr_db": 6.154196067621973,
+    "seconds": 238.21914315223694
+  },
+  {
+    "run": 84,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4682871997356415,
+      0.047611694782972336,
+      0.5212564468383789
+    ],
+    "raw_endpoint": [
+      -0.8154604434967041,
+      -0.6900742053985596,
+      -2.593441963195801
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 152.0184326171875,
+      "envelope_radius_m": 0.5023653507232666,
+      "alpha": -0.0695616826415062
+    },
+    "screening_snr_db": 6.131912013965501,
+    "seconds": 238.35720133781433
+  },
+  {
+    "run": 85,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5510294437408447,
+      0.9272523522377014,
+      0.36858171224594116
+    ],
+    "raw_endpoint": [
+      -0.8538963794708252,
+      4.343893527984619,
+      -2.718165636062622
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 149.58485412597656,
+      "envelope_radius_m": 45.76273727416992,
+      "alpha": -0.06190991401672363
+    },
+    "screening_snr_db": 6.1539451489309815,
+    "seconds": 238.68631982803345
+  },
+  {
+    "run": 86,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9806866645812988,
+      0.34283214807510376,
+      0.8880232572555542
+    ],
+    "raw_endpoint": [
+      1.9696484804153442,
+      0.8257735967636108,
+      3.24076771736145
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.2720031738281,
+      "envelope_radius_m": 6.100305080413818,
+      "alpha": -0.9623399972915649
+    },
+    "screening_snr_db": 4.251464767043299,
+    "seconds": 247.2100830078125
+  },
+  {
+    "run": 87,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.007806827314198017,
+      0.7131953239440918,
+      0.22069083154201508
+    ],
+    "raw_endpoint": [
+      -0.9362320899963379,
+      2.620523691177368,
+      -3.135387897491455
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.4986114501953,
+      "envelope_radius_m": 31.29554557800293,
+      "alpha": -0.04167090728878975
+    },
+    "screening_snr_db": 6.17138518561833,
+    "seconds": 237.22596192359924
+  },
+  {
+    "run": 88,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.10530389100313187,
+      0.21632450819015503,
+      0.9389593601226807
+    ],
+    "raw_endpoint": [
+      -0.832883894443512,
+      0.09497791528701782,
+      -1.793814778327942
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 150.91067504882812,
+      "envelope_radius_m": 1.8627300262451172,
+      "alpha": -0.14260564744472504
+    },
+    "screening_snr_db": 6.13556843860394,
+    "seconds": 237.71718573570251
+  },
+  {
+    "run": 89,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8750740885734558,
+      0.836687445640564,
+      0.16976810991764069
+    ],
+    "raw_endpoint": [
+      2.0741403102874756,
+      3.6529810428619385,
+      2.7345223426818848
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 326.5092468261719,
+      "envelope_radius_m": 41.99452590942383,
+      "alpha": -0.9390333294868469
+    },
+    "screening_snr_db": 4.241895481482764,
+    "seconds": 246.98415875434875
+  },
+  {
+    "run": 90,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5863466858863831,
+      0.4241116940975189,
+      0.5878265500068665
+    ],
+    "raw_endpoint": [
+      -0.9614879488945007,
+      0.8167163133621216,
+      -2.0288443565368652
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 142.97412109375,
+      "envelope_radius_m": 6.019865989685059,
+      "alpha": -0.1162075474858284
+    },
+    "screening_snr_db": 6.159116141357758,
+    "seconds": 235.6016082763672
+  },
+  {
+    "run": 91,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4254642426967621,
+      0.553752601146698,
+      0.3020250201225281
+    ],
+    "raw_endpoint": [
+      -0.8994791507720947,
+      1.4025001525878906,
+      -3.053187370300293
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.74725341796875,
+      "envelope_radius_m": 12.785299301147461,
+      "alpha": -0.045080069452524185
+    },
+    "screening_snr_db": 6.167022975010751,
+    "seconds": 234.92657804489136
+  },
+  {
+    "run": 92,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2995506525039673,
+      0.2668969929218292,
+      0.08584553003311157
+    ],
+    "raw_endpoint": [
+      -1.0047457218170166,
+      0.4036959111690521,
+      -4.410445213317871
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.40280151367188,
+      "envelope_radius_m": 3.1455459594726562,
+      "alpha": -0.012003922834992409
+    },
+    "screening_snr_db": 6.172388873905631,
+    "seconds": 234.82402753829956
+  },
+  {
+    "run": 93,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7123824954032898,
+      0.6445838809013367,
+      0.8079180121421814
+    ],
+    "raw_endpoint": [
+      0.6839694380760193,
+      2.095978021621704,
+      4.124794960021973
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 259.38720703125,
+      "envelope_radius_m": 23.469554901123047,
+      "alpha": -0.9840903878211975
+    },
+    "screening_snr_db": 4.632468516843246,
+    "seconds": 238.51877236366272
+  },
+  {
+    "run": 94,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7509875893592834,
+      0.1235467940568924,
+      0.45260000228881836
+    ],
+    "raw_endpoint": [
+      0.6574282646179199,
+      -0.16905830800533295,
+      2.705820322036743
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 257.604736328125,
+      "envelope_radius_m": 1.181618571281433,
+      "alpha": -0.9373692274093628
+    },
+    "screening_snr_db": 4.622708768544116,
+    "seconds": 242.3286850452423
+  },
+  {
+    "run": 95,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2292681634426117,
+      0.995863676071167,
+      0.660031795501709
+    ],
+    "raw_endpoint": [
+      -0.9352234601974487,
+      6.113913059234619,
+      -2.476374626159668
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.5598602294922,
+      "envelope_radius_m": 49.243492126464844,
+      "alpha": -0.07753108441829681
+    },
+    "screening_snr_db": 6.165786238801169,
+    "seconds": 238.26708674430847
+  },
+  {
+    "run": 96,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.24413299560546875,
+      0.31030818819999695,
+      0.8314718008041382
+    ],
+    "raw_endpoint": [
+      -0.898360013961792,
+      0.5458714962005615,
+      -2.0652434825897217
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.8162841796875,
+      "envelope_radius_m": 3.967360019683838,
+      "alpha": -0.11252114176750183
+    },
+    "screening_snr_db": 6.156895915686656,
+    "seconds": 238.39806151390076
+  },
+  {
+    "run": 97,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7677980065345764,
+      0.680182695388794,
+      0.06227266043424606
+    ],
+    "raw_endpoint": [
+      -0.9891273379325867,
+      2.018733263015747,
+      -4.02443265914917
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.32534790039062,
+      "envelope_radius_m": 22.244359970092773,
+      "alpha": -0.017559707164764404
+    },
+    "screening_snr_db": 6.173609068253818,
+    "seconds": 239.7612864971161
+  },
+  {
+    "run": 98,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6975156664848328,
+      0.08013559132814407,
+      0.6992068886756897
+    ],
+    "raw_endpoint": [
+      0.616021454334259,
+      -0.305386483669281,
+      3.8130764961242676
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 254.7939453125,
+      "envelope_radius_m": 0.9369010329246521,
+      "alpha": -0.9783968329429626
+    },
+    "screening_snr_db": 4.621961510947222,
+    "seconds": 244.7161581516266
+  },
+  {
+    "run": 99,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.28273841738700867,
+      0.9602648615837097,
+      0.41341346502304077
+    ],
+    "raw_endpoint": [
+      -0.9372756481170654,
+      4.961071968078613,
+      -2.9166457653045654
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.435302734375,
+      "envelope_radius_m": 47.6540641784668,
+      "alpha": -0.05133680999279022
+    },
+    "screening_snr_db": 6.169954037048944,
+    "seconds": 238.3569631576538
+  },
+  {
+    "run": 100,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4068284034729004,
+      0.23538291454315186,
+      0.1933143585920334
+    ],
+    "raw_endpoint": [
+      -1.0574967861175537,
+      0.12452128529548645,
+      -3.4189579486846924
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 137.33642578125,
+      "envelope_radius_m": 1.9599297046661377,
+      "alpha": -0.03170820698142052
+    },
+    "screening_snr_db": 6.156816630082548,
+    "seconds": 238.25752067565918
+  },
+  {
+    "run": 101,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5735474228858948,
+      0.8635579347610474,
+      0.9153940081596375
+    ],
+    "raw_endpoint": [
+      -1.0026109218597412,
+      3.5865511894226074,
+      -1.8165569305419922
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.5285186767578,
+      "envelope_radius_m": 41.50763702392578,
+      "alpha": -0.1398475170135498
+    },
+    "screening_snr_db": 6.1500848746425,
+    "seconds": 238.98176527023315
+  },
+  {
+    "run": 102,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8937079310417175,
+      0.4050532877445221,
+      0.3412076234817505
+    ],
+    "raw_endpoint": [
+      2.00828218460083,
+      0.9541067481040955,
+      2.9596738815307617
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 324.4991760253906,
+      "envelope_radius_m": 7.324719429016113,
+      "alpha": -0.9507187604904175
+    },
+    "screening_snr_db": 4.250854683394147,
+    "seconds": 247.1608545780182
+  },
+  {
+    "run": 103,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.1181013360619545,
+      0.5268820524215698,
+      0.5486325025558472
+    ],
+    "raw_endpoint": [
+      -0.9376252293586731,
+      1.4360616207122803,
+      -2.4336042404174805
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.41409301757812,
+      "envelope_radius_m": 13.258737564086914,
+      "alpha": -0.0806458368897438
+    },
+    "screening_snr_db": 6.165366344710036,
+    "seconds": 237.75588583946228
+  },
+  {
+    "run": 104,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.02028569206595421,
+      0.027637526392936707,
+      0.2669029235839844
+    ],
+    "raw_endpoint": [
+      -0.8960584402084351,
+      -0.373167484998703,
+      -2.8373093605041504
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.95834350585938,
+      "envelope_radius_m": 0.8361760377883911,
+      "alpha": -0.05534103512763977
+    },
+    "screening_snr_db": 6.162800788179391,
+    "seconds": 237.4101300239563
+  },
+  {
+    "run": 105,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9990326166152954,
+      0.8994665145874023,
+      0.6229543685913086
+    ],
+    "raw_endpoint": [
+      -0.940025269985199,
+      4.280163764953613,
+      -2.522808074951172
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.26856994628906,
+      "envelope_radius_m": 45.50043869018555,
+      "alpha": -0.07427463680505753
+    },
+    "screening_snr_db": 6.166454400174305,
+    "seconds": 246.71958899497986
+  },
+  {
+    "run": 106,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5385524034500122,
+      0.3628063201904297,
+      0.13464075326919556
+    ],
+    "raw_endpoint": [
+      -0.9997352361679077,
+      0.6270298957824707,
+      -3.5809671878814697
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 140.6980438232422,
+      "envelope_radius_m": 4.512499809265137,
+      "alpha": -0.02709421142935753
+    },
+    "screening_snr_db": 6.1706711141908555,
+    "seconds": 238.71228289604187
+  },
+  {
+    "run": 107,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.4499432444572449,
+      0.7409811615943909,
+      0.9740847945213318
+    ],
+    "raw_endpoint": [
+      -0.9529301524162292,
+      2.503939628601074,
+      -1.704367995262146
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.48876953125,
+      "envelope_radius_m": 29.663532257080078,
+      "alpha": -0.15389564633369446
+    },
+    "screening_snr_db": 6.152925205421095,
+    "seconds": 238.5439748764038
+  },
+  {
+    "run": 108,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.3258529603481293,
+      0.45362985134124756,
+      0.6326583027839661
+    ],
+    "raw_endpoint": [
+      -1.0143802165985107,
+      0.9992308616638184,
+      -2.415034770965576
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 139.83705139160156,
+      "envelope_radius_m": 7.7927703857421875,
+      "alpha": -0.08203338831663132
+    },
+    "screening_snr_db": 6.158684686957802,
+    "seconds": 238.08348536491394
+  },
+  {
+    "run": 109,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6625205278396606,
+      0.5837588906288147,
+      0.4799754023551941
+    ],
+    "raw_endpoint": [
+      0.6448760032653809,
+      1.6777125597000122,
+      3.2124595642089844
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 256.7564697265625,
+      "envelope_radius_m": 16.85677146911621,
+      "alpha": -0.9613004922866821
+    },
+    "screening_snr_db": 4.629066394122951,
+    "seconds": 244.82254576683044
+  },
+  {
+    "run": 110,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8731228113174438,
+      0.18680629134178162,
+      0.780541181564331
+    ],
+    "raw_endpoint": [
+      2.0261709690093994,
+      0.10361750423908234,
+      4.20368766784668
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 325.0552673339844,
+      "envelope_radius_m": 1.8906612396240234,
+      "alpha": -0.9852795600891113
+    },
+    "screening_snr_db": 4.260133981648318,
+    "seconds": 247.0255422592163
+  },
+  {
+    "run": 111,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.14631764590740204,
+      0.8066810369491577,
+      0.11321663856506348
+    ],
+    "raw_endpoint": [
+      -0.8764323592185974,
+      3.3256356716156006,
+      -3.78631329536438
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 148.17529296875,
+      "envelope_radius_m": 39.34264373779297,
+      "alpha": -0.022176126018166542
+    },
+    "screening_snr_db": 6.165392744163002,
+    "seconds": 237.9784278869629
+  },
+  {
+    "run": 112,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.1768035590648651,
+      0.13027039170265198,
+      0.5703742504119873
+    ],
+    "raw_endpoint": [
+      -0.9864959716796875,
+      -0.11278875172138214,
+      -2.3280951976776123
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 141.48141479492188,
+      "envelope_radius_m": 1.3015717267990112,
+      "alpha": -0.08882270008325577
+    },
+    "screening_snr_db": 6.160980346697396,
+    "seconds": 237.97439432144165
+  },
+  {
+    "run": 113,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.8425765037536621,
+      0.7501416802406311,
+      0.28586217761039734
+    ],
+    "raw_endpoint": [
+      2.037724018096924,
+      2.834609031677246,
+      3.006871461868286
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 325.410400390625,
+      "envelope_radius_m": 34.081844329833984,
+      "alpha": -0.9528836011886597
+    },
+    "screening_snr_db": 4.250581767361742,
+    "seconds": 247.0256631374359
+  },
+  {
+    "run": 114,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6315476894378662,
+      0.4791713356971741,
+      0.9536191821098328
+    ],
+    "raw_endpoint": [
+      0.638295590877533,
+      1.250676155090332,
+      5.570279598236084
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 256.3104248046875,
+      "envelope_radius_m": 10.745355606079102,
+      "alpha": -0.9962050318717957
+    },
+    "screening_snr_db": 4.63554190644534,
+    "seconds": 244.74866151809692
+  },
+  {
+    "run": 115,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.35688716173171997,
+      0.6092962026596069,
+      0.18374904990196228
+    ],
+    "raw_endpoint": [
+      -0.8885687589645386,
+      1.7750641107559204,
+      -3.6510188579559326
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 147.4215850830078,
+      "envelope_radius_m": 18.37507438659668,
+      "alpha": -0.025307556614279747
+    },
+    "screening_snr_db": 6.167724021318065,
+    "seconds": 238.28797221183777
+  },
+  {
+    "run": 116,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.48084399104118347,
+      0.3219481110572815,
+      0.46732082962989807
+    ],
+    "raw_endpoint": [
+      -0.9011006951332092,
+      0.42830610275268555,
+      -2.336895704269409
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.64730834960938,
+      "envelope_radius_m": 3.2762527465820312,
+      "alpha": -0.08811302483081818
+    },
+    "screening_snr_db": 6.160916776358945,
+    "seconds": 238.4626019001007
+  },
+  {
+    "run": 117,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.5074691772460938,
+      0.7001209259033203,
+      0.6739516854286194
+    ],
+    "raw_endpoint": [
+      -0.8460037708282471,
+      2.1762683391571045,
+      -1.9490067958831787
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 150.08154296875,
+      "envelope_radius_m": 24.732295989990234,
+      "alpha": -0.12466169148683548
+    },
+    "screening_snr_db": 6.143023688057294,
+    "seconds": 238.75072145462036
+  },
+  {
+    "run": 118,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9686195850372314,
+      0.037486057728528976,
+      0.06845428049564362
+    ],
+    "raw_endpoint": [
+      -0.9081153273582458,
+      -0.6556795239448547,
+      -3.4835119247436523
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.2156982421875,
+      "envelope_radius_m": 0.5297883152961731,
+      "alpha": -0.029785022139549255
+    },
+    "screening_snr_db": 6.165025418138612,
+    "seconds": 242.65552759170532
+  },
+  {
+    "run": 119,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.05088214576244354,
+      0.909309446811676,
+      0.791694164276123
+    ],
+    "raw_endpoint": [
+      -0.9290609359741211,
+      4.488255977630615,
+      -1.3313087224960327
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 144.9345703125,
+      "envelope_radius_m": 46.304603576660156,
+      "alpha": -0.20894299447536469
+    },
+    "screening_snr_db": 6.143430535629712,
+    "seconds": 237.670823097229
+  },
+  {
+    "run": 120,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.08612143993377686,
+      0.4110487401485443,
+      0.009962417185306549
+    ],
+    "raw_endpoint": [
+      -0.9026593565940857,
+      1.1528081893920898,
+      -6.3652424812316895
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.55130004882812,
+      "envelope_radius_m": 9.528849601745605,
+      "alpha": -0.0017173697706311941
+    },
+    "screening_snr_db": 6.173493795161331,
+    "seconds": 237.78036212921143
+  },
+  {
+    "run": 121,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.9257492423057556,
+      0.5328723788261414,
+      0.8501993417739868
+    ],
+    "raw_endpoint": [
+      1.975049614906311,
+      1.5394636392593384,
+      4.567615985870361
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 323.44573974609375,
+      "envelope_radius_m": 14.761491775512695,
+      "alpha": -0.9897240400314331
+    },
+    "screening_snr_db": 4.260024623198283,
+    "seconds": 247.1223554611206
+  },
+  {
+    "run": 122,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.6050403714179993,
+      0.1983930468559265,
+      0.39319679141044617
+    ],
+    "raw_endpoint": [
+      -0.9216040372848511,
+      -0.01815268211066723,
+      -2.780916452407837
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.38934326171875,
+      "envelope_radius_m": 1.5323429107666016,
+      "alpha": -0.05836416780948639
+    },
+    "screening_snr_db": 6.167237845906368,
+    "seconds": 239.34541487693787
+  },
+  {
+    "run": 123,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.37527498602867126,
+      0.8265656232833862,
+      0.7480891346931458
+    ],
+    "raw_endpoint": [
+      -0.9528048038482666,
+      3.240760564804077,
+      -2.2255301475524902
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 143.49632263183594,
+      "envelope_radius_m": 38.54685592651367,
+      "alpha": -0.09748117625713348
+    },
+    "screening_snr_db": 6.162681167981048,
+    "seconds": 238.10759854316711
+  },
+  {
+    "run": 124,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2513183355331421,
+      0.10168714076280594,
+      0.9029960036277771
+    ],
+    "raw_endpoint": [
+      -0.9250073432922363,
+      -0.26897144317626953,
+      -1.9756667613983154
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 145.18161010742188,
+      "envelope_radius_m": 0.9964348673820496,
+      "alpha": -0.12178152799606323
+    },
+    "screening_snr_db": 6.156705422135777,
+    "seconds": 238.167094707489
+  },
+  {
+    "run": 125,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7291192412376404,
+      0.9818117618560791,
+      0.23438933491706848
+    ],
+    "raw_endpoint": [
+      -0.9076323509216309,
+      5.415045261383057,
+      -2.591240882873535
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 146.245361328125,
+      "envelope_radius_m": 48.49331283569336,
+      "alpha": -0.06970427930355072
+    },
+    "screening_snr_db": 6.164678311407206,
+    "seconds": 239.81973147392273
+  },
+  {
+    "run": 126,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.7997058033943176,
+      0.25774696469306946,
+      0.5041323900222778
+    ],
+    "raw_endpoint": [
+      2.0348076820373535,
+      0.3813941776752472,
+      3.0454182624816895
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 325.321044921875,
+      "envelope_radius_m": 3.031083345413208,
+      "alpha": -0.9545843005180359
+    },
+    "screening_snr_db": 4.251046565813274,
+    "seconds": 247.09725165367126
+  },
+  {
+    "run": 127,
+    "training_batch_size": 16,
+    "initial_sobol_point": [
+      0.2120426744222641,
+      0.6276184916496277,
+      0.3521212637424469
+    ],
+    "raw_endpoint": [
+      -0.9772357940673828,
+      2.051377534866333,
+      -2.8940887451171875
+    ],
+    "parameters": {
+      "transverse_wavenumber_rad_m": 142.0321807861328,
+      "envelope_radius_m": 22.763044357299805,
+      "alpha": -0.052446551620960236
+    },
+    "screening_snr_db": 6.16896206805534,
+    "seconds": 238.07144379615784
+  }
+]

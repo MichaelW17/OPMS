@@ -1,0 +1,216 @@
+{
+  "case": "strong_small_rx",
+  "method": "CB",
+  "starts": 128,
+  "steps": 300,
+  "screening_samples": 1000,
+  "additional_validation_samples": 0,
+  "selected_runs": "85,106,10",
+  "mean_top_three_screening_snr_db": 2.6928749591181766,
+  "ci95_low_db": 2.522853408453301,
+  "ci95_high_db": 2.867347094042812,
+  "top_three": [
+    {
+      "run": 85,
+      "initial_sobol_point": [
+        0.9796434044837952,
+        0.38406863808631897
+      ],
+      "raw_endpoint": [
+        6.5421953201293945,
+        0.06057945638895035
+      ],
+      "parameters": {
+        "waist_m": 0.09986039251089096,
+        "normalized_curvature": 1.030280351638794
+      },
+      "selection_snr_db": 2.6931510730066655,
+      "seconds": 5.3434059619903564,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 2.401589757595776
+        },
+        {
+          "step": 50,
+          "training_snr_db": 3.124441100764269
+        },
+        {
+          "step": 75,
+          "training_snr_db": 2.338766894505037
+        },
+        {
+          "step": 100,
+          "training_snr_db": 2.721693642927751
+        },
+        {
+          "step": 125,
+          "training_snr_db": 2.487131714952035
+        },
+        {
+          "step": 150,
+          "training_snr_db": 3.548727084104897
+        },
+        {
+          "step": 175,
+          "training_snr_db": 2.5476224811482777
+        },
+        {
+          "step": 200,
+          "training_snr_db": 1.5734961491721946
+        },
+        {
+          "step": 225,
+          "training_snr_db": 3.016584379064768
+        },
+        {
+          "step": 250,
+          "training_snr_db": 3.209990802423819
+        },
+        {
+          "step": 275,
+          "training_snr_db": 2.7835483756059167
+        },
+        {
+          "step": 300,
+          "training_snr_db": 3.0748219999843256
+        }
+      ]
+    },
+    {
+      "run": 106,
+      "initial_sobol_point": [
+        0.9912872314453125,
+        0.696786642074585
+      ],
+      "raw_endpoint": [
+        7.3267621994018555,
+        0.04404785484075546
+      ],
+      "parameters": {
+        "waist_m": 0.09993624687194824,
+        "normalized_curvature": 1.0220203399658203
+      },
+      "selection_snr_db": 2.693026255181634,
+      "seconds": 5.344543695449829,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 1.8588898606838704
+        },
+        {
+          "step": 50,
+          "training_snr_db": 3.110565112205417
+        },
+        {
+          "step": 75,
+          "training_snr_db": 3.7643046613305096
+        },
+        {
+          "step": 100,
+          "training_snr_db": 3.595923620391515
+        },
+        {
+          "step": 125,
+          "training_snr_db": 2.3379969176405555
+        },
+        {
+          "step": 150,
+          "training_snr_db": 2.3338464143162594
+        },
+        {
+          "step": 175,
+          "training_snr_db": 2.9887127841490813
+        },
+        {
+          "step": 200,
+          "training_snr_db": 3.294787211427872
+        },
+        {
+          "step": 225,
+          "training_snr_db": 2.649574343736773
+        },
+        {
+          "step": 250,
+          "training_snr_db": 4.093503378935575
+        },
+        {
+          "step": 275,
+          "training_snr_db": 3.516856811211883
+        },
+        {
+          "step": 300,
+          "training_snr_db": 2.599828883729084
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "initial_sobol_point": [
+        0.9537894129753113,
+        0.536518931388855
+      ],
+      "raw_endpoint": [
+        5.579123497009277,
+        0.04705935716629028
+      ],
+      "parameters": {
+        "waist_m": 0.09963512420654297,
+        "normalized_curvature": 1.023525357246399
+      },
+      "selection_snr_db": 2.69244754916623,
+      "seconds": 5.361474275588989,
+      "history": [
+        {
+          "step": 25,
+          "training_snr_db": 3.44468503575109
+        },
+        {
+          "step": 50,
+          "training_snr_db": 3.450535157159282
+        },
+        {
+          "step": 75,
+          "training_snr_db": 2.9499704638518387
+        },
+        {
+          "step": 100,
+          "training_snr_db": 2.6611083021150987
+        },
+        {
+          "step": 125,
+          "training_snr_db": 3.330643736764831
+        },
+        {
+          "step": 150,
+          "training_snr_db": 3.2113260961866934
+        },
+        {
+          "step": 175,
+          "training_snr_db": 3.365476922245227
+        },
+        {
+          "step": 200,
+          "training_snr_db": 3.4421483944264675
+        },
+        {
+          "step": 225,
+          "training_snr_db": 2.465549482166625
+        },
+        {
+          "step": 250,
+          "training_snr_db": 4.104299688727327
+        },
+        {
+          "step": 275,
+          "training_snr_db": 2.172747908726903
+        },
+        {
+          "step": 300,
+          "training_snr_db": 2.992345919797743
+        }
+      ]
+    }
+  ],
+  "original_records": "work\\coherent_sobol128\\strong_small_rx\\CB"
+}

@@ -1,0 +1,8 @@
+{
+  "dad_trajectories": 768,
+  "coherent_trajectories": 1536,
+  "screening_samples_per_endpoint": 1000,
+  "training_batch_size": 16,
+  "groups_verified": 18,
+  "additional_validation_samples": 0
+}

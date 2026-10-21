@@ -1,0 +1,78 @@
+{
+  "starts": 128,
+  "steps": 300,
+  "training_batch_size_counts": {
+    "16": 128
+  },
+  "screening_samples": 1000,
+  "additional_validation_samples": 0,
+  "top_three": [
+    {
+      "run": 119,
+      "training_batch_size": 16,
+      "initial_sobol_point": [
+        0.5341145992279053,
+        0.336940735578537,
+        0.0253654345870018
+      ],
+      "raw_endpoint": [
+        1.1082837581634521,
+        0.585285484790802,
+        -3.4180026054382324
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 285.5426940917969,
+        "envelope_radius_m": 4.224915027618408,
+        "alpha": 0.0317375510931015
+      },
+      "screening_snr_db": 5.734636074797766,
+      "seconds": 239.11542439460754
+    },
+    {
+      "run": 83,
+      "training_batch_size": 16,
+      "initial_sobol_point": [
+        0.9428293704986572,
+        0.3961893916130066,
+        0.11879739910364151
+      ],
+      "raw_endpoint": [
+        1.1213600635528564,
+        0.8470056056976318,
+        -2.653726816177368
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 286.27227783203125,
+        "envelope_radius_m": 6.291959285736084,
+        "alpha": 0.06575967371463776
+      },
+      "screening_snr_db": 5.734602085296486,
+      "seconds": 239.59395098686218
+    },
+    {
+      "run": 110,
+      "training_batch_size": 16,
+      "initial_sobol_point": [
+        0.3526489734649658,
+        0.564237654209137,
+        0.056792519986629486
+      ],
+      "raw_endpoint": [
+        1.1148455142974854,
+        0.8565518260002136,
+        -2.4671943187713623
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 285.9093933105469,
+        "envelope_radius_m": 6.37954044342041,
+        "alpha": 0.07819021493196487
+      },
+      "screening_snr_db": 5.734503338310931,
+      "seconds": 238.6738941669464
+    }
+  ],
+  "mean_top_three_screening_snr_db": 5.734580499468396,
+  "ci95_low_db": 5.598327718578595,
+  "ci95_high_db": 5.880864649906077,
+  "interval": "percentile bootstrap of selected screening powers, conditional on selection; not independent validation"
+}

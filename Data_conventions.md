@@ -32,7 +32,7 @@ The implementation optimizes 640 amplitude coordinates, 630 relative-phase coord
 
 ## Current supplementary benchmark
 
-The structured-beam figure excludes wHG and uses 51-mode DAD. All plotted source estimates now use a single SNR computed from 2000 pooled atmospheric powers, with 95% percentile bootstrap intervals. DAD source parameters are retained from their original branch-specific searches, then newly evaluated on the same atmosphere seed and batch size as the pooled benchmark. Both branches and their selected status are exported in `data/controls/dad_m51_branches.csv`. Original ten-repetition Student-t records remain as historical source-selection records and are superseded for the plotted DAD estimates.
+The structured-beam figure excludes wHG and uses 51-mode DAD. CB, Pin, Sharp, IOPB, and each DAD branch use 128 Sobol starts × 300 Adam updates, with 16 atmospheres per update. Each endpoint has 1000 independent screening powers. Plotted structured-source points average the top three screening SNRs in dB; DAD selects the branch with the larger top-three mean. Bootstrap intervals are conditional on fixed endpoint and branch selection. OPMS/GSM retain their approved 2000-atmosphere estimates. No extra 2000-realization evaluation enters the new structured-source points. See SUPPLEMENT_BENCHMARK.md and benchmark_screening.py. Historical grid-search and pooled DAD records are superseded for this figure.
 
 wHG M=10 gives 10.5142, 7.3213 and 6.3736 dB; M=64 gives 10.6470, 7.3904 and 7.2301 dB on L1–L3. These values are extracted from the archived holdout records. Earlier manuscript text giving 7.36 and 6.12 dB for the L2/L3 ten-mode wHG control does not match these records and is superseded.
 

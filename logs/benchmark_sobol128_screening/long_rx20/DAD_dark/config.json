@@ -1,0 +1,16 @@
+{
+  "cases": [
+    "small_rx",
+    "long_rx20",
+    "strong_small_rx"
+  ],
+  "starts": 128,
+  "steps": 300,
+  "batch_size": 16,
+  "chunk_size": 4,
+  "lr": 0.02,
+  "screening_samples": 1000,
+  "screening_batch": 4,
+  "seed": 2026101901,
+  "output": "C:\\Users\\ThunderBolt\\SynologyDrive\\Research\\OL2026gpt\\opms-reproducibility\\work\\dad_sobol128_screening"
+}

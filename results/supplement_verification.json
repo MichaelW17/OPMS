@@ -7,5 +7,6 @@
   "L3_wHG_M64_raw_power_error_db": 0.0,
   "step_sensitivity_records": 72,
   "step_sensitivity_max_error_db": 0,
+  "sobol_screening_groups_verified": 18,
   "dad_branches_verified": 6
 }

@@ -1,0 +1,8578 @@
+[
+  {
+    "run": 0,
+    "initial_sobol_point": [
+      0.11054921895265579,
+      0.7774332165718079
+    ],
+    "raw_endpoint": [
+      -0.9091127514839172,
+      -0.765716016292572
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.2217862457036972,
+      "design_distance_m": 1293.516357421875
+    },
+    "selection_snr_db": 7.607465110243675,
+    "seconds": 5.69373631477356,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.48311675516699
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.29236730898862
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.430764878675476
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.701987525400352
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.7211865538705595
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.675630536726004
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.44184872421834
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.429213832966218
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.182128244536904
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.971250083749433
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.974934500707944
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.523710506481093
+      }
+    ]
+  },
+  {
+    "run": 1,
+    "initial_sobol_point": [
+      0.7960614562034607,
+      0.3284163177013397
+    ],
+    "raw_endpoint": [
+      3.0662217140197754,
+      -0.8063845634460449
+    ],
+    "parameters": {
+      "envelope_radius_m": 35.64516830444336,
+      "design_distance_m": 1271.6536865234375
+    },
+    "selection_snr_db": 7.652818346366642,
+    "seconds": 5.70884895324707,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 11.394885599444821
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.014599492460192
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.680142988750726
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.585024857482753
+      },
+      {
+        "step": 125,
+        "training_snr_db": 11.422506314217436
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.249812990775796
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.135340010517455
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.045569466411185
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.970427547960819
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.098532123384125
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.07259512340756
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.676699078290511
+      }
+    ]
+  },
+  {
+    "run": 2,
+    "initial_sobol_point": [
+      0.6192528009414673,
+      0.6693313717842102
+    ],
+    "raw_endpoint": [
+      1.014103651046753,
+      -0.8380382657051086
+    ],
+    "parameters": {
+      "envelope_radius_m": 6.611652374267578,
+      "design_distance_m": 1254.8701171875
+    },
+    "selection_snr_db": 7.654142796269799,
+    "seconds": 5.723402976989746,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.554082648003808
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.655221157231491
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.932763071457905
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.706862531178892
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.2232617374790085
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.237655872903744
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.824610630921836
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.778527563073081
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.262714368525362
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.839907228024297
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.001413703432858
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.501621859545834
+      }
+    ]
+  },
+  {
+    "run": 3,
+    "initial_sobol_point": [
+      0.2851715385913849,
+      0.2199634462594986
+    ],
+    "raw_endpoint": [
+      0.2783617377281189,
+      -0.841381847858429
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.8910506963729858,
+      "design_distance_m": 1253.109619140625
+    },
+    "selection_snr_db": 7.65321483187485,
+    "seconds": 5.522561550140381,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.16787359166138
+      },
+      {
+        "step": 50,
+        "training_snr_db": 11.293747754634673
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.475313457621801
+      },
+      {
+        "step": 100,
+        "training_snr_db": 10.012011649180748
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.36759305748875
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.118757333584523
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.257171820912985
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.782105924554727
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.261406211330479
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.737709733337373
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.681596050228638
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.460880755152429
+      }
+    ]
+  },
+  {
+    "run": 4,
+    "initial_sobol_point": [
+      0.42756032943725586,
+      0.6144426465034485
+    ],
+    "raw_endpoint": [
+      0.4510476887226105,
+      -0.7842028141021729
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.5971715450286865,
+      "design_distance_m": 1283.5369873046875
+    },
+    "selection_snr_db": 7.644827715723904,
+    "seconds": 5.532516717910767,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.833590008351321
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.817429779066272
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.480076209662615
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.373233141904777
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.8643833636821
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.038004247876593
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.185291817478779
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.731702336137913
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.71114987247708
+      },
+      {
+        "step": 250,
+        "training_snr_db": 11.919440340801046
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.963144365855044
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.771284051199531
+      }
+    ]
+  },
+  {
+    "run": 5,
+    "initial_sobol_point": [
+      0.730267345905304,
+      0.05607355386018753
+    ],
+    "raw_endpoint": [
+      2.3151915073394775,
+      -3.095121383666992
+    ],
+    "parameters": {
+      "envelope_radius_m": 25.252117156982422,
+      "design_distance_m": 608.2723999023438
+    },
+    "selection_snr_db": 5.206030436420358,
+    "seconds": 5.495851278305054,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.1191928031715745
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.1408419077846474
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.839556094531889
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.88738335040044
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.800396043186123
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.275992327626502
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.755605450836093
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.758450636114132
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.420810361208943
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.740892829337674
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.937851175024711
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.515109803920421
+      }
+    ]
+  },
+  {
+    "run": 6,
+    "initial_sobol_point": [
+      0.9365116357803345,
+      0.9416587948799133
+    ],
+    "raw_endpoint": [
+      0.7466599345207214,
+      -0.7978949546813965
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.340356826782227,
+      "design_distance_m": 1276.1900634765625
+    },
+    "selection_snr_db": 7.650416067158531,
+    "seconds": 5.508167028427124,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 2.6688302098536814
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.052410527769046
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.375502625850817
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.0955263952678465
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.584724167931266
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.711269709865094
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.940065477606518
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.089361879726005
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.092589126058049
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.002032930267475
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.00067959430147
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.841018478735711
+      }
+    ]
+  },
+  {
+    "run": 7,
+    "initial_sobol_point": [
+      0.21962566673755646,
+      0.38290831446647644
+    ],
+    "raw_endpoint": [
+      0.1908731311559677,
+      -0.8534110188484192
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.6050846576690674,
+      "design_distance_m": 1246.7945556640625
+    },
+    "selection_snr_db": 7.649980877846691,
+    "seconds": 5.492009878158569,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.577202287267326
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.89711244137365
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.967532487870971
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.915113334079329
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.670415231583067
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.211080750733732
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.441010246215783
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.607673478558578
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.449192336529102
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.521781739995113
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.132017528312511
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.97958361494134
+      }
+    ]
+  },
+  {
+    "run": 8,
+    "initial_sobol_point": [
+      0.13201628625392914,
+      0.7116121649742126
+    ],
+    "raw_endpoint": [
+      -0.7295311093330383,
+      -0.8254122734069824
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.29631751775741577,
+      "design_distance_m": 1261.5399169921875
+    },
+    "selection_snr_db": 7.638397197732182,
+    "seconds": 5.480186223983765,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.737748473120655
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.0463354680851165
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.402579335147868
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.491340515019943
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.568688505203483
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.822390363565071
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.282163467205736
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.697874195800543
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.767461122120718
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.021888212499348
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.102377732916414
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.021929578076208
+      }
+    ]
+  },
+  {
+    "run": 9,
+    "initial_sobol_point": [
+      0.9621207118034363,
+      0.14543136954307556
+    ],
+    "raw_endpoint": [
+      4.7760396003723145,
+      -0.778471827507019
+    ],
+    "parameters": {
+      "envelope_radius_m": 46.922080993652344,
+      "design_distance_m": 1286.6234130859375
+    },
+    "selection_snr_db": 7.642130820249962,
+    "seconds": 5.5040671825408936,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.139981252664686
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.075467666661494
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.51925290707209
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.153616265149791
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.307520039677551
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.815628382514356
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.136168118969747
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.057480611869408
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.87753074751306
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.694450702618504
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.332849885343208
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.506370250946308
+      }
+    ]
+  },
+  {
+    "run": 10,
+    "initial_sobol_point": [
+      0.6367263793945312,
+      0.8532814383506775
+    ],
+    "raw_endpoint": [
+      -0.1688280999660492,
+      -0.8198620676994324
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.8118173480033875,
+      "design_distance_m": 1264.4822998046875
+    },
+    "selection_snr_db": 7.652625011963179,
+    "seconds": 5.521909475326538,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.1564821470306565
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.7398124705318745
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.790743704579307
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.001550822172815
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.702432841242195
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.812823017272361
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.908213263996595
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.732278021920123
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.914119602626497
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.758242586462535
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.645658142245823
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.61516718204847
+      }
+    ]
+  },
+  {
+    "run": 11,
+    "initial_sobol_point": [
+      0.4551718831062317,
+      0.28671908378601074
+    ],
+    "raw_endpoint": [
+      1.0235000848770142,
+      -0.8041380047798157
+    ],
+    "parameters": {
+      "envelope_radius_m": 6.704329013824463,
+      "design_distance_m": 1272.8526611328125
+    },
+    "selection_snr_db": 7.652251320887922,
+    "seconds": 5.497223138809204,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.401614034126517
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.086688427955755
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.309097058339097
+      },
+      {
+        "step": 100,
+        "training_snr_db": 10.098632927838736
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.697200361357299
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.482637937829256
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.677004950406692
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.353443992287742
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.876406982124368
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.4322292912911
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.489687199760477
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.101187479395206
+      }
+    ]
+  },
+  {
+    "run": 12,
+    "initial_sobol_point": [
+      0.3162185251712799,
+      0.923430860042572
+    ],
+    "raw_endpoint": [
+      -1.0611298084259033,
+      -0.889508843421936
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.176446795463562,
+      "design_distance_m": 1228.028076171875
+    },
+    "selection_snr_db": 7.580076829578495,
+    "seconds": 5.521693229675293,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.392903354401032
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.578170926850744
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.916584454924473
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.7028302004898075
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.089226149913118
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.171308321580691
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.135057734941607
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.304912074772286
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.934008058189534
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.332713008049679
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.936251756260967
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.557970291282409
+      }
+    ]
+  },
+  {
+    "run": 13,
+    "initial_sobol_point": [
+      0.5291429162025452,
+      0.497852087020874
+    ],
+    "raw_endpoint": [
+      1.332611083984375,
+      -0.7979707717895508
+    ],
+    "parameters": {
+      "envelope_radius_m": 10.231829643249512,
+      "design_distance_m": 1276.1494140625
+    },
+    "selection_snr_db": 7.650501518184891,
+    "seconds": 5.504659414291382,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.944450730118913
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.577437690579332
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.205063686968574
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.937083803922226
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.028659875779963
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.31544058482805
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.267371470698912
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.391624052849899
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.89845000214952
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.184990371646895
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.675166104382047
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.819061557756712
+      }
+    ]
+  },
+  {
+    "run": 14,
+    "initial_sobol_point": [
+      0.8211686611175537,
+      0.5008758902549744
+    ],
+    "raw_endpoint": [
+      3.236367702484131,
+      -0.7930638790130615
+    ],
+    "parameters": {
+      "envelope_radius_m": 37.50814437866211,
+      "design_distance_m": 1278.7779541015625
+    },
+    "selection_snr_db": 7.648801342908078,
+    "seconds": 5.51528525352478,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.937352986324688
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.234296299708994
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.311478350978632
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.938571588683219
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.24627426922182
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.094937406850966
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.935974148084414
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.526012428711336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.928224778988303
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.288894561755232
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.339920068962545
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.291609613108701
+      }
+    ]
+  },
+  {
+    "run": 15,
+    "initial_sobol_point": [
+      0.022434648126363754,
+      0.07494626194238663
+    ],
+    "raw_endpoint": [
+      -6.26649284362793,
+      -3.3844289779663086
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.02536275051534176,
+      "design_distance_m": 581.964111328125
+    },
+    "selection_snr_db": 3.5046394321225893,
+    "seconds": 5.4874351024627686,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.268953767717372
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.0169128254188133
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.588553687197917
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.2731840882434304
+      },
+      {
+        "step": 125,
+        "training_snr_db": 3.1786819461858857
+      },
+      {
+        "step": 150,
+        "training_snr_db": 3.7682293126580557
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.176608801400029
+      },
+      {
+        "step": 200,
+        "training_snr_db": 2.794046587057481
+      },
+      {
+        "step": 225,
+        "training_snr_db": 2.4281993510820543
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.496320558876812
+      },
+      {
+        "step": 275,
+        "training_snr_db": 1.4680920758179086
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.134555629845814
+      }
+    ]
+  },
+  {
+    "run": 16,
+    "initial_sobol_point": [
+      0.06204686313867569,
+      0.5537170767784119
+    ],
+    "raw_endpoint": [
+      -0.5640324354171753,
+      -0.7817132472991943
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.39349836111068726,
+      "design_distance_m": 1284.8768310546875
+    },
+    "selection_snr_db": 7.635012957132737,
+    "seconds": 5.508952379226685,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.234233518091928
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.177494407800889
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.069637314120591
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.985469140949366
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.870777013232361
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.120902000195994
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.377826959643706
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.209774685822584
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.032884200702732
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.605800246827503
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.016890316153086
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.29213135089936
+      }
+    ]
+  },
+  {
+    "run": 17,
+    "initial_sobol_point": [
+      0.8452772498130798,
+      0.12046316266059875
+    ],
+    "raw_endpoint": [
+      3.009488821029663,
+      -0.7987867593765259
+    ],
+    "parameters": {
+      "envelope_radius_m": 34.980411529541016,
+      "design_distance_m": 1275.7127685546875
+    },
+    "selection_snr_db": 7.6507722040791535,
+    "seconds": 5.506523847579956,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.3702487389697495
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.762287298108357
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.402094895827908
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.912947859548254
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.627643982554314
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.341764799368734
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.375162656478306
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.619770607294283
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.399156142342914
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.113520723995842
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.726318428303586
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.562574553422163
+      }
+    ]
+  },
+  {
+    "run": 18,
+    "initial_sobol_point": [
+      0.5514204502105713,
+      0.8813013434410095
+    ],
+    "raw_endpoint": [
+      -0.3566872179508209,
+      -0.8643015027046204
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.571712851524353,
+      "design_distance_m": 1241.103515625
+    },
+    "selection_snr_db": 7.641584389345262,
+    "seconds": 5.498213052749634,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.029084082479761
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.255514500376406
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.888050467151404
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.259807643076606
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.942107253545597
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.73222063559796
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.289583261168755
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.102059317038739
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.09122680493581
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.386828629136822
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.593400447182592
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.001878256747338
+      }
+    ]
+  },
+  {
+    "run": 19,
+    "initial_sobol_point": [
+      0.35424381494522095,
+      0.4474219083786011
+    ],
+    "raw_endpoint": [
+      0.5332176685333252,
+      -0.7753029465675354
+    ],
+    "parameters": {
+      "envelope_radius_m": 3.0085625648498535,
+      "design_distance_m": 1288.3326416015625
+    },
+    "selection_snr_db": 7.640226200355944,
+    "seconds": 5.497793674468994,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.908854201022198
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.617054188367809
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.007332716077944
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.206906744338898
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.560324707694296
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.759547613868786
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.922298039010085
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.362783548965517
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.817049372796093
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.712310384152504
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.053720203108442
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.776983951063192
+      }
+    ]
+  },
+  {
+    "run": 20,
+    "initial_sobol_point": [
+      0.49551668763160706,
+      0.84194415807724
+    ],
+    "raw_endpoint": [
+      -0.36527326703071594,
+      -0.7941687703132629
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.5627533197402954,
+      "design_distance_m": 1278.185546875
+    },
+    "selection_snr_db": 7.644816303256566,
+    "seconds": 5.504491329193115,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.088866908200258
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.335716644205557
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.7031921037577655
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.590035191573653
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.435827321754134
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.820533575165189
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.882116771632088
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.141935245169918
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.428089320427631
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.992620218930636
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.361115653458441
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.932586345999557
+      }
+    ]
+  },
+  {
+    "run": 21,
+    "initial_sobol_point": [
+      0.6615670323371887,
+      0.2680577039718628
+    ],
+    "raw_endpoint": [
+      2.0469820499420166,
+      -0.7591798305511475
+    ],
+    "parameters": {
+      "envelope_radius_m": 20.96388816833496,
+      "design_distance_m": 1297.060791015625
+    },
+    "selection_snr_db": 7.629772698518811,
+    "seconds": 5.502044677734375,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.464065866992613
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.824364110852738
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.923914549191736
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.344216349337006
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.834569644162663
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.191046728414854
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.891987309325103
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.253249809319336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.197970331399316
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.918743156325622
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.778129087579513
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.018918347261293
+      }
+    ]
+  },
+  {
+    "run": 22,
+    "initial_sobol_point": [
+      0.9846420288085938,
+      0.7337221503257751
+    ],
+    "raw_endpoint": [
+      4.956483364105225,
+      -0.8301317691802979
+    ],
+    "parameters": {
+      "envelope_radius_m": 47.41337585449219,
+      "design_distance_m": 1259.04296875
+    },
+    "selection_snr_db": 7.654935542852548,
+    "seconds": 5.512410640716553,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.701096221710754
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.113283625617885
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.288422969127723
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.203213106031452
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.462162848365963
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.45932882249332
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.3893290957319415
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.543628862305138
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.209286514541912
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.431792907214554
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.937512250726365
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.003040889565645
+      }
+    ]
+  },
+  {
+    "run": 23,
+    "initial_sobol_point": [
+      0.17028586566448212,
+      0.1592404991388321
+    ],
+    "raw_endpoint": [
+      -0.2395254224538803,
+      -0.7450981140136719
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.7107624411582947,
+      "design_distance_m": 1304.725830078125
+    },
+    "selection_snr_db": 7.615779077582685,
+    "seconds": 5.500979661941528,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.547009841022899
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.575307948811442
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.265327657349577
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.902867383427305
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.338154412677639
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.717490742152195
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.220203884619815
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.8319291520748635
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.007357962983432
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.76275130993811
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.354261794126661
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.281769012564746
+      }
+    ]
+  },
+  {
+    "run": 24,
+    "initial_sobol_point": [
+      0.19685985147953033,
+      0.9879387021064758
+    ],
+    "raw_endpoint": [
+      -3.6686201095581055,
+      -0.5519117116928101
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.030203668400645256,
+      "design_distance_m": 1413.552490234375
+    },
+    "selection_snr_db": 6.65282614107171,
+    "seconds": 5.491406679153442,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.8921942271164016
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.852128444834843
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.504984495154331
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.210673390076682
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.860790851421611
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.770818349372668
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.151535014396308
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.629042054840264
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.874673792354487
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.398678257251927
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.934395536816331
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.749202120206555
+      }
+    ]
+  },
+  {
+    "run": 25,
+    "initial_sobol_point": [
+      0.897998034954071,
+      0.43748894333839417
+    ],
+    "raw_endpoint": [
+      4.126828193664551,
+      -0.8228761553764343
+    ],
+    "parameters": {
+      "envelope_radius_m": 44.31561279296875,
+      "design_distance_m": 1262.8836669921875
+    },
+    "selection_snr_db": 7.654984284266773,
+    "seconds": 5.509179592132568,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.673139183670678
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.05494047279375
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.486902357064611
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.10169537951594
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.677761753355576
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.895719399860566
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.684532788351142
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.113951515508381
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.148138253885646
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.99092055831435
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.362752948779757
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.580106269537783
+      }
+    ]
+  },
+  {
+    "run": 26,
+    "initial_sobol_point": [
+      0.6901668310165405,
+      0.565263569355011
+    ],
+    "raw_endpoint": [
+      1.758523941040039,
+      -0.7937607765197754
+    ],
+    "parameters": {
+      "envelope_radius_m": 16.360633850097656,
+      "design_distance_m": 1278.404296875
+    },
+    "selection_snr_db": 7.649056814930608,
+    "seconds": 5.50564980506897,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.013183734997408
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.97543413403657
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.665102179021293
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.456067724237134
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.725235747514966
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.264243680681588
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.0854293299207
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.003252207395652
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.095610168301844
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.890662919546962
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.6490940976741255
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.512417818524401
+      }
+    ]
+  },
+  {
+    "run": 27,
+    "initial_sobol_point": [
+      0.40296342968940735,
+      0.01421879418194294
+    ],
+    "raw_endpoint": [
+      0.7383573651313782,
+      -6.048393726348877
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.280923843383789,
+      "design_distance_m": 505.89019775390625
+    },
+    "selection_snr_db": 5.7461196871396485,
+    "seconds": 5.487566232681274,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.354058763795338
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.1826570134848415
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.949815397353949
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.097305912377475
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.737865856600298
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.441317069949886
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.815370655020927
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.603926518439732
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.867340603167795
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.079637992852986
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.44896295731497
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.238724192179063
+      }
+    ]
+  },
+  {
+    "run": 28,
+    "initial_sobol_point": [
+      0.2631385326385498,
+      0.6508834958076477
+    ],
+    "raw_endpoint": [
+      -0.146225243806839,
+      -0.7999159693717957
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.8472198843955994,
+      "design_distance_m": 1275.108642578125
+    },
+    "selection_snr_db": 7.649161421131004,
+    "seconds": 5.500316143035889,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.9077971363776856
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.520638767145648
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.658800090083864
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.239465103310582
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.258642313338587
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.269514748039119
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.73677543219868
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.58774226929172
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.737702498141372
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.22035833399462
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.838695138084153
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.777481599078576
+      }
+    ]
+  },
+  {
+    "run": 29,
+    "initial_sobol_point": [
+      0.5814715027809143,
+      0.20981645584106445
+    ],
+    "raw_endpoint": [
+      1.550050973892212,
+      -0.8141085505485535
+    ],
+    "parameters": {
+      "envelope_radius_m": 13.213849067687988,
+      "design_distance_m": 1267.539306640625
+    },
+    "selection_snr_db": 7.654216399155743,
+    "seconds": 5.534623146057129,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.552803725573829
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.320642484003473
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.3111450677991074
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.771196603034017
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.954382504565547
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.876091787482476
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.004698851212279
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.040497852859081
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.930849776526677
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.582841591139556
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.070613649787313
+      },
+      {
+        "step": 300,
+        "training_snr_db": 10.03061056801456
+      }
+    ]
+  },
+  {
+    "run": 30,
+    "initial_sobol_point": [
+      0.7562049627304077,
+      0.7929208874702454
+    ],
+    "raw_endpoint": [
+      0.8792790770530701,
+      -0.8681814670562744
+    ],
+    "parameters": {
+      "envelope_radius_m": 5.3788323402404785,
+      "design_distance_m": 1239.0821533203125
+    },
+    "selection_snr_db": 7.644372210110669,
+    "seconds": 5.5168776512146,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.189963985451627
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.820621081612559
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.164331334812888
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.913556540607262
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.81528838095681
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.939876903746423
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.076225982007989
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.4058558596329
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.19718262032936
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.904393488453426
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.654740754716467
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.232475256563783
+      }
+    ]
+  },
+  {
+    "run": 31,
+    "initial_sobol_point": [
+      0.08619686961174011,
+      0.35122814774513245
+    ],
+    "raw_endpoint": [
+      -0.386315256357193,
+      -0.8835852742195129
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.5414422750473022,
+      "design_distance_m": 1231.08837890625
+    },
+    "selection_snr_db": 7.62982030812122,
+    "seconds": 5.523484945297241,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.456703088280726
+      },
+      {
+        "step": 50,
+        "training_snr_db": 10.300537089916922
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.894209514583236
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.805319412576345
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.625255787078103
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.523040158120356
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.501855224353935
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.512613744268496
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.635807730089792
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.51267159124802
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.100564018972994
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.071477162194686
+      }
+    ]
+  },
+  {
+    "run": 32,
+    "initial_sobol_point": [
+      0.06784422695636749,
+      0.6789166927337646
+    ],
+    "raw_endpoint": [
+      -0.7498766779899597,
+      -0.8214808106422424
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.2864637076854706,
+      "design_distance_m": 1263.62353515625
+    },
+    "selection_snr_db": 7.637221094308685,
+    "seconds": 5.524301767349243,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.734172706754053
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.9188233229276666
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.238869173366607
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.1069725607668
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.710043194444021
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.839140399787636
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.991651682140375
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.127769097490216
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.63942692866161
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.854179155442798
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.148196166613925
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.298942186915242
+      }
+    ]
+  },
+  {
+    "run": 33,
+    "initial_sobol_point": [
+      0.7767395973205566,
+      0.24553973972797394
+    ],
+    "raw_endpoint": [
+      2.7821874618530273,
+      -0.8059993386268616
+    ],
+    "parameters": {
+      "envelope_radius_m": 32.10247802734375,
+      "design_distance_m": 1271.859130859375
+    },
+    "selection_snr_db": 7.652730170157312,
+    "seconds": 5.534218072891235,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.560386625960692
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.904636820532231
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.696537687962135
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.085175036594568
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.504310192051815
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.595208651746567
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.097130974615913
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.206918154972369
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.649022562013097
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.64510107508244
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.989132890942109
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.996921351471538
+      }
+    ]
+  },
+  {
+    "run": 34,
+    "initial_sobol_point": [
+      0.5765010714530945,
+      0.7561327219009399
+    ],
+    "raw_endpoint": [
+      0.29389533400535583,
+      -0.8254075646400452
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.9465408325195312,
+      "design_distance_m": 1261.54248046875
+    },
+    "selection_snr_db": 7.654652370229885,
+    "seconds": 5.541176795959473,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.512591129962184
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.608111816836473
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.44366304034402
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.526534191177959
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.7634025539269516
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.607108474790493
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.050803170192346
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.411499099329061
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.045599768815757
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.12909892368177
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.339355077082855
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.46331085059263
+      }
+    ]
+  },
+  {
+    "run": 35,
+    "initial_sobol_point": [
+      0.26592695713043213,
+      0.3223744034767151
+    ],
+    "raw_endpoint": [
+      0.327129065990448,
+      -0.796095073223114
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.070326805114746,
+      "design_distance_m": 1277.153564453125
+    },
+    "selection_snr_db": 7.649566322154935,
+    "seconds": 5.5031890869140625,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.11404645362396
+      },
+      {
+        "step": 50,
+        "training_snr_db": 10.234514780822035
+      },
+      {
+        "step": 75,
+        "training_snr_db": 10.68424197664557
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.3479687059726935
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.923358048121186
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.019355475285419
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.1893666082695376
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.417613600628053
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.975774910859315
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.43204472808072
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.196982508416857
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.650496336033161
+      }
+    ]
+  },
+  {
+    "run": 36,
+    "initial_sobol_point": [
+      0.3765620291233063,
+      0.9668689966201782
+    ],
+    "raw_endpoint": [
+      -2.1351711750030518,
+      -0.7673466205596924
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.05583951622247696,
+      "design_distance_m": 1292.63330078125
+    },
+    "selection_snr_db": 7.224322665427334,
+    "seconds": 5.506175756454468,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.525145940819132
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.147439776305198
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.974745129090858
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.219769063856166
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.867495235444626
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.865211983923447
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.020969813798923
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.747011607540837
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.676712887196205
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.446495881201669
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.2566385089214895
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.022469165771179
+      }
+    ]
+  },
+  {
+    "run": 37,
+    "initial_sobol_point": [
+      0.7182619571685791,
+      0.3928595185279846
+    ],
+    "raw_endpoint": [
+      2.466064691543579,
+      -0.777016818523407
+    ],
+    "parameters": {
+      "envelope_radius_m": 27.579910278320312,
+      "design_distance_m": 1287.407958984375
+    },
+    "selection_snr_db": 7.641336535429065,
+    "seconds": 5.5035130977630615,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.317569912000166
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.211453401055747
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.952756796823736
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.50353642403839
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.076935986039881
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.959778580022745
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.8471603423619785
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.14261485520958
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.103737853797384
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.97684510707492
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.448398344169168
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.742403548769094
+      }
+    ]
+  },
+  {
+    "run": 38,
+    "initial_sobol_point": [
+      0.8854665756225586,
+      0.6087672710418701
+    ],
+    "raw_endpoint": [
+      3.2377805709838867,
+      -0.7826493978500366
+    ],
+    "parameters": {
+      "envelope_radius_m": 37.52277755737305,
+      "design_distance_m": 1284.372802734375
+    },
+    "selection_snr_db": 7.644279425733343,
+    "seconds": 5.50371527671814,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.304634346161252
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.582624220701141
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.95208235081431
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.870732621164203
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.808110404578503
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.693472853830222
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.156400538616099
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.640560301007302
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.606605029046412
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.469878921241628
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.465270477266444
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.85486208684554
+      }
+    ]
+  },
+  {
+    "run": 39,
+    "initial_sobol_point": [
+      0.20769751071929932,
+      0.03440674766898155
+    ],
+    "raw_endpoint": [
+      -0.039076067507267,
+      -3.08752179145813
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.0380330085754395,
+      "design_distance_m": 609.062255859375
+    },
+    "selection_snr_db": 5.2013862931266495,
+    "seconds": 5.4808783531188965,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.886012435289427
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.334393303539848
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.352875219174562
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.000248055871083
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.156905938944543
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.870699241770492
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.865156736370535
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.492746531352409
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.330695668757803
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.267034713821312
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.538654549458762
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.226688971720272
+      }
+    ]
+  },
+  {
+    "run": 40,
+    "initial_sobol_point": [
+      0.17518764734268188,
+      0.8628627061843872
+    ],
+    "raw_endpoint": [
+      -1.1041206121444702,
+      -0.9064250588417053
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.16587957739830017,
+      "design_distance_m": 1219.329833984375
+    },
+    "selection_snr_db": 7.557731895888527,
+    "seconds": 5.534567594528198,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.826813206856744
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.580133064208265
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.607384325865543
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.606001798342723
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.765519317829868
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.174199066345479
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.487010633748591
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.252790859627995
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.139402270859097
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.006112333336664
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.428301610857306
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.240822955347936
+      }
+    ]
+  },
+  {
+    "run": 41,
+    "initial_sobol_point": [
+      0.9819222688674927,
+      0.31229183077812195
+    ],
+    "raw_endpoint": [
+      5.368047714233398,
+      -0.7196024656295776
+    ],
+    "parameters": {
+      "envelope_radius_m": 48.26675033569336,
+      "design_distance_m": 1318.7012939453125
+    },
+    "selection_snr_db": 7.592497214536408,
+    "seconds": 5.539733171463013,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.656800545455632
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.066507675733282
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.236279633428269
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.668101676365366
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.435682749662225
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.089545435653147
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.945750101899379
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.966214026072945
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.568920746173562
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.251694874199087
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.824794372105197
+      },
+      {
+        "step": 300,
+        "training_snr_db": 10.17308017553269
+      }
+    ]
+  },
+  {
+    "run": 42,
+    "initial_sobol_point": [
+      0.6799730658531189,
+      0.6903076171875
+    ],
+    "raw_endpoint": [
+      1.0420674085617065,
+      -0.7805581092834473
+    ],
+    "parameters": {
+      "envelope_radius_m": 6.890048503875732,
+      "design_distance_m": 1285.4990234375
+    },
+    "selection_snr_db": 7.643199725029292,
+    "seconds": 5.540360689163208,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.6407035412415265
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.741742656823007
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.272287030937777
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.100420287274445
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.41597080245503
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.410799204729464
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.964940414819896
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.994972833628115
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.954452858456856
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.812420601643705
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.442427405418729
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.890999387998955
+      }
+    ]
+  },
+  {
+    "run": 43,
+    "initial_sobol_point": [
+      0.4749286472797394,
+      0.1393858790397644
+    ],
+    "raw_endpoint": [
+      0.898718535900116,
+      -0.784779965877533
+    ],
+    "parameters": {
+      "envelope_radius_m": 5.545440196990967,
+      "design_distance_m": 1283.2264404296875
+    },
+    "selection_snr_db": 7.645258210754663,
+    "seconds": 5.502791166305542,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.404748850771452
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.853894905078025
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.178949588471003
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.644514412300198
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.309271993780925
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.077919088059189
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.524671262542727
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.713416950111958
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.02279713134453
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.296067098056666
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.396959505379465
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.558365456740227
+      }
+    ]
+  },
+  {
+    "run": 44,
+    "initial_sobol_point": [
+      0.3667218089103699,
+      0.5260820388793945
+    ],
+    "raw_endpoint": [
+      0.42239952087402344,
+      -0.7939244508743286
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.4657626152038574,
+      "design_distance_m": 1278.3165283203125
+    },
+    "selection_snr_db": 7.648893376620778,
+    "seconds": 5.53319787979126,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.64112961174194
+      },
+      {
+        "step": 50,
+        "training_snr_db": 10.209064258454099
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.755610419256113
+      },
+      {
+        "step": 100,
+        "training_snr_db": 10.550207129129545
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.97543438175555
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.537570899864932
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.600783706362009
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.072316565449212
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.94269619690774
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.025754959203404
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.986457399577732
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.088023204715482
+      }
+    ]
+  },
+  {
+    "run": 45,
+    "initial_sobol_point": [
+      0.5406361818313599,
+      0.08489386737346649
+    ],
+    "raw_endpoint": [
+      1.1835944652557373,
+      -3.0132434368133545
+    ],
+    "parameters": {
+      "envelope_radius_m": 8.417581558227539,
+      "design_distance_m": 617.077880859375
+    },
+    "selection_snr_db": 5.159602101216683,
+    "seconds": 5.508870363235474,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.571217762538138
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.570013041506707
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.205464381107882
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.882924221857136
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.284203053619471
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.143309907010607
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.440648622352748
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.0168578950288785
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.532133088447813
+      },
+      {
+        "step": 250,
+        "training_snr_db": 4.741582561829366
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.044419332214862
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.0491700248217715
+      }
+    ]
+  },
+  {
+    "run": 46,
+    "initial_sobol_point": [
+      0.8717473149299622,
+      0.9177514314651489
+    ],
+    "raw_endpoint": [
+      0.4618075489997864,
+      -0.8832226395606995
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.648094415664673,
+      "design_distance_m": 1231.2760009765625
+    },
+    "selection_snr_db": 7.635218870300421,
+    "seconds": 5.4965784549713135,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.5701425875461066
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.8263949226804828
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.603626462563782
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.84342023611552
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.28952986336056
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.222737438881067
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.315063800799607
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.45942262032455
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.175545126178861
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.829309664131372
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.28400861041496
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.294310069027703
+      }
+    ]
+  },
+  {
+    "run": 47,
+    "initial_sobol_point": [
+      0.033883076161146164,
+      0.4761817157268524
+    ],
+    "raw_endpoint": [
+      -0.532735288143158,
+      -0.7967967987060547
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.4158361554145813,
+      "design_distance_m": 1276.77783203125
+    },
+    "selection_snr_db": 7.642045009909076,
+    "seconds": 5.463988780975342,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.457985017430663
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.613028541762562
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.264719959237121
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.626675367831211
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.794620221310074
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.400722065736513
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.718751834109845
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.197840534563523
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.838010899343883
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.381135766488674
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.793429724566851
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.956041588824512
+      }
+    ]
+  },
+  {
+    "run": 48,
+    "initial_sobol_point": [
+      0.011482521891593933,
+      0.9024772644042969
+    ],
+    "raw_endpoint": [
+      -5.513592720031738,
+      -0.5472185611724854
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.02577478252351284,
+      "design_distance_m": 1416.2747802734375
+    },
+    "selection_snr_db": 6.592101007963559,
+    "seconds": 5.5049192905426025,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.9353658906609885
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.313227529669607
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.101709035659718
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.8579738271033275
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.053387578313998
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.176768252089207
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.365437547433585
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.681555453200305
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.573645728083806
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.779200979366504
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.968047822237825
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.750787143140911
+      }
+    ]
+  },
+  {
+    "run": 49,
+    "initial_sobol_point": [
+      0.8338450193405151,
+      0.45358338952064514
+    ],
+    "raw_endpoint": [
+      3.36011004447937,
+      -0.8382772207260132
+    ],
+    "parameters": {
+      "envelope_radius_m": 38.74083709716797,
+      "design_distance_m": 1254.7442626953125
+    },
+    "selection_snr_db": 7.654141457920023,
+    "seconds": 5.525126934051514,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.475943580687171
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.995002719371751
+      },
+      {
+        "step": 75,
+        "training_snr_db": 10.37799148429974
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.805748702701825
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.729240172776709
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.707691650892132
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.368143493917403
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.324818928249387
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.229696789730493
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.223690928609834
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.872691570269416
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.868076969687313
+      }
+    ]
+  },
+  {
+    "run": 50,
+    "initial_sobol_point": [
+      0.5009028315544128,
+      0.5442553758621216
+    ],
+    "raw_endpoint": [
+      0.8780305981636047,
+      -0.8166446685791016
+    ],
+    "parameters": {
+      "envelope_radius_m": 5.368263244628906,
+      "design_distance_m": 1266.1910400390625
+    },
+    "selection_snr_db": 7.654486106619767,
+    "seconds": 5.529505014419556,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.533112228351612
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.409194902795807
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.146599958157045
+      },
+      {
+        "step": 100,
+        "training_snr_db": 11.523416065764284
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.408103026401685
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.16259684470835
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.877655215387987
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.31062943736874
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.050686359726503
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.098970801424983
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.561158698245169
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.062223532422214
+      }
+    ]
+  },
+  {
+    "run": 51,
+    "initial_sobol_point": [
+      0.34273436665534973,
+      0.09476631879806519
+    ],
+    "raw_endpoint": [
+      0.3688798248767853,
+      -2.9386842250823975
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.2359912395477295,
+      "design_distance_m": 625.6851806640625
+    },
+    "selection_snr_db": 5.077152471061166,
+    "seconds": 5.658862352371216,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.984094422565881
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.643443935000861
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.186404777294577
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.390915976598682
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.073236645303117
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.807153745919629
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.805068340157865
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.595307678054249
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.614431243386448
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.661116778105056
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.3916046278688885
+      },
+      {
+        "step": 300,
+        "training_snr_db": 4.913022737245268
+      }
+    ]
+  },
+  {
+    "run": 52,
+    "initial_sobol_point": [
+      0.4522842764854431,
+      0.739273190498352
+    ],
+    "raw_endpoint": [
+      0.07934121042490005,
+      -0.8196689486503601
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.2998632192611694,
+      "design_distance_m": 1264.5848388671875
+    },
+    "selection_snr_db": 7.653952830468071,
+    "seconds": 5.486318588256836,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.384759347565369
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.445467229921045
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.670887380498332
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.762037543001732
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.022383657854142
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.543813325757641
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.9981233747488805
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.836929550587261
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.366325718462559
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.945249110590142
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.752239473660675
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.594506488597837
+      }
+    ]
+  },
+  {
+    "run": 53,
+    "initial_sobol_point": [
+      0.6418265104293823,
+      0.1810271292924881
+    ],
+    "raw_endpoint": [
+      1.779340386390686,
+      -0.7976320385932922
+    ],
+    "parameters": {
+      "envelope_radius_m": 16.685991287231445,
+      "design_distance_m": 1276.3306884765625
+    },
+    "selection_snr_db": 7.65040027097029,
+    "seconds": 5.547990322113037,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.0367429533853105
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.960977033140678
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.836515963268626
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.085607124857342
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.265864331644568
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.158910891880312
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.335643104991394
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.725047882768651
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.431997671718207
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.175065935110573
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.624737585944372
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.951004349706231
+      }
+    ]
+  },
+  {
+    "run": 54,
+    "initial_sobol_point": [
+      0.9414563775062561,
+      0.8168573379516602
+    ],
+    "raw_endpoint": [
+      3.1341018676757812,
+      -0.8560599684715271
+    ],
+    "parameters": {
+      "envelope_radius_m": 36.41190719604492,
+      "design_distance_m": 1245.4080810546875
+    },
+    "selection_snr_db": 7.649661312561146,
+    "seconds": 5.949779272079468,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.046714666613825
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.170765301361736
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.862882251279516
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.360696128890034
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.178000181465853
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.716761650525733
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.761287203983133
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.116645447861387
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.584649512273612
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.328929101699517
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.0048792829506
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.610355482918541
+      }
+    ]
+  },
+  {
+    "run": 55,
+    "initial_sobol_point": [
+      0.15046808123588562,
+      0.2579857409000397
+    ],
+    "raw_endpoint": [
+      -0.18355834484100342,
+      -0.8578587174415588
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.7895795702934265,
+      "design_distance_m": 1244.46728515625
+    },
+    "selection_snr_db": 7.646547474220861,
+    "seconds": 6.502959728240967,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.367710302354293
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.372613247600704
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.80956308414907
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.429093682248125
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.3029698624004284
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.008722801662113
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.845510483129994
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.99552740371457
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.614915503082708
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.468526157782687
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.322591017353421
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.655742755926784
+      }
+    ]
+  },
+  {
+    "run": 56,
+    "initial_sobol_point": [
+      0.24791917204856873,
+      0.5864435434341431
+    ],
+    "raw_endpoint": [
+      -0.06816235929727554,
+      -0.8467719554901123
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.9822576642036438,
+      "design_distance_m": 1250.276123046875
+    },
+    "selection_snr_db": 7.650914263853017,
+    "seconds": 5.649016618728638,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.519950963013844
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.524864025489652
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.676680346946901
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.538472630848677
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.5008843567215
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.397778324024735
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.450927794326785
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.801282538904055
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.622524258274101
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.820752143751886
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.55089852978
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.027794860158483
+      }
+    ]
+  },
+  {
+    "run": 57,
+    "initial_sobol_point": [
+      0.9099423885345459,
+      0.02038387954235077
+    ],
+    "raw_endpoint": [
+      4.418675899505615,
+      -5.734385013580322
+    ],
+    "parameters": {
+      "envelope_radius_m": 45.67366027832031,
+      "design_distance_m": 508.05609130859375
+    },
+    "selection_snr_db": 5.721292485146988,
+    "seconds": 5.890931844711304,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.356179878223788
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.723943553121939
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.370743641723155
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.4381487713414405
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.653233545528012
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.025484076226595
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.888774233509046
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.741520973711437
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.816390253249525
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.411973330327497
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.252065568766855
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.44392160150848
+      }
+    ]
+  },
+  {
+    "run": 58,
+    "initial_sobol_point": [
+      0.7411507964134216,
+      0.9784810543060303
+    ],
+    "raw_endpoint": [
+      -1.1107876300811768,
+      -0.7641304731369019
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.16431783139705658,
+      "design_distance_m": 1294.3753662109375
+    },
+    "selection_snr_db": 7.584380224735044,
+    "seconds": 5.922626733779907,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.289663184653804
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.438539300989737
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.062295667625554
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.741469150717831
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.619722023464956
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.18386728992474
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.679584857063032
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.999536395006113
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.23753297784226
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.190145034381933
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.228295478544842
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.928475367285342
+      }
+    ]
+  },
+  {
+    "run": 59,
+    "initial_sobol_point": [
+      0.4149526357650757,
+      0.4117956757545471
+    ],
+    "raw_endpoint": [
+      0.7881779074668884,
+      -0.8503352999687195
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.6472907066345215,
+      "design_distance_m": 1248.4063720703125
+    },
+    "selection_snr_db": 7.651448544687454,
+    "seconds": 5.651353120803833,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.550780321698616
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.845101824549316
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.358401778801701
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.469484066952983
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.184060182709128
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.050709323079847
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.91743101304876
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.171704994150904
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.19584956515194
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.544575068571851
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.560060796702455
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.973827723871966
+      }
+    ]
+  },
+  {
+    "run": 60,
+    "initial_sobol_point": [
+      0.3059045374393463,
+      0.798475980758667
+    ],
+    "raw_endpoint": [
+      -0.5394572615623474,
+      -0.7837643027305603
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.41091790795326233,
+      "design_distance_m": 1283.77294921875
+    },
+    "selection_snr_db": 7.636721071431666,
+    "seconds": 5.548894643783569,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.999686066754534
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.6995067953020015
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.648657673161243
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.69408311873587
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.193060114093842
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.1917156337166
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.788455555968026
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.905861202439382
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.140218083697059
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.907956156239752
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.911768070358335
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.864763145965244
+      }
+    ]
+  },
+  {
+    "run": 61,
+    "initial_sobol_point": [
+      0.6007323265075684,
+      0.3730183243751526
+    ],
+    "raw_endpoint": [
+      1.6890488862991333,
+      -0.8192507028579712
+    ],
+    "parameters": {
+      "envelope_radius_m": 15.287493705749512,
+      "design_distance_m": 1264.806884765625
+    },
+    "selection_snr_db": 7.6547726812379455,
+    "seconds": 5.702670097351074,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.62469800825552
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.247941234558763
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.115157592560752
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.736020871324874
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.883685449048612
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.493700713206529
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.989121976290646
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.576099102194632
+      },
+      {
+        "step": 225,
+        "training_snr_db": 11.469593766998937
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.210155163319685
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.288182032021789
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.970276174857315
+      }
+    ]
+  },
+  {
+    "run": 62,
+    "initial_sobol_point": [
+      0.7988956570625305,
+      0.6258007287979126
+    ],
+    "raw_endpoint": [
+      2.239405870437622,
+      -0.8326337337493896
+    ],
+    "parameters": {
+      "envelope_radius_m": 24.054113388061523,
+      "design_distance_m": 1257.72119140625
+    },
+    "selection_snr_db": 7.654773335388457,
+    "seconds": 5.591313600540161,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.199051208332343
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.531009160707213
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.884846802824113
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.178278194585202
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.462934992558653
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.361177812651576
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.452647943957605
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.370868524077628
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.708571292939464
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.909983000892328
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.96883859000046
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.990533810485346
+      }
+    ]
+  },
+  {
+    "run": 63,
+    "initial_sobol_point": [
+      0.10550249367952347,
+      0.19974806904792786
+    ],
+    "raw_endpoint": [
+      -0.3874720633029938,
+      -0.84035325050354
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.5402966737747192,
+      "design_distance_m": 1253.65087890625
+    },
+    "selection_snr_db": 7.64870120674588,
+    "seconds": 5.549700021743774,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.333909275379053
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.5053438545803095
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.430966085570974
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.381798463744678
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.387335674322015
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.23641255652736
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.763148940880324
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.97452057053188
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.121700122561155
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.306842993970452
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.532719584973371
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.860157834488869
+      }
+    ]
+  },
+  {
+    "run": 64,
+    "initial_sobol_point": [
+      0.09778551012277603,
+      0.5960376262664795
+    ],
+    "raw_endpoint": [
+      -0.5444203019142151,
+      -0.7677437663078308
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.4073295295238495,
+      "design_distance_m": 1292.41845703125
+    },
+    "selection_snr_db": 7.6277350492992735,
+    "seconds": 5.561262607574463,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.10591957760979
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.5890643698967155
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.3784310008833565
+      },
+      {
+        "step": 100,
+        "training_snr_db": 10.107949972245207
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.360347614819865
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.9914864612469625
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.424653076626292
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.813845471797006
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.734091575891144
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.433242818512092
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.460384078584602
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.848022029215869
+      }
+    ]
+  },
+  {
+    "run": 65,
+    "initial_sobol_point": [
+      0.8068562746047974,
+      0.04496964439749718
+    ],
+    "raw_endpoint": [
+      2.8925721645355225,
+      -3.0263848304748535
+    ],
+    "parameters": {
+      "envelope_radius_m": 33.54235076904297,
+      "design_distance_m": 615.6200561523438
+    },
+    "selection_snr_db": 5.169791023321068,
+    "seconds": 5.56232762336731,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.797074468013919
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.020573471806724
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.796023263096321
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.867053848746814
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.5901963954609055
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.116653668047434
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.805306913647548
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.087668708784094
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.732524330516814
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.122207268420232
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.253881134905005
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.586448651254634
+      }
+    ]
+  },
+  {
+    "run": 66,
+    "initial_sobol_point": [
+      0.6084570288658142,
+      0.9561992883682251
+    ],
+    "raw_endpoint": [
+      -0.9526379108428955,
+      -0.7690438628196716
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.20739436149597168,
+      "design_distance_m": 1291.7149658203125
+    },
+    "selection_snr_db": 7.605593252816395,
+    "seconds": 5.542888879776001,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.8803706698257074
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.725946399355328
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.026412379475892
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.110182229397711
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.79589329297986
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.150160104670942
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.398778587484617
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.507124217645803
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.481062249586965
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.990026365109948
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.265125050757405
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.063700785322629
+      }
+    ]
+  },
+  {
+    "run": 67,
+    "initial_sobol_point": [
+      0.29793620109558105,
+      0.40575700998306274
+    ],
+    "raw_endpoint": [
+      0.44363269209861755,
+      -0.8664917349815369
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.5625805854797363,
+      "design_distance_m": 1239.9620361328125
+    },
+    "selection_snr_db": 7.64502725634041,
+    "seconds": 5.500027179718018,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.684697268513579
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.823628575369277
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.804993920883299
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.974177884084314
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.958808961163035
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.527348707094564
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.266922585816307
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.758963063815255
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.002108263437213
+      },
+      {
+        "step": 250,
+        "training_snr_db": 11.226241448050988
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.372307202926894
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.959032028207499
+      }
+    ]
+  },
+  {
+    "run": 68,
+    "initial_sobol_point": [
+      0.4069840610027313,
+      0.7611719369888306
+    ],
+    "raw_endpoint": [
+      -0.10613653808832169,
+      -0.8507400155067444
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.9140021204948425,
+      "design_distance_m": 1248.1942138671875
+    },
+    "selection_snr_db": 7.649588354479429,
+    "seconds": 5.486426591873169,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.512355562282021
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.0652872016901345
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.46014859741994
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.372962570797464
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.588778282755278
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.346106339743711
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.599190980320778
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.682437147014278
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.639542756549842
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.351610149414245
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.809653848230958
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.497105462338652
+      }
+    ]
+  },
+  {
+    "run": 69,
+    "initial_sobol_point": [
+      0.7488747835159302,
+      0.31950193643569946
+    ],
+    "raw_endpoint": [
+      2.565608024597168,
+      -0.8017157912254333
+    ],
+    "parameters": {
+      "envelope_radius_m": 29.062057495117188,
+      "design_distance_m": 1274.1466064453125
+    },
+    "selection_snr_db": 7.651638060658285,
+    "seconds": 5.516544342041016,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.7074289615311296
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.08047043730939
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.902133846761922
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.537363442640276
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.1104526405222535
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.971482813515168
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.867642977289027
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.951272652433088
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.178230875626083
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.8024749759242695
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.7883853600616
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.715895748954274
+      }
+    ]
+  },
+  {
+    "run": 70,
+    "initial_sobol_point": [
+      0.9179032444953918,
+      0.6816518306732178
+    ],
+    "raw_endpoint": [
+      3.2624411582946777,
+      -0.7994934320449829
+    ],
+    "parameters": {
+      "envelope_radius_m": 37.7763557434082,
+      "design_distance_m": 1275.3348388671875
+    },
+    "selection_snr_db": 7.650990240389179,
+    "seconds": 5.52315878868103,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.785313808105359
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.510306966825698
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.6203653711920465
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.508131642716162
+      },
+      {
+        "step": 125,
+        "training_snr_db": 10.259908740041832
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.48540143212459
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.413489904033849
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.183742809603613
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.314824421112104
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.194299453918585
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.623041905990284
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.992046562796123
+      }
+    ]
+  },
+  {
+    "run": 71,
+    "initial_sobol_point": [
+      0.2402028888463974,
+      0.2405768185853958
+    ],
+    "raw_endpoint": [
+      0.1686978042125702,
+      -0.8382168412208557
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.5393766164779663,
+      "design_distance_m": 1254.776123046875
+    },
+    "selection_snr_db": 7.65352309708892,
+    "seconds": 5.565854072570801,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.897311980371782
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.483816240800134
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.601884528444902
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.224997961596889
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.93255160182672
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.077530902677055
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.845674173408322
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.709355078214942
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.879714119699367
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.18143964057965
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.86858484545354
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.333599835302112
+      }
+    ]
+  },
+  {
+    "run": 72,
+    "initial_sobol_point": [
+      0.1428125649690628,
+      0.9130250215530396
+    ],
+    "raw_endpoint": [
+      -1.5968097448349,
+      -0.775455117225647
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.08993438631296158,
+      "design_distance_m": 1288.2506103515625
+    },
+    "selection_snr_db": 7.474446643440365,
+    "seconds": 5.4998791217803955,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.230629477575523
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.472808804117285
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.446529973038781
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.40182949609955
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.878550607906827
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.144914839765511
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.968049592898652
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.990613198127395
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.290895371666004
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.319540983691011
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.448387589391697
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.485265234408844
+      }
+    ]
+  },
+  {
+    "run": 73,
+    "initial_sobol_point": [
+      0.9493565559387207,
+      0.4791686236858368
+    ],
+    "raw_endpoint": [
+      4.785943984985352,
+      -0.7720779776573181
+    ],
+    "parameters": {
+      "envelope_radius_m": 46.95124435424805,
+      "design_distance_m": 1290.0743408203125
+    },
+    "selection_snr_db": 7.638475596652611,
+    "seconds": 5.486877202987671,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.648141270617298
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.378139532856758
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.395204846933191
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.257548280600647
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.530394633100848
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.441327594327395
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.620257434718201
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.258091675738811
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.863622725354697
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.144859982831496
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.089813687621017
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.730579370911979
+      }
+    ]
+  },
+  {
+    "run": 74,
+    "initial_sobol_point": [
+      0.6494895815849304,
+      0.5229578018188477
+    ],
+    "raw_endpoint": [
+      1.620643973350525,
+      -0.8303163051605225
+    ],
+    "parameters": {
+      "envelope_radius_m": 14.253351211547852,
+      "design_distance_m": 1258.9454345703125
+    },
+    "selection_snr_db": 7.654919626322059,
+    "seconds": 5.492224931716919,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.341176660150518
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.098314794150413
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.433789911558471
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.631226919976891
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.723222228624419
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.686473500622855
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.701660047801811
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.080821213533259
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.257078073825
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.200788374189704
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.202572370529163
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.361641206789393
+      }
+    ]
+  },
+  {
+    "run": 75,
+    "initial_sobol_point": [
+      0.44437655806541443,
+      0.08969657123088837
+    ],
+    "raw_endpoint": [
+      0.7944581508636475,
+      -3.037256956100464
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.6951470375061035,
+      "design_distance_m": 614.4270629882812
+    },
+    "selection_snr_db": 5.177251702068558,
+    "seconds": 5.531600475311279,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.641277729153816
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.781344210302803
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.002734726491304
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.293671381042789
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.5073211437976
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.349515222164873
+      },
+      {
+        "step": 175,
+        "training_snr_db": 1.8803926633765138
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.484761020968731
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.415396790393894
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.19558151907553
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.3143075158897375
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.323456647436249
+      }
+    ]
+  },
+  {
+    "run": 76,
+    "initial_sobol_point": [
+      0.33482736349105835,
+      0.7029685974121094
+    ],
+    "raw_endpoint": [
+      -0.11899354308843613,
+      -0.8628655672073364
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.8920111656188965,
+      "design_distance_m": 1241.8525390625
+    },
+    "selection_snr_db": 7.6450094942854,
+    "seconds": 5.540049314498901,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.27389516961688
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.492252919188677
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.77979909435218
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.164160724441178
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.664017816500065
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.43704923267106
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.510469667098207
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.161642606156702
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.739930043404307
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.961726737527552
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.858130810435682
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.056705541594932
+      }
+    ]
+  },
+  {
+    "run": 77,
+    "initial_sobol_point": [
+      0.50856614112854,
+      0.12846440076828003
+    ],
+    "raw_endpoint": [
+      0.9467313289642334,
+      -0.8093367218971252
+    ],
+    "parameters": {
+      "envelope_radius_m": 5.972984790802002,
+      "design_distance_m": 1270.07958984375
+    },
+    "selection_snr_db": 7.65339731148913,
+    "seconds": 5.540968894958496,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.513491134153499
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.178556746439869
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.862893245709488
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.211781776601665
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.792533564008165
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.076459027366539
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.866583668791724
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.4309685017697005
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.099600810445602
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.373270380452069
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.031396471245603
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.834345744947731
+      }
+    ]
+  },
+  {
+    "run": 78,
+    "initial_sobol_point": [
+      0.8417444825172424,
+      0.8736773729324341
+    ],
+    "raw_endpoint": [
+      0.6128731369972229,
+      -0.7858439683914185
+    ],
+    "parameters": {
+      "envelope_radius_m": 3.4591920375823975,
+      "design_distance_m": 1282.654296875
+    },
+    "selection_snr_db": 7.645680035763371,
+    "seconds": 5.488338947296143,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.278023362036155
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.322675584119701
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.975824054568555
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.994492609014014
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.578937207993331
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.77569179831329
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.491852786226694
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.607546449436402
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.574462231841707
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.82686648803574
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.132968086030894
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.15672673591972
+      }
+    ]
+  },
+  {
+    "run": 79,
+    "initial_sobol_point": [
+      0.003826766274869442,
+      0.2997986972332001
+    ],
+    "raw_endpoint": [
+      -0.5936248302459717,
+      -0.8624547719955444
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.37364429235458374,
+      "design_distance_m": 1242.06689453125
+    },
+    "selection_snr_db": 7.636119361503234,
+    "seconds": 5.496058225631714,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.943328883121425
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.677410984823297
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.752363965233379
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.340027979027315
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.841067754692947
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.598166591348983
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.8147568510913175
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.427905514435887
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.581670680060512
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.858097542741465
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.562090725355056
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.887180776293368
+      }
+    ]
+  },
+  {
+    "run": 80,
+    "initial_sobol_point": [
+      0.04160696640610695,
+      0.821537971496582
+    ],
+    "raw_endpoint": [
+      -2.783872127532959,
+      -0.6578792333602905
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.038910459727048874,
+      "design_distance_m": 1353.040283203125
+    },
+    "selection_snr_db": 6.886986885801084,
+    "seconds": 5.5039942264556885,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.620272757829165
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.235399142860243
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.965370654620072
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.155747631739759
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.277354836354251
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.800102925110517
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.873532782010967
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.648269866030989
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.666520690601536
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.391976991168581
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.320011358094857
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.906826290846682
+      }
+    ]
+  },
+  {
+    "run": 81,
+    "initial_sobol_point": [
+      0.863778829574585,
+      0.2549835741519928
+    ],
+    "raw_endpoint": [
+      3.6330783367156982,
+      -0.8513416647911072
+    ],
+    "parameters": {
+      "envelope_radius_m": 41.11079025268555,
+      "design_distance_m": 1247.8787841796875
+    },
+    "selection_snr_db": 7.651219960195635,
+    "seconds": 5.55781888961792,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.213651359193445
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.237238860157344
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.905941982303969
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.710287492648211
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.920128409637044
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.879938933904488
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.25797479414883
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.970423204930601
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.464718505651184
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.711378451486344
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.249160560172927
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.585247582412327
+      }
+    ]
+  },
+  {
+    "run": 82,
+    "initial_sobol_point": [
+      0.5329198241233826,
+      0.7423821687698364
+    ],
+    "raw_endpoint": [
+      0.19331179559230804,
+      -0.7809240818023682
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.6124721765518188,
+      "design_distance_m": 1285.3018798828125
+    },
+    "selection_snr_db": 7.642892475698552,
+    "seconds": 5.5049474239349365,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.056307386532857
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.507145360914506
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.166965357854539
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.223767601204127
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.989498258099425
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.485385778160001
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.207226968456191
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.114540617583847
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.094127540223306
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.662355396169967
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.791686595161604
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.386901210473393
+      }
+    ]
+  },
+  {
+    "run": 83,
+    "initial_sobol_point": [
+      0.374682754278183,
+      0.17617863416671753
+    ],
+    "raw_endpoint": [
+      0.595153272151947,
+      -0.85773104429245
+    ],
+    "parameters": {
+      "envelope_radius_m": 3.354346990585327,
+      "design_distance_m": 1244.5340576171875
+    },
+    "selection_snr_db": 7.648910479142739,
+    "seconds": 5.477871656417847,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.976357611161929
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.064835304597844
+      },
+      {
+        "step": 75,
+        "training_snr_db": 10.60824392652859
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.192726523192361
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.24963281240761
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.604800648790444
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.74585148034048
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.268610365210767
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.340012235420101
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.253034378978986
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.584944855975344
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.321689968566474
+      }
+    ]
+  },
+  {
+    "run": 84,
+    "initial_sobol_point": [
+      0.4828893542289734,
+      0.5316401720046997
+    ],
+    "raw_endpoint": [
+      0.7379615306854248,
+      -0.8559234142303467
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.2781081199646,
+      "design_distance_m": 1245.4793701171875
+    },
+    "selection_snr_db": 7.649628108207111,
+    "seconds": 5.494444131851196,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.559982948495071
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.695067526232947
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.336563402355116
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.742099962158189
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.54733060145015
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.989060223996943
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.285093779090145
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.410848479718805
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.978807329789333
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.366013211061084
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.03975475320971
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.852455328154738
+      }
+    ]
+  },
+  {
+    "run": 85,
+    "initial_sobol_point": [
+      0.6722559928894043,
+      0.10570306330919266
+    ],
+    "raw_endpoint": [
+      1.9112480878829956,
+      -3.1496145725250244
+    ],
+    "parameters": {
+      "envelope_radius_m": 18.77859878540039,
+      "design_distance_m": 602.7661743164062
+    },
+    "selection_snr_db": 5.218704460122712,
+    "seconds": 5.496036767959595,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.4187515366291015
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.012763636155607
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.905238174437435
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.237370251526411
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.050296795916567
+      },
+      {
+        "step": 150,
+        "training_snr_db": 4.649835593738887
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.622299033704231
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.15095641155127
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.0063181694295045
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.085849124781438
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.809252830033636
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.280633402900859
+      }
+    ]
+  },
+  {
+    "run": 86,
+    "initial_sobol_point": [
+      0.9739540219306946,
+      0.8916778564453125
+    ],
+    "raw_endpoint": [
+      3.7660226821899414,
+      -0.7096530795097351
+    ],
+    "parameters": {
+      "envelope_radius_m": 42.1016960144043,
+      "design_distance_m": 1324.1888427734375
+    },
+    "selection_snr_db": 7.580748436189639,
+    "seconds": 5.495347499847412,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.992157762347884
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.527778686546049
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.933765434487553
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.725195953558876
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.004127450191191
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.493829332722015
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.209187582658684
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.449083264673186
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.9257269854569365
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.624981822361853
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.446542377127841
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.977740139747355
+      }
+    ]
+  },
+  {
+    "run": 87,
+    "initial_sobol_point": [
+      0.18291224539279938,
+      0.4661222994327545
+    ],
+    "raw_endpoint": [
+      -0.04149578511714935,
+      -0.7571585774421692
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.0332731008529663,
+      "design_distance_m": 1298.15869140625
+    },
+    "selection_snr_db": 7.627032872518395,
+    "seconds": 5.4833502769470215,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.110076105781417
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.823395167435784
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.834718517022545
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.861765190595204
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.319331241233577
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.105878952523742
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.768678020101289
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.548271831343273
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.354849427300405
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.523892799233288
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.039622099896203
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.178279094343165
+      }
+    ]
+  },
+  {
+    "run": 88,
+    "initial_sobol_point": [
+      0.21536092460155487,
+      0.6385761499404907
+    ],
+    "raw_endpoint": [
+      -0.3419318199157715,
+      -0.8088531494140625
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.5874770283699036,
+      "design_distance_m": 1270.33740234375
+    },
+    "selection_snr_db": 7.64921341438317,
+    "seconds": 5.512345552444458,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.053433490054067
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.21672024976829
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.68733703975457
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.13066505752894
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.158538856744861
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.478933148113373
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.09395686306133
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.952119598381731
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.20977353189716
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.3318837555648875
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.68121661873812
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.44542727841901
+      }
+    ]
+  },
+  {
+    "run": 89,
+    "initial_sobol_point": [
+      0.8775595426559448,
+      0.18920043110847473
+    ],
+    "raw_endpoint": [
+      3.6210978031158447,
+      -0.8258463740348816
+    ],
+    "parameters": {
+      "envelope_radius_m": 41.01640701293945,
+      "design_distance_m": 1261.31005859375
+    },
+    "selection_snr_db": 7.655038766118932,
+    "seconds": 5.519756078720093,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.624294404511376
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.842802489837584
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.936281247068232
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.581822004802923
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.638674944889557
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.528780526270975
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.12742428310399
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.971418523523396
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.159412487439538
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.320869736962267
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.872382487064872
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.826729038297565
+      }
+    ]
+  },
+  {
+    "run": 90,
+    "initial_sobol_point": [
+      0.7106062769889832,
+      0.8091609477996826
+    ],
+    "raw_endpoint": [
+      0.6554499864578247,
+      -0.8142885565757751
+    ],
+    "parameters": {
+      "envelope_radius_m": 3.722217559814453,
+      "design_distance_m": 1267.443359375
+    },
+    "selection_snr_db": 7.6541454365700545,
+    "seconds": 5.507490873336792,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 3.7020654087587075
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.353472995650612
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.9089213461329475
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.201064770825884
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.137338793966759
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.02138304864612
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.83696943794904
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.084111455698505
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.455993268099858
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.519899085644495
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.610863501540955
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.389757121206681
+      }
+    ]
+  },
+  {
+    "run": 91,
+    "initial_sobol_point": [
+      0.3844614028930664,
+      0.36016660928726196
+    ],
+    "raw_endpoint": [
+      0.7935230135917664,
+      -0.8189269304275513
+    ],
+    "parameters": {
+      "envelope_radius_m": 4.687996864318848,
+      "design_distance_m": 1264.978759765625
+    },
+    "selection_snr_db": 7.654687128891179,
+    "seconds": 5.512555360794067,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 11.462614987462738
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.379468194448927
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.545788020135316
+      },
+      {
+        "step": 100,
+        "training_snr_db": 10.295596471020321
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.543044668147876
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.818734430071551
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.82455645726674
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.852482225512603
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.224493676175548
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.920818378509174
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.24236215002078
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.326382256254553
+      }
+    ]
+  },
+  {
+    "run": 92,
+    "initial_sobol_point": [
+      0.27382704615592957,
+      0.9733960628509521
+    ],
+    "raw_endpoint": [
+      -2.999096393585205,
+      -0.6270133256912231
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.0358615517616272,
+      "design_distance_m": 1370.47021484375
+    },
+    "selection_snr_db": 6.803992847370205,
+    "seconds": 5.499004125595093,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.7161465907397995
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.043425460409959
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.206314821099436
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.030274740515307
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.482743714488126
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.907442329519798
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.100261006207727
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.892991358043851
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.599257509073166
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.129750845190291
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.415940762945127
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.866565442027853
+      }
+    ]
+  },
+  {
+    "run": 93,
+    "initial_sobol_point": [
+      0.5688456296920776,
+      0.41465288400650024
+    ],
+    "raw_endpoint": [
+      1.612568736076355,
+      -0.756556510925293
+    ],
+    "parameters": {
+      "envelope_radius_m": 14.13293170928955,
+      "design_distance_m": 1298.48583984375
+    },
+    "selection_snr_db": 7.627785876125963,
+    "seconds": 5.470480442047119,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.839917959373407
+      },
+      {
+        "step": 50,
+        "training_snr_db": 11.127658221909027
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.755274448958302
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.42422256908381
+      },
+      {
+        "step": 125,
+        "training_snr_db": 11.353162236042898
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.471353399189128
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.865608666366711
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.593446368297766
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.220737393672724
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.756890556447015
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.536800609602729
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.534373742031006
+      }
+    ]
+  },
+  {
+    "run": 94,
+    "initial_sobol_point": [
+      0.7688317894935608,
+      0.5836931467056274
+    ],
+    "raw_endpoint": [
+      2.141120672225952,
+      -0.7993685603141785
+    ],
+    "parameters": {
+      "envelope_radius_m": 22.481279373168945,
+      "design_distance_m": 1275.401611328125
+    },
+    "selection_snr_db": 7.65095038354815,
+    "seconds": 5.4939124584198,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.35750354109191
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.941267425440688
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.65015747620218
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.692882057070437
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.760704865152068
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.87786337750198
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.495716078770895
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.794757874062194
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.756904768299986
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.749285150559803
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.779998840198775
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.631019999424055
+      }
+    ]
+  },
+  {
+    "run": 95,
+    "initial_sobol_point": [
+      0.07550740242004395,
+      0.025301016867160797
+    ],
+    "raw_endpoint": [
+      -0.6614567637443542,
+      -3.029578685760498
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.3323928415775299,
+      "design_distance_m": 615.2683715820312
+    },
+    "selection_snr_db": 5.153274011656023,
+    "seconds": 5.536760568618774,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.659710559816727
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.179724542701173
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.8647969419896615
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.206063423482847
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.401430824457607
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.315374667462068
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.360182056353196
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.085011146618461
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.632857100994231
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.092283620255267
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.5573261840147135
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.393771419978225
+      }
+    ]
+  },
+  {
+    "run": 96,
+    "initial_sobol_point": [
+      0.07853232324123383,
+      0.9467361569404602
+    ],
+    "raw_endpoint": [
+      -3.588902473449707,
+      -0.6538313031196594
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.030668383464217186,
+      "design_distance_m": 1355.316650390625
+    },
+    "selection_snr_db": 6.680335292392527,
+    "seconds": 5.519151210784912,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.239354426298024
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.977216567758672
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.982820206009213
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.079768997967847
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.208116715986196
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.810569151814097
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.5291516671409235
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.582644027441336
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.097741767382367
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.998617524019901
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.918024132390624
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.521378426714696
+      }
+    ]
+  },
+  {
+    "run": 97,
+    "initial_sobol_point": [
+      0.7641131281852722,
+      0.38005873560905457
+    ],
+    "raw_endpoint": [
+      2.691521406173706,
+      -0.8788954019546509
+    ],
+    "parameters": {
+      "envelope_radius_m": 30.862802505493164,
+      "design_distance_m": 1233.5169677734375
+    },
+    "selection_snr_db": 7.638309013369938,
+    "seconds": 5.5324249267578125,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.33848369962841
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.467961605949217
+      },
+      {
+        "step": 75,
+        "training_snr_db": 9.312121678256302
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.728811326945593
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.859000377990524
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.729603230494192
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.793090225879958
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.968230696878745
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.721378943265764
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.03144750318255
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.352577645920029
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.346302690665775
+      }
+    ]
+  },
+  {
+    "run": 98,
+    "initial_sobol_point": [
+      0.5891284942626953,
+      0.6172159314155579
+    ],
+    "raw_endpoint": [
+      1.0531331300735474,
+      -0.8196491599082947
+    ],
+    "parameters": {
+      "envelope_radius_m": 7.002366065979004,
+      "design_distance_m": 1264.59521484375
+    },
+    "selection_snr_db": 7.654779420720329,
+    "seconds": 5.53228235244751,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.33404716673211
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.786956548796343
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.206265683665523
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.50880821404084
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.456672605145487
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.046647415399038
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.8272254505798635
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.464338520569928
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.7238036737249685
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.925882163630739
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.731922413328881
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.097722102319553
+      }
+    ]
+  },
+  {
+    "run": 99,
+    "initial_sobol_point": [
+      0.2552379071712494,
+      0.05113351345062256
+    ],
+    "raw_endpoint": [
+      0.09764695167541504,
+      -3.0336642265319824
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.3457828760147095,
+      "design_distance_m": 614.8200073242188
+    },
+    "selection_snr_db": 5.173801073000953,
+    "seconds": 5.510305166244507,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.520118778228424
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.5922860414214535
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.8884277120970685
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.149894132549041
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.913629457349099
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.453512392350555
+      },
+      {
+        "step": 175,
+        "training_snr_db": 4.920820728689097
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.285642560162902
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.717963633763703
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.807814255506207
+      },
+      {
+        "step": 275,
+        "training_snr_db": 4.708298742482108
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.363625575853151
+      }
+    ]
+  },
+  {
+    "run": 100,
+    "initial_sobol_point": [
+      0.39506256580352783,
+      0.6565635800361633
+    ],
+    "raw_endpoint": [
+      0.04644973948597908,
+      -0.8012048006057739
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.2211838960647583,
+      "design_distance_m": 1274.419677734375
+    },
+    "selection_snr_db": 7.650551385199179,
+    "seconds": 5.493021488189697,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.173075751794684
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.121628320672835
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.750787367831668
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.874434432874519
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.515167468765725
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.086341418877801
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.3996102843089435
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.199962050142142
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.465599430213645
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.189480484605351
+      },
+      {
+        "step": 275,
+        "training_snr_db": 10.681380356273074
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.25143063890526
+      }
+    ]
+  },
+  {
+    "run": 101,
+    "initial_sobol_point": [
+      0.6978231072425842,
+      0.23050345480442047
+    ],
+    "raw_endpoint": [
+      2.11639666557312,
+      -0.8006048798561096
+    ],
+    "parameters": {
+      "envelope_radius_m": 22.083370208740234,
+      "design_distance_m": 1274.7403564453125
+    },
+    "selection_snr_db": 7.651319687160606,
+    "seconds": 5.511072635650635,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.526039735816957
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.733811443452984
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.567194913409895
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.980012760501507
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.372835885185529
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.090370090543413
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.601901154754804
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.231491303130584
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.458217272413934
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.325365853400729
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.833904965290419
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.167574137521764
+      }
+    ]
+  },
+  {
+    "run": 102,
+    "initial_sobol_point": [
+      0.9059064388275146,
+      0.7667253613471985
+    ],
+    "raw_endpoint": [
+      2.4342339038848877,
+      -0.8126522898674011
+    ],
+    "parameters": {
+      "envelope_radius_m": 27.096296310424805,
+      "design_distance_m": 1268.3138427734375
+    },
+    "selection_snr_db": 7.654010167512348,
+    "seconds": 5.487408876419067,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.691353731763549
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.055702243481136
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.21005021448352
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.07491457966319
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.059267559265888
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.00016128915248
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.805823797971902
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.211267165341592
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.123092119303967
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.436189319380837
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.881820872599683
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.039310356777678
+      }
+    ]
+  },
+  {
+    "run": 103,
+    "initial_sobol_point": [
+      0.18919602036476135,
+      0.3412909209728241
+    ],
+    "raw_endpoint": [
+      0.0012066657654941082,
+      -0.7422259449958801
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.1206005811691284,
+      "design_distance_m": 1306.2939453125
+    },
+    "selection_snr_db": 7.6147040706796565,
+    "seconds": 5.478743314743042,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.10926191182022
+      },
+      {
+        "step": 50,
+        "training_snr_db": 10.115717532050038
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.951417473679653
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.157276779974856
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.985557709952628
+      },
+      {
+        "step": 150,
+        "training_snr_db": 11.229154039269282
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.693647292287968
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.543152281622481
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.64513813964645
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.564253482575611
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.23035144392808
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.844132986976499
+      }
+    ]
+  },
+  {
+    "run": 104,
+    "initial_sobol_point": [
+      0.16256073117256165,
+      0.5134987235069275
+    ],
+    "raw_endpoint": [
+      -0.18048542737960815,
+      -0.8225937485694885
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.7941656112670898,
+      "design_distance_m": 1263.033447265625
+    },
+    "selection_snr_db": 7.65266693635501,
+    "seconds": 5.488647937774658,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.954813767483832
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.738954447944549
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.892805249376246
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.051549774070793
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.0594171435961925
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.234773711333395
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.985405268807284
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.35919424737127
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.10922863943125
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.862351112384233
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.374301034791062
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.06043108219049
+      }
+    ]
+  },
+  {
+    "run": 105,
+    "initial_sobol_point": [
+      0.992611825466156,
+      0.0640019029378891
+    ],
+    "raw_endpoint": [
+      6.134644985198975,
+      -3.0802199840545654
+    ],
+    "parameters": {
+      "envelope_radius_m": 49.18512725830078,
+      "design_distance_m": 609.826416015625
+    },
+    "selection_snr_db": 5.200337846347306,
+    "seconds": 5.53583836555481,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.828076542627896
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.3444832051616205
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.630972147437233
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.8772572091414075
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.93626855129603
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.567536746293488
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.027221403817884
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.238226133744195
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.35319384696921
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.275630829810712
+      },
+      {
+        "step": 275,
+        "training_snr_db": 5.433036448135214
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.309666041989118
+      }
+    ]
+  },
+  {
+    "run": 106,
+    "initial_sobol_point": [
+      0.669284462928772,
+      0.9342073798179626
+    ],
+    "raw_endpoint": [
+      -0.6014133095741272,
+      -0.7864712476730347
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.36861416697502136,
+      "design_distance_m": 1282.317138671875
+    },
+    "selection_snr_db": 7.635965665651501,
+    "seconds": 5.526972532272339,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.4265008775013435
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.455911118133669
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.091967841099413
+      },
+      {
+        "step": 100,
+        "training_snr_db": 4.9882588208102625
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.55936367561449
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.558379072479087
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.984698965162128
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.199667080912551
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.982733194356403
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.753763625777763
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.514061762496249
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.993508631951077
+      }
+    ]
+  },
+  {
+    "run": 107,
+    "initial_sobol_point": [
+      0.4875546097755432,
+      0.4853360652923584
+    ],
+    "raw_endpoint": [
+      1.0914499759674072,
+      -0.8305503129959106
+    ],
+    "parameters": {
+      "envelope_radius_m": 7.4006781578063965,
+      "design_distance_m": 1258.8218994140625
+    },
+    "selection_snr_db": 7.654887654644998,
+    "seconds": 5.518342018127441,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.153741880583459
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.457781372823957
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.627145633882476
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.5338000711486055
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.360589532011682
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.514765634168342
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.728914605386537
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.541129915655196
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.668275447736965
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.084440701849182
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.96346030886895
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.772466464005902
+      }
+    ]
+  },
+  {
+    "run": 108,
+    "initial_sobol_point": [
+      0.3462824523448944,
+      0.8485931754112244
+    ],
+    "raw_endpoint": [
+      -0.6569677591323853,
+      -0.8176336288452148
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.3349509537220001,
+      "design_distance_m": 1265.66552734375
+    },
+    "selection_snr_db": 7.641762501106376,
+    "seconds": 5.558486700057983,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.74249937530635
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.795066847611922
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.228078671965238
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.240788551194601
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.1710140953051695
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.951826814278314
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.103660182734975
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.108254165066272
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.636786642792169
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.118003421097885
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.487924298115929
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.313365401574193
+      }
+    ]
+  },
+  {
+    "run": 109,
+    "initial_sobol_point": [
+      0.5591381192207336,
+      0.28972887992858887
+    ],
+    "raw_endpoint": [
+      1.4515281915664673,
+      -0.8183891177177429
+    ],
+    "parameters": {
+      "envelope_radius_m": 11.818032264709473,
+      "design_distance_m": 1265.2642822265625
+    },
+    "selection_snr_db": 7.654696941699161,
+    "seconds": 5.5411601066589355,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.73954122100468
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.420030769183401
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.068286411471016
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.700804914626065
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.3438986672228115
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.603370264469346
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.00508565774545
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.595231622879682
+      },
+      {
+        "step": 225,
+        "training_snr_db": 6.713879342351583
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.770991570980467
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.666946805288353
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.608411817414119
+      }
+    ]
+  },
+  {
+    "run": 110,
+    "initial_sobol_point": [
+      0.8532463312149048,
+      0.708526074886322
+    ],
+    "raw_endpoint": [
+      2.295660972595215,
+      -0.8341645002365112
+    ],
+    "parameters": {
+      "envelope_radius_m": 24.944917678833008,
+      "design_distance_m": 1256.9130859375
+    },
+    "selection_snr_db": 7.6546389984802365,
+    "seconds": 5.492855072021484,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.7714717777973235
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.759722163868745
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.387008954158743
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.212608497161673
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.051698614528496
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.476587762283286
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.517995942723823
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.869411350977584
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.93732494376636
+      },
+      {
+        "step": 250,
+        "training_snr_db": 10.789516950940568
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.546308691863622
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.47812365249334
+      }
+    ]
+  },
+  {
+    "run": 111,
+    "initial_sobol_point": [
+      0.05432147532701492,
+      0.1502569615840912
+    ],
+    "raw_endpoint": [
+      -0.5520083904266357,
+      -0.8021212220191956
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.4019126892089844,
+      "design_distance_m": 1273.9298095703125
+    },
+    "selection_snr_db": 7.643022613174222,
+    "seconds": 5.477742671966553,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.4953525564523344
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.550120926109125
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.21293831639075
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.163743770733067
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.887717997021902
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.341582219619064
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.705687806289445
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.672815371785243
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.453364023686076
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.97191367361546
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.05777171785114
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.761783267494469
+      }
+    ]
+  },
+  {
+    "run": 112,
+    "initial_sobol_point": [
+      0.030090827494859695,
+      0.7210840582847595
+    ],
+    "raw_endpoint": [
+      -0.8004023432731628,
+      -0.8244206309318542
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.2636692523956299,
+      "design_distance_m": 1262.065185546875
+    },
+    "selection_snr_db": 7.634041212505992,
+    "seconds": 5.450684309005737,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.7889749880936865
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.820896778511543
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.462934778284795
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.230738448003419
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.5167290438021075
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.413791832370279
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.955393199035153
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.0695363715443005
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.77059779354623
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.034111204706177
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.626092822378455
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.882140501322266
+      }
+    ]
+  },
+  {
+    "run": 113,
+    "initial_sobol_point": [
+      0.8132678866386414,
+      0.17013908922672272
+    ],
+    "raw_endpoint": [
+      2.8906872272491455,
+      -0.792408287525177
+    ],
+    "parameters": {
+      "envelope_radius_m": 33.51841735839844,
+      "design_distance_m": 1279.1295166015625
+    },
+    "selection_snr_db": 7.648551875716077,
+    "seconds": 5.494659662246704,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.539794973607025
+      },
+      {
+        "step": 50,
+        "training_snr_db": 9.129383095243554
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.333567851525379
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.834763738311422
+      },
+      {
+        "step": 125,
+        "training_snr_db": 11.173996472943955
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.047563833117621
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.963914686837851
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.646179521188227
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.846780139912264
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.31749744039032
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.692557498821774
+      },
+      {
+        "step": 300,
+        "training_snr_db": 7.580129205336585
+      }
+    ]
+  },
+  {
+    "run": 114,
+    "initial_sobol_point": [
+      0.5214790105819702,
+      0.8311218619346619
+    ],
+    "raw_endpoint": [
+      -0.09488905221223831,
+      -0.8224703073501587
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.9336965680122375,
+      "design_distance_m": 1263.098876953125
+    },
+    "selection_snr_db": 7.653300442863481,
+    "seconds": 5.474390506744385,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.101632362958215
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.599571598701491
+      },
+      {
+        "step": 75,
+        "training_snr_db": 5.609722076356524
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.111760046741738
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.01143211656196
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.616700556571717
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.000511585768646
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.917181708969608
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.632979077029224
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.8168723201688834
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.941569752573406
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.636719821167771
+      }
+    ]
+  },
+  {
+    "run": 115,
+    "initial_sobol_point": [
+      0.3241270184516907,
+      0.2805584669113159
+    ],
+    "raw_endpoint": [
+      0.51848304271698,
+      -0.7731069922447205
+    ],
+    "parameters": {
+      "envelope_radius_m": 2.9309091567993164,
+      "design_distance_m": 1289.5184326171875
+    },
+    "selection_snr_db": 7.6389378305213125,
+    "seconds": 5.474367380142212,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.412605254433664
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.548369625256205
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.514445865114414
+      },
+      {
+        "step": 100,
+        "training_snr_db": 5.977737037542811
+      },
+      {
+        "step": 125,
+        "training_snr_db": 8.0931676665912
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.753975699471683
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.527938814509435
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.912131740133291
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.052377724807485
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.816310173876012
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.8650714303802065
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.737242692594345
+      }
+    ]
+  },
+  {
+    "run": 116,
+    "initial_sobol_point": [
+      0.46308013796806335,
+      0.8860048651695251
+    ],
+    "raw_endpoint": [
+      -0.6090425252914429,
+      -0.8270637392997742
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.3637634813785553,
+      "design_distance_m": 1260.6656494140625
+    },
+    "selection_snr_db": 7.643962587450991,
+    "seconds": 5.4964399337768555,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 4.100663493417606
+      },
+      {
+        "step": 50,
+        "training_snr_db": 4.224258455963676
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.32855538028778
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.453781241671571
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.21736513726587
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.762691709134398
+      },
+      {
+        "step": 175,
+        "training_snr_db": 10.48919181372063
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.401472734232822
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.682867355375434
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.428052703587326
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.419943733603052
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.087384217012778
+      }
+    ]
+  },
+  {
+    "run": 117,
+    "initial_sobol_point": [
+      0.629061758518219,
+      0.44445788860321045
+    ],
+    "raw_endpoint": [
+      1.7160673141479492,
+      -0.7704179286956787
+    ],
+    "parameters": {
+      "envelope_radius_m": 15.702336311340332,
+      "design_distance_m": 1290.9718017578125
+    },
+    "selection_snr_db": 7.637449918013454,
+    "seconds": 5.50973653793335,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.74203993783689
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.301417142451633
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.029328337510911
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.013181090913006
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.16604681340904
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.28111011767739
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.78535286159124
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.703378680936487
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.687873938874384
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.295366627992092
+      },
+      {
+        "step": 275,
+        "training_snr_db": 8.170166282318434
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.364599513161167
+      }
+    ]
+  },
+  {
+    "run": 118,
+    "initial_sobol_point": [
+      0.954220175743103,
+      0.55684894323349
+    ],
+    "raw_endpoint": [
+      4.555108070373535,
+      -0.825465977191925
+    ],
+    "parameters": {
+      "envelope_radius_m": 46.19834518432617,
+      "design_distance_m": 1261.5115966796875
+    },
+    "selection_snr_db": 7.655037739855768,
+    "seconds": 5.496562957763672,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.367097254667984
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.704876286558477
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.256431459122938
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.188280144324905
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.223482760210274
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.591101636033844
+      },
+      {
+        "step": 175,
+        "training_snr_db": 9.280504844614207
+      },
+      {
+        "step": 200,
+        "training_snr_db": 9.854255683791605
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.175642625569755
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.79033151056525
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.355614199382577
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.021874938581783
+      }
+    ]
+  },
+  {
+    "run": 119,
+    "initial_sobol_point": [
+      0.1396731734275818,
+      0.11565282195806503
+    ],
+    "raw_endpoint": [
+      -0.5134913921356201,
+      -0.8383901715278625
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.4302932322025299,
+      "design_distance_m": 1254.684814453125
+    },
+    "selection_snr_db": 7.646086477950991,
+    "seconds": 5.466891765594482,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.552527919683159
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.335503396657001
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.141942607421864
+      },
+      {
+        "step": 100,
+        "training_snr_db": 7.4950706051256555
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.261792103124664
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.153567565216877
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.763299619441959
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.906070082360522
+      },
+      {
+        "step": 225,
+        "training_snr_db": 10.447520879634142
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.436355101620118
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.136310645877227
+      },
+      {
+        "step": 300,
+        "training_snr_db": 9.25359156254414
+      }
+    ]
+  },
+  {
+    "run": 120,
+    "initial_sobol_point": [
+      0.22734344005584717,
+      0.787858784198761
+    ],
+    "raw_endpoint": [
+      -0.6322783827781677,
+      -0.8253033757209778
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.34944429993629456,
+      "design_distance_m": 1261.59765625
+    },
+    "selection_snr_db": 7.643072799276798,
+    "seconds": 5.487204074859619,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.552856410076973
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.5631050079754525
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.76278850154902
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.359384012240064
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.900310273795905
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.729093621753089
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.232067804025222
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.146862515891284
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.248095229729845
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.53944004058558
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.694605130564565
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.114322857325776
+      }
+    ]
+  },
+  {
+    "run": 121,
+    "initial_sobol_point": [
+      0.9285501837730408,
+      0.3541235029697418
+    ],
+    "raw_endpoint": [
+      4.5529093742370605,
+      -0.8441181182861328
+    ],
+    "parameters": {
+      "envelope_radius_m": 46.19034957885742,
+      "design_distance_m": 1251.67041015625
+    },
+    "selection_snr_db": 7.653087706037516,
+    "seconds": 5.474536657333374,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.275937050681954
+      },
+      {
+        "step": 50,
+        "training_snr_db": 8.907127368966204
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.426277874541332
+      },
+      {
+        "step": 100,
+        "training_snr_db": 9.890094099955379
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.926161960026597
+      },
+      {
+        "step": 150,
+        "training_snr_db": 10.313268298020512
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.043962707395195
+      },
+      {
+        "step": 200,
+        "training_snr_db": 4.82491551929906
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.390871272993298
+      },
+      {
+        "step": 250,
+        "training_snr_db": 8.145033988757495
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.64558214034958
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.968367488447274
+      }
+    ]
+  },
+  {
+    "run": 122,
+    "initial_sobol_point": [
+      0.7225420475006104,
+      0.6481559872627258
+    ],
+    "raw_endpoint": [
+      1.7496591806411743,
+      -0.762998104095459
+    ],
+    "parameters": {
+      "envelope_radius_m": 16.22258186340332,
+      "design_distance_m": 1294.9892578125
+    },
+    "selection_snr_db": 7.632528962039728,
+    "seconds": 5.482006549835205,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.1456461594204566
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.100261699167537
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.083309985182131
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.934318583822333
+      },
+      {
+        "step": 125,
+        "training_snr_db": 6.565998435465974
+      },
+      {
+        "step": 150,
+        "training_snr_db": 8.650874491850233
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.000999044082949
+      },
+      {
+        "step": 200,
+        "training_snr_db": 7.8603866144364005
+      },
+      {
+        "step": 225,
+        "training_snr_db": 9.62843784069921
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.869465710466314
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.75866196819592
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.083127432606252
+      }
+    ]
+  },
+  {
+    "run": 123,
+    "initial_sobol_point": [
+      0.43552932143211365,
+      0.21477174758911133
+    ],
+    "raw_endpoint": [
+      0.8871012330055237,
+      -0.8280391693115234
+    ],
+    "parameters": {
+      "envelope_radius_m": 5.44542932510376,
+      "design_distance_m": 1260.149658203125
+    },
+    "selection_snr_db": 7.654964187210677,
+    "seconds": 5.464861869812012,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 8.167865684635062
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.400382628790377
+      },
+      {
+        "step": 75,
+        "training_snr_db": 7.174229766223972
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.903937381020027
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.940670800312408
+      },
+      {
+        "step": 150,
+        "training_snr_db": 9.025004868940096
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.573146721206431
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.286583645891227
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.54535612370958
+      },
+      {
+        "step": 250,
+        "training_snr_db": 9.005678558202819
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.288016942080905
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.341051106480132
+      }
+    ]
+  },
+  {
+    "run": 124,
+    "initial_sobol_point": [
+      0.29314124584198,
+      0.5780161023139954
+    ],
+    "raw_endpoint": [
+      0.02347562462091446,
+      -0.8103640675544739
+    ],
+    "parameters": {
+      "envelope_radius_m": 1.1690348386764526,
+      "design_distance_m": 1269.5322265625
+    },
+    "selection_snr_db": 7.652583620546114,
+    "seconds": 5.477564334869385,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 7.490271030433789
+      },
+      {
+        "step": 50,
+        "training_snr_db": 7.9156490423899335
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.867906180647395
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.809318946061689
+      },
+      {
+        "step": 125,
+        "training_snr_db": 9.298075792363917
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.252272747657425
+      },
+      {
+        "step": 175,
+        "training_snr_db": 8.58582830897263
+      },
+      {
+        "step": 200,
+        "training_snr_db": 8.970728112785993
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.545599787974487
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.187737574714997
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.760787193904909
+      },
+      {
+        "step": 300,
+        "training_snr_db": 6.076297556963005
+      }
+    ]
+  },
+  {
+    "run": 125,
+    "initial_sobol_point": [
+      0.611527681350708,
+      0.0036330120638012886
+    ],
+    "raw_endpoint": [
+      1.6923816204071045,
+      -6.616283893585205
+    ],
+    "parameters": {
+      "envelope_radius_m": 15.338473320007324,
+      "design_distance_m": 503.34149169921875
+    },
+    "selection_snr_db": 5.771510372939859,
+    "seconds": 5.496573448181152,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 6.982412244544117
+      },
+      {
+        "step": 50,
+        "training_snr_db": 5.94191930395692
+      },
+      {
+        "step": 75,
+        "training_snr_db": 6.669039384775194
+      },
+      {
+        "step": 100,
+        "training_snr_db": 6.298416107497232
+      },
+      {
+        "step": 125,
+        "training_snr_db": 5.946473517410858
+      },
+      {
+        "step": 150,
+        "training_snr_db": 6.114825675566636
+      },
+      {
+        "step": 175,
+        "training_snr_db": 5.884844509279908
+      },
+      {
+        "step": 200,
+        "training_snr_db": 5.378568232684891
+      },
+      {
+        "step": 225,
+        "training_snr_db": 5.83763861859532
+      },
+      {
+        "step": 250,
+        "training_snr_db": 5.318543965263006
+      },
+      {
+        "step": 275,
+        "training_snr_db": 6.27251683474263
+      },
+      {
+        "step": 300,
+        "training_snr_db": 5.325466829668123
+      }
+    ]
+  },
+  {
+    "run": 126,
+    "initial_sobol_point": [
+      0.7880992889404297,
+      0.9986007809638977
+    ],
+    "raw_endpoint": [
+      -3.9112164974212646,
+      -0.5994251370429993
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.029021328315138817,
+      "design_distance_m": 1386.18798828125
+    },
+    "selection_snr_db": 6.642053358018108,
+    "seconds": 5.488858699798584,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 5.100948624328873
+      },
+      {
+        "step": 50,
+        "training_snr_db": 3.2573443119761345
+      },
+      {
+        "step": 75,
+        "training_snr_db": 4.406324344063652
+      },
+      {
+        "step": 100,
+        "training_snr_db": 3.6687182567535648
+      },
+      {
+        "step": 125,
+        "training_snr_db": 4.864178697282947
+      },
+      {
+        "step": 150,
+        "training_snr_db": 5.405474923316201
+      },
+      {
+        "step": 175,
+        "training_snr_db": 6.368375089948443
+      },
+      {
+        "step": 200,
+        "training_snr_db": 6.37332696832477
+      },
+      {
+        "step": 225,
+        "training_snr_db": 8.460049950754897
+      },
+      {
+        "step": 250,
+        "training_snr_db": 6.729803436995532
+      },
+      {
+        "step": 275,
+        "training_snr_db": 7.639941836507257
+      },
+      {
+        "step": 300,
+        "training_snr_db": 8.64897686981246
+      }
+    ]
+  },
+  {
+    "run": 127,
+    "initial_sobol_point": [
+      0.11826673895120621,
+      0.4245990812778473
+    ],
+    "raw_endpoint": [
+      -0.19708818197250366,
+      -0.8166760206222534
+    ],
+    "parameters": {
+      "envelope_radius_m": 0.7697169184684753,
+      "design_distance_m": 1266.17431640625
+    },
+    "selection_snr_db": 7.65210477410312,
+    "seconds": 5.4716808795928955,
+    "history": [
+      {
+        "step": 25,
+        "training_snr_db": 9.674772946133476
+      },
+      {
+        "step": 50,
+        "training_snr_db": 6.255555798523373
+      },
+      {
+        "step": 75,
+        "training_snr_db": 8.736305103495784
+      },
+      {
+        "step": 100,
+        "training_snr_db": 8.971107564426607
+      },
+      {
+        "step": 125,
+        "training_snr_db": 7.435027249721066
+      },
+      {
+        "step": 150,
+        "training_snr_db": 7.418957910714855
+      },
+      {
+        "step": 175,
+        "training_snr_db": 7.474044931316547
+      },
+      {
+        "step": 200,
+        "training_snr_db": 10.19788007315734
+      },
+      {
+        "step": 225,
+        "training_snr_db": 7.433061630262326
+      },
+      {
+        "step": 250,
+        "training_snr_db": 7.64743627202198
+      },
+      {
+        "step": 275,
+        "training_snr_db": 9.409717650393732
+      },
+      {
+        "step": 300,
+        "training_snr_db": 10.138181161374947
+      }
+    ]
+  }
+]

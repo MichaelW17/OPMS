@@ -81,7 +81,15 @@ python dad_pooled_validation.py --samples 2000 --batch-size 4 --bootstrap-repeat
 python s7_step_sensitivity.py --repeats 16 --samples 1000 --batch-size 8
 ```
 
-The DAD command reuses completed archived JSONs by default. For a new calculation, move its completed output directory to a backup location before running it; retain the `ol_sms_pcb_3param` and `ol_structured_comparison_v3` input directories. Both dark and antidark branches remain in the archive. The current plotted DAD point uses `dad_pooled_validation.py`: all 2000 atmospheric powers are pooled before computing SNR, and 2000 bootstrap resamples give its percentile interval. Both branches are newly validated with their previously selected parameters. The branch with higher pooled validated SNR is plotted; its interval is not adjusted for branch selection. The original repetition-averaged Student-t records are retained only for provenance.
+The older `dad_m51.py` and `dad_pooled_validation.py` commands reproduce historical DAD controls, not the current Fig. S3 DAD points. The current protocol is:
+
+```bash
+python dad_multistart.py --starts 128 --steps 300 --batch-size 16 --chunk-size 4 --screening-samples 1000 --screening-batch 4
+python coherent_multistart.py --starts 128 --steps 300 --batch-size 16 --selection-samples 1000
+python benchmark_screening.py
+```
+
+The first two commands run new source optimization campaigns into work directories. The third needs no GPU or new propagation: it audits all released endpoint records and screening powers under `logs/benchmark_sobol128_screening` and rebuilds the benchmark tables. Run the archived-data figure command to redraw Fig. S3. Each structured-source point is the mean of the three highest screening SNRs, with a conditional atmospheric bootstrap interval. DAD searches 128 starts per branch and selects the branch with the higher top-three mean. There is no extra 2000-atmosphere validation for these points. OPMS/GSM retain approved data. See SUPPLEMENT_BENCHMARK.md for the full definitions.
 
 The wHG-64 calculation optimizes 64 pure HG mode weights, a common waist and curvature. It uses the same weighted-HG implementation as the ten-mode control, with sufficient Hermite recurrence order for 64 modes. The M=16/32 exploratory runs are not part of this release.
 

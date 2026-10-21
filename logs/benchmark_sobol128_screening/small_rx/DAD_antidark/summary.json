@@ -1,0 +1,78 @@
+{
+  "starts": 128,
+  "steps": 300,
+  "training_batch_size_counts": {
+    "16": 128
+  },
+  "screening_samples": 1000,
+  "additional_validation_samples": 0,
+  "top_three": [
+    {
+      "run": 30,
+      "initial_sobol_point": [
+        0.7498831748962402,
+        0.8006572127342224,
+        0.041982706636190414
+      ],
+      "raw_endpoint": [
+        0.4815290570259094,
+        2.9412121772766113,
+        -4.3631672859191895
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 245.4326629638672,
+        "envelope_radius_m": 35.35976791381836,
+        "alpha": 0.012577762827277184
+      },
+      "screening_snr_db": 7.8436731284555306,
+      "seconds": 244.14230513572693,
+      "training_batch_size": 16
+    },
+    {
+      "run": 74,
+      "initial_sobol_point": [
+        0.8998562097549438,
+        0.6828503608703613,
+        0.0288664773106575
+      ],
+      "raw_endpoint": [
+        0.4987783432006836,
+        2.014423370361328,
+        -4.543595790863037
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 246.6516571044922,
+        "envelope_radius_m": 22.17580795288086,
+        "alpha": 0.010523180477321148
+      },
+      "screening_snr_db": 7.843544488241321,
+      "seconds": 244.6471085548401,
+      "training_batch_size": 16
+    },
+    {
+      "run": 35,
+      "initial_sobol_point": [
+        0.48807621002197266,
+        0.39062732458114624,
+        0.09710901975631714
+      ],
+      "raw_endpoint": [
+        0.4954392611980438,
+        0.7515372037887573,
+        -3.6985065937042236
+      ],
+      "parameters": {
+        "transverse_wavenumber_rad_m": 246.41607666015625,
+        "envelope_radius_m": 5.463998317718506,
+        "alpha": 0.024162206798791885
+      },
+      "screening_snr_db": 7.842895792965018,
+      "seconds": 243.90075159072876,
+      "training_batch_size": 16
+    }
+  ],
+  "mean_top_three_screening_snr_db": 7.843371136553956,
+  "ci95_low_db": 7.739861133699188,
+  "ci95_high_db": 7.945101214548798,
+  "interval": "percentile bootstrap of selected screening powers, conditional on selection; not independent validation"
+}

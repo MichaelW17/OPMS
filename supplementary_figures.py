@@ -60,7 +60,7 @@ def draw(output):
         ax.errorbar(np.arange(7)+(j-1)*.18,v,yerr=[v-lo,hi-v],fmt=MARKERS[j],ms=4,capsize=2,color=COLORS[j])
     ax.set_xticks(range(7),['OPMS' if m=='SMS' else m for m in methods])
     ax.set_xlabel('Beam type')
-    ax.set_ylabel('Validated SNR (dB)')
+    ax.set_ylabel('SNR (dB)')
     ax.grid(axis='y',alpha=.2)
     handles=[Line2D([0],[0],color=COLORS[j],marker=MARKERS[j],ls='None',ms=5,label=rf'$\mathit{{L}}{j+1}$') for j in range(3)]
     ax.legend(handles=handles,frameon=False,ncol=3,loc='lower center',bbox_to_anchor=(.5,1.01),handlelength=0,columnspacing=1.5)
