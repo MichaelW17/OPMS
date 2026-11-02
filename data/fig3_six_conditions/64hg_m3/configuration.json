@@ -17,7 +17,7 @@
     "opms_lr": 0.02,
     "checkpoint_every": 25,
     "log_every": 5,
-    "output": "C:\\Users\\ThunderBolt\\SynologyDrive\\Research\\OL2026gpt\\opms-reproducibility\\work\\fig3_m3_extension",
+    "output": "<research-root>/work/fig3_m3_extension",
     "device": "cuda",
     "seed": 2026092401
   },

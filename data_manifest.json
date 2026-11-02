@@ -123,8 +123,8 @@
     },
     {
       "path": "data/fig3_six_conditions/64hg_m3/configuration.json",
-      "bytes": 2760,
-      "sha256": "02bbeeb2adfd10ec37e438bd6fd1ffd787d65740eeef45402b58a6a3c9abca9e"
+      "bytes": 2693,
+      "sha256": "edefaa698eb09f97e8d06493f6aaf3b6a88099d4d01248a5da8334633c0309ae"
     },
     {
       "path": "data/fig3_six_conditions/64hg_m3/D_endpoints.pt",
@@ -168,8 +168,8 @@
     },
     {
       "path": "data/fig3_six_conditions/9hg_m10/configuration.json",
-      "bytes": 2466,
-      "sha256": "ffc880549f7668835e55847d2f2f295b2cfc4b8711205d6d1f2572911f6a559a"
+      "bytes": 2399,
+      "sha256": "9dac3b7565e2811d1594ecf8b319832f71ac5b6faf7a4af9f67fdf96ce043d3b"
     },
     {
       "path": "data/fig3_six_conditions/9hg_m10/D_endpoints.pt",
@@ -213,8 +213,8 @@
     },
     {
       "path": "data/fig3_six_conditions/9hg_m3/configuration.json",
-      "bytes": 2467,
-      "sha256": "8eccdd3cccc1ea513a167e6bbc4a73f2abd8bbdd48067b27a626e3dacd77bbdc"
+      "bytes": 2400,
+      "sha256": "8f182b4bc4acb1a13be5ad669c57a8204a982943af7b8b2be6ae4068c03e2463"
     },
     {
       "path": "data/fig3_six_conditions/9hg_m3/D_endpoints.pt",
@@ -268,8 +268,8 @@
     },
     {
       "path": "data/fig3_six_conditions/gsm_m3/configuration.json",
-      "bytes": 2760,
-      "sha256": "02bbeeb2adfd10ec37e438bd6fd1ffd787d65740eeef45402b58a6a3c9abca9e"
+      "bytes": 2693,
+      "sha256": "edefaa698eb09f97e8d06493f6aaf3b6a88099d4d01248a5da8334633c0309ae"
     },
     {
       "path": "data/fig3_six_conditions/gsm_m3/D_endpoints.pt",
