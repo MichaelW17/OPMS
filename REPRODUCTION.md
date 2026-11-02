@@ -8,7 +8,7 @@ Run commands from the repository root. The released numerical kernels keep the o
 python reproduce.py --verify-flux --verify-checksums
 ```
 
-This reconstructs the figure contents and numerical results; it is not a pixel-for-pixel reproduction of Word's layout or the author's Visio drawing. Default Fig. 3 and Fig. 4 use the current top-100 success reference. Use `--reference-count 16 --output results/legacy_top16` only for the earlier classification. Supplement Figs. S1–S3 are rebuilt separately. Fig. S3 excludes wHG and uses the higher validated dark/antidark branch at M=51. wHG M=10/64 is exported as a separate comparison table.
+This reconstructs the figure contents and numerical results; it is not a pixel-for-pixel reproduction of Word's layout or the author's Visio drawing. Default Fig. 3 and Fig. 4 use the current top-100 success reference. The submission uses the top-100 criterion; the former top-16 figure entry point has been removed. Supplement Figs. S1–S3 are rebuilt separately. Fig. S3 excludes wHG and uses the higher validated dark/antidark branch at M=51. wHG M=10/64 is exported as a separate comparison table.
 
 ## Figure 2: new landscape and trajectories
 
@@ -96,3 +96,9 @@ The wHG-64 calculation optimizes 64 pure HG mode weights, a common waist and cur
 The propagation-step command freezes each archived optimized source separately for each M, then changes only K during validation. It does not extract M=1/2/4 fields from an M=10 source. GSM uses a fixed sampled source sequence in this sensitivity control, as recorded by the implementation, rather than resampling the source for every atmosphere. This differs from the main GSM benchmark policy. The cached results include all 16 repetition-level SNRs for each source and K.
 
 Run `python verify_supplement.py` to check wHG powers, DAD powers and bootstrap intervals, branch selection, and the propagation-step repetition statistics against the exported tables.
+
+## Submission additions, 2 November 2026
+
+See README.md for the six-condition Fig. 3, native-waist Fig. 5, and low-loss path commands. Their released input tables and per-atmosphere powers are authoritative. Run `python verify_submission.py` to check all 24,576 endpoint scores and `python experiments/paths/summarize_paths.py` to check all16 distant curves.
+
+Local geometry uses ten separately normalized frames with the original endpoint waists. It is not the discarded common-35mm model. The archived exact continuous performance certificate is0.05dB; the plotted81-point maxima are below0.02dB. Files include the center selection, full curvature calculation, two directions, per-atmosphere local powers, and distinct geometry/SNR certificates. Full4800/1000 response banks are regenerated rather than tracked in Git.

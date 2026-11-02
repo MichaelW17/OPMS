@@ -1,0 +1,21 @@
+{
+  "group": "far",
+  "run_i": 809,
+  "run_j": 963,
+  "csd_distance": 0.8334204243180009,
+  "frame_permutation": [
+    3,
+    2,
+    1,
+    6,
+    4,
+    0,
+    7,
+    8,
+    9,
+    5
+  ],
+  "initial_field_relative_error": 1.582070012773329e-07,
+  "end_field_relative_error": 1.510153992967389e-07,
+  "train_steps": 150
+}

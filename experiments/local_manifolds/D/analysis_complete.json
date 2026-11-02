@@ -1,0 +1,97 @@
+{
+  "link": "D",
+  "coordinate_directions_before_metric_filter": 1260,
+  "numerically_resolved_csd_directions": 1260,
+  "metric_cutoff_relative": 1e-10,
+  "metric_counts": {
+    "1e-08": 1260,
+    "1e-10": 1260,
+    "1e-12": 1260
+  },
+  "selected_curvatures": [
+    0.009079779060775854,
+    -0.013033844887020085
+  ],
+  "optimization_center_snr_db": 9.711235933653757,
+  "independent_validation_center_snr_db": 9.628470956215097,
+  "neighbor_spectra": [
+    {
+      "sign": -1,
+      "numerically_resolved_directions": 1260,
+      "two_smallest_absolute_curvatures": [
+        0.0002338014034458033,
+        0.008562582690151407
+      ]
+    },
+    {
+      "sign": 1,
+      "numerically_resolved_directions": 1260,
+      "two_smallest_absolute_curvatures": [
+        0.0026752599256352205,
+        0.0033524091739058903
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "link": "D",
+      "plane": "low",
+      "halfwidth": 0.02,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.0011722429683551638,
+      "max_csd_distance": 0.028338406322079436,
+      "fraction_within_0p05_db": 1.0,
+      "restricted_hessian_relative_error": 1.2046555345021422e-09
+    },
+    {
+      "link": "D",
+      "plane": "low",
+      "halfwidth": 0.05,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.0030842316784429613,
+      "max_csd_distance": 0.07092752313587158,
+      "fraction_within_0p05_db": 1.0,
+      "restricted_hessian_relative_error": 1.2046555345021422e-09
+    },
+    {
+      "link": "D",
+      "plane": "low",
+      "halfwidth": 0.1,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.006861701560186617,
+      "max_csd_distance": 0.14147628539348772,
+      "fraction_within_0p05_db": 1.0,
+      "restricted_hessian_relative_error": 1.2046555345021422e-09
+    },
+    {
+      "link": "D",
+      "plane": "high_control",
+      "halfwidth": 0.02,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.8071952144895036,
+      "max_csd_distance": 0.4362564884209647,
+      "fraction_within_0p05_db": 0.012345679012345678,
+      "restricted_hessian_relative_error": 3.733113265874079e-12
+    },
+    {
+      "link": "D",
+      "plane": "high_control",
+      "halfwidth": 0.05,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.797675409195783,
+      "max_csd_distance": 0.48360144770004865,
+      "fraction_within_0p05_db": 0.012345679012345678,
+      "restricted_hessian_relative_error": 3.733113265874079e-12
+    },
+    {
+      "link": "D",
+      "plane": "high_control",
+      "halfwidth": 0.1,
+      "center_snr_db": 9.6284709562151,
+      "max_abs_snr_change_db": 0.7924671967111951,
+      "max_csd_distance": 0.5009380855764625,
+      "fraction_within_0p05_db": 0.012345679012345678,
+      "restricted_hessian_relative_error": 3.733113265874079e-12
+    }
+  ]
+}

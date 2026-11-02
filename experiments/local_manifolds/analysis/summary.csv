@@ -1,0 +1,5 @@
+﻿link,original_endpoint_run,original_validated_snr_db,new_validation_center_snr_db,max_abs_snr_change_db,max_csd_distance,resolved_local_directions,geometric_certificate,continuous_snr_certificate
+A,320,13.788563513931775,13.586854022803303,0.017704012785719314,0.13976321586514703,1260,passed_full_box_0p1,passed_0p05db_full_box_0p1
+B,951,7.261778951291284,7.301471934348217,0.014611266954540625,0.14047520206316183,1260,passed_full_box_0p1,passed_0p05db_full_box_0p1
+C,614,10.975734838275644,11.027453931979569,0.008520827162737277,0.13939680770887852,1259,passed_full_box_0p1,passed_0p05db_full_box_0p1
+D,60,9.720109995439495,9.628470956215097,0.006861701560183064,0.14147628539348772,1260,passed_full_box_0p1,passed_0p05db_full_box_0p1
