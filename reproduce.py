@@ -200,7 +200,8 @@ def main():
     )
     import plot_fig3
     plot_fig3.main(args.output)
-    import runpy
+    import runpy, os
+    os.environ["OPMS_RESULTS"]=str(args.output.resolve())
     runpy.run_path(str(ROOT / "plot_fig4.py"), run_name="__main__")
     import subprocess, sys
     subprocess.run([sys.executable, str(ROOT/"experiments/local_manifolds/plot_archived.py")],check=True)

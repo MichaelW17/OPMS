@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,csv
+import json,csv,os
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -12,7 +12,7 @@ def main():
  for link in 'ABCD':
   power=np.load(HERE/link/'patches.npz')['low_r0.1_powers'];mu=power.mean(0);eta=cfg['original_protocol']['links'][link]['duale_b'];scores=-5*np.log10(eta/mu+power.var(0)/mu**2)
   grid.extend(dict(link=link,delta_snr_db=float(x-scores[40])) for x in scores)
- out=ROOT/'results';out.mkdir(exist_ok=True)
+ out=Path(os.environ.get('OPMS_RESULTS',str(ROOT/'results')));out.mkdir(parents=True,exist_ok=True)
  plt.rcParams.update({'font.family':'Arial','font.size':10,'axes.labelsize':11,'xtick.labelsize':10,'ytick.labelsize':10,'axes.linewidth':.6,'pdf.fonttype':42})
  fig=plt.figure(figsize=(3.4,3.30));side=1.08;gap=.18;left=.64;bottom=.46
  colorlimit=max(abs(float(r['delta_snr_db'])) for r in grid);colorlimit=max(.01,float(np.ceil(colorlimit/.01)*.01))

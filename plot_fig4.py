@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import os
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -10,7 +11,7 @@ from scipy.cluster.hierarchy import linkage, leaves_list
 from scipy.spatial.distance import squareform
 
 ROOT = Path(__file__).resolve().parent / 'data/csd'
-OUT = Path(__file__).resolve().parent / 'results'
+OUT = Path(os.environ.get('OPMS_RESULTS', str(Path(__file__).resolve().parent / 'results')))
 OUT.mkdir(parents=True, exist_ok=True)
 summary = json.loads((ROOT / "summary.json").read_text(encoding="utf-8"))
 links = ["A", "B", "C", "D"]

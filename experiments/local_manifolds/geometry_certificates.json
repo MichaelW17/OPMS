@@ -33,3 +33,38 @@
     ],
     "scope": "stored numerical field and coordinate model, no propagation rounding enclosure"
   },
+  {
+    "link": "C",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "passed": true,
+    "method": "exact rational Bernstein interval bounds on the symmetric projected CSD Jacobian, with ten separate normalization denominators",
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": true,
+        "lower_margin": 0.5447712150732187
+      }
+    ],
+    "scope": "stored numerical field and coordinate model, no propagation rounding enclosure"
+  },
+  {
+    "link": "D",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "passed": true,
+    "method": "exact rational Bernstein interval bounds on the symmetric projected CSD Jacobian, with ten separate normalization denominators",
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": true,
+        "lower_margin": 0.3809108266039647
+      }
+    ],
+    "scope": "stored numerical field and coordinate model, no propagation rounding enclosure"
+  }
+]
