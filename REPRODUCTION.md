@@ -102,3 +102,18 @@ Run `python verify_supplement.py` to check wHG powers, DAD powers and bootstrap 
 See README.md for the six-condition Fig. 3, native-waist Fig. 5, and low-loss path commands. Their released input tables and per-atmosphere powers are authoritative. Run `python verify_submission.py` to check all 24,576 endpoint scores and `python experiments/paths/summarize_paths.py` to check all16 distant curves.
 
 Local geometry uses ten separately normalized frames with the original endpoint waists. It is not the discarded common-35mm model. The archived exact continuous performance certificate is0.05dB; the plotted81-point maxima are below0.02dB. Files include the center selection, full curvature calculation, two directions, per-atmosphere local powers, and distinct geometry/SNR certificates. Full4800/1000 response banks are regenerated rather than tracked in Git.
+
+## Mapping to the submitted Supplement1
+
+The supplied Supplement1 retains all of the following, so their numerical inputs and dependency modules remain in this checkout:
+
+| Supplement result | Data or output | Command |
+|---|---|---|
+| Table S2: propagation steps K=5,7,10 | `results/propagation_step_sensitivity.csv` | `python s7_step_sensitivity.py` for new simulation |
+| Fig. S1: frame count | `data/controls/`, modal-truncation figure | `python reproduce.py` |
+| Fig. S2: matched HG/LG bases | `data/controls/`, basis-comparison figure | `python reproduce.py` |
+| Fig. S3: structured sources | `logs/benchmark_sobol128_screening/` | `python benchmark_screening.py`, then `python reproduce.py` |
+| wHG M10/M64 comparisons | `data/controls/weighted_hg_comparison.csv` | `python weighted_hg_m64_experiment.py --help` |
+| CSD distance derivation | original endpoints and `data/csd/` | `python recompute_csd.py --links A B C D --quadrature-pairs 262144 --output work/recomputed_csd` |
+
+The stated combination "64 modes with p+q<=7" is not a valid count: that triangular index set has36 modes. Reproduction follows the explicit mode list in the released wHG code/data rather than inferring it from that phrase.
