@@ -1,0 +1,105 @@
+{
+  "arguments": {
+    "links": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "starts": 1024,
+    "steps": 300,
+    "batch_size": 16,
+    "frames": 3,
+    "screening_samples": 1000,
+    "validation_samples": 1000,
+    "validation_batch": 16,
+    "pcb_lr": 0.04,
+    "opms_lr": 0.02,
+    "checkpoint_every": 25,
+    "log_every": 5,
+    "output": "<research-root>/work/fig3_m3_extension",
+    "device": "cuda",
+    "seed": 2026092401
+  },
+  "links": {
+    "A": {
+      "name": "A",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 6.32e-07,
+      "cn2": 5e-15,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.1,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "B": {
+      "name": "B",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 6.32e-07,
+      "cn2": 5e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.1,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "C": {
+      "name": "C",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 1e-14,
+      "distance": 1000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.01,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    },
+    "D": {
+      "name": "D",
+      "n": 512,
+      "delta": 0.001,
+      "wavelength": 8.5e-07,
+      "cn2": 5e-15,
+      "distance": 2000.0,
+      "wos_steps": 5,
+      "transmitter_radius": 0.05,
+      "receiver_radius": 0.02,
+      "inner_scale": 0.003,
+      "outer_scale": 1.024,
+      "duale_b": 0.2,
+      "power": 1000.0,
+      "subharmonic_order": 3
+    }
+  },
+  "n_side": 8,
+  "hg_modes": 64,
+  "parameter_counts": {
+    "OPMS": 384,
+    "GSM": 3
+  },
+  "source_files_sha256": {
+    "multistart.py": "59962a4310584daa5858abdb15949f7efc67e3c21c635585ad5a7f5dcbe78aec",
+    "sources.py": "5d9a593c8cd526db16dc0563d8e93946216be28651e8f6f8d9dc260a24d64184",
+    "propagation.py": "f8b44a1f19d5449c9012eb2db89265b959d564321932fe3ed20cd4a8dc0bb144"
+  },
+  "validation": "1000 unseen atmospheres per endpoint, common atmospheric seeds; independent GSM sequence per atmosphere; fixed OPMS sequence",
+  "success": "Own condition/link top100 mean SNR minus 0.5 dB",
+  "additional_winner_validation": false,
+  "smoke": false
+}

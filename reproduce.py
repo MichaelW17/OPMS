@@ -56,79 +56,6 @@ def wilson(count, total):
     return max(0, center - half), min(1, center + half)
 
 
-def endpoint_statistics(output, reference_count=100):
-    """Classify endpoints using the top-100 reference; retain the legacy option."""
-    rows, scores = [], {}
-    for link in "ABCD":
-        for beam in ("GSM", "OPMS"):
-            records = read_json(
-                ROOT / "data/multistart" / f"{link}_{beam.lower()}_metrics.json"
-            )
-            values = np.array([r["snr_db"] for r in records], dtype=np.float64)
-            if values.shape != (1024,) or not np.isfinite(values).all():
-                raise ValueError(
-                    f"Incomplete or non-finite endpoint data: {link} {beam}"
-                )
-            reference = np.sort(values)[-reference_count:].mean()
-            count = int((values >= reference - 0.5).sum())
-            lower, upper = wilson(count, len(values))
-            rows.append(
-                dict(
-                    link=link,
-                    beam=beam,
-                    starts=len(values),
-                    reference_count=reference_count,
-                    reference_snr_db=float(reference),
-                    threshold_snr_db=float(reference - 0.5),
-                    successes=count,
-                    success_rate=count / len(values),
-                    ci95_low=lower,
-                    ci95_high=upper,
-                    median_snr_db=float(np.median(values)),
-                    sd_snr_db=float(values.std(ddof=1)),
-                    iqr_snr_db=float(
-                        np.percentile(values, 75) - np.percentile(values, 25)
-                    ),
-                )
-            )
-            scores[link, beam] = values
-    write_csv(output / "fig3_summary.csv", rows)
-    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.0), constrained_layout=True)
-    for j, beam in enumerate(("GSM", "OPMS")):
-        positions = np.arange(4) + (j - 0.5) * 0.32
-        parts = axes[0].violinplot(
-            [scores[link, beam] for link in "ABCD"],
-            positions,
-            widths=0.29,
-            points=512,
-            showmedians=True,
-            showextrema=False,
-        )
-        for body in parts["bodies"]:
-            body.set_facecolor(COLORS[beam])
-            body.set_alpha(0.4)
-        parts["cmedians"].set_color(COLORS[beam])
-        group = [r for r in rows if r["beam"] == beam]
-        p = np.array([r["success_rate"] for r in group])
-        err = [
-            [r["success_rate"] - r["ci95_low"] for r in group],
-            [r["ci95_high"] - r["success_rate"] for r in group],
-        ]
-        axes[1].bar(positions, p, width=0.28, color=COLORS[beam], label=beam)
-        axes[1].errorbar(positions, p, yerr=err, fmt="none", color="black", capsize=2)
-    axes[0].set_ylabel("Validated SNR (dB)")
-    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes, ha="left", va="top")
-    axes[1].set_ylabel("Success rate")
-    axes[1].set_ylim(0, 1.08)
-    axes[1].text(0.02, 0.98, "(b)", transform=axes[1].transAxes, ha="left", va="top")
-    axes[1].legend(frameon=False)
-    for ax in axes:
-        ax.set_xticks(range(4), list("ABCD"))
-        ax.grid(axis="y", alpha=0.2)
-    save(fig, output, "fig3_multistart")
-    return rows
-
-
 def verify_flux(output):
     """Recompute each SNR from raw powers, without importing PyTorch."""
     configuration = read_json(ROOT / "data/multistart/configuration.json")
@@ -171,80 +98,6 @@ def verify_flux(output):
             )
             print(f"{link} {beam}: raw-power SNR agreement {error:.3g} dB", flush=True)
     write_csv(output / "raw_power_verification.csv", rows)
-
-
-def csd_plot(output, reference_count=100):
-    summary = read_json(ROOT / "data/csd/summary.json")
-    fig, axes = plt.subplots(1, 3, figsize=(10, 3), constrained_layout=True)
-    rows = []
-    for j, link in enumerate("ABCD"):
-        for beam in ("GSM", "OPMS"):
-            suffix = "262144" if beam == "GSM" else "grid512"
-            matrix = np.load(
-                ROOT / "data/csd" / f"link_{link}_{beam.lower()}_distances_{suffix}.npy"
-            )
-            record = summary["links"][link][beam]
-            if matrix.shape != (record["selected_count"], record["selected_count"]):
-                raise ValueError("CSD matrix and endpoint selection disagree")
-            if not np.allclose(matrix, matrix.T, atol=1e-6) or not np.allclose(
-                np.diag(matrix), 0, atol=1e-6
-            ):
-                raise ValueError(
-                    "CSD distance matrix must be symmetric with zero diagonal"
-                )
-            if reference_count != 100:
-                metrics = read_json(
-                    ROOT / "data/multistart" / f"{link}_{beam.lower()}_metrics.json"
-                )
-                scores = np.array([r["snr_db"] for r in metrics])
-                threshold = np.sort(scores)[-reference_count:].mean() - 0.5
-                selected_ids = np.flatnonzero(scores >= threshold)
-                archived_ids = record["selected_endpoint_indices_zero_based"]
-                positions = np.array(
-                    [archived_ids.index(int(index)) for index in selected_ids]
-                )
-                matrix = matrix[np.ix_(positions, positions)]
-            values = np.sort(matrix[np.triu_indices(len(matrix), 1)])
-            axes[0].plot(
-                values,
-                np.arange(1, len(values) + 1) / len(values),
-                linestyle="--" if beam == "GSM" else "-",
-                color=f"C{j}",
-                label=f"{link} {beam}",
-            )
-            rows.append(
-                dict(
-                    link=link,
-                    beam=beam,
-                    selected_count=len(matrix),
-                    median_distance=float(np.median(values)),
-                )
-            )
-            if link == "B":
-                order = leaves_list(
-                    linkage(squareform(matrix, checks=False), method="average")
-                )
-                ax = axes[1 if beam == "GSM" else 2]
-                im = ax.imshow(
-                    matrix[np.ix_(order, order)],
-                    vmin=0,
-                    vmax=1,
-                    cmap="viridis",
-                    rasterized=True,
-                )
-                ax.text(0.02, 0.98, "(b)" if beam == "GSM" else "(c)",
-                        transform=ax.transAxes, ha="left", va="top", color="white",
-                        bbox=dict(facecolor="black", edgecolor="none", alpha=0.45, pad=1))
-                ax.set_xticks([])
-                ax.set_yticks([])
-                fig.colorbar(im, ax=ax, shrink=0.75)
-    axes[0].set_xlabel("Normalized Frobenius distance")
-    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes, ha="left", va="top")
-    axes[0].set_ylabel("Empirical CDF")
-    axes[0].legend(fontsize=7, frameon=False, ncol=2,
-                   loc="upper left", bbox_to_anchor=(0, 0.91))
-    save(fig, output, "fig4_csd")
-    write_csv(output / "fig4_summary.csv", rows)
 
 
 def controls(output):
@@ -333,6 +186,8 @@ def main():
         integrity()
     if args.verify_flux:
         verify_flux(args.output)
+        import subprocess, sys
+        subprocess.run([sys.executable,str(ROOT/"verify_submission.py")],check=True)
     workflow(args.output)
     import landscape
 
@@ -343,8 +198,13 @@ def main():
             figure=args.output / "fig2_landscape.png",
         )
     )
-    endpoint_statistics(args.output, args.reference_count)
-    csd_plot(args.output, args.reference_count)
+    import plot_fig3
+    plot_fig3.main(args.output)
+    import runpy, os
+    os.environ["OPMS_RESULTS"]=str(args.output.resolve())
+    runpy.run_path(str(ROOT / "plot_fig4.py"), run_name="__main__")
+    import subprocess, sys
+    subprocess.run([sys.executable, str(ROOT/"experiments/local_manifolds/plot_archived.py")],check=True)
     controls(args.output)
     print(f"Figures and statistics saved to {args.output}", flush=True)
 

@@ -16,5 +16,10 @@
   "csd_distance.py": "recompute_csd_sobol1024_deterministic_20260928.py",
   "dad_m51.py": "ol_dad_sms_m51_comparison.py",
   "weighted_hg_m64_experiment.py": "extended weighted HG control, 18 October 2026",
-  "s7_step_sensitivity.py": "fixed-source propagation-step sensitivity, 17 October 2026"
+  "s7_step_sensitivity.py": "fixed-source propagation-step sensitivity, 17 October 2026",
+  "submission_additions": {
+    "plot_fig3.py": "six-condition renderer from archived endpoint tables",
+    "experiments/paths": "original64HG M10 quadratic paths, far pairs only",
+    "experiments/local_manifolds": "original maximum-validated-SNR endpoints, frozen per-frame waists"
+  }
 }

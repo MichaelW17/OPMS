@@ -1,0 +1,103 @@
+[
+  {
+    "link": "A",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "tolerance_db": 0.05,
+    "passed": true,
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": false,
+        "margin": -3.7841885721877144
+      },
+      {
+        "cells": 16,
+        "passed": false,
+        "margin": -0.9399600587265644
+      },
+      {
+        "cells": 32,
+        "passed": true,
+        "margin": 0.35732061636334633
+      }
+    ],
+    "elapsed_seconds": 1706.8406052589417,
+    "method": "exact rational response moments and sum-of-rational Bernstein interval inequalities; distinct per-frame quadratic denominators",
+    "scope": "stored1000-atmosphere response model"
+  },
+  {
+    "link": "B",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "tolerance_db": 0.05,
+    "passed": true,
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": true,
+        "margin": 0.7768043101111409
+      }
+    ],
+    "elapsed_seconds": 106.54450464248657,
+    "method": "exact rational response moments and sum-of-rational Bernstein interval inequalities; distinct per-frame quadratic denominators",
+    "scope": "stored1000-atmosphere response model"
+  },
+  {
+    "link": "C",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "tolerance_db": 0.05,
+    "passed": true,
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": false,
+        "margin": -3.567937161527427
+      },
+      {
+        "cells": 16,
+        "passed": false,
+        "margin": -0.23508878229358388
+      },
+      {
+        "cells": 32,
+        "passed": true,
+        "margin": 1.2713342146680633
+      }
+    ],
+    "elapsed_seconds": 1770.7918133735657,
+    "method": "exact rational response moments and sum-of-rational Bernstein interval inequalities; distinct per-frame quadratic denominators",
+    "scope": "stored1000-atmosphere response model"
+  },
+  {
+    "link": "D",
+    "box": [
+      -0.1,
+      0.1
+    ],
+    "tolerance_db": 0.05,
+    "passed": true,
+    "attempts": [
+      {
+        "cells": 8,
+        "passed": false,
+        "margin": -2.3578440444830253
+      },
+      {
+        "cells": 16,
+        "passed": true,
+        "margin": 1.4227908520217156
+      }
+    ],
+    "elapsed_seconds": 423.7914733886719,
+    "method": "exact rational response moments and sum-of-rational Bernstein interval inequalities; distinct per-frame quadratic denominators",
+    "scope": "stored1000-atmosphere response model"
+  }
+]

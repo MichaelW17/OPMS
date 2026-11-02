@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying OPMS manuscript when using this code or data."
 type: software
-title: "OPMS: Initialization-robust pseudo-mode synthesis for free-space optical communications"
+title: "OPMS: Over-parameterized pseudo-mode synthesis for free-space optical communication"
 authors:
-  - family-names: Zhang
-    given-names: Qianyi
   - family-names: Wang
     given-names: Minghao
+  - family-names: Zhang
+    given-names: Qianyi
 repository-code: "https://github.com/MichaelW17/OPMS"
 license:
   - Apache-2.0
   - CC-BY-4.0
-version: "0.1.0"
-date-released: "2026-10-08"
+version: "0.2.0"
+date-released: "2026-11-02"

@@ -1,0 +1,11 @@
+{
+  "samples": 4800,
+  "seed": 2026203101,
+  "shape": [
+    4800,
+    10,
+    64,
+    64
+  ],
+  "sha256": "fbb3e52c7ddf81ec6f31ec4b39babeecd5737edc62c6f566ff6e11d9191881ce"
+}

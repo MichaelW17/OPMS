@@ -1,0 +1,20 @@
+{
+  "native_paths_execution": {
+    "pairs_per_link": "4near+4far original OPMS endpoint pairs; onlyfar train a bend",
+    "nodes": 33,
+    "curve_steps": 150,
+    "lr": 0.02,
+    "batch": 16,
+    "path_points_per_update": 2,
+    "train_seed": "2026102591+100000*ABCD_index+1000*pair_index",
+    "validation_seed": "2026102592+100000*ABCD_index",
+    "t_seed": "2026102593+100000*ABCD_index+1000*pair_index",
+    "M": 10,
+    "HG": 64,
+    "waists": "frame-specific original3\u201380mm bounds; interpolated or optimized in bounded raw coordinates",
+    "alignment": "Hungarian frame permutation and per-frame global phase; same endpoint CSD/powers",
+    "source_match_check": true,
+    "validation_atmospheres": 1000,
+    "barrier_evaluation": "predefined33nodes; no validation-driven bend selection"
+  }
+}

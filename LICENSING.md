@@ -17,3 +17,5 @@ To reuse or redistribute these materials, give appropriate credit, link to the l
 See [data/CITATION.cff](data/CITATION.cff) for dataset citation metadata. Citation of the accompanying paper is also appreciated.
 
 The data license does not apply to Python source files. It does not license manuscript files or third-party materials absent from this repository. Permissions already granted for earlier Apache-2.0 releases remain available; this notice adds an explicit CC BY 4.0 grant for the data and figures.
+
+The numerical NPZ/PT/JSON/CSV data and generated figures under `experiments/` are research data under CC BY4.0. Python source files remain Apache-2.0.

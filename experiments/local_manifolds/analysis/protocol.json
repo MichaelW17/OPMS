@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "links": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "center": "highest original validated SNR among1024 per link, all64HG M10",
+  "waists": "all ten frozen at their original endpoint values",
+  "normalization": "each frame P0=1000 separately; then average M10 powers",
+  "optimization_atmospheres": 4800,
+  "independent_validation_atmospheres": 1000,
+  "seed": 2026103101,
+  "validation_seed_offset": 50000,
+  "link_seed_stride": 100000,
+  "parameterization": "per-frame orthonormal HG coordinates with radial and phase freedoms removed:1260 real coordinates; physical CSD metric numerical cutoff1e-10, sensitivity1e-8/1e-12",
+  "directions": "two smallest absolute generalized negative-SNR Hessian curvatures; high-curvature controls",
+  "radii": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "grid": [
+    9,
+    9
+  ],
+  "neighbors": [
+    -0.05,
+    0.05
+  ],
+  "original_protocol": {
+    "arguments": {
+      "links": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "starts": 1024,
+      "steps": 300,
+      "batch_size": 16,
+      "frames": 10,
+      "screening_samples": 1000,
+      "validation_samples": 1000,
+      "validation_batch": 16,
+      "pcb_lr": 0.04,
+      "opms_lr": 0.02,
+      "checkpoint_every": 25,
+      "log_every": 5,
+      "output": "<research-root>\\logs\\ol_joint_bs16_sobol1024_common1000_20260924",
+      "device": "cuda",
+      "seed": 2026092401
+    },
+    "links": {
+      "A": {
+        "name": "A",
+        "n": 512,
+        "delta": 0.001,
+        "wavelength": 6.32e-07,
+        "cn2": 5e-15,
+        "distance": 1000.0,
+        "wos_steps": 5,
+        "transmitter_radius": 0.05,
+        "receiver_radius": 0.01,
+        "inner_scale": 0.003,
+        "outer_scale": 1.024,
+        "duale_b": 0.1,
+        "power": 1000.0,
+        "subharmonic_order": 3
+      },
+      "B": {
+        "name": "B",
+        "n": 512,
+        "delta": 0.001,
+        "wavelength": 6.32e-07,
+        "cn2": 5e-14,
+        "distance": 1000.0,
+        "wos_steps": 5,
+        "transmitter_radius": 0.05,
+        "receiver_radius": 0.01,
+        "inner_scale": 0.003,
+        "outer_scale": 1.024,
+        "duale_b": 0.1,
+        "power": 1000.0,
+        "subharmonic_order": 3
+      },
+      "C": {
+        "name": "C",
+        "n": 512,
+        "delta": 0.001,
+        "wavelength": 8.5e-07,
+        "cn2": 1e-14,
+        "distance": 1000.0,
+        "wos_steps": 5,
+        "transmitter_radius": 0.05,
+        "receiver_radius": 0.01,
+        "inner_scale": 0.003,
+        "outer_scale": 1.024,
+        "duale_b": 0.2,
+        "power": 1000.0,
+        "subharmonic_order": 3
+      },
+      "D": {
+        "name": "D",
+        "n": 512,
+        "delta": 0.001,
+        "wavelength": 8.5e-07,
+        "cn2": 5e-15,
+        "distance": 2000.0,
+        "wos_steps": 5,
+        "transmitter_radius": 0.05,
+        "receiver_radius": 0.02,
+        "inner_scale": 0.003,
+        "outer_scale": 1.024,
+        "duale_b": 0.2,
+        "power": 1000.0,
+        "subharmonic_order": 3
+      }
+    },
+    "sampling_definition": {
+      "optimization": "one bs=16 loss; every GSM atmosphere receives an independently generated M-frame source sequence",
+      "screening_and_validation": "independent source-atmosphere pairing; OPMS sequence frozen after optimization",
+      "selection": "all endpoints screened with 128 unseen pairs; only the class winner receives 1000-pair final validation"
+    }
+  },
+  "source_hashes": {
+    "sources.py": "5d9a593c8cd526db16dc0563d8e93946216be28651e8f6f8d9dc260a24d64184",
+    "propagation.py": "f8b44a1f19d5449c9012eb2db89265b959d564321932fe3ed20cd4a8dc0bb144"
+  },
+  "proof": "continuous geometry and SNR certificates are a subsequent stage; never infer them from81points"
+}
