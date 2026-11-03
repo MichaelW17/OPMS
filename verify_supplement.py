@@ -19,12 +19,42 @@ def main():
             flux=d['modal_flux'].double().numpy()
             w=d['weights'].double().numpy()
             assert flux.shape==(2000,m) and np.isclose(w.sum(),1)
+            summary=d['summary']
+            if m==64:
+                expected=[[p,q] for p in range(8) for q in range(8)]
+                assert summary['holdout']['mode_indices']==expected
+                assert summary['optimization']['runs']==8
+                assert summary['optimization']['steps']==300
+                assert summary['optimization']['train_bs']==6
+                assert summary['optimization']['mc_blocks']==2
+                assert summary['selection']['samples']==128
+                candidates=summary['all_candidates']
+                assert len(candidates)==8
+                for candidate in candidates:
+                    assert candidate['history'][-1]['step']==300
+                    assert candidate['selection_metrics']['mode_indices']==expected
+                selected=int(np.argmax([c['selection_metrics']['snrp_legacy_db_10log'] for c in candidates]))
+                assert selected==summary['selection']['selected_run']
+                report[f"{row['link']}_wHG_M64_rectangular_modes_verified"]=True
             power=flux@w
+            eta=summary['link']['duale_b']
             si=max(np.mean(power**2)/np.mean(power)**2-1,0)
-            value=10*np.log10(1/np.sqrt(.2/np.mean(power)+si))
+            value=10*np.log10(1/np.sqrt(eta/np.mean(power)+si))
             error=abs(value-float(row['snr_db']))
             assert error<1e-9,(path,error)
             report[f"{row['link']}_wHG_M{m}_raw_power_error_db"]=error
+            if m==64:
+                seed=summary['random_streams']['bootstrap_seed']
+                rng=np.random.default_rng(seed)
+                ids=rng.integers(0,len(power),size=(2000,len(power)))
+                samples=power[ids]
+                mean=samples.mean(axis=1)
+                variance_ratio=np.maximum(np.mean(samples**2,axis=1)/mean**2-1,0)
+                bootstrap=10*np.log10(1/np.sqrt(eta/mean+variance_ratio))
+                low,high=np.quantile(bootstrap,[.025,.975])
+                interval_error=max(abs(low-float(row['ci95_low_db'])),abs(high-float(row['ci95_high_db'])))
+                assert interval_error<1e-9,(path,interval_error)
+                report[f"{row['link']}_wHG_M64_bootstrap_error_db"]=float(interval_error)
     with (ROOT/'data/controls/propagation_step_sensitivity.csv').open() as f:
         rows=list(csv.DictReader(f))
     assert len(rows)==72

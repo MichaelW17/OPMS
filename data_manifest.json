@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "data/CITATION.cff",
-      "bytes": 449,
-      "sha256": "8d90a8990e9f0be191bb64727023dc677fea99a80b50664646d40cc79195640e"
+      "bytes": 436,
+      "sha256": "ab472dced073b77760d1febbf04e00a9a983febe56ce86be7c34f9cb4ba56a62"
     },
     {
       "path": "data/controls/benchmark_sobol128_summary.csv",
@@ -43,8 +43,13 @@
     },
     {
       "path": "data/controls/weighted_hg_comparison.csv",
-      "bytes": 672,
-      "sha256": "9e3816404687d82890a61da6d62a43fb0c244a5ae069e395415792cd5fb8048b"
+      "bytes": 673,
+      "sha256": "02de2313fa1bbcbb2ca2fba8bc73e6001c84d4e8eaaf843b8b8631843173ce41"
+    },
+    {
+      "path": "data/controls/whg64_configuration.json",
+      "bytes": 3885,
+      "sha256": "bd3bbf13941c4ad40b8683e8400268ae0b48ec7a381cc58f143892fdf354f5d2"
     },
     {
       "path": "data/csd/link_A_gsm_distances_262144.npy",
@@ -123,8 +128,8 @@
     },
     {
       "path": "data/fig3_six_conditions/64hg_m3/configuration.json",
-      "bytes": 2693,
-      "sha256": "edefaa698eb09f97e8d06493f6aaf3b6a88099d4d01248a5da8334633c0309ae"
+      "bytes": 2589,
+      "sha256": "f33b0086d56827448cc7d255de7ef974e6a07f75cf26298c54c5f0ee514ff83e"
     },
     {
       "path": "data/fig3_six_conditions/64hg_m3/D_endpoints.pt",
@@ -168,8 +173,8 @@
     },
     {
       "path": "data/fig3_six_conditions/9hg_m10/configuration.json",
-      "bytes": 2399,
-      "sha256": "9dac3b7565e2811d1594ecf8b319832f71ac5b6faf7a4af9f67fdf96ce043d3b"
+      "bytes": 2304,
+      "sha256": "5c4ad1fbfb2c7a3aa73bc949b5568f1707937ae5a61e4a50afc0a9eb6ae255c8"
     },
     {
       "path": "data/fig3_six_conditions/9hg_m10/D_endpoints.pt",
@@ -213,8 +218,8 @@
     },
     {
       "path": "data/fig3_six_conditions/9hg_m3/configuration.json",
-      "bytes": 2400,
-      "sha256": "8f182b4bc4acb1a13be5ad669c57a8204a982943af7b8b2be6ae4068c03e2463"
+      "bytes": 2305,
+      "sha256": "948de3398b71db30b1466015b7f1ec93c77111c8114fc079753b5b839f192b13"
     },
     {
       "path": "data/fig3_six_conditions/9hg_m3/D_endpoints.pt",
@@ -228,13 +233,13 @@
     },
     {
       "path": "data/fig3_six_conditions/gsm_hg_endpoint_scores.csv",
-      "bytes": 2536978,
-      "sha256": "900563ce34ba71cbc59bbc2159dec0f823a531ddf4fd0c5c2989d57e66c03633"
+      "bytes": 2512401,
+      "sha256": "a3814a04bf13dbc82e5b007ee12b3ec774173095610d86b16ba04c9c32423519"
     },
     {
       "path": "data/fig3_six_conditions/gsm_hg_success_summary.csv",
-      "bytes": 3875,
-      "sha256": "04ee57cbcfc6c96ed2187b2c7db75006bcce321558738b86dc7d81ec7290f7f8"
+      "bytes": 3850,
+      "sha256": "557105de1737fa1b653b3cb350b13a77935e62b938d105fc1567d8dd20f1eeb9"
     },
     {
       "path": "data/fig3_six_conditions/gsm_m3/A_endpoints.pt",
@@ -268,8 +273,8 @@
     },
     {
       "path": "data/fig3_six_conditions/gsm_m3/configuration.json",
-      "bytes": 2693,
-      "sha256": "edefaa698eb09f97e8d06493f6aaf3b6a88099d4d01248a5da8334633c0309ae"
+      "bytes": 2589,
+      "sha256": "f33b0086d56827448cc7d255de7ef974e6a07f75cf26298c54c5f0ee514ff83e"
     },
     {
       "path": "data/fig3_six_conditions/gsm_m3/D_endpoints.pt",
@@ -2139,52 +2144,52 @@
     {
       "path": "logs/ol_weighted_hg_m64/long_rx20_M10/training_checkpoint.pt",
       "bytes": 109799,
-      "sha256": "cca9c3ddbe5f20ad5865a04be54192e8e36f1db36a1ae5b4e9c89d372bd97951"
+      "sha256": "fa9c3115c87f9cb02866a3d8b6ce71ce3ec9fccd200baebb051c3d9361ff4777"
     },
     {
       "path": "logs/ol_weighted_hg_m64/long_rx20_M10/weighted_hg_result.pt",
-      "bytes": 1129334,
-      "sha256": "1032a001e8dbacd1a47ed0093d5b4f313c770717408ed30c1d8e12dca1b3e8fb"
+      "bytes": 1129590,
+      "sha256": "34a495641e97b4bed3488169cfa4a65297cd38a6dfaa336d08bc912272850b0b"
     },
     {
       "path": "logs/ol_weighted_hg_m64/long_rx20_M10/weighted_hg_summary.json",
-      "bytes": 387382,
-      "sha256": "a8ac08fc04dd7ce443ae88997f85cea2ce6375e26e595a0108244f765c999daa"
+      "bytes": 387489,
+      "sha256": "f51577504c2ac46f0c4fc026d17b945ffbb5dea9b81b6e9ec0d7d8f353c4dda2"
     },
     {
       "path": "logs/ol_weighted_hg_m64/small_rx_M10/training_checkpoint.pt",
       "bytes": 109799,
-      "sha256": "c33ed295cfa0dd94a55dcac1ece4c998f46b8fb184dcc11f37161671355f562d"
+      "sha256": "34fff206aad1db312fe9aaa33610faee96e7c414efdb65d4b3859b2f03579d5e"
     },
     {
       "path": "logs/ol_weighted_hg_m64/small_rx_M10/weighted_hg_result.pt",
-      "bytes": 1129334,
-      "sha256": "e5356e24ed7491e6e252744bc35d774c75c240c9ffdab277aff45beaf1b9e5c5"
+      "bytes": 1129590,
+      "sha256": "8fa249ac48d6bf0264fce4d07cbf88a8a4fad95ee9510fd1edd3c457cdf61636"
     },
     {
       "path": "logs/ol_weighted_hg_m64/small_rx_M10/weighted_hg_summary.json",
-      "bytes": 387641,
-      "sha256": "e5b038a8df2f7a9869f20b7fa65ad4efcd52798fe9e88ac3c24c570652df661b"
+      "bytes": 388507,
+      "sha256": "bb0b6b9d56b845ade3758ee719f704d005146cfe277fadecccc62c1aa5873d6c"
     },
     {
       "path": "logs/ol_weighted_hg_m64/strong_small_rx_M10/training_checkpoint.pt",
       "bytes": 109799,
-      "sha256": "ed9a606e2421b48232f4a32eb993e3feee1b62984d6aec8de4ceba1fa7fa8b01"
+      "sha256": "604ecf1968e5c9c95bd864c4be849e237e1739bd3bdc941b8bdf50b7ff53ee65"
     },
     {
       "path": "logs/ol_weighted_hg_m64/strong_small_rx_M10/weighted_hg_result.pt",
-      "bytes": 1129334,
-      "sha256": "e8bbf785919a27526b6c32b0c816850feed55b025afef302af0323a70f7ce503"
+      "bytes": 1129590,
+      "sha256": "9531e8ec1c0656403bc64a673ca184375f6f297a34cda639328e4d799aa57a4d"
     },
     {
       "path": "logs/ol_weighted_hg_m64/strong_small_rx_M10/weighted_hg_summary.json",
-      "bytes": 386615,
-      "sha256": "531c4e6442d2aebcc639b123efc18814160bac0770b6be48ea592379ae2d3d70"
+      "bytes": 387203,
+      "sha256": "448aae84379e32fa47b4c33592654d0d0d91ef01cc83de864d9e28a87f6d8221"
     },
     {
       "path": "logs/ol_weighted_hg_m64/weighted_hg_m64_all.json",
-      "bytes": 1240126,
-      "sha256": "94cf0e967c3cd1392d8cfde41df6cffd76ea3511d62e14f24ffd9c12c6aefe29"
+      "bytes": 1241741,
+      "sha256": "ea0a963d387a90c4756f92767748490566c1eaea89934c7770c285c435a82b9d"
     },
     {
       "path": "logs/ol_weighted_hg_pseudomode_validation_20260901/long_rx20_M10/weighted_hg_result.pt",
@@ -2223,8 +2228,8 @@
     },
     {
       "path": "experiments/local_manifolds/A/analysis_complete.json",
-      "bytes": 2971,
-      "sha256": "876faee7033e72019dacd321f252e961afefedbbffd7ac43c730f7cd37c7b858"
+      "bytes": 2875,
+      "sha256": "8b821d01909992b96719c769eedd20daccc3ed10de0b1add0eac824ad9ba0ec4"
     },
     {
       "path": "experiments/local_manifolds/A/curvature.npz",
@@ -2233,8 +2238,8 @@
     },
     {
       "path": "experiments/local_manifolds/A/optimization_complete.json",
-      "bytes": 184,
-      "sha256": "caafb245f1bfd146ef3b4b9906390ac806bb3fc273e8e83a2c902d026e72da98"
+      "bytes": 174,
+      "sha256": "6ab3abf2f918ef7bc4b00d4d221230c1b32e3c3a5d1b9c7157ca56ee04a56c96"
     },
     {
       "path": "experiments/local_manifolds/A/patches.npz",
@@ -2243,8 +2248,8 @@
     },
     {
       "path": "experiments/local_manifolds/A/selection.json",
-      "bytes": 1847,
-      "sha256": "4fc59f549e949b74612df291bb58adb3956937018b05bf661dc02eb612b32d9a"
+      "bytes": 1789,
+      "sha256": "b74a060ba36e8942df5e63817c03105ebb84be56b013f1e117800e54119927b5"
     },
     {
       "path": "experiments/local_manifolds/A/source.npz",
@@ -2253,8 +2258,8 @@
     },
     {
       "path": "experiments/local_manifolds/A/validation_complete.json",
-      "bytes": 184,
-      "sha256": "18dd3834ec3a8682962c3e6e470a2053cd5d4ceeb1adb16e43251bfb6ebae089"
+      "bytes": 174,
+      "sha256": "ecfe481229d5de9c8a70a24bd41d3524713d39d515815e1a4eb7cd5dbda73d9d"
     },
     {
       "path": "experiments/local_manifolds/analysis/Fig5_native_local_manifolds.pdf",
@@ -2268,43 +2273,43 @@
     },
     {
       "path": "experiments/local_manifolds/analysis/geometry_certificates.json",
-      "bytes": 1887,
-      "sha256": "248386a82c65e4d332d5bf4160da110a32cf9388902c18ace33ab27712624dad"
+      "bytes": 1818,
+      "sha256": "55e8c6ff751807fd53a9e2d4be69de09c9b29dfdc452c7097d62745fcf5e3d4f"
     },
     {
       "path": "experiments/local_manifolds/analysis/grid.csv",
-      "bytes": 29292,
-      "sha256": "4d24203492522de71e3ea08f2553dff489ce23a0b54d1b04b8c7d549a6a2a087"
+      "bytes": 28967,
+      "sha256": "580e988e5f8e573b69e391728ad6bba357dc969efa8bc9e5c05a1ddd059d0579"
     },
     {
       "path": "experiments/local_manifolds/analysis/independent_numerical_audit.json",
-      "bytes": 1437,
-      "sha256": "e9ca77fa24e44c5d0598066f264ad408b22bef4cfbe8178a7a66accd88227c82"
+      "bytes": 1404,
+      "sha256": "c67f0c156f29b9d2008525365770c340f3a045fdc3742c760515d2e486a2b92b"
     },
     {
       "path": "experiments/local_manifolds/analysis/manifest.json",
-      "bytes": 3253,
-      "sha256": "9ccb420f722427b2f40177c450c53b82cadf07a324558820fb5cd7d78b5fce0a"
+      "bytes": 3218,
+      "sha256": "bf7de9108bb4a634ee6a7de1115b87863b16f026af2a999d5ebd536e628e94ea"
     },
     {
       "path": "experiments/local_manifolds/analysis/protocol.json",
-      "bytes": 3882,
-      "sha256": "2dc17fabc29287dba5ea792fce21e715302500bd2da0a93afe9b093932a7510e"
+      "bytes": 3751,
+      "sha256": "53287d2febb2b22c986c10d60908515cc4f62ae4ec22c4f5b2f60c5ea1ddacfe"
     },
     {
       "path": "experiments/local_manifolds/analysis/snr_certificates.json",
-      "bytes": 2509,
-      "sha256": "e73a0581907357072e57e8ae0442b9292d560f68201464a510ad5fe7f28e8e1e"
+      "bytes": 2407,
+      "sha256": "c3a7e67104213af0d34a577f7bcb64d69f55f94647466b8687779f1e96e96e05"
     },
     {
       "path": "experiments/local_manifolds/analysis/summary.csv",
-      "bytes": 747,
-      "sha256": "0111c2a5f4a52e2273a5d8bb68c22f7921d0cb732458123af0bb1e0032ba3874"
+      "bytes": 742,
+      "sha256": "ef284d4fa930b9b597aac80db7e746fc5dfe0e7436dc6dfb63807f2db2292f6f"
     },
     {
       "path": "experiments/local_manifolds/B/analysis_complete.json",
-      "bytes": 2965,
-      "sha256": "ece3e603aea5dbdcd7402478f1e29066f805bb37b2158d18c5510ce35371dbdc"
+      "bytes": 2869,
+      "sha256": "8972cff89cc02a483e019c5b609871d01c67758b81be4c2929fc104fa1ef420a"
     },
     {
       "path": "experiments/local_manifolds/B/curvature.npz",
@@ -2313,8 +2318,8 @@
     },
     {
       "path": "experiments/local_manifolds/B/optimization_complete.json",
-      "bytes": 184,
-      "sha256": "93ac5a7deea5bc492f96554163ca00507a035811e1b0de92361d64897f7eef12"
+      "bytes": 174,
+      "sha256": "170b3d35ab8b425d1f1fc1ffe7a72be844a7deba8dc292a7ec0c6efbdd177680"
     },
     {
       "path": "experiments/local_manifolds/B/patches.npz",
@@ -2323,8 +2328,8 @@
     },
     {
       "path": "experiments/local_manifolds/B/selection.json",
-      "bytes": 1835,
-      "sha256": "8e3ecd4b31cdd5a0cc3dd5fab227be92cb59c338c0fe05abf3758b630ff5f146"
+      "bytes": 1777,
+      "sha256": "a4f089ce44a7d387844ac7ab5c2f5e15514ef05315563835faf3a746d1cbbe65"
     },
     {
       "path": "experiments/local_manifolds/B/source.npz",
@@ -2333,13 +2338,13 @@
     },
     {
       "path": "experiments/local_manifolds/B/validation_complete.json",
-      "bytes": 184,
-      "sha256": "5df72c259f1f9cbd81c96eb11c6442d28bb5cdb9c2d5821fe8bba101a4e918d4"
+      "bytes": 174,
+      "sha256": "c0b323b3bba76b42f1affc347f4f4c715b4a72ec1203f7ee016aeae61d560718"
     },
     {
       "path": "experiments/local_manifolds/C/analysis_complete.json",
-      "bytes": 2961,
-      "sha256": "7f8df57e5517b7d67fbf5bdfe8a0c3bdc844f5974e2fe09011e0e14059bfb814"
+      "bytes": 2865,
+      "sha256": "fdaacc0fcc14cd3ca6d7b7bf6570477b4fc39b2c223f55595b8798e211f61417"
     },
     {
       "path": "experiments/local_manifolds/C/curvature.npz",
@@ -2348,8 +2353,8 @@
     },
     {
       "path": "experiments/local_manifolds/C/optimization_complete.json",
-      "bytes": 184,
-      "sha256": "f7ff025d83dc0853150f3d3b21d6609e955d5b0945700c7580fd0885abf5d7a4"
+      "bytes": 174,
+      "sha256": "e83a0d1aef2fc4b7479e0243b6c63f453c5846380b77d178debc5f667becad50"
     },
     {
       "path": "experiments/local_manifolds/C/patches.npz",
@@ -2358,8 +2363,8 @@
     },
     {
       "path": "experiments/local_manifolds/C/selection.json",
-      "bytes": 1840,
-      "sha256": "38371e14c237fa73137d92d849fc31cb8b3c4e6fd8be76010b137df7d3450e2a"
+      "bytes": 1782,
+      "sha256": "1806e501898f06d62ca3768693b1d1234965ccaa884c60c7e168eaa7a5af78a2"
     },
     {
       "path": "experiments/local_manifolds/C/source.npz",
@@ -2368,13 +2373,13 @@
     },
     {
       "path": "experiments/local_manifolds/C/validation_complete.json",
-      "bytes": 184,
-      "sha256": "7db419b89ab1096fb17d4e2d5bcdcb4cf007e114a38be8df4a97a7ba84b2264d"
+      "bytes": 174,
+      "sha256": "7fa682dc0b1b30564b6580e08f2abc2fdc1ac6897eb75999671c9c4c06ba62c8"
     },
     {
       "path": "experiments/local_manifolds/D/analysis_complete.json",
-      "bytes": 2956,
-      "sha256": "b57a2dbeb9f0916e5aa6958b70688a7e8dd9d3d7e4bb9db7e2615ca1897897ce"
+      "bytes": 2860,
+      "sha256": "8020e5bf489c322cdd7fb5cc206f3c46a989241a205389e68b556a6bab229a05"
     },
     {
       "path": "experiments/local_manifolds/D/curvature.npz",
@@ -2383,8 +2388,8 @@
     },
     {
       "path": "experiments/local_manifolds/D/optimization_complete.json",
-      "bytes": 184,
-      "sha256": "3cc0396d865fba0c52064b320b61a88f39c63b6beee498f099c7d234bb2a5edd"
+      "bytes": 174,
+      "sha256": "edf507680e45923b480f758cd4d99362f39835eb3171479706f1be9d1c002eca"
     },
     {
       "path": "experiments/local_manifolds/D/patches.npz",
@@ -2393,8 +2398,8 @@
     },
     {
       "path": "experiments/local_manifolds/D/selection.json",
-      "bytes": 1844,
-      "sha256": "b15e54d9ff44a140274696350e8c42272465c20fe6bf97a6aa3a171637a3106d"
+      "bytes": 1786,
+      "sha256": "e9c1ebf4cfbccc06ddae319826a32ccca26dcdb99776254e43ef67086b6072ac"
     },
     {
       "path": "experiments/local_manifolds/D/source.npz",
@@ -2403,23 +2408,23 @@
     },
     {
       "path": "experiments/local_manifolds/D/validation_complete.json",
-      "bytes": 184,
-      "sha256": "7fba4949b39a51ac40e6a6c70464ee2ea2ade3ff66ccf1627a8deada96e1190c"
+      "bytes": 174,
+      "sha256": "94fc1790c54c75c1079f4a8821751888e0bff1659a678e293d3a30568723b8f1"
     },
     {
       "path": "experiments/local_manifolds/geometry_certificates.json",
-      "bytes": 1887,
-      "sha256": "248386a82c65e4d332d5bf4160da110a32cf9388902c18ace33ab27712624dad"
+      "bytes": 1818,
+      "sha256": "55e8c6ff751807fd53a9e2d4be69de09c9b29dfdc452c7097d62745fcf5e3d4f"
     },
     {
       "path": "experiments/local_manifolds/protocol.json",
-      "bytes": 3882,
-      "sha256": "2dc17fabc29287dba5ea792fce21e715302500bd2da0a93afe9b093932a7510e"
+      "bytes": 3751,
+      "sha256": "53287d2febb2b22c986c10d60908515cc4f62ae4ec22c4f5b2f60c5ea1ddacfe"
     },
     {
       "path": "experiments/local_manifolds/snr_certificates.json",
-      "bytes": 2509,
-      "sha256": "e73a0581907357072e57e8ae0442b9292d560f68201464a510ad5fe7f28e8e1e"
+      "bytes": 2407,
+      "sha256": "c3a7e67104213af0d34a577f7bcb64d69f55f94647466b8687779f1e96e96e05"
     },
     {
       "path": "experiments/paths/native_paths/A/pair4_far/bend.pt",
@@ -2428,13 +2433,13 @@
     },
     {
       "path": "experiments/paths/native_paths/A/pair4_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/A/pair4_far/definition.json",
-      "bytes": 343,
-      "sha256": "368d724fff08c87b5c7dfb7ef2b803b611423f5c021b24488737263710c5599a"
+      "bytes": 323,
+      "sha256": "424feb5fdf6f8513f28b6a06f68b56c5d1e5a0f503ca807a869b4aa670fd7b10"
     },
     {
       "path": "experiments/paths/native_paths/A/pair4_far/path_parameters.pt",
@@ -2453,13 +2458,13 @@
     },
     {
       "path": "experiments/paths/native_paths/A/pair5_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/A/pair5_far/definition.json",
-      "bytes": 339,
-      "sha256": "7834f89282e77793187a7a84b023ef7d79120734d7e1fedb65bf2ea99a3d35e5"
+      "bytes": 319,
+      "sha256": "d035a2a0e52b40b362ecdc339e7907b2bc9a9059a2150d3be34aa0255faca833"
     },
     {
       "path": "experiments/paths/native_paths/A/pair5_far/path_parameters.pt",
@@ -2478,13 +2483,13 @@
     },
     {
       "path": "experiments/paths/native_paths/A/pair6_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/A/pair6_far/definition.json",
-      "bytes": 342,
-      "sha256": "4e73c90507460376356bf6275d6b4bea1d94a70be960cab8cd395115f1e058c3"
+      "bytes": 322,
+      "sha256": "dc628ab2eef6bd08447556d065d2901318a0cdaff08005b2035539278c3b1104"
     },
     {
       "path": "experiments/paths/native_paths/A/pair6_far/path_parameters.pt",
@@ -2503,13 +2508,13 @@
     },
     {
       "path": "experiments/paths/native_paths/A/pair7_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/A/pair7_far/definition.json",
-      "bytes": 343,
-      "sha256": "01c086be1ad584636a811f8c62f72f2b7ba37b483f2c980e7ab5d6db36f7b043"
+      "bytes": 323,
+      "sha256": "814e96053226fa2c8aa7820d72c6402f10447541655443b97eca3cff4ed8d57a"
     },
     {
       "path": "experiments/paths/native_paths/A/pair7_far/path_parameters.pt",
@@ -2528,13 +2533,13 @@
     },
     {
       "path": "experiments/paths/native_paths/B/pair4_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/B/pair4_far/definition.json",
-      "bytes": 340,
-      "sha256": "323bf7471368286d13678c1a48c3cfeb7064d163510efeadf747509a4fa330d1"
+      "bytes": 320,
+      "sha256": "c7916b1c628ccb6e6de8ed8796d916816924a0a2a04471775824954835978984"
     },
     {
       "path": "experiments/paths/native_paths/B/pair4_far/path_parameters.pt",
@@ -2553,13 +2558,13 @@
     },
     {
       "path": "experiments/paths/native_paths/B/pair5_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/B/pair5_far/definition.json",
-      "bytes": 341,
-      "sha256": "42bf2249b5b767f8f1aff1316b5424b3fa685830bcd03761e76910a389c61663"
+      "bytes": 321,
+      "sha256": "b9f70fed7ca089619b492ae74c246fc21da3b2a445d713e16cd412a705c5d017"
     },
     {
       "path": "experiments/paths/native_paths/B/pair5_far/path_parameters.pt",
@@ -2578,13 +2583,13 @@
     },
     {
       "path": "experiments/paths/native_paths/B/pair6_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/B/pair6_far/definition.json",
-      "bytes": 342,
-      "sha256": "94ca46c5009fab2c48d2f0eab275697b3c5f8e4552373957ddce3eb3a9b66c30"
+      "bytes": 322,
+      "sha256": "51566b62f80bdf1ac75b1053609f458b32c28a942c9b01a4fe71a3b669550a5a"
     },
     {
       "path": "experiments/paths/native_paths/B/pair6_far/path_parameters.pt",
@@ -2603,13 +2608,13 @@
     },
     {
       "path": "experiments/paths/native_paths/B/pair7_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/B/pair7_far/definition.json",
-      "bytes": 342,
-      "sha256": "22ea1115d970b9605af86449f47bb0eefefcd3b61713885740cad9bc2bd8c720"
+      "bytes": 322,
+      "sha256": "9c3274381f19c341ba58aeee2f56daaef18e7ec0792684559a7f310165fb36d0"
     },
     {
       "path": "experiments/paths/native_paths/B/pair7_far/path_parameters.pt",
@@ -2628,13 +2633,13 @@
     },
     {
       "path": "experiments/paths/native_paths/C/pair4_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/C/pair4_far/definition.json",
-      "bytes": 342,
-      "sha256": "f20fb08ac602dfc969886c49440d79c4b7c3980f0c4989537194bb911e75f0e6"
+      "bytes": 322,
+      "sha256": "3103ddcdf55a3bfd34470e96037c44215e2d50f73b79283e290be1b3c3e4dea6"
     },
     {
       "path": "experiments/paths/native_paths/C/pair4_far/path_parameters.pt",
@@ -2653,13 +2658,13 @@
     },
     {
       "path": "experiments/paths/native_paths/C/pair5_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/C/pair5_far/definition.json",
-      "bytes": 342,
-      "sha256": "84b26e71557cbf998ab388d748b57579b26222de1201abb3694d21843399c7ad"
+      "bytes": 322,
+      "sha256": "6de517dce54fe057c0270e66c6f4e9742572141b3c41b3cfd0172bff43955893"
     },
     {
       "path": "experiments/paths/native_paths/C/pair5_far/path_parameters.pt",
@@ -2678,13 +2683,13 @@
     },
     {
       "path": "experiments/paths/native_paths/C/pair6_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/C/pair6_far/definition.json",
-      "bytes": 341,
-      "sha256": "429f4b4bc83ccd9ad99b0730eb447c5255b057f161cb0416713d2af955dfac34"
+      "bytes": 321,
+      "sha256": "98db57238cd482800f9e395634c093060ba6e864c37d87fa5e912f2e6a81fa7e"
     },
     {
       "path": "experiments/paths/native_paths/C/pair6_far/path_parameters.pt",
@@ -2703,13 +2708,13 @@
     },
     {
       "path": "experiments/paths/native_paths/C/pair7_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/C/pair7_far/definition.json",
-      "bytes": 342,
-      "sha256": "8d9c249aeda8475944e9a6f31bac39bc2977d7b3069575a452ffa0b33cbc7487"
+      "bytes": 322,
+      "sha256": "b5a9b8df73e436143c47d47e3d6e878ae9d95cf9b4081b98271fe479faa1676c"
     },
     {
       "path": "experiments/paths/native_paths/C/pair7_far/path_parameters.pt",
@@ -2728,13 +2733,13 @@
     },
     {
       "path": "experiments/paths/native_paths/D/pair4_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/D/pair4_far/definition.json",
-      "bytes": 343,
-      "sha256": "c6a48cb20f3041b8505f1f6df1106328dc75ea099ec2eb2bff940d2241a71831"
+      "bytes": 323,
+      "sha256": "84a4a1bf85d90015e9eb34e3fc1514945c8252dab34afd6bf586a05976cddc57"
     },
     {
       "path": "experiments/paths/native_paths/D/pair4_far/path_parameters.pt",
@@ -2753,13 +2758,13 @@
     },
     {
       "path": "experiments/paths/native_paths/D/pair5_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/D/pair5_far/definition.json",
-      "bytes": 343,
-      "sha256": "d91c08f6fd7d6008eb40da8d90ee552d9eff6c4475e76977827ec0b24519426d"
+      "bytes": 323,
+      "sha256": "0a29da9ba9c162f44f9e5031c18b0fc6d088fac52eb4636124d9ccc02ce2cf07"
     },
     {
       "path": "experiments/paths/native_paths/D/pair5_far/path_parameters.pt",
@@ -2778,13 +2783,13 @@
     },
     {
       "path": "experiments/paths/native_paths/D/pair6_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/D/pair6_far/definition.json",
-      "bytes": 343,
-      "sha256": "273a3152786a3a2882494333dc964b3a45ee1148bb50263eaff55ebfcc888d31"
+      "bytes": 323,
+      "sha256": "97586c0439daafc289dae874b1bd7666b4292b7658784b9005e23073d088dd05"
     },
     {
       "path": "experiments/paths/native_paths/D/pair6_far/path_parameters.pt",
@@ -2803,13 +2808,13 @@
     },
     {
       "path": "experiments/paths/native_paths/D/pair7_far/complete.json",
-      "bytes": 24,
-      "sha256": "e353d2fe562b507e9b378dd4113bcd29da69937c94e4f45da6cc50de2e31b72a"
+      "bytes": 22,
+      "sha256": "cc1918dcd79b1d8d4b3e969c40557118a9eea0205fe9402f38b2355d6687fe48"
     },
     {
       "path": "experiments/paths/native_paths/D/pair7_far/definition.json",
-      "bytes": 342,
-      "sha256": "e3a4200cfa7ffef941c5a21b729037b9325a934a55040320566425e61519204e"
+      "bytes": 322,
+      "sha256": "4f4505a899b88e11c25330c2ee4f65020108af080c11b9fbbe1f9e490975c547"
     },
     {
       "path": "experiments/paths/native_paths/D/pair7_far/path_parameters.pt",
@@ -2823,13 +2828,13 @@
     },
     {
       "path": "experiments/paths/protocol.json",
-      "bytes": 825,
-      "sha256": "cef3160818ee135b32fac0e48adc53a76e6ec556ba6bff8751a89143fb8f89a6"
+      "bytes": 806,
+      "sha256": "5578378d649ed3331cfce97845bb5a670bf0e8701eddb04546eea6cae1051079"
     },
     {
       "path": "experiments/paths/selection.json",
-      "bytes": 20824,
-      "sha256": "8eb41200f234f46b6442e88c01ee237f1e01d615d21d9d767309c8f6c5f42c15"
+      "bytes": 19615,
+      "sha256": "f7f35fe94b7882d77548a7e5af1afe953632303928bfedb1089b7fc82c0a1b0a"
     }
   ]
 }

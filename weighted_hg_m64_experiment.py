@@ -1,4 +1,4 @@
-"""Extended weighted-HG control with 64 coherent modes."""
+"""Weighted pure-HG control with the same 8 x 8 mode indices as OPMS."""
 
 from __future__ import annotations
 
@@ -11,7 +11,8 @@ import torch
 
 
 base.MODE_COUNT = 64
-base.MODE_INDICES = base.first_hg_indices(base.MODE_COUNT)
+base.MODE_INDICES = tuple((p, q) for p in range(8) for q in range(8))
+base.MODE_INDEX_DESCRIPTION = "8 x 8 Cartesian HG mode set: p,q=0,...,7"
 base.OUTPUT_ROOT = Path(__file__).resolve().parent / "logs" / "ol_weighted_hg_m64"
 
 
@@ -58,7 +59,8 @@ def main() -> None:
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
     base.MODE_COUNT = args.mode_count
-    base.MODE_INDICES = base.first_hg_indices(base.MODE_COUNT)
+    base.MODE_INDICES = tuple((p, q) for p in range(8) for q in range(8))
+    base.MODE_INDEX_DESCRIPTION = "8 x 8 Cartesian HG mode set: p,q=0,...,7"
     base.OUTPUT_ROOT = Path(__file__).resolve().parent / "logs" / f"ol_weighted_hg_m{args.mode_count}"
     base.OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     results = [

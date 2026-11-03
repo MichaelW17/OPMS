@@ -78,19 +78,19 @@ Suggested Supplement description: For CB, Pin, Sharp, and IOPB, source parameter
 
 ## Weighted pure HG control
 
-wHG optimizes nonnegative dwell weights over pure HG modes, a common waist and a common curvature. OPMS optimizes the complex HG superposition within every equal-duration pseudo-mode. The first 64 HG index pairs are enumerated in total-order sequence by `first_hg_indices`; they are not a complete 66-function total-order-10 set or the 8×8 tensor-product set used to synthesize OPMS fields.
+wHG optimizes nonnegative dwell weights over pure HG modes, a common waist and a common curvature. OPMS optimizes the complex HG superposition within every equal-duration pseudo-mode. The 64-mode wHG control uses p,q=0,...,7, the same 8×8 HG mode-index set used to synthesize OPMS fields. The ten-mode wHG control uses all ten modes with p+q<=3.
 
 | Link | OPMS M=10 | wHG M=10 | wHG M=64 |
 |---|---:|---:|---:|
-| L1 | 10.8481 dB | 10.5142 dB | 10.6470 dB |
-| L2 | 7.5727 dB | 7.3213 dB | 7.3904 dB |
-| L3 | 6.8787 dB | 6.3736 dB | 7.2301 dB |
+| L1 | 10.8481 dB | 10.5142 dB | 10.5850 dB |
+| L2 | 7.5727 dB | 7.3213 dB | 7.1947 dB |
+| L3 | 6.8787 dB | 6.3736 dB | 7.2476 dB |
 
-At the same ten-field budget, OPMS gives higher validated SNRs on all three links. Even after wHG increases to 64 modes, ten-frame OPMS gives higher point estimates on L1 and L2. The 64-mode sequence requires 6.4 times the displayed-field budget: at fixed integration time it requires a proportionally higher update rate, or at fixed update rate a longer integration time. This is a frame-budget comparison, not a measured hardware-cost estimate. The table does not claim OPMS superiority on L3 at M=64 or statistical significance of the small between-source differences.
+At the same ten-field budget, OPMS gives higher validated SNRs on all three links. With 64 pure HG modes, wHG gives the values in the table; ten-frame OPMS retains higher point estimates on L1 and L2, while wHG gives a higher point estimate on L3. The 64-mode sequence requires 6.4 times the displayed-field budget: at fixed integration time it requires a proportionally higher update rate, or at fixed update rate a longer integration time. This is a frame-budget comparison, not a measured hardware-cost estimate. The point estimates and atmospheric confidence intervals do not establish statistical significance of between-source differences.
 
-Each wHG holdout estimate uses 2000 independent atmospheres and 2000 percentile-bootstrap resamples. The M=64 search uses eight starts, 300 Adam steps, a 128-atmosphere selection set, and the separate holdout set. The new M=64 run uses its recorded random streams; it is not a paired-bootstrap comparison with the earlier OPMS data. All values retain the manuscript convention `10 log10(1/sqrt(Λe/mean_power+SI))`.
+Each wHG holdout estimate uses 2000 independent atmospheres and 2000 percentile-bootstrap resamples. The M=64 search uses eight starts, 300 Adam steps, a 128-atmosphere selection set, and the separate holdout set. The M=64 optimization and validation seeds are recorded with each source. The intervals are computed separately for each source; they are not paired-bootstrap intervals for its difference from OPMS. All values retain the manuscript convention `10 log10(1/sqrt(Λe/mean_power+SI))`.
 
-`data/controls/weighted_hg_comparison.csv` and the saved model/receiver-power tensors under `logs/ol_weighted_hg_*` provide the corresponding numerical records. wHG is discussed in text rather than included in the structured-beam plot.
+`data/controls/weighted_hg_comparison.csv`, `data/controls/whg64_configuration.json`, and the saved model/receiver-power tensors under `logs/ol_weighted_hg_*` provide the corresponding numerical records. wHG is discussed in text rather than included in the structured-beam plot.
 
 ## Propagation-step sensitivity
 

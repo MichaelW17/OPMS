@@ -54,6 +54,7 @@ def first_hg_indices(mode_count: int) -> tuple[tuple[int, int], ...]:
 
 
 MODE_INDICES = first_hg_indices(MODE_COUNT)
+MODE_INDEX_DESCRIPTION = "first ten 2D HG modes through complete total order 3"
 
 
 class WeightedHGParameters(nn.Module):
@@ -264,7 +265,11 @@ def run_case(case_name: str, case_index: int, arguments: argparse.Namespace) -> 
     result_path = output_directory / "weighted_hg_result.pt"
     summary_path = output_directory / "weighted_hg_summary.json"
     if result_path.exists() and summary_path.exists() and not arguments.force:
-        return read_json(summary_path)
+        cached = read_json(summary_path)
+        expected_modes = [list(index) for index in MODE_INDICES]
+        if cached.get("holdout", {}).get("mode_indices") != expected_modes:
+            raise ValueError("Cached results use a different HG mode set; rerun with --force.")
+        return cached
     reference = read_json(REFERENCE_ROOT / case_name / "summary.json")
     evaluator = UnifiedWOS(LinkConfig(**reference["link"]))
     sobol_engine = torch.quasirandom.SobolEngine(
@@ -323,7 +328,7 @@ def run_case(case_name: str, case_index: int, arguments: argparse.Namespace) -> 
         "case": case_name,
         "method": "directly weighted pure HG pseudo-modes",
         "adaptation_of": "Schulz--Liu modal-intensity optimization",
-        "dimensional_adaptation": "first ten 2D HG modes through complete total order 3",
+        "dimensional_adaptation": MODE_INDEX_DESCRIPTION,
         "link": reference["link"],
         "frame_count": MODE_COUNT,
         "optimization": {
@@ -333,10 +338,19 @@ def run_case(case_name: str, case_index: int, arguments: argparse.Namespace) -> 
             "mc_blocks": arguments.mc_blocks,
             "learning_rate": arguments.learning_rate,
             "optimized_parameters": [
-                "ten nonnegative HG modal intensities summing to one",
+                f"{MODE_COUNT} nonnegative HG modal intensities summing to one",
                 "common HG waist",
                 "common normalized curvature",
             ],
+        },
+        "random_streams": {
+            "sobol_seed": arguments.seed + case_index,
+            "optimization_seed_formula": "seed + 100000*case_index + 1000*run_index + 17",
+            "seed": arguments.seed,
+            "case_index": case_index,
+            "selection_screen_seed": arguments.selection_seed + 100000 * case_index,
+            "validation_screen_seed": holdout_seed,
+            "bootstrap_seed": arguments.seed + 200000 + case_index,
         },
         "selection": {
             "samples": arguments.selection_samples,
