@@ -14,5 +14,10 @@
   "step_sensitivity_records": 72,
   "step_sensitivity_max_error_db": 0,
   "sobol_screening_groups_verified": 18,
-  "dad_branches_verified": 6
+  "dad_branches_verified": 6,
+  "supplement_link_order": [
+    "small_rx",
+    "strong_small_rx",
+    "long_rx20"
+  ]
 }

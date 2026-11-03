@@ -41,7 +41,7 @@ python reproduce.py --output results/reproduced
 | Fig. S2 | Paired LG-minus-HG SNR differences | `python reproduce.py` |
 | Fig. S3 | OPMS, GSM, CB, Sharp, Pin, IOPB, and DAD benchmarks | `python benchmark_screening.py`, then `python reproduce.py` |
 
-Supplementary tables include propagation-step sensitivity and weighted pure-HG-mode (wHG) comparisons. [REPRODUCTION.md](REPRODUCTION.md) gives the simulation commands and input/output details; [SUPPLEMENT_BENCHMARK.md](SUPPLEMENT_BENCHMARK.md) specifies the structured-source models and evaluation protocols.
+Supplementary tables include propagation-step sensitivity and weighted pure-HG-mode (wHG) comparisons. Supplementary links L1, L2 and L3 denote the 1-km standard-turbulence, 1-km strong-turbulence and 2-km cases, respectively. [REPRODUCTION.md](REPRODUCTION.md) gives the simulation commands and input/output details; [SUPPLEMENT_BENCHMARK.md](SUPPLEMENT_BENCHMARK.md) specifies the structured-source models and evaluation protocols.
 
 ### Multistart optimization
 

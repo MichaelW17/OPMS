@@ -1,6 +1,6 @@
 {
   "case": "long_rx20",
-  "link": "L2",
+  "link": "L3",
   "branch": "dark",
   "mode_count": 51,
   "candidate": {

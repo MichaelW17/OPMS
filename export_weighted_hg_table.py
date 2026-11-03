@@ -9,24 +9,23 @@ from pathlib import Path
 
 import numpy as np
 import torch
+from supplement_links import CASE_ORDER, CASE_LABELS, SAMPLING_CASE_INDEX
 
 
 ROOT = Path(__file__).resolve().parent
-CASES = ("small_rx", "long_rx20", "strong_small_rx")
+CASES = CASE_ORDER
 
 
 def export(output: Path) -> list[dict]:
-    # Preserve the documented case-to-link mapping when regenerating a table.
-    reference = ROOT / "data/controls/weighted_hg_comparison.csv"
-    with reference.open(newline="", encoding="utf-8") as stream:
-        labels = {row["case"]: row["link"] for row in csv.DictReader(stream)}
+    labels = CASE_LABELS
     rows = []
     for modes in (10, 64):
         directory = (
             "ol_weighted_hg_pseudomode_validation_20260901"
             if modes == 10 else "ol_weighted_hg_m64"
         )
-        for case_index, case in enumerate(CASES):
+        for case in CASES:
+            case_index = SAMPLING_CASE_INDEX[case]
             path = ROOT / f"logs/{directory}/{case}_M10/weighted_hg_result.pt"
             record = torch.load(path, map_location="cpu", weights_only=False)
             summary = record["summary"]

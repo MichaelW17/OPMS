@@ -53,7 +53,7 @@ The full pairwise computation needs several GB of device memory for OPMS fields.
 
 ## Supplementary controls
 
-The release includes the actual selected source states, raw validation powers where saved, control configurations, and the original simulation modules. These experiments use three cases named `small_rx`, `long_rx20`, and `strong_small_rx` (L1–L3). Their calculations predate the September joint-sampling multistart experiment and retain their own sampling policies and seeds; they must not be silently replaced with its training configuration.
+The release includes selected source states, raw validation powers where saved, control configurations, and the simulation modules. Supplementary links L1–L3 are `small_rx`, `strong_small_rx`, and `long_rx20`, respectively. `supplement_links.py` defines these labels separately from the case indices used by the archived random streams. Each experiment uses its recorded sampling policy and seeds.
 
 The following entry points consume the included `logs/` inputs:
 

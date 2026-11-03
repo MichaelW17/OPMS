@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import json
 import numpy as np
+from supplement_links import CASE_LABELS, CASE_ORDER
 
 ROOT = Path(__file__).resolve().parent
 CASES = ('small_rx', 'long_rx20', 'strong_small_rx')
@@ -49,11 +50,11 @@ def audit():
             assert abs(center - saved['mean_top_three_screening_snr_db']) < 1e-10
             assert np.allclose([lo, hi], [saved['ci95_low_db'], saved['ci95_high_db']], rtol=0, atol=1e-10)
             assert chosen.tolist() == [r['run'] for r in saved['top_three']]
-            summaries.append(dict(link=f'L{ci+1}', case=case, method=family, starts=128, steps=300,
+            summaries.append(dict(link=CASE_LABELS[case], case=case, method=family, starts=128, steps=300,
                 training_batch_size=16, mode_count=51 if dad else 1, screening_samples=1000,
                 additional_validation_samples=0, selected_runs=','.join(map(str, chosen)),
                 snr_db=center, ci95_low_db=float(lo), ci95_high_db=float(hi), bootstrap_repeats=2000))
-    return summaries
+    return sorted(summaries, key=lambda row: CASE_ORDER.index(row["case"]))
 
 def main():
     summaries = audit()
@@ -61,7 +62,7 @@ def main():
     with table.open() as stream:
         rows = list(csv.DictReader(stream))
     branches = []
-    for case in CASES:
+    for case in CASE_ORDER:
         dad = [r for r in summaries if r['case'] == case and r['method'].startswith('DAD')]
         winner = max(dad, key=lambda r:r['snr_db'])
         for row in dad:

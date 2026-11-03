@@ -5,6 +5,7 @@ import json
 import numpy as np
 import torch
 from scipy import stats
+from supplement_links import CASE_LABELS, CASE_ORDER
 
 ROOT=Path(__file__).resolve().parent
 
@@ -12,6 +13,7 @@ def main():
     report={}
     with (ROOT/'data/controls/weighted_hg_comparison.csv').open() as f:
         for row in csv.DictReader(f):
+            assert row['link']==CASE_LABELS[row['case']]
             m=int(row['mode_count'])
             sub='ol_weighted_hg_m64' if m==64 else 'ol_weighted_hg_pseudomode_validation_20260901'
             path=ROOT/f"logs/{sub}/{row['case']}_M10/weighted_hg_result.pt"
@@ -85,6 +87,7 @@ def main():
             assert abs(record[key]-float(row[key]))<1e-10
     report['sobol_screening_groups_verified']=len(audited)
     report['dad_branches_verified']=len(rows)
+    report['supplement_link_order']=list(CASE_ORDER)
     (ROOT/'results/supplement_verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))
 

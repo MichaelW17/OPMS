@@ -327,5 +327,15 @@
   },
   "normalization": "Each pure mode has launch power 1000; nonnegative intensity weights sum to one.",
   "objective": "Mean of two batch reciprocal-SNR objectives per Adam update, using six new atmospheres per batch.",
-  "validation_seed_source": "screen_seed_common in logs/ol_resampled_gsm_ensemble_validation/<case>/resampled_gsm_ensemble.json"
+  "validation_seed_source": "screen_seed_common in logs/ol_resampled_gsm_ensemble_validation/<case>/resampled_gsm_ensemble.json",
+  "supplement_link_labels": {
+    "small_rx_M10": "L1",
+    "strong_small_rx_M10": "L2",
+    "long_rx20_M10": "L3"
+  },
+  "supplement_display_order": [
+    "small_rx_M10",
+    "strong_small_rx_M10",
+    "long_rx20_M10"
+  ]
 }

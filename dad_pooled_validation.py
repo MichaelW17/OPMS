@@ -7,6 +7,7 @@ import numpy as np
 import torch
 from propagation import LinkConfig, UnifiedWOS
 from structured_beams import build_structured_source
+from supplement_links import CASE_LABELS
 
 ROOT=Path(__file__).resolve().parent
 CASES=('small_rx','long_rx20','strong_small_rx')
@@ -58,10 +59,11 @@ def main():
                 weights=weights.double().numpy()
                 power=flux@weights
                 np.savez_compressed(raw_path,modal_flux=flux,weights=weights,integrated_power=power)
-                record=dict(case=case,link=f'L{ci+1}',branch=branch,mode_count=51,candidate=candidate,atmospheric_samples=args.samples,batch_size=args.batch_size,screen_seed=seed,bootstrap_repeats=args.bootstrap_repeats,bootstrap_seed=2026101801+ci,estimator='SNR from pooled linear powers; percentile bootstrap interval',**pooled_metrics(power,evaluator.config.duale_b,2026101801+ci,args.bootstrap_repeats))
+                record=dict(case=case,link=CASE_LABELS[case],branch=branch,mode_count=51,candidate=candidate,atmospheric_samples=args.samples,batch_size=args.batch_size,screen_seed=seed,bootstrap_repeats=args.bootstrap_repeats,bootstrap_seed=2026101801+ci,estimator='SNR from pooled linear powers; percentile bootstrap interval',**pooled_metrics(power,evaluator.config.duale_b,2026101801+ci,args.bootstrap_repeats))
                 target.write_text(json.dumps(record,indent=2)+'\n')
                 del source
                 torch.cuda.empty_cache()
+            record["link"]=CASE_LABELS[case]
             rows.append(record)
             print(case,branch,record['snr_db'],record['ci95_low_db'],record['ci95_high_db'],flush=True)
     for case in CASES:

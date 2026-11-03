@@ -5,8 +5,11 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import numpy as np
 
+from supplement_links import CASE_ORDER
+
 ROOT = Path(__file__).resolve().parent
-CASES = ('small_rx', 'long_rx20', 'strong_small_rx')
+
+CASES = CASE_ORDER
 COLORS = ('#286890', '#c56a36', '#38866b')
 MARKERS = 'os^'
 
@@ -37,7 +40,7 @@ def draw(output):
     ax.legend(handles=handles,frameon=False,ncol=2,loc='lower right',handlelength=3.5,columnspacing=1.1,fontsize=8)
     save(fig,output,'figS1_modal_truncation')
 
-    rows=read('fig6_basis_performance.csv')
+    rows=sorted(read('fig6_basis_performance.csv'), key=lambda row: CASES.index(row['case']))
     fig,ax=plt.subplots(figsize=(4.7,2.5),layout='constrained')
     for j,r in enumerate(rows):
         v=float(r['lg_minus_hg_snr_p_db'])

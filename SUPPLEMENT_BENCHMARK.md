@@ -1,12 +1,12 @@
 # Supplementary benchmark definitions
 
-The three supplementary links are L1 (`small_rx`), L2 (`long_rx20`) and L3 (`strong_small_rx`). These are distinct from the main multistart link identifiers A–D. All use wavelength 850 nm, transmitter radius 50 mm, launch power 1000 in the numerical convention, and noise coefficient 0.2. Their distance, turbulence strength and receiver radius are:
+The three supplementary links are L1 (`small_rx`), L2 (`strong_small_rx`) and L3 (`long_rx20`). These are distinct from the main multistart link identifiers A–D. All use wavelength 850 nm, transmitter radius 50 mm, launch power 1000 in the numerical convention, and noise coefficient 0.2. Their distance, turbulence strength and receiver radius are:
 
 | Link | Distance | Cn² (m⁻²ᐟ³) | Receiver radius |
 |---|---:|---:|---:|
 | L1 | 1 km | 1e-14 | 10 mm |
-| L2 | 2 km | 1e-14 | 20 mm |
-| L3 | 1 km | 5e-14 | 10 mm |
+| L2 | 1 km | 5e-14 | 10 mm |
+| L3 | 2 km | 1e-14 | 20 mm |
 
 ## Source expressions and symbols
 
@@ -83,10 +83,10 @@ wHG optimizes nonnegative dwell weights over pure HG modes, a common waist and a
 | Link | OPMS M=10 | wHG M=10 | wHG M=64 |
 |---|---:|---:|---:|
 | L1 | 10.8481 dB | 10.5142 dB | 10.5850 dB |
-| L2 | 7.5727 dB | 7.3213 dB | 7.1947 dB |
-| L3 | 6.8787 dB | 6.3736 dB | 7.2476 dB |
+| L2 | 6.8787 dB | 6.3736 dB | 7.2476 dB |
+| L3 | 7.5727 dB | 7.3213 dB | 7.1947 dB |
 
-At the same ten-field budget, OPMS gives higher validated SNRs on all three links. With 64 pure HG modes, wHG gives the values in the table; ten-frame OPMS retains higher point estimates on L1 and L2, while wHG gives a higher point estimate on L3. The 64-mode sequence requires 6.4 times the displayed-field budget: at fixed integration time it requires a proportionally higher update rate, or at fixed update rate a longer integration time. This is a frame-budget comparison, not a measured hardware-cost estimate. The point estimates and atmospheric confidence intervals do not establish statistical significance of between-source differences.
+At the same ten-field budget, OPMS gives higher validated SNRs on all three links. With 64 pure HG modes, wHG gives the values in the table; ten-frame OPMS retains higher point estimates on L1 and L3, while wHG gives a higher point estimate on L2. The 64-mode sequence requires 6.4 times the displayed-field budget: at fixed integration time it requires a proportionally higher update rate, or at fixed update rate a longer integration time. This is a frame-budget comparison, not a measured hardware-cost estimate. The point estimates and atmospheric confidence intervals do not establish statistical significance of between-source differences.
 
 Each wHG holdout estimate uses 2000 independent atmospheres and 2000 percentile-bootstrap resamples. The M=64 search uses eight starts, 300 Adam steps, a 128-atmosphere selection set, and the separate holdout set. The M=64 optimization and validation seeds are recorded with each source. The intervals are computed separately for each source; they are not paired-bootstrap intervals for its difference from OPMS. All values retain the manuscript convention `10 log10(1/sqrt(Λe/mean_power+SI))`.
 
